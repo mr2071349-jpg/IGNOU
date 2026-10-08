@@ -353,7 +353,7 @@ setTimeout(function() {
 <!--<li><a target="_blank" href="/viewFile/ru/notification/PhD-Results(July 2024).pdf" style=" text-decoration: none; --bs-link-color-rgb: var(--bs-link-hover-color-rgb)">PhD admission Results (July 2024 session)</a>
 <label style="margin-left: 10px" class="newLink1 badge badge-pill ">New</label>
 </li>-->
-	<li><a target="_blank" href="../../termendresult.ignou.ac.in/login.aspx" style=" text-decoration: none; --bs-link-color-rgb: var(--bs-link-hover-color-rgb)">Term End Exam/Re-evaluation Results</a></li>
+	<li><a target="_blank" href="../../termendresult.ignou.ac.in/login.html" style=" text-decoration: none; --bs-link-color-rgb: var(--bs-link-hover-color-rgb)">Term End Exam/Re-evaluation Results</a></li>
 	<li><a target="_blank" href="../../gradecard.ignou.ac.in/gradecard/index.html" style=" text-decoration: none">Grade Card</a></li>
 	<br />
 	</li>
