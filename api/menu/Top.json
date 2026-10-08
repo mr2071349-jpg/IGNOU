@@ -1,0 +1,11 @@
+[
+  [1,"<i class=\"fa fa-home\"></i>","Home"],
+  [2,"<i class=\"fa-solid fa-building-columns\"></i>","About us"],
+  [3,"<i class=\"fa-solid fa-users\"></i>","Employee Services"],
+  [4,"<i class=\"fa-solid fa-people-group\"></i>","Student Zone"],
+  [5,"<i class=\"fa-solid fa-briefcase\"></i>","Career"],
+  [6,"<i class=\"fas fa-bullhorn\"></i>","Announcements"],
+  [7,"<i class=\"fa-solid fa-newspaper\"></i>","Media"],
+  [9,"<i class=\"fa-solid fa-address-card\"></i>","Contact Us"],
+  [213,"<i class=\"fa-solid fa-ranking-star\"></i>","NIRF"]
+]

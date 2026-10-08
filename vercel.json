@@ -19,6 +19,10 @@
   ],
   "rewrites": [
     {
+      "source": "/api/menu/Top",
+      "destination": "/api/menu/Top.json"
+    },
+    {
       "source": "/pages/:path*",
       "destination": "/www.ignou.ac.in/pages/:path*"
     },
@@ -33,6 +37,30 @@
     {
       "source": "/webjars/:path*",
       "destination": "/www.ignou.ac.in/webjars/:path*"
+    },
+    {
+      "source": "/announcement/:path*",
+      "destination": "/www.ignou.ac.in/announcement/:path*"
+    },
+    {
+      "source": "/faq/:path*",
+      "destination": "/www.ignou.ac.in/faq/:path*"
+    },
+    {
+      "source": "/ignou/:path*",
+      "destination": "/www.ignou.ac.in/ignou/:path*"
+    },
+    {
+      "source": "/schools/:path*",
+      "destination": "/www.ignou.ac.in/schools/:path*"
+    },
+    {
+      "source": "/userfiles/:path*",
+      "destination": "/www.ignou.ac.in/userfiles/:path*"
+    },
+    {
+      "source": "/viewFile/:path*",
+      "destination": "/www.ignou.ac.in/viewFile/:path*"
     }
   ]
 }
