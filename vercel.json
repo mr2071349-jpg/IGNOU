@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)/(.*)",
+      "source": "/(.*)/([^.]+)",
       "headers": [
         {
           "key": "Content-Type",
@@ -10,5 +10,11 @@
       ]
     }
   ],
-  "cleanUrls": true
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/www.ignou.ac.in/index.html",
+      "permanent": false
+    }
+  ]
 }
