@@ -55,22 +55,23 @@
                 $('span:contains("घर")').text("होम");
             }
 
-            $.getJSON("/api/menu/Top", function (data) {
-                $.each(data, function (key, value) {
-                    if (value[2] == 'Announcements') {
-                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
-                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
-
-                            '</li>');
-                    } else {
-                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
-                            '</li>');
-                    }
-                    
-
-                    
-                })
-            })
+            // Mocking the API call to prevent 404 errors on Vercel
+            var data = {
+                "0": ["172", "", "Alumni"],
+                "1": ["173", "", "Careers"],
+                "2": ["174", "", "Announcements"],
+                "3": ["175", "", "Tenders"]
+            };
+            $.each(data, function (key, value) {
+                if (value[2] == 'Announcements') {
+                    $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                        '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+                        '</li>');
+                } else {
+                    $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                        '</li>');
+                }
+            });
 setTimeout(function() {
         // Find the specific bad translation
         $('span:contains("घर")').text("होम");
