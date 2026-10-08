@@ -16,5 +16,23 @@
       "destination": "/www.ignou.ac.in/index.html",
       "permanent": false
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/pages/:path*",
+      "destination": "/www.ignou.ac.in/pages/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "/www.ignou.ac.in/images/:path*"
+    },
+    {
+      "source": "/assets/:path*",
+      "destination": "/www.ignou.ac.in/assets/:path*"
+    },
+    {
+      "source": "/webjars/:path*",
+      "destination": "/www.ignou.ac.in/webjars/:path*"
+    }
   ]
 }
