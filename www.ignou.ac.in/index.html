@@ -68,11 +68,11 @@
             ];
             $.each(data, function (key, value) {
                 if (value[2] == 'Announcements') {
-                    $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                    $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
                         '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
                         '</li>');
                 } else {
-                    $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                    $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
                         '</li>');
                 }
             });
