@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/182 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:15:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/sedB.jpg" alt="Divisions&lt;br/&gt;(Student Evaluation Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Student Evaluation Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="182">Student Evaluation Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Achievements" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Achievements</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Term-end-Examination" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Term-end-Examination</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="AssignmentsRelatedActivities" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Assignments Related Activities</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Practical&amp;Project" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">Practical & Project</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Convocations" data-bs-toggle="pill" data-bs-target="#pills-8"
+                                                type="button" role="tab" aria-controls="pills-8" aria-selected="false">Convocations</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="DataupdatedinABCPortal" data-bs-toggle="pill" data-bs-target="#pills-9"
+                                                type="button" role="tab" aria-controls="pills-9" aria-selected="false">Data updated in ABC Portal</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="GradeCardandProvisionalCertificatewithPhotograph" data-bs-toggle="pill" data-bs-target="#pills-10"
+                                                type="button" role="tab" aria-controls="pills-10" aria-selected="false">Grade Card and Provisional Certificate with Photograph</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="AutomationofSEDActivities" data-bs-toggle="pill" data-bs-target="#pills-11"
+                                                type="button" role="tab" aria-controls="pills-11" aria-selected="false">Automation of SED Activities </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="NewInitiatives" data-bs-toggle="pill" data-bs-target="#pills-12"
+                                                type="button" role="tab" aria-controls="pills-12" aria-selected="false">New Initiatives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Manuals" data-bs-toggle="pill" data-bs-target="#pills-13"
+                                                type="button" role="tab" aria-controls="pills-13" aria-selected="false">Manuals</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Officers" data-bs-toggle="pill" data-bs-target="#pills-14"
+                                                type="button" role="tab" aria-controls="pills-14" aria-selected="false">Officers</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="PhotoGallery" data-bs-toggle="pill" data-bs-target="#pills-15"
+                                                type="button" role="tab" aria-controls="pills-15" aria-selected="false">Photo Gallery</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>Student Evaluation Division (SED) is a functional Division involved in the process of evaluation of student performance by various means such as Term-end Examination (Theory), /Term-end Examination (Practical), Assignment (continuous evaluation), Project Report, Internship, Field Work Journal (Practicum), Extended Contact Programme (ECP), Dissertation,    Viva-voce, etc.  The major functions of Evaluation include inter-alia the following:</p>
+ 
+<ol type="1">
+<li>Setting, moderating, printing and dispatch of Question Papers.</li>
+<li>Establishment of Examination Centres across the Country, outside India and Jail Centre.</li>
+<li>Conduct of Entrance Test for BSCN (PB), B.Ed, Ph.D. and Term-end Examinations (online/offline)</li>
+<li>Conduct of TEE for ODL/Online/E-Vidya Bharti/GOAL/ITEP Programmes</li>
+<li>Evaluation of answer scripts of Term-end Examination and Project Reports.</li>
+<li>Processing of results of all components of all programmes/courses.</li>
+<li>Issuance of final Statement of Marks/Grade Cards & Provisional Certificates.</li>
+<li>Conduct of convocation and issue of Degree/Diploma/Certificate.</li>
+<li>Verification of Testimonials and Issue of Official Transcripts.</li>
+<li>Redressing Grievances on various portals such as Public Grievance (PG) Portal, i-GRAM, VCO, emails, surface mails, telephone calls and personal visits of students.</li>
+</ol>
+
+
+<p>The successful completion of a Course/Programme of Study for the award of degree/diploma/certificate will be determined on the basis of the performance of students enrolled in the relevant course/programme in the manner laid down in the ordinance. Unless otherwise specified, the performance of a student enrolled in a course/programme will be assessed:</p>
+
+<ol type="1">
+<li>Continuously on the basis of the evaluation of the assignments submitted by him/her;</li>
+<li>On the basis of a Term-end-Examination conducted in every Six month within the minimum & maximum duration prescribed for the concerned course/programme;</li>
+<li>The University may also prescribe for courses/programmes, wherever appropriate, execution of specific projects, Field work, Journal, Dissertation etc. by students, the successful completion of which, and the levels of performance in their execution shall be taken into account in the overall assessment of student performance; and</li>
+</ol>
+</div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Achievements"  ><p><ol type="1">
+<li>After admission and issue of Self Instructional Materials  (SIM), the activities related to completion of various  evaluation components such as assignments, Term-end Examination, practical, projects, etc., begins which are  under the purview of SED. The SED facilitates the students as and when required and redresses the grievances with final action and satisfactory responses  through Public Grievance (PG) Portal, i-GRAM, VCO,  emails, surface mails, telephone calls and personal visits  of students. li>
+
+<li>Each year more than 16 lacs students appear for various examinations of the University in both the exam  sessions. </li>
+
+<li>Approximately 70 lacs assignment awards are updated in the marksheets of the students every year.</li>
+</ol>
+</p>
+
+<p align="right">
+Registrar, SED <br>
+(Dr. Shachi Shah)
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p align="justify">The Student Evaluation Division (SED) of IGNOU is entrusted with the responsibility of conducting the examinations and evaluation for two sessions of examinations in a year both in offline and online modes. With the support of Regional Evaluation Centres, Regional Centres and Schools of Studies, SED has been smoothly conducting the examination work ever since the establishment of the University. Maintaining strict confidentiality in examination matters has been the hallmark of SED. Most of the activities of SED such as filling of examination form, re-evaluation, obtaining scanned copy of answer sheets, award of degree, diploma, and certificate through Digilocker, etc. are available on a click of a button. SED is striving to make full use of information technology for providing student support services for examination related matters.<br/>
+<p align="right">
+Registrar, SED <br>
+(Prof. Jaideep Sharma)
+</p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="ContactUs"  ><table>
+<tr><th>Sl. No.</th>	<th>Certificate / Diploma Programmes</th>	                                                                                                                      <th>Contact No.</th></tr>
+<tr><th>1</th>	        <th>Certificate / Diploma Programmes</th>	                                                                                                                             <th>29572208</th></tr>
+<tr><th>2</th>	        <th>Bachelors Programmes (BA/B.Sc./B.Com)</th>	                                                                                                                    <th>29572211</th></tr>
+<tr><th>3</th>	        <th>Masters Programmes & Bachelors (B.Ed, BTS, BHM, BCA, BSW, BLIS, BSCHOT, BSCN, BTME)</th>	                                          <th>29572212</th></tr>
+<tr><th>4</th>	        <th>Issuance of Degree Certificate</th>	                                                                                                                          <th>29572224, 29535438</th></tr>
+<tr><th>5</th>	        <th>Issue of Transcript and verification of Degree Certificate</th>	                                                               <th>29571524, 29572210, 29572224</th></tr>
+<tr><th>6</th>	        <th>Assignment Marks</th>	                                                                                                                                <th>29571319</th></tr>
+<tr><th>7</th>	        <th>Project Marks</th>	                                                                                                                                <th>29571321, 29571324</th></tr>
+<tr><th>8</th>	        <th>Practical Marks</th>	                                                                                                                              <th>29571305</th></tr>
+<tr><th>9</th>	        <th>Verification of educational certificates</th>	                                                                                        <th>29572210</th></tr>
+<tr><th>10</th>	        <th>Examination Form, Hall Ticket & Entrance Test</th>	                                                                                                                                   <th>29572209, 29572202, 29532088</th></tr>
+<tr><th>11</th>	        <th>May I Help You</th>	                                                                                                                              <th>29572218</th></tr>
+</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Term-end-Examination"  ><p>The University conducts term-end examinations twice a year in the months of June and December throughout the Country The examination activities performed by the Students Evaluation Division can be divided into the following three phases:</p>
+<ul style="list-style-type:disc">
+<li>Pre-Examination Activities</li>
+<li>Activities to Conduct the Examinations</li>
+<li>Post – Examination Activities</li>
+</ul>
+</p>
+
+
+<p>Since, the term-end examinations for various courses/programmes are ordinarily held in the months of June and December every year, therefore, students will be free to appear at any of these examinations either for specific courses or for whole programmes provided that the minimum period of study prescribed for the relevant course/programme has elapsed and valid registration of the programme.</p>
+
+<p>However, the students, who take admission to some individual courses in January/ July Semester as per terms of any MOU executed by IGNOU with other University of accredited institution, will be allowed to appear in term-end examination of June/December respectively of the same year so as to enable them to complete the pre-requisite course for their degrees/diplomas from the respective Universities/ accredited institutions.  Each candidate will be required to fill in the online examination form and submit the same to the Evaluation Division of the University within the duration notified, and the conduct of examination shall be in accordance with the regulations framed by the University for the purpose.</p>
+
+<p>Keeping in view with the mandate to use technology, the University will conduct on line examination for such programmes and such courses as may be decided from time to time. The online examination will be conducted in the manner as may be laid down by the regulations. </p>
+
+
+<p>
+<ol type="1">
+
+<li>The details of Term-End-Examinations for ODL Students from June, 2020, December, 2020, June, 2021, December, 2021, June, 2022, December, 2022, June, 2023, December, 2023 & June, 2024 TEE conducted are as under:
+<table>
+<tr>
+<th rowspan="2">Session
+</th>
+<th colspan="3">Exam Centre</th>
+<th rowspan="2">Total Courses</th>
+<th rowspan="2">Hall Ticket issued to Students</th>
+<th rowspan="2">Total Number of Answer Sheets </th>
+</tr>
+
+<tr>
+<th>Total</th>
+<th>Overseas</th>
+<th>JAIL</th>
+</tr>
+
+<tr>
+<td>June, 2020</td>
+<td>720</td>
+<td>0</td>
+<td>55</td>
+<td>1212</td>
+<td>364209</td>
+<td>850600</td>
+</tr>
+
+<tr>
+<td>December, 2020</td>
+<td>845</td>
+<td>19</td>
+<td>100</td>
+<td>1340</td>
+<td>606023</td>
+<td>1884015</td>
+</tr>
+
+<tr>
+<td>June, 2021</td>
+<td>766</td>
+<td>19</td>
+<td>80</td>
+<td>1292</td>
+<td>405569</td>
+<td>1204732</td>
+</tr>
+
+<tr>
+<td>December, 2021</td>
+<td>801</td>
+<td>19</td>
+<td>89</td>
+<td>1699</td>
+<td>678594</td>
+<td>2591478</td>
+</tr>
+
+<tr>
+<td>June, 2022</td>
+<td>832</td>
+<td>19</td>
+<td>82</td>
+<td>2009</td>
+<td>769541</td>
+<td><b>3620768</b></td>
+</tr>
+
+<tr>
+<td>December, 2022</td>
+<td>836</td>
+<td>19</td>
+<td>86</td>
+<td>2265</td>
+<td>628244</td>
+<td>2509012</td>
+</tr>
+
+<tr>
+<td>June, 2023</td>
+<td>844</td>
+<td>21</td>
+<td>87</td>
+<td>2684</td>
+<td>924728</td>
+<td>4222367</td>
+</tr>
+
+<tr>
+<td>December, 2023</td>
+<td>852</td>
+<td>19</td>
+<td>90</td>
+<td>2179</td>
+<td>723733</td>
+<td>3728129</td>
+</tr>
+
+<tr>
+<td>June, 2024</td>
+<td>878</td>
+<td>18</td>
+<td>79</td>
+<td>2254</td>
+<td>847338</td>
+<td>5226242</td>
+</tr>
+
+<tr>
+<td>December, 2024</td>
+<td>852</td>
+<td>20</td>
+<td>89</td>
+<td>2442</td>
+<td>718969</td>
+<td>3902292</td>
+</tr>
+</table>
+</li>
+
+
+
+<p>
+<li>Term-End-Examinations for GOAL Students from December, 2021 TEE onwards are.
+<table>
+<tr>
+<th>Session</th>
+<th>No. of Student Appeared </th>
+</tr>
+
+<tr>
+<td>December, 2021</td>
+<td>104</td>
+</tr>
+
+<tr>
+<td>June, 2022</td>
+<td>302</td>
+</tr>
+
+<tr>
+<td>December, 2022</td>
+<td>269</td>
+</tr>
+
+<tr>
+<td>June, 2023</td>
+<td>235</td>
+</tr>
+
+<tr>
+<td>December, 2023</td>
+<td>161</td>
+</tr>
+
+<tr>
+<td>June, 2024</td>
+<td>123</td>
+</tr>
+
+<tr>
+<td>December, 2024</td>
+<td>57</td>
+</tr>
+</table>
+</li>
+</p>
+
+
+<p><li>Term-End-Examinations for Online Programmes (CBT and Pen & Paper Mode) from December, 2021TEE Onwards are:
+
+<table>
+<tr>
+<th>Session</th>
+<th>No. of Student Appeared </th>
+<th>Total No. of Examination Centre</th>
+</tr>
+
+<tr><td>December, 2021</td>
+<td>282</td>
+<td>47</td></tr>
+
+<tr><td>June, 2022</td>
+<td>1388</td>
+<td><b>54</b></td></tr>
+
+<tr><td>December, 2022</td>
+<td>3597</td>
+<td>57</td></tr>
+
+<tr><td> June, 2023</td>
+<td>1741</td>
+<td>527</td></tr>
+
+<tr><td>December, 2023</td>
+<td>1753 </td>
+<td>576</td></tr>
+
+
+<tr><td>June, 2024</td>
+<td>858</td>
+<td>61</td></tr>
+
+<tr><td>December, 2024</td>
+<td>720</td>
+<td>42</td></tr>
+
+</table>
+</li>
+</p>
+
+
+<p><li>Term-End-Examinations for E-Vidya Bharti in Proctored Mode from June, 2023 TEE Onwards are:
+<table>
+<tr>
+<th>Session</th>
+<th>No. of Student Appeared </th>
+</tr>
+
+<tr>
+<td>June, 2023</td>
+<td>2612</td>
+</tr>
+
+<tr>
+<td>December, 2023</td>
+<td>4146</td>
+</tr>
+
+<tr>
+<td>June, 2024</td>
+<td>3705</td>
+</tr>
+
+<tr>
+<td>December, 2024</td>
+<td>3458</td>
+</tr>
+</table>
+</li>
+</p>
+
+<p>
+<li>Entrance Tests for B.Ed. and BSC (N) in 2024<br>
+<ul style="list-style-type:disc">
+<li>BSC (N) - Total No. of Student appeared- 4479</li>
+<li>B.Ed.  – Total No. of Students appeared – 27782</li>
+</ul>
+</li></p>
+ 
+<p>
+<li>Entrance Tests for B.Ed. and BSC (N) in 2025<br>
+<ul style="list-style-type:disc">
+<li>BSC (N) - Total No. of Student appeared- 3029</li>
+<li>B.Ed.  – Total No. of Students appeared – 24058</li>
+</ul>
+</li></p>
+ 
+</ol>
+
+
+
+<h4><u>Examination Fee details</u></h4>
+
+<p>The details of Fee collected in SED for the following Term-End-Examinations are as given below:
+<table>
+<tr><th>Sl. No.</th>	<th>TEE</th>	              <th>Fee Collected(Rs. in Crore)</th></tr>
+<tr><th>1</th>	        <th>Jun-20</th>	               <th>56.28</th></tr>
+ 
+<tr><th>2</th>	       <th> Dec-20</th>               <th>29.90</th></tr>
+  
+<tr><th>3</th>	        <th>Jun-21</th>	               <th>62.64</th></tr>
+
+<tr><th>4</th>	       <th> Dec-21</th>	                 <th>45.64</th></tr>
+ 
+<tr><th>5</th>	         <th>Jun-22</th>	         <th>71.39</th></tr>
+
+<tr><th>6</th>	         <th>Dec-22</th> 	          <th>63.48</th></tr>
+
+<tr><th>7</th>   	<th>Jun-22 (Online)</th>	  <th>0.15 (US$1740)</th></tr>
+
+<tr><th>8</th>	         <th>Dec-22 (Online)</th>	  <th>0.19 (US$1260)</th></tr>
+
+<tr><th>9</th>       	<th>Jun-23 (ODL)</th>	          <th>108.66</th></tr>
+
+<tr><th>10</th>	        <th>Jun-23 (Online)</th>	   <th>0.42 (US$580)</th></tr>
+
+<tr><th>11</th>	        <th>Dec-23 (ODL)</th>	           <th>74.21</th></tr>
+
+<tr><th>12</th>	        <th>Dec-23 (Online)</th>	    <th>0.66</th></tr>
+
+<tr><th>13</th>	         <th>June-24 (ODL)</th>             <th>114.79</th></tr>
+ 
+<tr><th>14</th>        <th>Jun-2024 (Online)</th>	    <th>0.67</th></tr>
+
+<tr><th>15</th>        <th>Dec-24</th>	    <th>79.76</th></tr>
+
+<tr><th>16</th>        <th>Dec-2024 (Online)</th>	    <th>0.77</th></tr>
+
+</table>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="AssignmentsRelatedActivities"  ><p>The methods of evaluation for each course/programme involving the combination of two or more components mentioned in the programme of study, including the relative weightage to be assigned to each of those components, shall be prescribed by the Academic Council on the recommendations of the Board of the concerned School of Studies. A student pursuing a programme of study shall be required to submit assignment of each course that constitutes the programme. </p>
+
+<p>The assignments may generally be of two types; those marked by tutors/counsellors and those marked by computer (multiple choice type). The instructions to candidates about the nature and types of assignments and the schedule for their submission shall be prescribed in the relevant programme guide and/or in the course itself. The assignments submitted by the students for successful completion of their programme of study is evaluated by the concerned Learner Support Centre (LSC)/Regional Centre and sent to SED for processing the same and updation of result. The SED processed the following assignments data and updated the result of the student session wise: 
+
+<table>
+<tr><th>Sl. No.</th>	<th>TEE</th>	        <th>Assignment</th></tr>
+<tr><th>1</th>	      <th>June-2020</th>   	<th>2471910</th></tr>
+
+<tr><th>2</th>	      <th>December-2020</th>	        <th>1539961</th></tr>
+
+<tr><th>3</th>	      <th>June-2021</th>  	<th>2889589</th></tr>
+
+<tr><th>4</th>	      <th>December-2021</th>  	        <th>2279095</th></tr>
+
+<tr><th>5</th>	      <th>June-2022</th>	        <th>3114990</th></tr>
+
+<tr><th>6</th>	      <th>December-2022</th>	         <th>2341372</th></tr>
+
+<tr><th>7</th>	       <th>June-2023</th>	          <th>4125968</th></tr>
+
+<tr><th>8</th>	      <th>December-2023</th>           <th>2451825</th></tr>
+
+<tr><th>9</th>	      <th>June-2024</th>           <th>4574170</th></tr>
+
+<tr><th>10</th>	      <th>December-2024</th>           <th>2583699</th></tr>
+
+</table>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="Practical&amp;Project"  ><p>In appropriate cases, the University may also prescribed Project, Dissertation, field work, seminars, practicals, or any other techniques/methods for assessment to determine the levels of performance of students pursuing different courses/programmes. </p>
+
+<p>The Project, Practical, Field work, Journal evaluated and processed for other components of the Term-End-Examinations are tabulated below:
+
+<table>
+<tr><th>Sl. No.</th>	<th>TEE</th>	        <th>Practical</th>	<th>Project</th></tr>
+<tr><th>1</th>	        <th>June-2020</th>	<th>76057</th>	        <th>36239</th></tr>
+<tr><th>2</th>	        <th>December-2020</th> 	<th>80893</th>	         <th>20979</th></tr>
+<tr><th>3</th>	        <th>June-2021</th>	<th>74531</th>	         <th>56884</th></tr>
+<tr><th>4</th>	        <th>December-2021</th>	 <th>101093</th> 	          <th>35739</th></tr>
+<tr><th>5</th>	         <th>June-2022</th>	<th>119466</th>	         <th>33665</th></tr>
+<tr><th>6</th>	         <th>December-2022</th>	<th>155400</th>	         <th>28017</th></tr>
+<tr><th>7</th>	         <th>June-2023</th>	<th>178488</th>	          <th>45527</th></tr>
+<tr><th>8</th>	         <th>December-2023</th>	<th> 161376</th>	           <th>38488</th></tr>
+<tr><th>9</th>	         <th>June-2024</th>   <th>203202</th>	           <th>63608</th></tr>
+<tr><th>10</th>	         <th>December-2024</th>	<th>186134</th>	           <th>38653</th></tr>
+</table>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="Convocations"  ><p>Convocations for the purpose of conferring Degrees/Diplomas shall ordinarily be held once a year at Delhi and at such Regional Centre (s), and on such date (s), as may be decided by the Vice-Chancellor. The details of the Convocation held in the years 2020, 2021, 2022, 2023, 2024 & 2025 with the detail of Degree and other awards are as under:<br/>
+<table>
+<tr><th>Year</th>	<th>Convocation No.</th>	        <th>No. of Certificates/Diplomas/Degrees Awarded</th></tr>
+<tr><th>2020-21</th>	        <th>34</th>	<th>237844</th></tr>
+<tr><th>2021-22</th>	        <th>35</th>	<th>291588</th></tr>	   
+<tr><th>2022-23</th>	        <th>36</th>	<th>279907</th></tr>	   
+<tr><th>2023-24</th>	        <th>37</th>	<th>308605</th></tr>	   
+<tr><th>2024-25</th>	        <th>38</th>	<th>317080</th></tr>
+</table>	 
+</p>  	    </div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-9" role="tabpanel" aria-labelledby="DataupdatedinABCPortal"  ><p>SED issued the degree through NAD by directly publishing the data through push off a button was introduced during 35th Convocation held on 26.04.2022. The Degrees of 35th, 36th, 37th & 38th Convocation have been published through NAD in the each Convocation</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-10" role="tabpanel" aria-labelledby="GradeCardandProvisionalCertificatewithPhotograph"  ><p>SED has successfully implemented the issue of Grade Card and Provisional Certificate with Photograph from December, 2023 Term-end-Examination onwards. June 2024 TEE – 1,56,531 and December 2024 TEE – 1,28,319 GC and PC issued.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-11" role="tabpanel" aria-labelledby="AutomationofSEDActivities"  ><p>Exam form filling, Hall ticket issuing, Academic Bank of Credit (ABC), Digilocker (Blockchain technology), Assignment Record Submission Management System (ARSMS), OTP Based Assignment Login Portal to Regional Centres/LSCs, “IGNOU Student Management System” for unfair means for entering data and communication to the students.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-12" role="tabpanel" aria-labelledby="NewInitiatives"  ><p>
+The SED has taken new initiatives by development and implementation of various software for operational use such as <br>
+
+<ul style="list-style-type:disc">
+<li>ARSMS (Assignment Record Submission Management System),</li>
+<li>OQPDS (Online Question Paper Delivery System),</li>
+<li>Online Monitoring of Examinees’ Attendance, Despatch of Answer Scripts for evaluation, etc.</li>
+<li>The SED has successfully conducted term-end examinations during the pandemic period. The SED has also conducted the online examinations for international student at Guyana and online programmes.</li>
+<li>Implementation of Special Portal for DECE Students</li>
+<li>Implementation of Online Portal for Practical</li>
+<li>Implementation and Conduct of Online Paper for GOAL Students/E-Vidya Bharti Students  through remote proctored mode through Samarth Portal</li>
+<li>The data transmission to Ministry for updation of ABC</li>
+<li>The data transmission to Ministry for NAD/Digi-locker </li>
+<li>Issue of Degree through Block Chain Technology</li>
+<li>ITEP Face to face examination of BA(B.Ed), BCOM(B.Ed), BSc.(B.Ed) was also conducted by the University other than various Term-End-Examinations of ODL/Online/E-Vidya Bharti/GOAL.</li>
+<li>OTP Based Assignment Login Portal to Regional Centres</li>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-13" role="tabpanel" aria-labelledby="Manuals"  ><p>
+<ul>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/sed/docs/ManualonStudentRegistration&amp;EvalutionSystems.pdf" target="_blank">Manual on Student Registration and Evaluation Systems</a>
+</li>
+</ul>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-14" role="tabpanel" aria-labelledby="Officers"  ><table>
+<tr><th>Sl. No.</th>	<th>Name</th>	                              <th>Designation</th></tr>
+<tr><th>1</th>	        <th>Prof. Jaideep Sharma</th>	               <th>Registrar, (I/c) </th></tr>
+<tr><th>2</th>	        <th>Aakanksha Sharma</th>	              <th>Deputy Registrar </tr>
+<tr><th>3</th>	        <th>Manoj Kumar</th>	                       <th>Assistant Registrar</th></tr>
+<tr><th>4</th>	        <th>Jagram Meena</th>	                      <th>Assistant Registrar</th></tr>
+<tr><th>5</th>	        <th>Reema Kharbhanda</th>	                <th>Assistant Registrar</th></tr>
+<tr><th>6</th>	        <th>Ramesh Kumar</th>	                       <th>Assistant Registrar</th></tr>
+<tr><th>7</th>	        <th>M.S. Rawat</th>	                      <th>Assistant Registrar</th></tr>
+<tr><th>8</th>	        <th>Jyoti Kumar Kullu</th>	               <th>Assistant Registrar</th></tr>
+<tr><th>9</th>	        <th>Chetna Nirwan</th>	                        <th>Assistant Registrar</th></tr>
+<tr><th>10</th>	        <th>Shesh Kumar</th>	                         <th>Assistant Director (Software)</th></tr>
+<tr><th>11</th>	        <th>Bhupinder Rawat </th>	                   <th>Assistant Director (Software)</th></tr>
+</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-15" role="tabpanel" aria-labelledby="PhotoGallery"  ><p class="departmentGallery">
+       <img class="d-block w-100" src="../images/sed/gallery/sed-1.jpg" alt="1"/>
+       <img class="d-block w-100" src="../images/sed/gallery/sed-2.jpg" alt="2"/>
+       <img class="d-block w-100" src="../images/sed/gallery/sed-3.jpg" alt="3"/>
+</p></div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/182 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:15:31 GMT -->
+</html>

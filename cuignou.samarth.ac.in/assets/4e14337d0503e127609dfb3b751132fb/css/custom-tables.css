@@ -1,0 +1,186 @@
+/*Tables*/
+table.infotable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.table.setting td,
+.table.setting th {
+    padding: 4px;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.table th {
+    min-width: 150px;
+}
+
+.table th:first-child {
+    min-width: auto;
+}
+
+.table th:nth-child(2) {
+    min-width: 44px;
+}
+
+.table th:last-child {
+    min-width: auto;
+}
+
+.table-bg {
+    background: #5C76F5;
+    color: white;
+}
+
+.table-bg:hover {
+    background: #5C76F5;
+    color: white;
+}
+
+.table-bg th {
+    color: white !important;
+}
+
+tr:hover {
+    background-color: #f6f6f7;
+}
+
+table.emp {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 1px solid grey;
+}
+
+table.emp td,
+th {
+    margin: 0;
+    /*border: 1px solid grey;*/
+    white-space: nowrap;
+    /*border-top-width: 0px;*/
+    border-top: 1px solid #dee2e6;
+    padding: 10px;
+    color: #495057;
+}
+
+table th a {
+    color: #495057;
+}
+
+table th a:hover {
+    color: #7e81f8;
+}
+
+/*.table-striped tbody tr:nth-of-type(odd) {*/
+/*    background-color: white !important;*/
+/*}*/
+
+/*.table-striped tbody tr:nth-of-type(odd):hover {*/
+/*    background-color: #F9F9FA !important;*/
+/*}*/
+
+/*.table-striped > tbody > tr:nth-of-type(odd) > * {*/
+/*    --bs-table-accent-bg: transparent;*/
+/*}*/
+
+.table > :not(:first-child) {
+    border-top: none;
+}
+
+.table thead th {
+    vertical-align: top;
+    background: #F9F9FA;
+}
+
+.table td,
+.table th {
+    padding: 16px;
+    border: none;
+}
+
+table tr {
+    font-weight: normal;
+    /*border: 1px solid #22222E29;*/
+}
+
+/*Tables-leave table test*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table th {
+    font-weight: 600;
+    padding: 10px;
+}
+
+.table > thead {
+    vertical-align: text-top;
+}
+
+/*td:last-child, th:last-child {*/
+/*    position: sticky;*/
+/*    right: -2px;*/
+/*    background: white;*/
+/*}*/
+
+.table {
+    border-left: solid 1px #dee2e6;
+    border-right: solid 1px #dee2e6;
+}
+
+/*@media only screen and (max-width: 900px) {*/
+/*    td:last-child, th:last-child {*/
+/*        position: inherit;*/
+/*        right: inherit;*/
+/*    }*/
+/*}*/
+
+.table-hover > tbody > tr:hover > * {
+    --bs-table-accent-bg: transparent;
+}
+
+table.dataTable.no-footer {
+    border: solid 1px #22222E29;
+}
+
+table.dataTable thead th {
+    border-bottom: solid 1px #22222E29;
+}
+
+table.dataTable tr {
+    border: solid 1px #22222E29 !important;
+}
+
+table.dataTable tr:hover {
+    background-color: #F9F9FA !important;
+}
+
+table.dataTable td, table.dataTable th {
+    padding: 16px !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > *{
+    --bs-table-accent-bg: rgba(15, 15, 68, 0.01);
+}
+
+table tr:hover {
+    background-color: rgba(15, 15, 68, 0.05);
+}
+td, th{
+    word-wrap: break-word;
+    text-wrap: wrap;
+}
+
+#fixHeader table thead {
+    position: sticky;
+    top: -2px;
+    background-color: rgba(15, 15, 68, 0.01);
+    /* Set background color as needed */
+    z-index: 1000;
+    /* Ensure the headers are above other content */
+}

@@ -1,0 +1,614 @@
+
+
+<!DOCTYPE html>
+<html xmlns="../www.w3.org/1999/xhtml">
+
+<!-- Mirrored from igram.ignou.ac.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 08:43:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!--<link href="Css/MyCss.css" rel="stylesheet" type="text/css" />-->
+    <title>
+	IGNOU :: Grievance Control Room
+</title><link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" /><link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" /><link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+    <!--<script src="assets/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>-->
+    
+
+    <script type="text/javascript">
+        function userValidAndConfirm(message) {
+            var validated = Page_ClientValidate('pannel2');
+            if (validated) {
+                return confirm(message);
+            }
+        }
+    </script>
+
+    
+
+    <script type="text/javascript">
+        var validFilesTypes = ["jpg", "doc", "xls", "xlsx", "pdf"];
+
+        function CheckExtension(file) {
+            /*global document: false */
+            var filePath = file.value;
+            var ext = filePath.substring(filePath.lastIndexOf('.') + 1).toLowerCase();
+            var isValidFile = false;
+
+            for (var i = 0; i < validFilesTypes.length; i++) {
+                if (ext == validFilesTypes[i]) {
+                    isValidFile = true;
+                    break;
+                }
+            }
+
+            if (!isValidFile) {
+                file.value = null;
+                alert("Invalid File. Valid extensions are:\n\n" + validFilesTypes.join(", "));
+            }
+            return isValidFile;
+        }
+    </script>
+
+    
+
+    <script type="text/javascript">
+        var validFileSize = 5 * 1024 * 1024;
+
+        function CheckFileSize(file) {
+            /*global document: false */
+            var fileSize = file.files[0].size;
+            var isValidFile = false;
+            if (fileSize !== 0 && fileSize <= validFileSize) {
+                isValidFile = true;
+            }
+            else {
+                file.value = null;
+                alert("File Size Should be Greater than 0 and less than 5 MB.");
+            }
+            return isValidFile;
+        }
+    </script>
+
+    
+
+    <script type="text/javascript">
+        function CheckFile(file) {
+            var isValidFile = CheckExtension(file);
+
+            if (isValidFile)
+                isValidFile = CheckFileSize(file);
+
+            return isValidFile;
+        }
+    </script>
+
+    <style>
+        .table td
+        {
+            word-break: break-all;
+        }
+
+        .Center {
+        text-align:center;
+        }
+        
+    </style>
+    <style>
+        .lblDeco
+        {
+            font-family: Open Sans;
+            font-size: larger;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+        .txtDeco
+        {
+            font-family: Open Sans;
+            font-size: larger;
+            padding-left: 10px;
+        }
+        .nav-tabs > li
+        {
+            float: left;
+            margin-bottom: -1px;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+        .nav-tabs > li > a
+        {
+            margin-right: 0px;
+            line-height: 1.42857143;
+            border-radius: 4px 4px 0 0;
+        }
+        .tab-content
+        {
+            box-shadow: 0 0 6px #66ccff; /*border: 1px solid #337AB7;*/
+        }
+        .nav-tabs li.active
+        {
+            box-shadow: 0 -2px 4px #66ccff;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="aspnetForm" method="post" action="https://igram.ignou.ac.in/" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0OTU2NzMzOA9kFgJmD2QWAgIDD2QWBAIBDw8WAh4EVGV4dAUwSUdOT1UgR3JpZXZhbmNlIFJlZHJlc3NhbCBBbmQgTWFuYWdlbWVudCAoaUdSQU0pZGQCAw9kFgoCCQ9kFgICCQ9kFgJmD2QWAgIBD2QWAgIBDzwrABEBDBQrAABkAgsPZBYCAgkPZBYCZg9kFgICAQ9kFgICDQ88KwAJAGQCDQ9kFgQCAQ8QDxYGHg5EYXRhVmFsdWVGaWVsZAUIcXVlcnlfaWQeDURhdGFUZXh0RmllbGQFD3F1ZXJ5X3R5cGVfbmFtZR4LXyFEYXRhQm91bmRnZBAVIBFTZWxlY3QgUXVlcnkgVHlwZQ5EZWdyZWUvRGlwbG9tYQxBc3NpZ25tZW50cyAOU3R1ZHkgTWF0ZXJpYWwPTGVhcm5lciBTdXBwb3J0ClByYWN0aWNhbHMIU3lub3BzaXMIUHJvamVjdHMLRXhhbWluYXRpb24PRnJlc2ggQWRtaXNzaW9uDFJlLWFkbWlzc2lvbg9SZS1SZWdpc3RyYXRpb24QQ3JlZGl0IFRyYW5zZmVyIBBPbmxpbmUgQWRtaXNzaW9uFU1pZ3JhdGlvbiBDZXJ0aWZpY2F0ZRFEdXBsaWNhdGUgSUQgQ2FyZAVNaXNjLiNUcmFuc2NyaXB0L0dlbnVpbmVuZXNzL1ZlcmlmaWNhdGlvbhlSZWZ1bmQgb2YgZXhjZXNzIGV4YW0gZmVlC0hhbGwgdGlja2V0I0RlY2xhcmF0aW9uIG9mIFRlcm0gRW5kIEV4YW1pbmF0aW9uJE1hcmsgU2hlZXQgJiBQcm92aXNpb25hbCBDZXJ0aWZpY2F0ZQ5SZS1ldmFsdWF0aW9uIBhBbnN3ZXIgc2NyaXB0IHBob3RvY29weSANRW50cmFuY2UgVGVzdCBEZWdyZWUgdmVyaWZpY2F0aW9uL0dlbnVpbmVuZXNzIBNPZmZpY2lhbCBUcmFuc2NyaXB0DENvbnZvY2F0aW9uIAZPdGhlcnMgQ2hhbmdlIG9mIENvcnJlc3BvbmRlbmNlIEFkZHJlc3MTQ2hhbmdlIG9mIFByb2dyYW1tZQ9OYW1lIENvcnJlY3Rpb24VIBFTZWxlY3QgUXVlcnkgVHlwZQIxOAEyATMBNAE1ATYBNwI0MAIxOQIyMgIyMQIyMwIyNAIyNQIyNgIyMAIyNwIyOAIyOQIzMAIzMQIzMgIzMwIzNAIzNQIzNgIzNwIzOAI0MQI0MgI0MxQrAyBnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCBw8QDxYGHwEFCnN1YmplY3RfaWQfAgUMc3ViamVjdF9uYW1lHwNnZBAVAQEgFQEBMBQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZBYIAgUPEA8WBh8CBQZSY05hbWUfAQUGUkNDb2RlHwNnZBAVOhZTZWxlY3QgUmVnaW9uYWwgQ2VudHJlCEFnYXJ0YWxhDFJDIEFobWFkYWJhZAZBaXp3YWwHQWxpZ2FyaAlCYW5nYWxvcmUJQmhhZ2FscHVyBkJob3BhbAtCaHViYW5lc3dhcgdCaWphcHVyCkNoYW5kaWdhcmgHQ2hlbm5haQZDb2NoaW4JRGFyYmhhbmdhCERlaHJhZHVuB0RlbGhpLTEHRGVsaGktMgdEZWxoaS0zB0Rlb2doYXIHR2FuZ3RvawhHdXdhaGF0aQlIeWRlcmFiYWQGSW1waGFsCEl0YW5hZ2FyCEphYmFscHVyBkphaXB1cgVKYW1tdQdKb2RocHVyBkpvcmhhdAZLYXJuYWwGS2hhbm5hBktvaGltYQdLb2xrYXRhB0tvcmFwdXQHTHVja25vdwdNYWR1cmFpBk11bWJhaQZOYWdwdXIFTk9JREEGUGFuYWppBVBhdG5hClBvcnQgQmxhaXIEUHVuZQ1SYWdodW5hdGhnYW5qBlJhaXB1cgZSYWprb3QGUmFuY2hpB1NhaGFyc2EIU2hpbGxvbmcGU2hpbWxhCFNpbGlndXJpCFNyaW5hZ2FyClRyaXZlbmRydW0IVmFyYW5hc2kIVmF0YWthcmEKVmlqYXlhd2FkYQ5WaXNoYWtoYXBhdG5hbQVBbmd1bBU6FlNlbGVjdCBSZWdpb25hbCBDZW50cmUCMjYCMDkCMTkCNDcCMTMCODICMTUCMjECODUCMDYCMjUCMTQCNDYCMzECMDcCMjkCMzgCODcCMjQCMDQCMDECMTcCMDMCNDECMjMCMTICODgCMzcCMTACMjICMjACMjgCNDQCMjcCNDMCNDkCMzYCMzkCMDgCMDUCMDICMTYCNTACMzUCNDICMzICODYCMTgCMTECNDUCMzACNDACNDgCODMCMzMCODQFQW5ndWwUKwM6Z2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCCw9kFgICAQ9kFgJmD2QWAgIBDxBkZBYBZmQCEw8QDxYGHwIFC1Byb2dyYW1OYW1lHwEFAmlkHwNnZBAVhgMQU2VsZWN0IFByb2dyYW1tZQNBQ0UFQUNJU0UFQUNQRE0FQUNQU0QEQVBERgZBUFZQRlYCQkEFQkFBSEQEQkFBUwVCQUFTSwVCQUFVRAVCQUVDSAVCQUVHSAVCQUZFQwVCQUZFRwZCQUZGU00FQkFGSEQFQkFGSEkGQkFGSkRNBUJBRlBBBUJBRlBDBUJBRlBTBUJBRlBZBUJBRlNLBUJBRlNNBUJBRlNPBUJBRlVEA0JBRwRCQUdTBUJBSERIBUJBSElIBkJBSElIKQVCQUpETQNCQU0FQkFQQUgFQkFQQ0gHQkFQRkhNSAVCQVBTSAVCQVNLSAVCQVNPSAVCQVVESAdCQVZNU01FBUJBVlRNA0JCQQVCQkFTTQRCQlJMA0JDQQVCQ0FPTARCQ09NBkJDT01BRgdCQ09NQ0FBBUJDT01GB0JDT01GQ0EFQkNPTUcGQkNPTU9MA0JFRARCRlNXA0JITQRCTElTBkJMSVNPTAZCUENDSE4DQlBQA0JTQwZCU0NBRVkGQlNDQU5IBkJTQ0JDSAZCU0NGQU4EQlNDRwRCU0NNBEJTQ04DQlNXBEJTV0cFQlNXT0wEQlRNRQNCVFMFQlRTT0wEQ0FGRQRDQUhDBENBSFQDQ0FMBENCS0cDQ0JTA0NDSAZDQ0lUU0sFQ0NMQkwFQ0NPTU8DQ0NQBENDUEQDQ0NSA0NETQNDRVMEQ0VURQRDRVRNBUNGQUlEA0NGRQNDRkwDQ0ZOBENHSEMDQ0dMBUNIQkhDBUNIQ1dNA0NIUgRDSUFQA0NJQgNDSUcEQ0lITAVDSVBNVANDSVMDQ0lUBENMSVMDQ0xQBENNQUQFQ01DSE4EQ01TUgRDTkNDBENOSU4DQ05NA0NPRgVDUEFCTgVDUEFITQVDUEFLTQZDUEFUSEEEQ1BFTANDUEYEQ1BIQQRDUExUBkNQUERQVAVDUFNDTQRDUFZFA0NQWQNDUkQEQ1NMQwZDU1dDSlMDQ1RFBENUUE0FQ1RSQlMHQ1RSQlNPTANDVFMDQ1VMBENWQUEEQ1ZBUARDV0hNBERBRkUDREFRBkRCUE9GQQREQ0NOA0RDRQVEQ0VPTANERFQEREVDRQVERUxFRARERlBUBURIT1JUBERJUFADRElSBURJUklMBERNT1ADRE1UA0ROQQRETkhFBkROSEVPTANEUEUFRFBMQUQGRFBWQ1BPBERQVkUFRFNDRE0DRFRTBURUU09MA0RVTAVEVUxPTAZEVkFQRlYERFdFRANEV00ETUFBRQRNQUFOBU1BQVJCBU1BQkdTBU1BQ1NSBE1BREUETUFESgRNQURQBU1BRFZTBE1BRUMFTUFFRFMFTUFFRFUFTUFFT0gETUFFUgVNQUVWUwVNQUZDUwRNQUZMBE1BR0QHTUFHUFNPTANNQUgETUFISQRNQUhOBE1BSFYFTUFKTUMHTUFKTUNPTAZNQUpNQ1QETUFKWQZNQU1JREkETUFQQwRNQVBZBE1BUkQGTUFSRE9MBU1BUlVTBE1BU1METUFUUwZNQVRTT0wETUFVRARNQVVTBE1BVlMFTUFXR1MDTUJBBU1CQUZNBU1CQUhNBU1CQU1NBU1CQU9MBU1CQU9NA01CRgNNQ0EHTUNBX05FVwVNQ0FPTARNQ09NCE1DT01CUENHBk1DT01GVAhNQ09NTUFGUwNNRUMDTUVEA01FRwVNRUdPTARNR1BTA01IQQNNSEQFTUhET0wETUxJUwJNUANNUEEDTVBCCE1QSElMQ09NB01QSElMREUHTVBISUxFQwhNUEhJTEdEUwdNUEhJTFBBB01QSElMUFMHTVBISUxTTwdNUEhJTFNXB01QSElMVEgHTVBISUxUVANNUFMJTVNDQU5DSEVNBk1TQ0FTVAZNU0NCQ0gGTVNDQ0ZUB01TQ0RGU00GTVNDRU5WBU1TQ0dHBU1TQ0dJBk1TQ0lEUwVNU0NJUwdNU0NNQUNTBU1TQ1BIB01TQ1JXRUUGTVNDWk9PA01TSwNNU08DTVNXBE1TV0METVRUTQVQRENETQVQR0NBRQVQR0NBUAdQR0NBUE9MBlBHQ0JIVAVQR0NDQwVQR0NDTAZQR0NFRFMFUEdDR0kGUEdDR1BTCFBHQ0dQU09MCVBHQ0lBVElWSQdQR0NJTkRTBlBHQ01ETQZQR0NNSFQFUEdDUFAFUEdEQUIFUEdEQUMGUEdEQUUgBlBHREFQUAZQR0RBU1QFUEdEQVcFUEdEQkUFUEdEQlAFUEdEQ0EFUEdEQ0MGUEdEQ0ZUBVBHRENKB1BHRENPVU4GUEdEQ1NSBVBHRERDBVBHRERNBlBHRERWUwZQR0RFRFMGUEdERU1BBlBHREVPSAhQR0RFT0hPTAZQR0RFU0QFUEdERVQGUEdERkNTBVBHREZNBlBHREZNUAdQR0RGU1FNBVBHREdNBlBHREdQUwhQR0RHUFNPTAVQR0RIRQZQR0RISE0HUEdESElWTQZQR0RIUk0GUEdESUJPBlBHRElETQdQR0RJTkRTBlBHRElQUgVQR0RJUwZQR0RMQU4GUEdETUNIBVBHRE1IB1BHRE1JREkFUEdETU0GUEdETk9WBVBHRE9NBVBHRFBNB1BHRFBQRUQGUEdEUFNNBVBHRFJEB1BHRFJET0wHUEdEU0hTVAZQR0RTTE0OUEdEU1MgKE9ubGluZSkEUEdEVAZQR0RUUk0HUEdEVVBETAVQR0RWUwZQR0RXR1MFUEdKTUMGUEhEQUdFBVBIREFMBVBIREJDB1BIRENERVYHUEhEQ0VORwZQSERDSEUHUEhEQ0lTQwZQSERDT00FUEhEREUFUEhERFIFUEhERUMGUEhERURTBlBIREVEVQZQSERFTkcFUEhERkwFUEhERk4GUEhER0RTBlBIREdEUwVQSERHRwVQSERHWQZQSERISU4GUEhESElTBlBIRElUUwZQSERKTUMGUEhETEFXBlBIRExJUwVQSERMUwdQSERNRUNFB1BIRE1HTVQFUEhETVQGUEhETlVSBVBIRFBBBVBIRFBDBVBIRFBIBVBIRFBTBlBIRFBWQQVQSERSRAZQSERTT0MFUEhEU1cFUEhEVFMFUEhEVFQGUEhEVkVEBVBIRFdTA1NTQhWGAwEwAzE3MQMxMDcDMTA2AzE3MgMxNjYDMTY3AjM4AzMzNQMzODYDMzM2AzMzNwMyNTcDMjU1AzM2NAMzNjUDMzc0AzM2NgMzNjcDMzc1AzM3MAMzNjkDMzY4AzM3NgMzNzEDMzI4AzM3MgMzNzMDMjQxAzMzNAMyNTYDMjk1AzI1OAMzNTcDMzYzAzI2MQMyNjADMjgzAzI1OQMyOTYDMjYyAzI5NwMzMjcDMjQwAzM1NgMyOTADMjM5AjM3AzMwNwIzOQI0NgI0NwMzNzcCNDgDMjQyAzMwOAI0NAMzODECNDMCNDIDMzA5AzI0OAI0OQI0MAMzODADMjU0AzI2NgMzNzkDMjQzAzM3OAI0NQI0MQMyNjMDMzA2AzI2NQIzNgMzMTADMTMyAzI3MgMxNDcDMTI2AzM2MAMxNTEDMzYyAzE1NQMxNDYDMzU4AzE0NQMxNjMDMTM4AzEyNwMxMjgDMTYyAzE2MQMyNzQDMTMwAzE2NQMxNDADMzg5AzI3OQMxMzcDMTM0AzE0NAMxMTkDMTU5AzE1MAMxNDgDMTY5AzE1MgMxNDkDMjQ0AzE2OAMyNzEDMTM2AzE3MwMxNDEDMTM1AzE2MAMxNDMDMTI1AzEyMwMxMjQDMTIyAzIzMAMxNTgDMjg5AzE1MwMxNjQDMjQ1AzE1NgMyMzIDMTQyAzI1MwMxMzMDMTI5AzE1NAMyODADMzI2AzEzOQMxMzEDMTIxAzEyMAMxNTcCOTICODkCOTQDMTA0AjkwAzM4NQI5OQI4NgMxMDUDMTAxAzM0NwI5NQMyMzgDMzU5AzI4MgI5OAMxMDICODcDMzIyAzI0NgMxMDMCOTcDMjcwAzMwNQI4OAMzMjECOTEDMzIzAjk2AjkzAzEwMAIyMQIyNAMzMzkDMzg3AzMzOAIyMwMzNDADMjc4AzI1MQMzODMCMjACMTIDMjk4AzMwMAMzNDIDMjg2AzM0MQIyMgMzMTYCMTQDMzYxAzM1MwMzNTQDMjg1AzMxMQMzNDMDMjc3AzM0NAIxOAIxMAEzAzMxNwMzNDUDMjk5AjM1AzMxNAMyNzYDMzI5AzM0NgIyNgMyOTEDMzMwAzMzMQMzMzIDMzEyAzMzMwMyOTIDMjI5AzI3NQMzMTMBNAIzMQIzMAIzMgIxMwIyOAE2AzMxOAIxMQIzNAE3AzMxNQIyNwIyOQIxNgIzMwMyMTgDMjI2AzIxOQMyMjMDMjIyAzIyMQMyMjADMjI0AzIyNwMyMjUCMTUDMzgyAzM1MgMzOTICMTkBMgMyNjcDMzQ5AzM1MAMzODgDMjkzAjI1AzM1MQMzMDEDMzg0AzI2NAIxNwE4ATkBNQMxMTgDMTExAzExNQMzMjQDMTA4AzIzMQMxMTIDMTEwAzExNwMxMTQDMzI1AzExNgMyNzMDMjQ5AzEwOQMxMTMDMjk0AjU2AjY4AjU4Ajg0AzI2OQI4NQI3NwMyNTACODECNzICNjYDMzkwAzI2OAMyODQCNTEDMjUyAjY3AjYxAzMwMgMzMDMCNTUCNTkCNjkDMjMzAzIzNwI4MAI3NAI3MAMzMTkCNjICNzMCNzUDMjM0AjU0AzI4NwMzOTECNjUCNzkCNTACNjQDMjQ3AzMwNAMyMzYDMzQ4AzIzNQI3NgI3OAI2MwI1MgMzMjADMzU1AjYwAzI4OAI1MwI4MgI4MwMzOTMCNzECNTcDMTc0AzE4NQMxOTcDMTc4AzE4MgMxOTgDMTc2AzE5NAMyMTYDMTc1AzIwNQMxODEDMTgwAzE4OQMxODQDMTc5AzE4NgMyMDYDMTk5AzIwMAMxODgDMjA3AzE5MQMxOTIDMTkzAzIwOAMyMDEDMTgzAzE5NQMyMDIDMTkwAzIxMQMyMTADMjAzAzIwOQMxOTYDMTc3AzIxMgMyMTMDMjE1AzIxNAMyMTcDMTg3AzI4MRQrA4YDZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAIlDw9kFgIeCG9uY2hhbmdlBRdyZXR1cm4gQ2hlY2tGaWxlKHRoaXMpO2QCEQ8WAh4LXyFJdGVtQ291bnQCDBYYZg9kFgICAQ8PFgQeC05hdmlnYXRlVXJsBSZodHRwczovL2lnbm91YWRtaXNzaW9uLnNhbWFydGguZWR1LmluLx8ABfYBVGhlIENvbXBldGVudCBBdXRob3JpdHkgaGFzIGFwcHJvdmVkIHRoZSBleHRlbnNpb24gb2YgdGhlIGxhc3QgZGF0ZSBmb3IgSnVseSwgMjAyNiBGcmVzaCBBZG1pc3Npb24gdGlsbCAzMHRoIFNlcHRlbWJlciwgMjAyNiBpbiByZXNwZWN0IG9mIGFsbCBub3RpZmllZCBwcm9ncmFtbWVzIG9mZmVyZWQgaW4gT0RMIGFuZCBPbmxpbmUgbW9kZSBleGNlcHQgZm9yIFNlbWVzdGVyIGJhc2VkIGFuZCBDZXJ0aWZpY2F0ZSBQcm9ncmFtbWUuZGQCAQ9kFgICAQ8PFgQfBwUdaHR0cHM6Ly9vbmxpbmVyci5pZ25vdS5hYy5pbi8fAAXzAVRoZSBDb21wZXRlbnQgQXV0aG9yaXR5IGhhcyBhcHByb3ZlZCB0aGUgZXh0ZW5zaW9uIG9mIHRoZSBsYXN0IGRhdGUgb2Ygc3VibWlzc2lvbiBvZiBPbmxpbmUgUmUtcmVnaXN0cmF0aW9uIGZvcm0gZm9yIEp1bHksIDIwMjYgc2Vzc2lvbiB0aWxsIDMwdGggU2VwdGVtYmVyLCAyMDI2IHdpdGggdGhlIGxhdGUgZmVlIG9mIFJzLiAyMDAvLSBmb3IgYWxsIHByb2dyYW1tZXMgb2ZmZXJlZCBpbiBPREwgYW5kIE9ubGluZSBtb2RlLmRkAgIPZBYCAgEPDxYEHwcFKH5cQWxlcnRzXERvYyAtIE5vdiAxNiAyMDIxIC0gNS0yMSBQTS5qcGcfAAU4TWF4aW11bSBEdXJhdGlvbiBFeHRlbnNpb24gb2YgUG9zdCBCYXNpYyBCU2MgTnVyc2luZyBOZXdkZAIDD2QWAgIBDw8WBB8HBRV+XEFsZXJ0c1x2YWxpZGl0eS5qcGcfAAU6VmFsaWRpdHkgRXh0ZW5zaW9uIG9mIFByb2dyYW1tZXMgZm9yIERlY2VtYmVyIDIwMjEgVEVFIE5ld2RkAgQPZBYCAgEPDxYEHwcFHn5cQWxlcnRzXE5PVElGSUNBVElPTl8wMDAxLnBkZh8ABYkBTm90aWZpY2F0aW9uIHJlZ2FyZGluZyBleGVtcHRpb24gdG8gYXBwZWFyIGluIHRoZSB0ZXJtLWVuZCBleGFtaW5hdGlvbiBvZiB0aGUgZmlyc3QgeWVhciBjb3Vyc2VzIG9mIGJhY2hlbG9yIGFuZCBtYXN0ZXIgZGVncmVlIHByb2dyYW1tZXNkZAIFD2QWAgIBDw8WBB8HBRF+XEFsZXJ0c1x3dGN3LnBkZh8ABRhXaG9tIHRvIGNvbnRhY3QgZm9yIHdoYXRkZAIGD2QWAgIBDw8WBB8HBUlodHRwOi8vd3d3Lmlnbm91LmFjLmluL3VzZXJmaWxlcy9Ob3RpZmljYXRpb24lMjBmb3IlMjBSZS1hZG1pc3Npb24oMSkucGRmHwAFMUltcG9ydGFudCBOb3RpZmljYXRpb24gcmVnYXJkaW5nIFJlLUFkbWlzc2lvbiBOZXdkZAIHD2QWAgIBDw8WBB8HBVh+XEFsZXJ0c1xFbWFpbCBJRCBhbmQgVGVsZXBob25lIE51bWJlcnMgb2Ygb2ZmaWNpYWxzIGRlYWxpbmcgd2l0aCBzdHVkZW50IGdyaWV2YW5jZXMucGRmHwAFS0VtYWlsIElEIGFuZCBUZWxlcGhvbmUgTnVtYmVycyBvZiBvZmZpY2lhbHMgZGVhbGluZyB3aXRoIHN0dWRlbnQgZ3JpZXZhbmNlc2RkAggPZBYCAgEPDxYEHwcFJWh0dHBzOi8vaWdub3UtZGVmZW5jZS5zYW1hcnRoLmVkdS5pbi8fAAViSW5mb3JtYXRpb24gQnJvY2h1cmUgYW5kIEFkbWlzc2lvbiBMaW5rIGZvciBza2lsbGVkIGJhc2VkIEJhY2hlbG9ycyBEZWdyZWUgUHJvZ3JhbW1lIGZvciBBZ25pdmVlcnNkZAIJD2QWAgIBDw8WBB8HBRhodHRwczovL2VneWFua29zaC5hYy5pbi8fAAU0SUdOT1UgZS1TdHVkeSBNYXRlcmlhbCBhbmQgVmlkZW8gTGlicmFyeSAoZUd5YW5rb3NoKWRkAgoPZBYCAgEPDxYEHwcFLX5cQWxlcnRzXERvYyAtIDMwLU5vdi0yMDE4IC0gMy00NCBQTSAtIHAxLmpwZx8ABUNHeWFuIERhcnNoYW4gQ2hhbm5lbCBhdmFpbGFibGUgb24gRFRIIHBsYXRmb3JtIChzZWUgdGhlIGF0dGFjaG1lbnQpZGQCCw9kFgICAQ8PFgQfBwUsaHR0cHM6Ly9vbmxpbmVzZXJ2aWNlcy5pZ25vdS5hYy5pbi9lbXBjbGl2ZS8fAAUZSUdOT1UgR3lhbmRhcnNoYW4gV2ViY2FzdGRkGAEFI2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkZ3ZLbm93R1NUD2dkTYRTBAORQDk5yCoOZ0Rkc+MrOo184taoJkrQFCu+Np0=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="WebResourceac25.axd?d=U8ZELurwqpjx71riBybKomfCTye0kxK11mTx56lKElAuCGJxMNcjxOIz4HffoY3Cjm3vQR7ttnptJNXWtFad_TCjyPTdOtTvYFbXgCQkMdc1&amp;t=638901969720898773" type="text/javascript"></script>
+
+
+<script src="ScriptResourcee02a.axd?d=zEUq6NABl6D0di070amvOA9xqPHKEVj7nQ5VB4x58_Hbc459SC6nj14sNbLZBSLpRzVmNeZwxkMi4IJMUQlQ1e67_iYbGy3zX5kPz4HbqtUIZvupw_1AK35jpdi6O383AiCYU4GKUj9as4vbPgjGJPMxX0DS6TQjJQZli3dG0ak1&amp;t=ffffffffe6692900" type="text/javascript"></script>
+<script src="ScriptResource8d08.axd?d=ytPdb6JuV_YTvNMUmMciBHBAqSDOfu7mQNpmG2SPiuhmkU1x1fTIgHsTYWr1C0ISowkvQ5SJth8wNBQ-RM_6fwN1Jx153jXqC2lEOkzVA7cF1RxMHMu1dSKdWo4cYuYP1Pdw86WJsGqllaeDRLLHh1Mcbkf8ngxVb_NP2FdTbH7pAENmbHptZEfX76m4pER20&amp;t=32e5dfca" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="ScriptResourcee759.axd?d=T5cwbgz4L_a3RpD8jL5BnZuTnBX_3-1ngQHSv-grOBrneeFKEaIUZtz0ECuc-KFiYn7pHRoJq4NZukIVfe8_CrMmSObeix5Dh4PP24z2wnFfzLUkJWmLH-rERmHm23A1kCZJg5nR-taj7wz7H3yUAe_O8idhv3M_tBfUaYCK-A8Nqsy6MQh9y9reWpv6IoXR0&amp;t=32e5dfca" type="text/javascript"></script>
+<script src="ScriptResource81f6.axd?d=i2VCRBwRpScdrNZ4iypRsymBLo0R7hX8g9bY0k2fCpsk502ZSkIemFVCHIaQ6N0v6dZiftFaMv9gzqA6uW-vcynpdWjrE05hHhfhVBYmdAmr_UzzMrZgh9xrApuhSWKN9ToQtZo_hnK-2xpwgDMdow2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResourcebacd.axd?d=y0I_PhEEso5Ex5Z8cDe-fkgpcL0TtS6ipT56jl92d0azLTxSgBM9pzX8GGK1bYpAbzbjfrLhGbd3fpaX4NnpqhAD42OvHzYWvdEvoBM4r6oRsVNj31JwAh-cfuRd-afWvfPjxfvbhNzOOfpdqcV8Gg2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResource3579.axd?d=EibrQIfbmCfAcQiciOHfX-saKwgAcLeETqv5cUq6WPHDzExtCfrUKKWpDxv1yIyHf7rGyblkLzLgzChd1DQTC-Imou43LGz51rnEIAuPcm7aMK1KNKmQgxJNwICwFv5j6lOaZTC_mgiYLOqN2PlYd6mNSYziEKUw3tgpX1-5WlY1&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResource7cb3.axd?d=yrj716kSrzDe83v3Zu42_UA6VWgL6mnaoomZjZYNliRzsG_Zxy8c9PWX_SLb6Gwl3PxG2pvyIs32Qs55BQjGUn7SGIz7ijolx7wB6mBn13bmqmbXvY3QC0Oj-Abv_pNr2LVbTQuRboJxbHO1AjuQiA2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResource0232.axd?d=4_1y1TatM3Pu9GGKAp_0svMiq_uyjsTz0kB2KYGsLnqH82A8SvJ8lVBG3_3Eu5I3iP4e0WGiwXKlWzKfvMf0ncL18RQFupr6PYrGCr7NUDTicL-2EnnyIXevEqsRN5at9_64vu8aXL1KQEUBNOeEfg2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResourcead6e.axd?d=qPB1Yw1GcU1mbHUv_6Q0zmVXk0ICef5WOlpQhZnZCIG6skoz9Kz3Y9XXn7wHdWI1fjQ_skI6ubgnwD0-wBQxdpxRKoyLNFD_UwgUHdeRk5xL66GG0H7C9pwJK-QR-9FCpzSYDSDgRbDAVbk945kEj_10jmv4Q55DZ6Ep54hC4ms1&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResource10b0.axd?d=yHwVRmpsRmipeAVTGGLmbraAF6gdTUxWF3N8aJw4HrFGiteldqtRzY9rK_OCyEDn1R7dnfmKk8S7CuqhooIXkgo-Kt5VvKLibUba8Cht5ftR3sI-ftJr5PyYpi5O8-1xbA59D_xsnkZ67bxQ3iILJiJ0ZNPUQ1UrrbAISZ0bXtU1&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResource3fcf.axd?d=AznrUJMaWT8P5WBMejJ8FR_x9_gckgUG-bUv_Jcs4eb_MyX35FuhSYq-JiXzOaRBMQSCCx0GqjCPAZ4cmaF6iUGKIoFsZYRwZzT51gMvYfaN2mEX6XCog9HJY0BOPRuMUFrUH6JkGnk0QwmxjkITYXRv7GRr8F_e_KoGMEznUmo1&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="ScriptResource9ffc.axd?d=5vnbbWTvK25P98wSxPuBsGFvLVGwygmD2ZaWuKjjBf0a2M6K3FvOPQSGgPxs1RHVpUbheKx5ZYcU76HaZ39uXhDvkqcq7aRh6NWHoLvjlmrU0vHUqbG9kTr6AVgtmt9SgcXOUYTO1Zdie4uW6GA8xJJH_x_iBUAFuR6PO_YPyPc1&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACmsPhVIUTgKwoawEjSbyD5RHzi7XMBM4iJ2kKhIAx9Bou4BTBZ2L+/zHSMXipzyH3MbifdujSibODz2lHN+RHz6ykd6dNktEHIHoOUP+O2ki3NrlncqQ9V6tlxVrPRFfFrd/tQMY39vW2SV2IiZ6vpNSNinbNjauqRKnoaHYMbJsUcw2XaFlcotF+jXDmQL49i2uTdyb/eyf7PhUxijuDOhx7lWZvLdKkyUDpFI0UiV/RavWiQ4+vxYPH/+ALYKdol/ZSPelsDZSY/NKtgsdpuYtqlRwhdQ/pD/EAxV1srndItvpUV3uzZoClKMo2e416vyh0qBsYSfcwHsue+gRDzn3GhL3QIZoUGeVhYs+Y92V0dg8mP6MuoluAKHo1AA2vXkW2Pj5FxBwEiUaPKasqhib9qKGofjZaNlbCJz0QBNN7+qfNThKNggzh85Ar/gSM9KqJ7PHmnYa5VK7Tq5k/PHSx52fesbzQqrP0dPP4Nee2AvUJ5JGuCDedlHChi0RJ/WmTL1cd/JDj27WXxlG0WQqJb2N6jOlXK0A9x2hLJInnp3LzayZ/vqaBlBAzfyks7fYgtxELgFXCC1Pxu5RmOV2bsaVQUAphiKsTpe0Oy60VmBWgY21bJEiRyNFzg9kAAR5tQv1ZcUNT95w1fJ0EMtMiIMK0uNUTAYmlSyOCFfgwsTwiAmNt64vgkQp2D+xnQCA1+RBcLWV+qk7+w3xCEd3/B9a/b6i+CtzB1K0bOeig3/ZQCf2b3sXf3vgRYjIRSlZU/LSPEIuyNFzyuoumskZqkNtClbdPGUTTl/OmOAS6CEcmIgJ0DRHobe5lHw2WqyNFJyssVaRoCWaHMpZqJd7+7nvUqN5BGgGZxPc77W03JM3jGZJqa05hu/o+W9P3A97YwECeu4joq7DbRRT/Kz" />
+</div>
+    <header>
+  <div class="header-top"></div>
+  <div class="container">
+    <div class="row header-bottom">
+      <div class="col-md-3 col-sm-3"> <img src="assets/images/ignou%20logo.png" width="120" alt="cpd-india logo"> </div>
+      <div class="col-md-9 col-sm-9">
+        <nav>
+          <ul class="pull-right">
+            
+            <li><a href="Default.aspx">Home</a></li>
+              <li><a href="../ignou.ac.in/ignou/studentzone">Student Zone</a></li>
+            <li><a href="../www.ignou.ac.in/ignou/aboutignou/regional/website" target="_blank">Regional Centres</a></li>
+            <li><a href="AdmLogin.aspx" target="_blank">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+    <!------------------Slider Start----------------------------->
+    <div class="breadcrumbs" style="background-image: url(assets/images/gallery.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-Centre">
+                        <span id="ctl00_heading">IGNOU Grievance Redressal And Management (iGRAM)</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="main-blog">
+        <div class="container">
+            <div class="row">
+                
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div class="col-md-5 col-sm-5" style="margin-bottom: 35px;">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                About IGNOU Grievance Redressal And Management (iGRAM)
+            </div>
+            <div class="panel-body about-gcr">
+                <p>
+                    <span style="margin-bottom: 10px; display: block;">Dear Learners,</span> While the
+                    University makes every effort to ensure that you are able to pursue your programme
+                    of study without any difficulty, we are aware that sometimes due to lack of information,
+                    and sometimes due to the sheer magnitude of operations, you do occasionally face
+                    problems. At IGNOU we strongly believe that you, as students of the world’s largest
+                    University, are entitled to:
+                </p>
+                <br />
+                <ul>
+                    <li>Timely service.</li>
+                    <li>Receiving service from competent & knowledgeable staff.</li>
+                    <li>Reliable & accurate Student information</li>
+                    <li>Being treated with respect & courtesy.</li>
+                    <li>An effective feedback mechanism.</li>
+                </ul>
+                <p>
+                    <br />
+                    It is with the objective of putting in place a system for quick resolution of your
+                    problems that iGRAM has been developed. We hope that this platform shall help us
+                    in addressing your problems in the shortest possible time, allowing you all your
+                    time to focus on your studies.
+                </p>
+                <p>
+                    <br />
+                    We shall be happy to hear from you about your experience with iGRAM.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7 col-sm-7 tab-hover" >
+        
+        <a id="ctl00_ContentPlaceHolder1_LinkButton2" class="btn btn-info" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$LinkButton2&#39;,&#39;&#39;)" style="margin-left:5px;">New Query / Grievance</a>
+         <a id="ctl00_ContentPlaceHolder1_lnkTrackGrievance" class="btn btn-primary" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$lnkTrackGrievance&#39;,&#39;&#39;)">Track Grievance Response Status</a>
+        
+        <a id="ctl00_ContentPlaceHolder1_LinkButton1" class="btn btn-warning" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$LinkButton1&#39;,&#39;&#39;)">Know your GST Number</a>
+
+        
+
+
+        
+        <div style="padding-top: 30px; padding-bottom: 60px; padding-right: 15px; border: 1px solid #337AB7;
+            border-top: none; margin-top: -1px;">
+            <div>
+                <!-- new by Raj -->
+                
+            </div>
+
+
+        
+
+             
+
+
+            
+
+            
+            <div id="ctl00_ContentPlaceHolder1_Panel_quick_contact" style="border-style:None;">
+	
+                <div class="row form-group">
+                    <div class="col-md-4 col-sm-4 text-right">
+                        <label>
+                            Grievance Category<span style="font-weight: bold; color: Red; padding-left: 1px;">*</span></label>
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <select name="ctl00$ContentPlaceHolder1$DropDownList_query_type" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$DropDownList_query_type\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_DropDownList_query_type" class="form-control">
+		<option selected="selected" value="Select Query Type">Select Query Type</option>
+		<option value="18">Degree/Diploma</option>
+		<option value="2">Assignments </option>
+		<option value="3">Study Material</option>
+		<option value="4">Learner Support</option>
+		<option value="5">Practicals</option>
+		<option value="6">Synopsis</option>
+		<option value="7">Projects</option>
+		<option value="40">Examination</option>
+		<option value="19">Fresh Admission</option>
+		<option value="22">Re-admission</option>
+		<option value="21">Re-Registration</option>
+		<option value="23">Credit Transfer </option>
+		<option value="24">Online Admission</option>
+		<option value="25">Migration Certificate</option>
+		<option value="26">Duplicate ID Card</option>
+		<option value="20">Misc.</option>
+		<option value="27">Transcript/Genuineness/Verification</option>
+		<option value="28">Refund of excess exam fee</option>
+		<option value="29">Hall ticket</option>
+		<option value="30">Declaration of Term End Examination</option>
+		<option value="31">Mark Sheet &amp; Provisional Certificate</option>
+		<option value="32">Re-evaluation </option>
+		<option value="33">Answer script photocopy </option>
+		<option value="34">Entrance Test</option>
+		<option value="35">Degree verification/Genuineness </option>
+		<option value="36">Official Transcript</option>
+		<option value="37">Convocation </option>
+		<option value="38">Others</option>
+		<option value="41">Change of Correspondence Address</option>
+		<option value="42">Change of Programme</option>
+		<option value="43">Name Correction</option>
+
+	</select>
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$ListSearchExtender2_ClientState" id="ctl00_ContentPlaceHolder1_ListSearchExtender2_ClientState" />
+                        <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator11" style="color:Red;display:none;"></span>
+                    </div>
+                </div>
+                
+               
+                    <div class="row form-group">
+                        <div class="col-md-4 col-sm-4 text-right">
+                            <label>
+                                Subject<span style="font-weight: bold; color: Red; padding-left: 3px;">*</span></label>
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                           
+                                    <select name="ctl00$ContentPlaceHolder1$DropDownList_subject" id="ctl00_ContentPlaceHolder1_DropDownList_subject" class="form-control">
+		<option value="0"> </option>
+
+	</select>
+                                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator12" style="color:Red;display:none;"></span>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$ListSearchExtender1_ClientState" id="ctl00_ContentPlaceHolder1_ListSearchExtender1_ClientState" />
+                                    
+                               
+                        </div>
+                    </div>
+                 
+                <div class="col-md-8 col-sm-8 col-md-offset-4">
+                    
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$Button_next" value="Next" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$Button_next&quot;, &quot;&quot;, true, &quot;pannel1&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_Button_next" class="btn btn-success" />
+                    <div id="ctl00_ContentPlaceHolder1_ValidationSummary2" style="color:Red;display:none;">
+
+	</div>
+                        <div class="clearfix"> <br /> </div>
+                  
+                    
+                </div>
+            
+</div>
+            <!-- # en new by Raj -->
+            
+            
+            
+            
+            <div class="clearfix">
+                <br />
+            </div>
+            <div class="row" style="border:1px solid rgba(128, 128, 128, 0.34);margin-left:10px;margin-right:5px;margin-bottom:10px;" >
+                <div class="col-md-12 " style="text-align:center; color:red;margin-bottom:15px;margin-top:5px;font-size:18px">Disclaimer:</div>
+                <div class="col-md-12" style="font-size:16px;text-align:justify;line-height:120%;margin-bottom:10px;">Only registered students of IGNOU are allowed to submit grievance, For more details mail us at ssc@ignou.ac.in</div>
+            </div>
+            <div class="panel panel-primary" style="margin-left:10px;">
+                <div class="panel-heading">
+                    <center>
+                        <h3>
+                            Important Alerts</h3>
+                    </center>
+                </div>
+                <div class="panel-body about-gcr">
+                    <marquee scrolldelay="200" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+                    <table class="table table-responsive">
+                        
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl00_hlLink" href="../ignouadmission.samarth.edu.in/index.html" target="_blank">The Competent Authority has approved the extension of the last date for July, 2026 Fresh Admission till 30th September, 2026 in respect of all notified programmes offered in ODL and Online mode except for Semester based and Certificate Programme.</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl01_hlLink" href="../onlinerr.ignou.ac.in/index.html" target="_blank">The Competent Authority has approved the extension of the last date of submission of Online Re-registration form for July, 2026 session till 30th September, 2026 with the late fee of Rs. 200/- for all programmes offered in ODL and Online mode.</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl02_hlLink" href="Alerts/Doc%20-%20Nov%2016%202021%20-%205-21%20PM.jpg" target="_blank">Maximum Duration Extension of Post Basic BSc Nursing New</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl03_hlLink" href="Alerts/validity.jpg" target="_blank">Validity Extension of Programmes for December 2021 TEE New</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl04_hlLink" href="Alerts/NOTIFICATION_0001.pdf" target="_blank">Notification regarding exemption to appear in the term-end examination of the first year courses of bachelor and master degree programmes</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl05_hlLink" href="Alerts/wtcw.pdf" target="_blank">Whom to contact for what</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl06_hlLink" href="../www.ignou.ac.in/userfiles/Notification%20for%20Re-admission(1).pdf" target="_blank">Important Notification regarding Re-Admission New</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl07_hlLink" href="Alerts/Email%20ID%20and%20Telephone%20Numbers%20of%20officials%20dealing%20with%20student%20grievances.pdf" target="_blank">Email ID and Telephone Numbers of officials dealing with student grievances</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl08_hlLink" href="../ignou-defence.samarth.edu.in/index.html" target="_blank">Information Brochure and Admission Link for skilled based Bachelors Degree Programme for Agniveers</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl09_hlLink" href="../www.egyankosh.ac.in/index.html" target="_blank">IGNOU e-Study Material and Video Library (eGyankosh)</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl10_hlLink" href="Alerts/Doc%20-%2030-Nov-2018%20-%203-44%20PM%20-%20p1.jpg" target="_blank">Gyan Darshan Channel available on DTH platform (see the attachment)</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                                <tr>
+                                    <th>
+                                        <center>
+                                              <a id="ctl00_ContentPlaceHolder1_RepeaterNotification_ctl11_hlLink" href="../onlineservices.ignou.ac.in/empclive/index.html" target="_blank">IGNOU Gyandarshan Webcast</a>
+                                        </center>
+                                    </th>
+                                </tr>
+                            
+                    </table></marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    
+
+    
+
+
+            </div>
+        </div>
+    </div>
+    <!------------------Slider End----------------------------->
+    <div class="clearfix">
+    </div>
+    <div class="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="footer-bottom ">
+                        Indira Gandhi National Open University. All Rights Reserved <span class="pull-right"><a>Maintained By </a>:
+         <a href="#" target="_blank" style="color:white">Software Development Cell, Computer Division</a> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_ValidationSummary2"));
+var Page_Validators =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator11"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator12"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator11 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator11"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator11");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.controltovalidate = "ctl00_ContentPlaceHolder1_DropDownList_query_type";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.errormessage = "Please Select Grievance Category";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.validationGroup = "pannel1";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.initialvalue = "Select Query Type";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator12 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator12"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator12");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.controltovalidate = "ctl00_ContentPlaceHolder1_DropDownList_subject";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.errormessage = "Select Subject Type";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.validationGroup = "pannel1";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_ValidationSummary2 = document.all ? document.all["ctl00_ContentPlaceHolder1_ValidationSummary2"] : document.getElementById("ctl00_ContentPlaceHolder1_ValidationSummary2");
+ctl00_ContentPlaceHolder1_ValidationSummary2.showmessagebox = "True";
+ctl00_ContentPlaceHolder1_ValidationSummary2.showsummary = "False";
+ctl00_ContentPlaceHolder1_ValidationSummary2.validationGroup = "pannel1";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ctl00_ContentPlaceHolder1_ValidationSummary2');
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ListSearchBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_ListSearchExtender2_ClientState","id":"ctl00_ContentPlaceHolder1_ListSearchExtender2","promptCssClass":"ListSearchExtenderPrompt","promptText":"","queryPattern":1,"queryTimeout":2000}, null, null, $get("ctl00_ContentPlaceHolder1_DropDownList_query_type"));
+});
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator11').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator11'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator12').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator12'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ListSearchBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_ListSearchExtender1_ClientState","id":"ctl00_ContentPlaceHolder1_ListSearchExtender1","promptCssClass":"ListSearchExtenderPrompt","promptText":"","queryPattern":1,"queryTimeout":2000}, null, null, $get("ctl00_ContentPlaceHolder1_DropDownList_subject"));
+});
+//]]>
+</script>
+</form>
+</body>
+
+<!-- Mirrored from igram.ignou.ac.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 08:43:58 GMT -->
+</html>
+
+<script type="text/javascript">
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
+
+    }
+</script>

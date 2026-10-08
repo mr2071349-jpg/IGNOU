@@ -1,0 +1,2405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/36 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:22:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/soedsB.jpg" alt="School of Studies&lt;br/&gt;(School of Extension and Development Studies)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Extension and Development Studies)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="36">School of Extension and Development Studies</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Aboutus" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">About us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>The School of Extension and Development Studies (SOEDS) was established in 2009 with an aim at providing quality education in various aspects of Development Studies, Urban Studies, Population Studies, Tribal Studies and Extension Education, by offering programmes leading to the award of Certificate, Diploma, Post Graduate Diploma and Post-Graduate Degrees in relevant subjects.<br/>
+<b>VISION</b><br/>
+The school aims to be known for highest standards of excellence in Development Studies, Urban Studies, Population Studies, Tribal Studies and Extension Education.<br/>
+<b>MISSION</b><br/>
+To devise quality distance education programmes and generate creative human resources with knowledge, skill and perspectives on the thrust areas of the School.
+</div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Aboutus"  ><p>The thrust areas of the School are&nbsp;</p>
+<ul type="disc">
+<li>Development Studies</li>
+<li>Urban Studies</li>
+<li>Population Studies</li>
+<li>Tribal Studies&nbsp;</li>
+<li>Extension Education.&nbsp;</li>
+</ul>
+<p>There are 6 faculty members coordinating 11 ODL programmes, PhD in Development Studies and 2 MOOCS in the thrust area of the School. The School also organizes seminars, undertakes systemic research and fosters collaborations with different organizations to disseminate education and build skills in development and allied sectors.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Objectives"  ><ul>
+<li>To design and develop innovative certificate, diploma and degree programmes in various areas of Development Studies, Urban Studies, Population Studies, Tribal Studies and Extension Education</li>
+<li>To undertake research and dissemination activities in the areas of Development Studies, Urban Studies, Population Studies, Tribal Studies and Extension Education.</li>
+<li>To conduct conferences, seminar, workshops and discussions on various themes related to Development Studies, Urban Studies, Population Studies, Tribal Studies and Extension Education.</li>
+<li>To organize capacity building programmes and extension activity in various areas of Development Studies, Urban Studies, Population Studies, Tribal Studies and Extension Education.</li>
+</ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="History"  ><p><strong>HISTORY</strong></p>
+<p>The school was established in 2009. Initially the school started with a modular programme having Post Graduate Certificate, PG Diploma and MA in Extension and Development Studies with multiple entry and exit options.Currently the school is offering 1 PhD, 4 Masters, 6 PG Diplomas and 1 Diploma programme. The School is also offering 2 MOOCs.The School is involved in teaching, research and extension activities. The School has also been organizing webinars, seminars, lectures and panel discussions on various occasions. The School has also hosted an U.S. Fulbright Regional Research Scholar in 2019</p>
+<p>Some of the past activities of the School include:</p>
+<p><strong>Hosting of Fulbright Research Scholar</strong></p>
+<p>The SOEDS hosted Prof. Murari Suvedi from Michigan State University, USA as a Fulbright Senior Scholar during 2019-20. The following research project has been completed under this</p>
+<p>programme: Strengthening Agricultural Extension Training in South Asia (India, Sri Lanka and Nepal)- Process Skills and Competency Gaps in Undergraduate Agricultural Extension Curriculum (2020) &ndash; Funded by US Department of State under Fulbright programme.</p>
+<p><a href="p__strong_DIRECTOR%26rsquo%3bS%20MESSAGE_/strong__/p">https://www.canr.msu.edu/profiles/murari_suvedi/Strengthening%20Agricultural%20Extensi</a><a href="p__strong_DIRECTOR%26rsquo%3bS%20MESSAGE_/strong__/p">on%20Training%20in%20South%20Asia%20March%202021.pdf</a></p>
+<p>Impact: Based on the evaluation recommendations, agricultural colleges and universities in South Asia (India, Sri Lanka and Nepal) could revise or upgrade their agricultural extension Curricula to prepare the next generation of extension professionals needed for agricultural</p>
+<p>Development . The recommendations were submitted to 7 the Deans Committee constituted by Indian Council of Agricultural Research for the revision of UG agriculture curriculum.</p>
+<p><strong>International Collaboration: </strong>Development of Post Graduate Diploma in Animal Welfare (PGDAW) The School of Extension and Development Studies (SOEDS), Indira Gandhi National Open University (IGNOU), and The University of Edinburgh, UK, have jointly developed a Post</p>
+<p>Graduate Diploma in Animal Welfare (PGDAW) to accomplish dual objectives in India:</p>
+<ol>
+<li>Imparting science-based animal welfare education through open and distance learning (ODL)</li>
+<li>Fostering stakeholder capacity to make informed and socially responsible decisions</li>
+</ol>
+<p>Concerning animal welfare .</p>
+<p>Introduced in July 2020 and endorsed by the Animal Welfare Board of India, the PGDAW is one Of the largest animal welfare continuing veterinary education (CVE) program globally, with More than 4500 learners, marking a significant milestone in animal welfare education and Advocacy in India. This one-year 32 credits curriculum with 4 courses, 85 self-learning modules, 350 exercises and 160 activities investigate the welfare dimensions of farm, poultry, working,</p>
+<p>Performing, companion, zoo, lab, and street animals as below:</p>
+<ul>
+<li>Course 1 Animal Welfare Science and Ethics: Explores the scientific understanding of animal welfare, behavior, ethical frameworks, and veterinarian&rsquo;s role in welfare.</li>
+<li>Course 2 Animal Welfare Issues: Examines welfare concerns across the domesticated animals and poultry, along with welfare issues in slaughter and disasters.</li>
+<li>Course 3 Animal Welfare Laws and Policies: Provides insights into pertinent Indian legislation, enforcement, and international animal welfare conventions.</li>
+<li>Course 4 Animal Welfare Practices: Focuses on welfare standards, sustainable practices, and</li>
+</ul>
+<p>Measures for enhancing animal well-being in diverse settings.</p>
+<p>The PGDAW aims to be the leading example of excellence in the field of ODL animal welfare Education.&nbsp;</p>
+<p><a href="https://ignouadmission.samarth.edu.in/index.php/site/programme-">https://ignouadmission.samarth.edu.in/index.php/site/programme-</a><a href="https://ignouadmission.samarth.edu.in/index.php/site/programme-">detail?id=5a63bf535fec66f73df6a569088346018d98097b40a18eb2cfb11c7cd30fb7fc1623</a></p>
+<p><strong>International Conference</strong></p>
+<p>Two days International Seminar was organized by the School on &ldquo;Ethnicity and Development in South Asia: Issues and Challenges&rdquo; from January 21-22, 2016 Funded by ICCR and ICSSR, New Delhi.</p>
+<p><strong>International Research Projects Completed</strong></p>
+<ol>
+<li>Strengthening Agricultural Extension Training in Nigeria, Malawi, South Africa, Uganda, and Kenya (2023) &ndash; Funded by AAP-PIRA (Alliance for African Partnership &ndash; Partnerships for Innovative Research in Africa Grant, Michigan State University.</li>
+</ol>
+<p><a href="https://aap.isp.msu.edu/files/5316/8185/1565/Strengthening_Agricultural_Extension_Training_in_Nigeria_Malawi_South_Africa_Uganda_and_Kenya_-_PIRA_Research_Report59.pdf">https://aap.isp.msu.edu/files/5316/8185/1565/Strengthening_Agricultural_Extension_Training_in_Nigeria_Malawi_South_Africa_Uganda_and_Kenya_-_PIRA_Research_Report59.pdf</a>&nbsp;</p>
+<p>Impact: This AAP-PIRA evaluation report contributes significantly to strengthen the undergraduate (UG) agricultural extension curriculum in sub-Saharan Africa covering Nigeria, Malawi, South Africa, Uganda, and Kenya. To address the needs of demand-driven, pluralistic, decentralized and participatory agricultural extension advisory services in sub-Saharan Africa, the evaluation identified and recommends 11 process skills and core competencies with 97 sub-competencies for their inclusion in the UG agricultural extension curriculum in sub-Saharan Africa.</p>
+<p>This evaluation study also contributed to the development of following extension training manual:</p>
+<p>Essential Competencies of Frontline Agricultural Extension Professionals. East Lansing, Michigan, USA: Alliance for African Partnership, Michigan State University (2024). Funded by AAP-PIRA (Alliance for African Partnership - Partnerships for Innovative Research in Africa Grant, Michigan State University.&nbsp;</p>
+<p><a href="https://www.canr.msu.edu/csus/uploads/Essential Competencies_Full Book.pdf">https://www.canr.msu.edu/csus/uploads/Essential Competencies_Full Book.pdf</a></p>
+<ol start="2">
+<li>Strengthening Agricultural Extension Training in South Asia (India, Sri Lanka and Nepal)-Process Skills and Competency Gaps in Undergraduate Agricultural Extension Curriculum (2020) &ndash; Funded by US Department of State under Fulbright programme.</li>
+</ol>
+<p>&nbsp;<a href="https://www.canr.msu.edu/profiles/murari_suvedi/Strengthening Agricultural Extension Training in South Asia March 2021.pdf">https://www.canr.msu.edu/profiles/murari_suvedi/Strengthening%20Agricultural%20Extension%20Training%20in%20South%20Asia%20March%202021.pdf</a></p>
+<p>Impact: Based on the evaluation recommendations, agricultural colleges and universities in South Asia (India, Sri Lanka and Nepal) could revise or upgrade their agricultural extension curricula to prepare the next generation of extension professionals needed for agricultural development. The recommendations were submitted to 7 th Deans Committee constituted by Indian Council of Agricultural Research for the revision of UG agriculture curriculum.</p>
+<ol start="3">
+<li>Assessment of Core Competencies of Livestock Extension Professionals in India (2016) &ndash; Funded by USAID. <a href="https://meas.illinois.edu/wp-content/uploads/2016/07/MEAS-EVAL-">https://meas.illinois.edu/wp-content/uploads/2016/07/MEAS-EVAL-</a> 2016-Assessment-of-Core-Competencies-of-Livestock-Extension-Professionals-in-India-Sasidhar-Suvedi-July-2016.pdf</li>
+</ol>
+<p>Impact: Based on the evaluation, the specific policy interventions recommended to Veterinary Council of India were: Improving competencies through hands-on pre-service instruction in veterinary colleges and proper assessment of competencies before certification, and competency development through continuing veterinary education programs.</p>
+<ol start="4">
+<li>Integrated Contract Broiler Farming &ndash; An Evaluation Case Study in India (2015) &ndash; Funded by USAID.</li>
+</ol>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://meas.illinois.edu/wp-content/uploads/2015/04/MEAS-EVAL-2015-Broiler-India-long-Sasidhar-Suvedi-June-2015.pdf">https://meas.illinois.edu/wp-content/uploads/2015/04/MEAS-EVAL-2015-Broiler-India-long-Sasidhar-Suvedi-June-2015.pdf</a></p>
+<p>Impact: One of the key recommendations of this evaluation was to establish a regulatory body on contact farming to safeguard the interest of poultry farmers. Based on the recommendations of this report, the Government of India formulated model contact farming act and issued guidelines on contract farming.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://dahd.nic.in/sites/default/filess/Final Commercial Contract Broiler Guidelines for integration.pdf">https://dahd.nic.in/sites/default/filess/Final%20Commercial%20Contract%20Broiler%20Guidelines%20for%20integration.pdf</a></p>
+<ol start="5">
+<li>Evaluation of a Distance Education Radio Farm School Programme in India: Implications for Scaling up (2011) &ndash; Funded by IDRC, Canada.</li>
+</ol>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;<a href="https://journals.sagepub.com/doi/abs/10.5367/oa.2011.0033?journalCode=oaga">https://journals.sagepub.com/doi/abs/10.5367/oa.2011.0033?journalCode=oaga</a></p>
+<p><strong>Impact:</strong> This evaluation helped in scaling up of radio farm school programmes and had a major impact on developing awareness, knowledge and changes in attitude and in involving end-users in poultry outreach activities.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p><strong>DIRECTOR&rsquo;S MESSAGE</strong></p>
+<p>Extension and Development Studies is an interdisciplinary field focused on improving the quality of life in rural and underserved communities through education, innovation, and participatory approaches. It combines principles from agriculture, sociology, economics, and communication to facilitate sustainable development. The field emphasizes empowering individuals and communities by extending knowledge, building capacity, and fostering inclusive growth.</p>
+<p>In this direction, School of Extension and Development Studies (SOEDS) was established in 2009 with a mission to devise quality distance education programmes and generate creative human resources with knowledge, skill and perspectives. At SOEDS, we are committed to fostering inclusive and sustainable development through interdisciplinary education and research. Our diverse programmes ranging from Development Studies, Urban Studies, and Population Studies to Tribal Studies, Animal Welfare, Corporate Social Responsibility, and Value Education reflect our holistic approach to addressing the complex challenges of today&rsquo;s world.</p>
+<p>At SOEDS, we aim to equip learners with the knowledge, skills, and ethical grounding needed to drive meaningful change in society. Through a blend of academic rigor and practical engagement through project works, we prepare professionals who can work effectively across sectors and communities. We invite you to explore our programmes and join us in our mission to contribute to a more equitable and compassionate world.</p>
+<p><strong>Prof. Nisha Varghese</strong></p>
+<p><strong>Director, SOEDS</strong></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="ContactUs"  >Director <br>
+School of Extension and Development Studies <br>
+Block 15-F (Swami Vivekanand Bhawan) <br>
+IGNOU, Maidan Garhi, New Delhi-110068
+<br/><b>Email:</b> soeds@ignou.ac.in<br/><b>Phone:</b> +91-011-29571661, 1662 </div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="SchoolBoardMembers"  >
+		<center><h4>IGNOU <br>
+			School of Extension and Development Studies <br>
+			School Board – Member
+		</h4></center>
+		<table>
+			<tr>
+				<th>S. No.</th>
+				<th>Name & Address</th>
+				<th>Designation</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>Prof. Nisha Varghese, <br>
+					Director, SOEDS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Chairman</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Prof. Grace Don Nemching, <br>
+					SOEDS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(c) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Dr. Pradeep Kumar, <br>
+					SOEDS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(c) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>Dr. Sarda Prasad, <br>
+					SOEDS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(c) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>Prof. Mukesh Kumar, <br>
+					Professor, SOA, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(d) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>Prof. K.S. Arul Selvan, <br>
+					Professor, SOJNMS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(d) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>Prof. R.S.P Singh, <br>
+					Professor, SOVET, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(d) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>Dr. Sadananda Sahoo, <br>
+					Associate Professor, SOITS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Under Clause 2(d) of Statute 10 (A)</td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>Prof. Thaneswar Bir, <br>
+					Ex-Dean, SOSS, NIHFW, <br>
+					Munirka, New Delhi- 110067
+				</td>
+				<td>External Member</td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>Prof. Bijaya Kumar Malik, <br>
+					Professor, Population Education, <br>
+					Department of Social Sciences, <br>
+					NCERT, New Delhi-110067
+				</td>
+				<td>External Member</td>
+			</tr>
+			<tr>
+				<td>11.</td>
+				<td>Prof. A.K. Mahapatra, <br>
+					Head, IT, <br>
+					Indira Gandhi Delhi Technical University for Women, <br>
+					Delhi-110006
+				</td>
+				<td>External Member</td>
+			</tr>
+			<tr>
+				<td>12.</td>
+				<td>Prof. Dipendra Nath Das, <br>
+					CSRD, SSS, <br>
+					JNU, New Delhi-110067
+				</td>
+				<td>External Member</td>
+			</tr>
+			<tr>
+				<td>13.</td>
+				<td>Prof. Shikha Kapur, <br>
+					Department of Adult and Continuing Education and Extension, <br>
+					F/o Social Sciences, Jamia Millia Islamia, <br>
+					New Delhi-110025
+				</td>
+				<td>External Member</td>
+			</tr>
+		</table></div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center">2012-12-07</td>
+                                                <td class="text-center">CONFERENCE ROOM, BLOCK NO.8,IGNOU CAMPUS, MAIDAN GARHI, NEW DELHI.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM01.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM01</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center">2008-03-04</td>
+                                                <td class="text-center">Convention Centre No. 6, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM02.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM02</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center">2008-09-10</td>
+                                                <td class="text-center">Convention Centre No. 6, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM03.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM03</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center">2009-05-22</td>
+                                                <td class="text-center">Convention Centre No. 6, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM04.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM04</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center">2010-01-28</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM05.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM05</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center">2010-03-09</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM06.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM06</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center">2010-05-24</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM07.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM07</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center">2010-07-26</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM08.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM08</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center">2011-02-11</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM09.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM09</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center">2011-05-19</td>
+                                                <td class="text-center">Convention Centre No. 6, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM10.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM10</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center">2012-12-22</td>
+                                                <td class="text-center">Convention Centre No. 6, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM11.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM11</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center">2012-07-03</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM12.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM12</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center">2012-10-12</td>
+                                                <td class="text-center">Convention Centre No. 6, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM13.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM13</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center">2013-02-08</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM14.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM14</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center">2017-09-02</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM15.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM15</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center">2014-02-21</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM16.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM16</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center">2014-09-10</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM17.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM17</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center">2015-10-05</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM18.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM18</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center">2016-02-03</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM19.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM19</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center">2016-02-19</td>
+                                                <td class="text-center">IGNOU, NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM20.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM20</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center">2017-10-24</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM21.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM21</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center">2018-05-30</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM22.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM22</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center">2019-02-25</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM23.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM23</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center">2019-12-04</td>
+                                                <td class="text-center">Conference Room of SOEDS, Block-15-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM24.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM24</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center">2020-10-14</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM25.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM25</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center">2021-08-04</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM26.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM26</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center">2021-12-14</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM27.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM27</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center">2022-07-13</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM28.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM28</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center">2023-06-27</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM29.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM29</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center">2023-11-20</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM30.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM30</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center">2024-01-05</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM31.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM31</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center">2024-04-10</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM32.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM32</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center" style="width: 5px;">BSOEDS</td>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center">2025-01-14</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOEDS/SBM33.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM33</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/varghese.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                                                        <label class="fw-bold">Prof. Nisha Varghese</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Nisha Varghese</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director, SOEDS</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Agricultural Economics</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>11-09-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>nishavarghese@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Nisha Varghese is currently Director of the School of Extension and Development Studies at Indira Gandhi National Open University, New Delhi. A merit holder during Graduation and a gold medalist during her Master&rsquo;s programme, she attained her Doctoral degree in Agricultural Economics from the University of Agricultural Sciences, Dharwad, Karnataka, India. Her areas of teaching and research interest are Quantitative Techniques, Research Methods, Desertification, Labour Migration, Agriculture and other Development related issues.</p>
+<p>She has professional experience in various organizations of repute like Agricultural Finance Corporation (AFC), Indian Agricultural Research Institute (IARI), Institute of Economic Growth (IEG) and National Centre for Agricultural Economics and Policy Research (NCAP). Prof. Varghese joined IGNOU in 2009 and since then she has been associated with various activities like teaching, preparation of self learning materials, radio counseling, teleconferencing, Programme Design and Development etc.. She has guided students for their Dissertation in MA in Extension and Development Studies and has also guided PhD students. She has also been a member of the Academic Council Standing Committee and Academic Council of IGNOU and School Board member of four different Schools of Study at IGNOU. While at IGNOU, she has presented papers in several international conferences. She has served as channel coordinator of Swayam Prabha Channel 13 on Professional Education. Prof. Varghese has an edited book published by Springer Nature and an authored book by Routledge to her credit other than several publications in various national and international journals and books.She is also a member of the editorial board of Indian Journal of Open Learning published by IGNOU.</p>
+<p>Currently she is coordinating Post Graduate Diploma in Corporate Social Responsibility (PGDCSR) and MA in Corporate Social Responsibility (MACSR) programmes offered by the School of Extension and Development Studies.</p>
+<p><br /> <strong>Official Address:</strong></p>
+<p>School of Extension &amp; Development Studies (SOEDS),</p>
+<p>Indira Gandhi National Open University (IGNOU),</p>
+<p>Maidan Garhi,</p>
+<p>New Delhi &ndash; 110068</p>
+<p>New Delhi, India</p>
+<p>+91-011-29571668</p>
+<p><a href="mailto:nishavarghese@ignou.ac.i">nishavarghese@ignou.ac.i</a>n</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director, SOEDS<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Agricultural Economics</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>11-09-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>nishavarghese@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/sasidhar.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                                                        <label class="fw-bold">Prof. P.V.K. Sasidhar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. P.V.K. Sasidhar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Veterinary Extension</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>31-03-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>pvksasidhar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><table style="height: 131px; width: 362px;">
+<tbody>
+<tr style="height: 4px;">
+<td style="height: 4px; width: 339px;">
+<table style="height: 115px; width: 354px;">
+<tbody>
+<tr style="height: 122px;">
+<td style="height: 122px; width: 344px;">
+<p><strong>&nbsp; &nbsp;Prof. P.V.K.Sasidhar, PhD<br /> </strong>&nbsp; School of Extension and Development Studies</p>
+<p>&nbsp; Block 15-F, Indira Gandhi National Open University (IGNOU)</p>
+<p>&nbsp; Maidan Garhi, New Delhi-110068 (India)<br />&nbsp; Ph: +91-9910050413(Mob); 011-29571665 (Off);</p>
+<p>&nbsp; <a href="mailto:pvksasidhar@ignou.ac.in">pvksasidhar@ignou.ac.in</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>P.V.K. Sasidhar is a Professor at the School of Extension and Development Studiesin IGNOU, New Delhi. He has a PhD in Veterinary Extension from Agricultural University, Hyderabad with first degree in Veterinary Science and Animal Husbandry. He was a Post-Doctoral Research Fellow at NAARM, Hyderabad (2002-03), Norman Borlaug Fellow of USDA at Tuskegee University, USA (2008) and USAID Fellow at Michigan State University, USA (2015).&nbsp;</p>
+<p>Prior to joining IGNOU, he served in Agricultural Research Service of ICAR at CARI, Izatnagar with Research, Teaching, Extension &amp; Training assignmentsduring 2003-09. In ICAR his primary research accomplishments as team leader were &lsquo;Micro-Level Priority Setting for Poultry Sector in India&rsquo;, &lsquo;Poultry Science Education &amp; Manpower Planning for Poultry Sector&rsquo; and &lsquo;Backyard Poultry for Livelihood Security&rsquo;. &nbsp;He has organized two National Seminars under these projects. These projects and seminars are the most important policy works concerning poultry research, education and extension in India. As faculty member of IVRI during 2003-09, he taught to PG and PhD students and served on 11 students&rsquo; advisory committees.&nbsp;</p>
+<p>His research interests centers primarily on Evaluation of Extension Advisory Services, Veterinary Service Delivery and Improving Veterinary Education. He serves on the editorial boardof Journal of Agricultural Extension Managementand review for a number of other National and International journals. He has 100 research articles and 100+ other publications which include invited papers, abstracts, book chapters, self learning material, outreach articles and edited books.&nbsp;</p>
+<p>He received R&amp;D grants from various National and International organizations and won awards like JRF, SRF, 4 Young Scientist Awards and Norman Borlaug International Agricultural Science &amp; Technology Fellows Award of USDA. He served as member in Sub-Group on &lsquo;HRD, Training and Accreditation&rsquo; of India&rsquo;s Planning Commission for the XII Five Year Plan.</p>
+<p>Most recent collaborative research works with Michigan State University / University of Edinburgh / OIE:</p>
+<ul>
+<li>Integrated Contract Broiler Farming &ndash; An Evaluation Case Study in India (2015) (Funded by USAID)</li>
+<li>Assessment of Core Competencies of Livestock Extension Professionals in India (2016) (Funded by USAID)</li>
+<li>Strengthening Agricultural Extension Training in South Asia (India, Sri Lanka and Nepal)-Process Skills and Competency Gaps in Undergraduate Agricultural Extension Curriculum (2020) (Funded by US Department of State under Fulbright programme)</li>
+<li>Strengthening Agricultural Extension Training in the MSU-Alliance for African Partnership (AAP) Consortium Partners in Africa - Process Skills and Competency Gaps in Undergraduate Agricultural Extension Curriculumin Nigeria, Malawi, Uganda, Kenya and South Africa (2023)(Funded by Alliance for African Partnership &ndash; AAP, Michigan State University).</li>
+<li>PVS Follow-up Evaluation of the Veterinary Services of Cambodia (2018) (Authorized and funded by OIE, Paris).</li>
+<li>PG Diploma in Animal Welfare (2020) (In collaboration with University of Edinburgh).</li>
+</ul>
+<p>His research work covers India, USA, Sri Lanka, Nepal, Cambodia, Nigeria, Malawi, Uganda, Kenya and South Africa.</p>
+<p>In IGNOU, he organized two DFID funded policy workshops, prepared 95 units of Self Learning Material for various Open and Distance Learning programmes and supervised seven PhD students. He is coordinating: MA in Development Studies;MA in Corporate Social Responsibility;PG Diploma in Development Studies;PG Diploma in Urban Planning and Development; PG Diploma in Animal Welfare, and; PG Diploma in Corporate Social Responsibility programmes. He can be contacted at:&nbsp;<a href="mailto:pvksasidhar@ignou.ac.in">pvksasidhar@ignou.ac.in</a>&nbsp;/ +91-9910050413.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Veterinary Extension</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>31-03-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>pvksasidhar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/farooquee.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                                                        <label class="fw-bold">Prof. N.A. Farooquee</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. N.A. Farooquee</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Political Science</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>17-04-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>nafarooquee@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p><strong>Prof. Nehal A. Farooquee</strong></p>
+<p>Professor Nehal A Farooquee joined the faculty of Indira Gandhi National Open University in 2009. He is currently Programme Coordinator for M.A. in Development Studies; PG Diploma in Urban Planning and Development and PG Diploma in Development Studies in the School of Extension and Development Studies. He has written several chapters in IGNOU&rsquo;s self learning material for various programmes with focus on development and environmental conservation. He is actively engaged in supervising Ph.D. students in applied research in Development Studies in India. He has also developed and coordinated Leadership Programme in Himalayan Ecology in IGNOU.&nbsp;He has over 36 years of experience to his credit in National level Organizations i.e. Center for Science and Environment (CSE), New Delhi and G.B. Pant Institute of Himalayan Environment and Development, GBPIHED (An Autonomous Institute of Ministry of Environment and Forests, Govt. of India), Almora including at IGNOU. He has authored 1 book, co-authored 2 books, edited 2 books and published more than 80 Research Papers on different aspects of Himalayan environment and development issues in various peer reviewed International and National Journals. He has worked in various projects by various international and national agencies on various areas of Himalayan environment and development i.e. Natural Resource Management, Forest Related Issues, High Altitude Societies, Drinking Water and Sanitation, Migration, Pastoralism, Hill Farming, Study on Scheduled Tribes, Traditional Institutions, Health and Family Welfare Issues, Village Level Institutions, Education, Rural Development, Traditional Knowledge Systems and Governance.</p>
+<p>&nbsp;</p>
+<p><strong>Official Address:</strong></p>
+<p>School of Extension &amp; Development Studies (SOEDS),</p>
+<p>Indira Gandhi National Open University (IGNOU),</p>
+<p>Maidan Garhi,</p>
+<p>New Delhi &ndash; 110068</p>
+<p>New Delhi, India</p>
+<p>+91-011-29571664</p>
+<p><a href="mailto:nafarooquee@ignou.ac.in">nafarooquee@ignou.ac.in</a></p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Political Science</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>17-04-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>nafarooquee@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/nemching.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+                                                        <label class="fw-bold">Prof. Grace Don Nemching</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Grace Don Nemching</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Sociology</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>01-09-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>gdnemching@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p><strong>Dr. Grace Don Nemching</strong></p>
+<p>Grace Don Nemching is currently working as Professor in School of Extension and Development Studies (SOEDS), IGNOU. She worked as a faculty in JMC, DU in the Sociology Department before joining IGNOU. She has completed her Ph.D.&nbsp;from JNU. She has published works in the form of book, book review, wrote articles for journals and has presented papers in seminars and conferences and written more than 50 units for IGNOU Self Learning Materials. She is currently Programme Coordinator for Diploma in Value Education, Post Graduate Diploma in Population and Family Health Studies, Master of Arts in Urban Studies, Post Graduate Diploma in Tribal Studies, Master of Arts in Population and Family Health Studies offered in IGNOU and Course Coordinator of BEDSV101 -Value Education offered as Value Added Course in Four Year Under Graduate program (FYUP). She is presently coordinating Channel 16, SWAYAM PRABHA as well as offering 2 MOOC courses in SWAYAM portal.</p>
+<p><strong>Official Address:</strong></p>
+<p>School of Extension &amp; Development Studies (SOEDS),</p>
+<p>Indira Gandhi National Open University (IGNOU),</p>
+<p>Maidan Garhi, New Delhi &ndash; 110068</p>
+<p>New Delhi, India</p>
+<p>+91-011-29571669</p>
+<p><a href="mailto:gdnemching@ignou.ac.in">gdnemching@ignou.ac.in</a></p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Sociology</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>01-09-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>gdnemching@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/pradeep.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+                                                        <label class="fw-bold">Dr. Pradeep Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Pradeep Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Sociology</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>12</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>02-09-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>pradeep@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p><strong>Dr. Pradeep Kumar</strong></p>
+<p>Dr Pradeep Kumar is currently working as Assistant Professor at School of Extension and Development Studies, Indira Gandhi National Open University (IGNOU) New Delhi. Before this, he has worked in other academic positions since 2003 like, the School of Continuing Education, (IGNOU) and the Distance Education Programme- Sarva Sikha Abhiyan (DEP-SSA), a MHRD national Project.</p>
+<p>Before this, worked as Consultant for social and resettlement issues of national programme &lsquo;Pradhan Mantri Gramin SadakYojna&rsquo; at High Point Rendal (UK based consultancy) New Delhi; Research Project- &lsquo;Comparative Study of Street Vendors between two global cities- Cairo (Egypt) and New Delhi (India)&rsquo; at Centre De Sciences Humaine (a research unit of French Embassy) New Delhi (2001-2002) and guest faculty for MBA programme, course &lsquo;Indian Culture and Ethics&rsquo; at Institute of Management and Development (New Delhi).</p>
+<p><strong>Area of Interest: </strong>Development Studies,Developmental Sociology, Non-Governmental Organisations and Civil Society, Entrepreneurship, Tribal Policy, Heath and Development, UrbanDevelopment.</p>
+<p><strong>Academic Qualifications:</strong> Doctorate in Sociology (2003) from the Centre for the Study of Social System, School of Social Sciences, Jawaharlal Nehru University (New Delhi). The thesis title is &lsquo;Voluntary Organizations and Tribal Participation: A Sociological Study of Selected NGOs at South Rajasthan&rsquo;. Master of Philosophy (1996-98) the Centre for Study of Social System, School of Social Sciences, Jawaharlal Nehru University (New Delhi). During M.Phil submitted a dissertation titled &lsquo;Entrepreneurship and Society in India: A Sociological Analysis&rsquo;. Master Degree in Sociology (1996) with specialization in Developmental Sociology from Punjab University, Chandigarh.</p>
+<p><strong>Fellowship and Award: </strong>Doctoral fellowship and Post Doctoral fellowship from Indian Council of Social Science Research (Ministry of Human Resource Development, Government of India, New Delhi). Award in national category by the Gurjar Desh Charitable Trust (Jammu and Kashmir) for research on nomedic/ semi-nomedic tribes of Jammu and Kashmir (2006). Award of Research Excellence Programme (2012), University of Santiago de Compostela, Santiago (Spain).</p>
+<p><strong>Academic Contributions: </strong>Preparation of print material for master's programme of rural development and sociology and development studies at IGNOU, New Delhi. Contributed research articles in research journals and presented seminar papers on above mentioned interest areas.</p>
+<p><strong>Official Address:</strong><br /> School of Extension &amp; Development Studies (SOEDS),<br /> Indira Gandhi National Open University (IGNOU),<br /> Maidan Garhi,<br /> New Delhi &ndash; 110068</p>
+<p>INDIA</p>
+<p>+91-011-29571667<br />pradeep@ignou.ac.in</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Sociology</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>12</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>02-09-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>pradeep@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/sarda.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                                                        <label class="fw-bold">Dr. Sarda Prasad</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Sarda Prasad</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Extension Education</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>09-08-2021</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>sardaprasad@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p><strong>Dr. SARDA PRASAD</strong></p>
+<p>Dr. Sarda Prasad is working as Assistant Professor in School of Extension and Development Studies, IGNOU since 2021. He has MPhil and PhD in Population Studies from Centre for the Study of Regional Development (CSRD), Jawaharlal Nehru University (JNU), New Delhi. M.Sc. in Extension Education from Punjab Agricultural University, Ludhiana, Punjab and B.Sc. Agri. (Hons.) from CS Azad University of Agriculture and Technology, Kanpur, UP. He has bagged MA in Economics from Bundelkhand University, Jhansi, MA in Distance Education, Post Graduate Diploma in Rural Development, Post Graduate Diploma in Distance Education, Post Graduate Diploma in Women and Gender Studies, Appreciation Course on Population and Sustainable Development, Certificate on Life and Thought of B.R. Ambedkar, and Certificate on Visual Arts (painting) from IGNOU.</p>
+<p>He has awarded <strong>Gold Medal</strong> for Post Graduate Diploma in Rural Development (PGDRD), IGNOU, 2020; Awarded &ldquo;Best Oral Presentation Award&rdquo; for the paper entitled &ldquo;Demographic Study of Agrarian Society for Sustainable Development&rdquo; presented at International Extension Education Conference on &ldquo;Education, Research and Services&rdquo; organized by Department of Extension Education, Institute of Agricultural Sciences, Banaras Hindu University (BHU), Varanasi (UP), Awarded ICSSR Travel grant (full funding) for participation and oral presentation of paper in the International Conference, held at Beijing, China. He has cleared ICAR-Junior Research Fellowship (JRF), UGC-NET-JRF and SRF in Adult Education (2005) &amp;UGC-NET-JRF in Population Studies (2009) &amp; ICAR-ASRB-NET in Agricultural Extension (2011).</p>
+<p>Prior to joining IGNOU, he has worked Research Associate, Census Data Manager, Data Analyst in various organization. He has more than nine years of teaching, research and extension activities. He has worked as Post Doctoral Fellow (PDF) at CSRD, JNU. His academic interest on Population Studies (Migration, Morbidity and Mortality), Agriculture and Rural Development, Extension and Development Studies, Gender Studies, Distance Education, Urban, and Tribal Studies.</p>
+<p>He has published 5 articles in International Refereed Journal; 14 articles in National refereed Journals; Major Reports (Co-author), 2 popular articles in Newspapers; 7 reference books, 11 book chapters, 41 units for self learning material (IGNOU) and Reviewed 52 articles those published in ICSSR Journal of Abstracts and Reviews &ndash; Economics. He is a life member of 6 academic bodies such ISLE, IASP, IASSH, SEEA, ISS, ISEE.</p>
+<p>Currently he is coordinating 3 programmes PG Diploma in Population and Family Health Studies (PGDPFHS), PG Diploma in Tribal Studies (PGDTRBS), MA in Population and Family Health Studies (MAPFHS) offered by SOEDS, and coordinating 7 Courses of the programmes.&nbsp;</p>
+<p><strong>Official Address:</strong></p>
+<p>School of Extension &amp; Development Studies (SOEDS),</p>
+<p>Indira Gandhi National Open University (IGNOU), Maidan Garhi, New Delhi &ndash; 110068</p>
+<p>+91-011-29571663</p>
+<p><a href="mailto:sardaprasad@ignou.ac.in">sardaprasad@ignou.ac.in</a></p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Extension Education</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>09-08-2021</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>sardaprasad@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/lalit.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal826">
+                                                        <label class="fw-bold">Mr. Lalit Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal826" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Lalit Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Private Secretary</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>lalitkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Private Secretary</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>lalitkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">8</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/attar.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal827">
+                                                        <label class="fw-bold">Mr. Attar Singh</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal827" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Attar Singh</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Section Officer</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>attarsingh@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Section Officer</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>attarsingh@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">9</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOEDS/pp/skumar.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal828">
+                                                        <label class="fw-bold">Mr. Sumit Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal828" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Sumit Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Executive (DP)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>sumitkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Executive (DP)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>sumitkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PHDDV">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/phddv.jpg" alt="545" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">PhD in Development Studies(PHDDV)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MACSR">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/macsr.jpg" alt="34" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts in Corporate Social Responsibility(MACSR)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MAUS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/maus.jpg" alt="38" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts in Urban Studies(MAUS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MADVS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/madvs.jpg" alt="39" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts in Development Studies(MADVS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MAPFHS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mapfhs.jpg" alt="40" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts in Population and Family Health Studies(MAPFHS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDAW">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdaw.jpg" alt="32" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Animal Welfare(PGDAW)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDCSR">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdcsr.jpg" alt="33" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Corporate Social Responsibility(PGDCSR)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDPFHS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdpfhs.jpg" alt="42" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Population and Family Health Studies(PGDPFHS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDDVS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgddvs.jpg" alt="43" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post GraduateDiploma in Development Studies(PGDDVS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDUPDL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdupdl.jpg" alt="44" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Urban Planning and Development(PGDUPDL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGDTRBS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdtrbs.jpg" alt="539" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Tribal Studies(PGDTRBS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DPVE">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dpve.jpg" alt="41" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma  in Value Education(DPVE)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/36 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:22:25 GMT -->
+</html>

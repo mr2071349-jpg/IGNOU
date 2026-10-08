@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/schools/programme/MSWOL by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:25:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+    <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+
+<body>
+<div>
+    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../../images/banners/sosw.jpg" alt="Master of Social Work&lt;br/&gt;(SOSW)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Master of Social Work<br/>(SOSW)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Social Work</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="../../pages/1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/45">School of Social Work</a>
+                        </li>
+                        <li>Master of Social Work</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="innerRightBox">
+                            <div class="hdng_container">
+                                <h2 class="border-bottom">
+                                    MSWOL: Master of Social Work(Online)
+                                    <a href="../../../ignouiop.samarth.edu.in/index.html" target="_blank" class="float-end btn btn-primary btn-sm">Apply Now</a>
+                                    
+                                    
+                                </h2>
+                            </div>
+                            <h3>Introduction</h3>
+                            <p><p align="justify">The Master of Social Work Online (MSWOL) programme provides access to high quality education at the post graduate level to those learners who are interested in advancing their knowledge and skills in Social Work. The programme aims to meet the growing demand for professionally trained social workers in India and abroad. It enables learners to develop required skills in working with individual, families and communities. The program is open to recent graduates seeking opportunities in the government, corporate, and development sectors, as well as to working professionals aiming to enhance their skills and advance their careers.</p></p>
+                            <h3>Objective</h3>
+                            <p><p><b>For any queries or support, contact us at:</b><a href="mailto:mswolinfo@ignou.ac.in"> mswolinfo@ignou.ac.in</a></p>
+                            <div class="row mb-4">
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#targetGroupModal">Learner Target Group</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#eligibilityModal">Eligibility & Medium</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#durationModal">Duration & FeeStructure</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#jobModal">Job/Future Prospects</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#coordinatorModal">Programme Coordinator</button>
+                                </div>
+                                
+                            </div>
+                            <div class="modal fade" id="targetGroupModal" tabindex="-1" aria-labelledby="targetGroupModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="targetGroupModalLabel">Learner Target Group</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="eligibilityModal" tabindex="-1" aria-labelledby="eligibilityModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="eligibilityModalLabel">Eligibility & Medium</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <span class="fw-bold">Eligibility for admission:</span>
+                                                <span>Graduation from any discipline.</span>
+                                            </p>
+                                            <p><span class="fw-bold">Medium of Instruction:</span> <span>English</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="durationModal" tabindex="-1" aria-labelledby="durationModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="durationModalLabel">Duration & Fee Structure</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <span class="fw-bold">Programme Duration:</span>
+                                            <span>Minimum Duration: 24 Months and Maximum Duration: 48 Months</span>
+                                            <div class="col-12 mt-2"><span class="fw-bold text-primary h6">Fees Structure</span></div>
+
+                                            <ul class="nav nav-tabs mt-1" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a aria-controls="home" aria-selected="true" class="nav-link active font-weight-bold" data-bs-toggle="tab" href="#national"
+                                                       id="nationalFees" role="tab">National Students</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a aria-controls="profile" aria-selected="false" class="nav-link font-weight-bold" data-bs-toggle="tab" href="#international"
+                                                       id="InternationalFees" role="tab">International Students</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div aria-labelledby="nationalFees" class="tab-pane fade show active" id="national" role="tabpanel">
+                                                    <div>INR(Rs.): 18,500.00/- for Per Year</div>
+                                                    <div>Rs 18500/- per year</div>
+                                                </div>
+                                                <div aria-labelledby="InternationalFees" class="tab-pane fade" id="international" role="tabpanel">
+                                                    <div>
+
+                                                        <div><b>For SAARC Students</b> in INR(Rs.): 30,000.00/- Per Year For Students from SAARC countries: Rs 29600/- per year</div>
+                                                        <div><b>For NON SAARC Students</b> in US($) 1,300.00/- for Per Year For Students from Non-SAARC countries: $ 1300/- per year</div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="alert alert-danger mt-2"><strong>Note:</strong> Exam Fees is not included in Fee Structure it will be as decided by the University</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="jobModal" tabindex="-1" aria-labelledby="jobModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="jobModalLabel">Job/Future Prospects</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="coordinatorModal" tabindex="-1" aria-labelledby="coordinatorModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="coordinatorModalLabel">Programme Coordinator</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <span>Prof. Saumya</span>
+                                                <br/>
+                                                <span>Professor</span>
+                                                <br/>
+                                                <span>School of Social Work (SOSW)</span>
+                                                <br/>
+                                                <i class="fas fa-envelope"></i> <span>saumya@ignou.ac.in</span><br/>
+                                                <i class="fas fa-mobile"></i><span></span>
+                                            </div>
+                                            <div>
+                                                <span>Dr. Binod Kumar</span>
+                                                <br/>
+                                                <span>Assistant Professor</span>
+                                                <br/>
+                                                <span>School of Social Work (SOSW)</span>
+                                                <br/>
+                                                <i class="fas fa-envelope"></i> <span>binodkumar@ignou.ac.in</span><br/>
+                                                <i class="fas fa-mobile"></i><span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="subHdng_container">
+                                    <h2 class="border-bottom">Courses <span>Structure</span></h2>
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-001: Origin and Development of Social Work</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3427">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3427" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-001: Origin and Development of Social Work</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Origin and Development of Social Work</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-001</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-002: Professional Social Work: Indian Perspectives</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3428">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3428" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-002: Professional Social Work: Indian Perspectives</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Professional Social Work: Indian Perspectives</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-002</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-005: Social Work Practicum and Supervision</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3429">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3429" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-005: Social Work Practicum and Supervision</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work Practicum and Supervision</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-005</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-003: Basic Social Science Concepts</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3430">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3430" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-003: Basic Social Science Concepts</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Basic Social Science Concepts</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-003</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-004: Social Work and Social Development</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3431">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3431" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-004: Social Work and Social Development</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work and Social Development</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-004</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-006: Social Work Research</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3432">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3432" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-006: Social Work Research</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work Research</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-006</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWE-010: Social Work in African Context</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3433">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3433" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWE-010: Social Work in African Context</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work in African Context</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWE-010</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-032: Social Work and Criminal Justice</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3434">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3434" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-032: Social Work and Criminal Justice</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work and Criminal Justice</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-032</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWL-013: Social Work Practicum-I</h5>
+                                        <p>Credits: <span>8</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3435">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3435" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWL-013: Social Work Practicum-I</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work Practicum-I</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWL-013</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practicum (8 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWL-014: Block Placement</h5>
+                                        <p>Credits: <span>8</span> <br/>
+                                            <span>Year 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3436">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3436" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWL-014: Block Placement</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Block Placement</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWL-014</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practicum (8 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-007: Case work and Counselling: Working with Individuals</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3437">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3437" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-007: Case work and Counselling: Working with Individuals</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Case work and Counselling: Working with Individuals</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-007</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-008: Social Group Work: Working with Groups</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3438">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3438" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-008: Social Group Work: Working with Groups</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Group Work: Working with Groups</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-008</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-009: Community Organisation Management for Community Development</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3439">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3439" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-009: Community Organisation Management for Community Development</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Community Organisation Management for Community Development</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-009</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Prof. Saumya</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>In this course on ‘Community Organization Management for Community Development’ there are four blocks. Block 1 deals with the concept of community and community development. In this block we also discuss about the meaning, nature and characteristics features of urban, rural and tribal communities, place of community work within social work practice and community development programmes in rural, tribal and urban areas. This Block will also give you an understanding of the concept of accountability and its importance in community development work. Block 2 is on community organization for community development. Apart from explaining the values, purpose and assumptions underlying community organization this block also outline the philosophy and history of community organization in the USA, UK and India. In this block we also discuss about similarities, differences and relationship between community organization and other methods of social work. The block also discusses about models of community organization, concept and dimensions of power and the relevance of power in community organization practice as well as impact of globalization on contemporary communities and community practice. Block 3 deals with social action for community development. Apart from discussing concept, history, scope and relevance of social action, this block also deals with various models of social action, strategies and tactics in social action, values, ethics and principles of social action. Block 4 is on social administration. In this block we discuss about concept, history, nature, scope, functions and principles of social welfare administration. Types and characteristics of social welfare organization have also been discussed under this block. Social Welfare administration is the execution of the programmes, schemes and projects meant to achieve the goals delineated in the social policy. The discussion and deliberation in this course is very important for social work students because we have covered several important topics that are needed for a social work student in the field of social work. Although all these topics require much more discussion, due to the limitations prescribed for a course, we have to cut short the length of the course material by making a presentation of the basics.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSW-017: Contemporary Methods and Values of Social Work</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3440">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3440" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSW-017: Contemporary Methods and Values of Social Work</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Contemporary Methods and Values of Social Work</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSW-017</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWE-001: HIV/AIDS: Stigma, Discrimination and Prevention</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3441">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3441" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWE-001: HIV/AIDS: Stigma, Discrimination and Prevention</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>HIV/AIDS: Stigma, Discrimination and Prevention</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWE-001</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWE-007: International Social Work</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3442">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3442" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWE-007: International Social Work</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>International Social Work</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWE-007</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWE-003: Disaster Management</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3443">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3443" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWE-003: Disaster Management</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Disaster Management</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWE-003</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWP-001: Project Work</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3444">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3444" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWP-001: Project Work</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Project Work</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWP-001</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Project (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWE-002: Women and Child Development</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3445">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3445" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWE-002: Women and Child Development</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Women and Child Development</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWE-002</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Prof. Saumya</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>MSWE-002 is Women and Child Development. This course has 4 blocks namely:<br>
+Block 1 Status of Women in India<br>
+Block 2 Women and Development Initiatives<br>
+Block 3 Status of Children in India<br>
+Block 4 Care and Safeguards of Children<br>
+</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWL-015: Social Work Practicum-II</h5>
+                                        <p>Credits: <span>8</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3446">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3446" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWL-015: Social Work Practicum-II</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Social Work Practicum-II</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWL-015</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practicum (8 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MSWL-016: Internship</h5>
+                                        <p>Credits: <span>8</span> <br/>
+                                            <span>Year 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3447">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3447" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MSWL-016: Internship</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Internship</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MSWL-016</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practicum (8 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="../../pages/205">Empanelled Hospitals</a></li>
+                        <li><a href="../../pages/219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="../../pages/218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="../../pages/65">Study Material Status</a></li>
+                        <li><a href="../../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="../../pages/64">FAQs</a></li>
+                        <li><a href="../../pages/222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="../../pages/281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../../assets/vendor/aos/aos.js"></script>
+    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/schools/programme/MSWOL by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:25:37 GMT -->
+</html>

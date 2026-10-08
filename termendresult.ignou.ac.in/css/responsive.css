@@ -1,0 +1,36 @@
+/* CSS Document */
+
+@media (max-width:1000px){
+	#colB{ }
+	#mainnav .smallnav{ display:none;}
+	#mainnav .bignav{ display:block;}
+	.usernav{ display:none;}
+}
+@media (max-width:640px){
+	#container{ padding:0px; width:100%;}
+	#colA,
+	#colB{ width:100%;}
+	#colB h1{ display:none;}
+	/*#loginbox, #loginbox2{ height:80px;}*/
+	#loginbox, #loginbox2{ height:90px; padding-top:10px;}
+	#loginbox p, #loginbox2 p{ padding:10px; margin:0px;}
+	#loginbox h2, #loginbox2 h2{ font-size:16px;}
+	#header{ height:50px; padding-left:10px; padding-top:10px; margin-bottom:0;}
+	#header img{ height:40px;}
+	#mainnav{ margin-top:0px!important; width:60px!important; background:none!important;}
+	#mainnav .smallnav{ display:block;}
+	#mainnav .bignav{ display:none;}
+	#mainnav .smallnav a{ background:#fff;font-size:36px; padding:0px 10px;}
+	#mainnav .smallnav ul{ margin-left:-131px;}
+	#mainnav .smallnav ul a{ font-size:12px; padding:16px;}
+	.usernav{ display:block;}
+	#banner{ height:200px; margin-bottom:20px;}
+	.tabTitle{ width:32%;}
+	.tabTitle#processTab{ margin-left:2%;}
+	.contentdiv#instructionsTabContent, .contentdiv#courseTabContent, .contentdiv#registrationTabContent{ font-size:12px;}
+	.regstatus li.active{ background:none;}
+	.regstatus li.active span{ display:none;}
+	.regstatus li{ background:none;}
+	ol.regstatus{ border-bottom:none;}
+	#adminMessage{ width:80%;}
+}

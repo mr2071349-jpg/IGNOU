@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/178 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 08:43:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/lddB.jpg" alt="Divisions&lt;br/&gt;(Library &amp; Documentation Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Library & Documentation Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="178">Library &amp; Documentation Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="LibraryCommittee" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Library Committee</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Sections" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Sections</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Membership" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Membership</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Rules" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">Rules</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Statistics" data-bs-toggle="pill" data-bs-target="#pills-8"
+                                                type="button" role="tab" aria-controls="pills-8" aria-selected="false">Statistics</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Services" data-bs-toggle="pill" data-bs-target="#pills-9"
+                                                type="button" role="tab" aria-controls="pills-9" aria-selected="false">Services</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ResourcesatLibrary" data-bs-toggle="pill" data-bs-target="#pills-10"
+                                                type="button" role="tab" aria-controls="pills-10" aria-selected="false">Resources at Library</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="TermEndQuestionPapers" data-bs-toggle="pill" data-bs-target="#pills-11"
+                                                type="button" role="tab" aria-controls="pills-11" aria-selected="false">Term End Question Papers</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="AntiPlagiarismSoftware(Drillbit)" data-bs-toggle="pill" data-bs-target="#pills-12"
+                                                type="button" role="tab" aria-controls="pills-12" aria-selected="false">Anti Plagiarism Software (Drillbit)</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Prof.GRamReddyMemorial" data-bs-toggle="pill" data-bs-target="#pills-13"
+                                                type="button" role="tab" aria-controls="pills-13" aria-selected="false">Prof. G Ram Reddy Memorial</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="OER" data-bs-toggle="pill" data-bs-target="#pills-14"
+                                                type="button" role="tab" aria-controls="pills-14" aria-selected="false">OER</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="PhotoGallery" data-bs-toggle="pill" data-bs-target="#pills-15"
+                                                type="button" role="tab" aria-controls="pills-15" aria-selected="false">Photo Gallery</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="OPAC" data-bs-toggle="pill" data-bs-target="#pills-16"
+                                                type="button" role="tab" aria-controls="pills-16" aria-selected="false">OPAC</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Vidwan" data-bs-toggle="pill" data-bs-target="#pills-17"
+                                                type="button" role="tab" aria-controls="pills-17" aria-selected="false">Vidwan</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ONOS(E-Resources)" data-bs-toggle="pill" data-bs-target="#pills-18"
+                                                type="button" role="tab" aria-controls="pills-18" aria-selected="false">ONOS (E-Resources)</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                    <div>
+                                        <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Staff</button>
+                                    </div>
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>The IGNOU library is the most resourceful information centre in the country in the field of Distance Education. The library has the largest collection of books, journals and other related materials in the field of Distance Education, throughout the country. It was established in 1986 in tune with the objectives of IGNOU.</p>
+ <h3>Mission</h3>
+<p>The primary mission of the library is to support the educational and research programmes of the University by providing physical and intellectual access to     information. In accordance with the objectives of the University, the library aims to develop a comprehensive collection of documents, useful for the readers.</p>
+<h3>IGNOU Library</h3>
+<p>The Indira Gandhi National Open University operates through a three-tier system having University Headquarters at Maidan Garhi, New Delhi; Regional Centres and Learner Support Centres scattered all over the country. Library and Documentation Division is a hierarchical system with the Central Library at the Headquarters followed by libraries located at Regional Centres (RCL) and Learner Support Centres (LSC). The Central Library caters to the needs of Academic, Administrative and Supportive staff and students at the headquarters.The RCLs look into the library requirements of Staff, Students, Academic Counselors and Academic coordinators at Regional Centres and the SCLs to meet the needs of the students exclusively. The number of RCLs and LSCs change from time to time depending upon the establishment of new RCs and LSCs considering the enrollment of students in the region. Every RC and LSC invariably has a small library attached to it. The Central Library is the main library which co-ordinates the effective functioning and development of RCLs and LSCs.The Central Library has been using the Koha, an integrated Library Management software package with all the modules for the library housekeeping operations. Using Koha Web OPAC, users can search the library online catalogue by Author, Title, Subject and Keywords.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Objectives"  ><p>
+As the role of the Library within any University can be realised only in the context of the institution's philosophy of education, the basic objectives of the L&DD are in tune with those of the IGNOU. They are as follows:</p>
+            <ul>
+               <li>to develop appropriate collections in various disciplines for satisfying the needs of the diverse clientele of the libraries of the University, Regional      and Study Centres,</li>
+               <li>to provide reading, lending, reference, information and documentation facilities to all categories of staff and students,</li>
+               <li>to develop a special collection of distance education books and journals at the libraries at the Headquarters as well as Regional Centres, and </li>
+               <li>to provide documentation and comprehensive reference/information services in areas related to distance education to other Open Universities of the world in general and in India in particular.</li>
+               <li>to facilitate electronic resources in the form of e-journals, e-books and e-databases for education and research as per international and national trends.</li>
+               <li>to enable remote access to electronic content for distance learners and create comparable information experience as in the case of campus based conventional learning systems.</li>
+          </ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="ContactUs"  ><pre>
+University Librarian,
+Academic Complex,
+B-Block,
+Library and Documentation Division,
+Indira Gandhi National Open University (IGNOU),
+Maidan Garhi.New Delhi – 110068,India</pre><br/><b>Email:</b> librarian@ignou.ac.in<br/><b>Phone:</b> +91-11-29532797</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="LibraryCommittee"  ><ul>
+<li><a href="https://www.ignou.ac.in/viewFile/ldd/library-committee/Library-Committee-April-2026.pdf" target="_blank">Library Committee Notification</a></li>
+</ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Sections"  ><h5>Acquisition Section:</h5>
+             <p>Acquisition Section of the Library deals with the purchase of books, reference books, textbooks serial publication and multi-volume books. The section also deals with day to day operations such as receiving indents for purchase of books, checking duplicates, placing orders, receiving and entering the books with serial number in the accession register as well as in the system of the Library and the budget control etc.</p>
+
+       <h5>Technical Processing Section:</h5>
+             <p>Technical services are the "behind the scene" activities that a library undertakes to effectively deliver library services to the public. These services include the processes and procedures which are necessary to order library materials, like classifying, cataloging, assigning subject headings, data entry, checking and physical processing, to get the materials ready to put on library shelves. These services also include the activities that are necessary to control the lending and returning of library materials. Other technical services include the activities related to preservation of library materials. Library follows Dewey Decimal Classification scheme for classification, AACR2 for cataloguing, Library of Congress Subject Headings for assigning subject headings and Cutter’s Author mark for book numbers etc.,</p>
+ 
+       <h5>Periodicals Section:</h5>
+             <p>Periodical Section handles Print as well as Electronic Journals databases. Processes Journal subscriptions, renewals, orders, payments/advances, Journals receipts, bound volumes every year. Maintains budget (s), accounts and statistics. Regulates the shelf arrangement of the current journals, displays recent arrivals daily.</p>
+ 
+       <h5>Circulation Section:</h5>
+              <p>This is the front end of library operations providing the lending services to the library users. All the functions of this section are computerised and the transactions in this section are based on the barcode technology. All the registered library users are provided with a Bar-coded ID Card and all the books in the library are bar-coded.</p>
+ 
+       <h5>IT and Computer Section:</h5>
+             <p>This is the hub which monitors all the computerised activities of the library i.e., the back-end of automation activities in the library. Library Server is connected on the Campus-wide Local Area Network apart from connecting all the sections of the library with structured cabling using switches and hubs located in different levels. The section is entrusted with responsibility of maintenance of all the systems, network, Internet and e-mail facilities, training the users, data validation, merging etc. All the staff members are trained to handle the Library software, Operating System, Proxy server, Scanner operations, Networking, Internet and CD based resources etc., apart from rectifying minor trouble shooting in the Hardware, Software, UPS connectivity, Database maintenance. This section also handles various activities like Bibliographic Search Services from Library holdings, OPAC Service, Online Resources Search Service, and Website Maintenance for Online Resources.</p>
+ 
+        <h5>Administration Section:</h5>
+               <p>This section handles Budget proposals and monitors the overall expenditure incurred in the Library including settlement of bills, Advances, Imprest amounts etc. Purchase of Equipment and other materials needed for library operation, Maintenance of stock, assets and consumable registers including stock verification. Posting of staff members in shift duties, holiday duties and maintenance of their leave records and attendance. Over all maintenance of Library building including insurance and pest control. Liaisons with administration, finance and engineering departments. Attends to both internal and external audits.</h5>
+        </div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="Membership"  ><p>The Library Membership is open to the following categories only: </p>
+          <table border="n" style="width:100% ;text-align:left ;border-collapse:collapse ;">
+  <tr>
+    <th>Category</th>
+    <th>Issue Rules</th>
+    <th>Caution Money</th>
+    <th>Over Due charges</th>
+    <th>Loss or Damage</th>
+    <th>Download Form</th>
+  </tr>
+   <tr>
+    <td>Teachers/Academics</td>
+    <td>15  books from General Collection only can be issued to the member for the period of one month only. The renewal can be done on request for another period of one month, if there is no demand for the book.</td>
+    <td>Nil</td>
+    <td>For overdue books, the fine of Re.1/- per day per book to be charged for the first 10 days. For subsequent days, Rs. 5/- per day per book to be charged.</td>
+    <td>Members should replace the books lost or damaged by them, failing which they need to pay the total cost of the books to the library as per existing rules.</td>
+    <td><a href="https://www.ignou.ac.in/viewFile/ldd/forms/Attachment-2.pdf" target="_blank">Download</a></td>
+  </tr>
+
+      <tr>
+    <td>Non Teaching Staff</td>
+    <td>04 books from General Collection only can be issued to the member for the period of one month only. The renewal can be done on request for another period of one month, if there is no demand for the book.</td>
+    <td>Nil</td>
+    <td>For overdue books, the fine of Re.1/- per day per book to be charged for the first 10 days. For subsequent days, Rs. 5/- per day per book to be charged.</td>
+    <td>Members should replace the books lost or damaged by them, failing which they need to pay the total cost of the books to the library as per existing rules.</td>
+    <td><a href="https://www.ignou.ac.in/viewFile/ldd/forms/Attachment-3.pdf" target="_blank">Download</a></td>
+  </tr>
+
+       <tr>
+    <td>Consultant/
+Researcher (M.Phil. & Ph.D.)
+</td>
+    <td>05  books from General Collection only can be issued to them for the period of one month only. However the books from other collection may be issued at the discretion of the Librarian. The renewal can be done on request for another period of one month, if there is no demand for the book.</td>
+    <td>Refundable security deposit of Rs. 5000/- to be deposited by demand draft on library counter. The security deposit is refundable on the claim within two years of the date of expiry of membership of the library and beyond this money lapses to the University</td>
+    <td>For overdue books, the fine of Re.1/- per day per book to be charged for the first 10 days. For subsequent days, Rs. 5/- per day per book to be charged.</td>
+    <td>Members should replace the books lost or damaged by them, failing which they need to pay the total cost of the books to the library as per existing rules.
+Consultants:“No Dues” certificate should be asked from the library by ACD/Registrar (Admn.) as the case may be. The honorarium
+/remuneration/fellowshp for the last month of the term should be released after obtaining clearance from the library.
+ 
+Ph.D scholars: “Before the research work is recommended for examination of the students, “No Dues” shall be asked for by the Research Unit/School/Division/Centre concerned from the Library</td>
+    <td><a href="https://www.ignou.ac.in/viewFile/ldd/forms/Attachment-4.pdf" target="_blank">Download</a></td>
+  </tr>
+
+
+        <tr>
+    <td>Retired IGNOU staff</td>
+    <td>02 books from General Collection only can be issued to them for the period of one month only. The renewal can be done on request only once for another period of one month only.</td>
+    <td>Refundable security deposit Rs. 3000/- to be deposited by demand draft on library counter.</td>
+    <td>For overdue books, the fine of Re.1/- per day per book to be charged for the first 10 days. For subsequent days, Rs. 5/- per day per book to be charged.</td>
+    <td>Members should replace the books lost or damaged by them, failing which they need to pay the total cost of the books to the library as per existing rules.</td>
+    <td><a href="https://www.ignou.ac.in/viewFile/ldd/forms/Attachment-5.pdf" target="_blank">Download</a></td>
+  </tr>
+
+        <tr>
+    <td>Institutions</td>
+    <td>02 books from General Collection only can be issued to them for the period of one month only. The renewal can be done on request only once for another period of one month only</td>
+    <td>The Institutions will pay Rs. 10,000/- as a Security deposit and Rs. 2000/- as Annual Renewal Charges.</td>
+    <td>For overdue books, the fine of Re.1/- per day per book to be charged for the first 10 days. For subsequent days, Rs. 5/- per day per book to be charged.</td>
+    <td>Members should replace the books lost or damaged by them, failing which they need to pay the total cost of the books to the library as per existing rules.</td>
+    <td><a href="https://www.ignou.ac.in/viewFile/ldd/forms/Attachment-6.pdf" target="_blank">Download</a></td>
+  </tr>
+
+ </table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="Rules"  > <h5>Opening Hours</h5>
+       <ul>
+          <li> The library remains open on all the working days except Saturdays, Sundays and University notified holidays.</li>
+          <li>The opening hours of the Library are from 9.30 AM to 6.00 PM</li>
+          <li> All Library services are provided from 10.00 AM to 5.00 PM </li>
+          <li> Lunch break is observed from 1.30 PM to 2.00 PM for all services except reading and circulation services. </li>
+        </ul>
+   <h5>Use of the Library and Library Materials</h5>
+       <ul>
+         <li>Members must show their Library Card on entering the Library, while borrowing books and journals and at any time if asked to do so by the Library Staff.</li>
+         <li>Briefcases, bags, umbrella, lunch boxes and other personal belongings must be deposited at the entrance.</li>
+         <li>Every member must sign the Register available at the entrance. Personal reading materials must be specifically indicated in the Register and shown to the security guard while entering and exiting from the Library.</li>
+         <li> Members are free to browse through the books. Books taken out of the shelves must be put on a table. Replacing the books on shelves is not encouraged as it may   be misplaced. Misplaced book is a lost book.</li>
+         <li>A Non-member can use the library material on the premises with the permission</li>
+         <li>Readers should not mark, underline, dog-ear mark, write, tear pages or damages the Library documents.</li>
+         <li> Strict silence, decorum and discipline must be maintained in the Library</li>
+         <li>Member should behave in a reasonable and seemly fashion in the Library and must not damage library property or disturb other members.</li>
+         <li> Smoking, eating, sleeping and talking loudly are strictly prohibited in the Library.</li>
+         <li> Members should not reserve seats either for themselves or for others.</li>
+         <li> Newspapers and magazines must be read only in the Library on specific tables and should not be taken to any other reading areas.</li>
+         <li> No Library material can be taken out of the library without permission</li>
+         <li>All authorized users of the library shall have access to electronic resources subscribed by the library.</li>
+         <li> Users who want to access these resources from outside the campus shall be provided with remote access rights.</li>
+       </ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="Statistics"  > <p>Statistics as on 31 Mar 2026</p>
+
+       <p>Collection of Central Library (As on 31 Mar 2026)</p>
+
+        <table>
+
+          <tr>
+              <th>Books
+
+<table  style="border: none !important;">
+<tr><td>English</td><td>1,13,878</td></tr>
+<tr><td>Hindi</td><td>22,722</td></tr>
+
+<tr><td>Urdu</td><td>402</td></tr>
+
+<tr><td>Foreign Language </td><td>771</td></tr>
+<tr><td>Gift</td><td>19173</td></tr>
+<tr><td>Translation</td><td>62</td></tr>
+<tr><td>Math Project</td><td>693</td></tr>
+</table>
+</th>
+
+              <th>1,57,282</th>
+              <th rowspan="7">Total Print collection
+ 
+1,80,647
+</th>
+          </tr>
+          <tr>
+              <th>Thesis</th>
+              <th>1176</th>
+         </tr>
+          <tr>
+              <th>Pamphlets</th>
+              <th>94</th>
+         </tr>
+
+         <tr>
+              <th>Reports</th>
+              <th>12</th>
+         </tr>
+
+          <tr>
+              <th>Manuals</th>
+              <th>195</th>
+         </tr>
+
+          <tr>
+              <th>IGNOU course Material</th>
+              <th>2443</th>
+         </tr>
+          <tr>
+              <th>Bound Journals</th>
+              <th>19026</th>
+         </tr>
+         <tr>
+              <th>CD ROMs</th>
+              <th>4160</th>
+         </tr>
+<tr>
+              <th>Microfilms</th>
+              <th>199</th>
+         </tr>
+<tr>
+              <th>Microfiches</th>
+              <th>17558</th>
+         </tr>
+<tr>
+              <th>Photo Albums</th>
+              <th>236</th>
+         </tr>
+<tr>
+              <th>Maps</th>
+              <th>23</th>
+         </tr>
+       </table>
+<br/>
+<h5>Year wise growth of Central Library </h5>
+ <table>
+<tr><td>year</td><td>Current Collection of Books(Include thesis, Bound journals etc.) year wise (in Thousand)</td><td>Additions of the books during the year (in Thousand)</td></tr>
+<tr><td>1990-91</td><td>31.1</td><td>4.8</td></tr>
+<tr><td>1991-92</td><td>36.2</td><td>5.1</td></tr>
+<tr><td>1992-93</td><td>40.9</td><td>4.8</td></tr>
+<tr><td>1993-94</td><td>46.3</td><td>5.4</td></tr>
+<tr><td>1994-95</td><td>49.4</td><td>3.1</td></tr>
+<tr><td>1995-96</td><td>52.2</td><td>2.5</td></tr>
+<tr><td>1996-97</td><td>57.5</td><td>5.3</td></tr>
+<tr><td>1997-98</td><td>62.7</td><td>5.1</td></tr>
+<tr><td>1998-99</td><td>67.0</td><td>4.2</td></tr>
+<tr><td>1999-00</td><td>71.0</td><td>4.0</td></tr>
+<tr><td>2000-01</td><td>74.5</td><td>3.5</td></tr>
+<tr><td>2001-02</td><td>77.9</td><td>3.4</td></tr>
+<tr><td>2002-03</td><td>80.7</td><td>2.7</td></tr>
+<tr><td>2003-04</td><td>84.3</td><td>3.6</td></tr>
+<tr><td>2004-05</td><td>88.7</td><td>4.4</td></tr>
+<tr><td>2005-06</td><td>92.9</td><td>3.2</td></tr>
+<tr><td>2006-07</td><td>97.3</td><td>4.4</td></tr>
+<tr><td>2007-08</td><td>101.6</td><td>4.3</td></tr>
+<tr><td>2008-09</td><td>106.4</td><td>5.8</td></tr>
+<tr><td>2009-10</td><td>112.1</td><td>5.7</td></tr>
+<tr><td>2010-11</td><td>119.3</td><td>7.2</td></tr>
+<tr><td>2012-13</td><td>135.7</td><td>8.0</td></tr>
+<tr><td>2013-14</td><td>143.4</td><td>7.7</td></tr>
+
+<tr><td>2014-15</td><td>148.6</td><td>5.2</td></tr>
+
+<tr><td>2015-16</td><td>155.7</td><td>7.1</td></tr>
+<tr><td>2016-17</td><td>163.2</td><td>7.5</td></tr>
+<tr><td>2017-18</td><td>170.4</td><td>7.2</td></tr>
+<tr><td>2018-19</td><td>174.8</td><td>4.4</td></tr>
+
+<tr><td>2019-20</td><td>175.9</td><td>1.1</td></tr>
+
+
+<tr><td>2020-21</td><td>176.2</td><td>0.2</td></tr>
+<tr><td>2021-22</td><td>176.7</td><td>0.5</td></tr>
+<tr><td>2022-23</td><td>178.2</td><td>2.5</td></tr>
+<tr><td>2023-24</td><td>179.4</td><td>1.2</td></tr>
+<tr><td>2024-25</td><td>179.9</td><td>0.5</td></tr>
+<tr><td>2025-26</td><td>180.6</td><td>0.6</td></tr>
+</table>
+<br/>
+<h5>Periodicals</h5>
+ <table>
+<tr><th>Magazines (29)</th><th>Newspapers (26)</th><th>Online Databases (ONOS)</th></tr>
+<tr><td>English-17</td><td>English-10</td><td>35 Databases</td></tr>
+<tr><td>Hindi-12</td><td>Hindi-15, Urdu-01</td><td>13434+ Journals</td></tr></table>
+<br/>
+<h5><u>Collection in R&S Library</u></h5>
+<h5>Total collection in Regional and Study Centre Libraries:- 2,51,943</h5></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-9" role="tabpanel" aria-labelledby="Services"  ><h5>Lending Services</h5>
+<p>The library at the headquarters caters to more than 3000 plus members comprising academic and administrative staff of the university, retired staff, consultants, Ph.D. students and other project staff of the University. Lending service is available to all the permanent staff of the University.</p>
+<h5>Reprography Services</h5>
+<p>The readers can get the Xerox of interested articles or chapters from the library documents. The service is available for IGNOU staff and other visitors on nominal charges of Re.1/per page.</p>
+
+<h5>Reading and Reference Services</h5>
+<p>The library has a very good collection of latest reference material comprising encyclopaedias, dictionaries, yearbooks, directories, statistical sources, geographical sources etc. Reference and information service is provided to the members as and when requested.</p>
+<h5>OPAC (Online Public Access Catalogue) Service</h5>
+<p>The Central Library of IGNOU is fully computerized. The Complete catalogue of the library is available through Web-OPAC. The information can be browsed and downloaded from anywhere.<br>
+Click here for:<a href="https://libraryopac.ignou.ac.in/" target="_blank"> Central Library OPAC (https://libraryopac.ignou.ac.in/)</a><br>
+Click here for:<a href="http://rcscopac.ignou.ac.in/" target="_blank"> RCs/SCs Library OPAC (http://rcscopac.ignou.ac.in/)</a>
+
+</p>
+<h5>Online Services</h5>
+<p>Library subscribes to various online databases including e-books, journals, indexes, bibliographies, Statistical Reports etc. </p>
+<h5>Institutional Membership Services</h5>
+<p>IGNOU Library has Membership of British Council Library (BCL) New Delhi, Indian Library Association (ILA), New Delhi and Indian Institute of Public Administration (IIPA), New Delhi. The registered members can avail library facilities from these Institutions. In order to get the reference, reading and Lending Services (through ILL) from these libraries, registered members of the Central Library can collect the Membership card of the institution from Central Library which in turn to be shown at concerned Library for availing the services.</p>
+<h5>DELNET Services
+</h5>
+<p>Library is a member of Developing Library Network (DELNET) which provides services like browsing of Union Catalogues, Inter Library Loan and Document Delivery Services. Interested Readers can access the Catalogues of other Libraries through DELNET. Password of DELNET is available at Central and RCs Libraries.</p><br>
+Click here for <a href="https://delnet.in/index.html" target="_blank">  DELNET  (https://delnet.in/index.html)</a></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-10" role="tabpanel" aria-labelledby="ResourcesatLibrary"  >
+<h5 >Resources available in the Library</h5>
+<table>
+<tr><th colspan="2" >Web Link to Relevant Resources Available in the Library</th></tr>
+<tr><th>Resources</th><th>Link</th></tr>
+<tr><td><b>OPAC (Online Public Access Catalogue)<b><br>To search all printed materials of IGNOU Library</td><td><a href="https://libraryopac.ignou.ac.in/" target="_blank">https://libraryopac.ignou.ac.in/</a></td></tr>
+<tr><td><b>Subscribed E-Resources (On Campus)</b><br>JSTOR, JGate, Taylor and Francis, Project Muse etc</td><td><a href="https://www.onos.gov.in/publishers" target="_blank">https://www.onos.gov.in/publishers</a></td></tr>
+<tr><td><b>Remote Access to E-Resources (RATE)</b><br>Access to e-resources on 24X7 hrs from anywhere.<br/>For user ID and Password: Download the form, fill it, attach a Scanned copy of IGNOU I Card and send it  to: librarian@ignou.ac.in</td><td>
+<a href="https://idp.ignou.ac.in/" target="_blank">https://idp.ignou.ac.in/</a><br/>
+<a href="https://www.ignou.ac.in/viewFile/ldd/forms/Attachment-7.pdf" target="_blank">download form for E-Resources:  attachment-7 (For Master </a></td></tr>
+<tr><td><b>Sugamya Pustakalaya</b><br>Access to more than 6.7 Lakh  books for Blind and Print Disabled</td><td><a href="https://library.daisyindia.org/welcomeLink.action" target="_blank">https://library.daisyindia.org/welcomeLink.action</td></tr>
+<tr><td><b>Open Access Educational Resources (OAER)</b><br>Includes Databases, Thesis and e-Books etc</td><td>Refer to OER Tab</td></tr>
+<tr><td><b>Previous Year Question Papers</b><br>Question papers from 2010 to till date</td><td><a href="https://webservices.ignou.ac.in/Pre-Question/" target="_blank">https://webservices.ignou.ac.in/Pre-Question/</a></td></tr>
+<tr><td><b>National Digital Library of India</b><br>A Single-Source Knowledge Repository</td><td><a href="https://ndl.iitkgp.ac.in/" target="_blank">https://ndl.iitkgp.ac.in/
+</a></td></tr>
+<tr><td><b>Anti-Plagiarism software “Drillbit”</b><br>(Only for authorized users to check Plagiarism)</td><td><a href="https://www.drillbitplagiarism.com/" target="_blank">https://www.drillbitplagiarism.com/</a></td></tr>
+</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-11" role="tabpanel" aria-labelledby="TermEndQuestionPapers"  ><ul>
+<li><a href="https://www.ignou.ac.in/studentService/download/questionPapers/June2026">Previous Year Question Paper: June 2026</a></li>
+<li><a href="https://www.ignou.ac.in/studentService/download/questionPapers/Dec2025">Previous Year Question Paper: December 2025</a></li>
+<li><a href="https://www.ignou.ac.in/studentService/download/questionPapers/June2025">Previous Year Question Paper: June 2025</a></li>
+<li><a href="https://www.ignou.ac.in/studentService/download/questionPapers/Dec2024">Previous Year Question Paper: December 2024</a></li>
+<li><a href="https://webservices.ignou.ac.in/Pre-Question/" target="_blank">Previous Year Question Paper: June 2010- June 2024</a>
+</ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-12" role="tabpanel" aria-labelledby="AntiPlagiarismSoftware(Drillbit)"  ><p>
+Drillbit-Extreme Plagiarism Detection Software' is an automatic text-recognition system made for detecting, preventing and handling plagiarism. All Higher Education Institutions (HEIs) as part of ShodhShuddhi initiative have been provided access to this tool by the UGC's INFLIBNET Centre w.e.f 01 Oct 2023. Teachers have been provided access to Drillbit so that they can check their papers, units and student's thesis using the system. Library also organizes periodic training sessions for students and researchers about how to use the system. The library offers assistance to those experiencing problems while checking documents.  All Ph.D. theses need Drillbit report by the Library before its submission to the Research Unit.<br/>
+ 
+To Login “Drillbit” Click here.  <a href="https://www.drillbitplagiarismcheck.com/auth/login" target="_blank">(https://www.drillbitplagiarismcheck.com/auth/login)</a>
+</p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-13" role="tabpanel" aria-labelledby="Prof.GRamReddyMemorial"  ><p>
+To appreciate the pioneering contributions of Prof. G Ram Reddy, the first Vice Chancellor of the University, a memorial containing his various publications, speeches and awards has been set up in the Library on 2nd July 2008. <b>To know more</b>   (Prof.G.R.R)
+<a href="https://www.ignou.ac.in/viewFile/ldd/books/ProfGRamReddy.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-14" role="tabpanel" aria-labelledby="OER"  ><p>
+<ul>
+<li>
+<h4>Databases/Search Engines/Libraries</h4>
+<ul>
+<li><a href="https://www.doaj.org/" target="_blank">DOAJ</a></li>
+<li><a href="https://www.semanticscholar.org/me/research" target="_blank">Semantic Scholar</a></li>
+<li><a href="https://www.oalib.com/" target="_blank">Open Access Library</a></li>
+<li><a href="http://www.oajse.com/" target="_blank">OAJSE (Open Access Journal Search Engine)</a> </li>
+<li><a href="https://www.base-search.net/" target="_blank">Bielefeld Academic Search Engine (BASE)</a></li>
+<li><a href="https://core.ac.uk/search" target="_blank">Core</a></li>
+<li><a href="http://citeseerx.ist.psu.edu/index" target="_blank">CiteSeerX </a></li>
+<li><a href="http://www.jurn.org/#gsc.tab%3D0" target="_blank">Jurn</a></li>
+<li><a href="http://www.springeropen.com/journals" target="_blank">Springer Open Access</a></li>
+<li><a href="http://portal.highwire.org/lists/allsites.dtl" target="_blank">HighWire PLOS</a></li>
+<li><a href="http://nopr.niscair.res.in/" target="_blank">NISCAIR Online Periodicals Repository </a></li>
+<li><a href="#" target="_blank">National Digital Library of India</a></li>
+<li><a href="https://scholar.google.co.in/" target="_blank">Google Scholar</a></li>
+<li><a href="http://vlib.org/" target="_blank">Virtual Library</a> </li>
+<li><a href="https://www.sociosite.net/index.php" target="_blank">Sociosite</a></li>
+<li><a href="https://arxiv.org/" target="_blank">Arxiv.org</a></li>
+<li><a href="http://lib.iasri.res.in/cgi-bin/koha/e-resources.pl" target="_blank">Open Access Agriculture Databases</a></li>
+<li><a href="https://www.wdl.org/en/" target="_blank">World Digital Libray</a></li>
+</ul>
+</li>
+<li>
+<h4>Thesis and Dissertations</h4>
+<ul>
+<li><a href="https://shodhganga.inflibnet.ac.in/" target="_blank">Shodhganga (India)</a></li>
+<li><a href="https://shodhgangotri.inflibnet.ac.in/" target="_blank">Shodhgangotri (India)</a></li>
+<li><a href="http://search.ndltd.org/" target="_blank">NDLTD (Global)</a></li>
+<li><a href="https://ethos.bl.uk/Home.do" target="_blank">Ethos Library (UK)</a></li>
+<li><a href="https://oatd.org/" target="_blank">OATD (International)</a></li>
+<li><a href="https://www.dart-europe.org/basic-search.php" target="_blank">DART (Europe)</a></li></ul>
+</li>
+<li>
+<h4>E-Books</h4>
+<ul>
+<li><a href="http://doabooks.org/" target="_blank">Directory of Open Access Books (DOAB) </a></li>
+<li><a href="http://www.gutenberg.org/" target="_blank">Project Gutenberg</a></li>
+<li><a href="http://www.oapen.org/home" target="_blank">Open Library</a> </li>
+<li><a href="http://www.rarebookroom.org/" target="_blank">Rare Book Room</a></li></ul>
+</li></ul></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-15" role="tabpanel" aria-labelledby="PhotoGallery"  ><p class="departmentGallery">
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-25_AcquistionSection.jpg" alt="Acquistion Section">
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-26_TechnicalProcessingSection.jpg" alt="Technical Processing Section">
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-27_ComputerSection.jpg" alt="Computer Section">
+
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-28_CirculationSection.jpg" alt="Circulation Section">
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-29_PeriodicalSection.jpg" alt="Periodical Section">
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-30_GRamReddy_Memorial.jpg" alt="Prof. G Ram Reddy Memorial">
+
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-31_ResearcherArea.jpg" alt="Researcher Area">
+      <img class="d-block w-100" src="../images/ldd/gallery/Attachment-32_Stack.jpg" alt="Stack">
+      <img class="d-block w-100" src="../images/ldd/gallery/kohaAdmin.jpg" alt="IGNOU Koha Admin"> 
+      <img class="d-block w-100" src="../images/ldd/gallery/opac.jpg" alt="IGNOU OPAC">
+
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-16" role="tabpanel" aria-labelledby="OPAC"  ><p>
+The Central Library of IGNOU is fully computerized. The Complete catalogue of the library is available through Web-OPAC. The information can be browsed and downloaded from anywhere.
+<ul><li>
+Click here for: <a href="https://libraryopac.ignou.ac.in/" target="_blank">Central Library OPAC (https://libraryopac.ignou.ac.in/)</a></li>
+<li>Click here for: <a href="http://rcscopac.ignou.ac.in/" target="_blank">RCs/SCs Library OPAC (http://rcscopac.ignou.ac.in/)</a></li>
+</ul>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-17" role="tabpanel" aria-labelledby="Vidwan"  ><p>VIDWAN is the premier database of profiles of scientists / researchers and other faculty members working at leading academic institutions and other R & D organisation involved in teaching and research in India.<br/><br/>
+Click here for <a href="https://vidwan.inflibnet.ac.in/login" target="_blank">Vidwan Registration/Login:  https://vidwan.inflibnet.ac.in/login</a></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-18" role="tabpanel" aria-labelledby="ONOS(E-Resources)"  ><b>One Nation One Subscription (ONOS)</b>
+
+<ul><li>For Campus User:<a href="https://www.onos.gov.in/search" target="_blank"> https://www.onos.gov.in/search</a></li>
+<li>For Remote Access: <a href="https://idp.ignou.ac.in/" target="_blank"> https://idp.ignou.ac.in/</a></li></ul></li></div>
+                                    </div>
+                                    
+                                    
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                
+                                                <th>Staff Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/LDD/pp/Jagajeevan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                                        <label class="fw-bold">Dr. VK Jagajeevan</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. VK Jagajeevan</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Librarian</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Library and Information Science</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>24-01-2006</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><b>Librarian</b>
+<p align="justify">Dr. V K Jagajeevan is Librarian of the University from 22nd June 2022. He has been working as Librarian (Incharge) from 22nd July 2021 to 21st June 2022 and Deputy Librarian of the University from 24th January 2006. Prior to this he had also worked as Assistant Librarian (IIT Kharagpur); Library Assistant (Nuclear Science Centre, New Delhi); and Information Trainee (National Centre for Science Information, Indian Institute of Science, Bengaluru).<p>
+<p>Besides MLIS from BHU, UGC NET and JRF & Lectureship in Library and Information Science and Ph.D in Library and Information Science from Utkal University, he also holds M.Sc. Physics from BHU and M.Tech. Computer Science and Data Processing from Indian Institute of Technology, Kharagpur. He has more than 32 years of experience in the library profession till August 2025.</p>
+
+<p><b>Work Experience</b></p>
+<p>Librarian, IGNOU, from 22nd June 2022 onwards</p>
+<p>Librarian (Incharge), IGNOU, 22nd July 2021-21st June 2022</p>
+<p>Deputy Librarian (Sr. Scale-Level 14), IGNOU, 24th January 2012-21st June 2022</p>
+<p>Deputy Librarian, IGNOU, 24th January 2006-23rd January 2012</p>
+<p>Assistant Librarian, IIT Kharagpur, 15th April 1997-23rd January 2006</p>
+
+<table>
+  <tr>
+    <th>EDUCATION</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Doctor of Philosophy(Subject) year</td>
+    <td>Library and Inofrmation Science, 2006</td>
+  </tr>
+<tr>
+    <td>Master of Philosophy(Subject) year</td>
+    <td>Nill</td>
+  </tr>
+<tr>
+    <td>M. Tech.</td>
+    <td>Computer Science and Data Processing, 2000</td>
+  </tr>
+<tr>
+    <td>Master of Arts (Subject) year</td>
+    <td>Library and Inofrmation Science, 1993</td>
+  </tr>
+<tr>
+    <td>Master of Science (Subject) year</td>
+    <td>Physics, 1989</td>
+  </tr>
+<tr>
+    <td>Bachelor of Arts (Subject) year</td>
+    <td>Library and Inofrmation Science, 1992</td>
+  </tr>
+<tr>
+    <td>Bachelor of Science (Subject) year</td>
+    <td>Physics, 1986</td>
+  </tr>
+</table>
+
+<p><b>FELLOWSHIP/ AWARDS:</b></p>
+<table>
+  <tr>
+    <th>Sl.No.</th>
+    <th>Name of the Fellowship/Awards</th>
+    <th>Granting/Awarding Institution</th>
+    <th>Year</th>
+  </tr>
+<tr>
+    <td>1.</td>
+    <td>Second Best Article Award in the National Paper Contest (Above 35 years)</td>
+     <td>Raja Rammohun Roy Library Foundation, Dept. of Culture, Govt. of India</td>
+     <td>2008</td>
+  </tr>
+<tr>
+    <td>2.</td>
+    <td>IASLIC Ranganathan Best Paper Award </td>
+     <td>IASLIC, Kolkata</td>
+     <td>2005</td>
+  </tr>
+<tr>
+    <td>3.</td>
+    <td>P V Verghese Best Paper Award</td>
+     <td>Indian Library Association, Delhi</td>
+     <td>2002/3</td>
+  </tr>
+<tr>
+    <td>4.</td>
+    <td>Young Information Scientist Award</td>
+     <td>Society for Information Science, New Delhi </td>
+     <td>2000</td>
+  </tr>
+<tr>
+    <td>5.</td>
+    <td>National Eligibility Test (NET) for Junior Research Fellowship (JRF) & Lectureship in Library & Information Science </td>
+     <td>UGC</td>
+     <td>June 1993</td>
+  </tr>
+</table>
+
+<p><b>PUBLICATIONS</b></p>
+<p>Books: 1(Authored) 1(Edited)=2<br>
+Chapters in Books:3<br>
+Research Papers: 27<br>
+Policy Documents: Nil<br>
+Units Written:4</p>
+
+<p><b>MEMBERSHIP OF PROFESSIONAL BODY/ STATUTORY BODY (INTERNAL/ EXTERNAL):</b></p>
+<table>
+  <tr>
+    <th>Membership of Professional body/Statutory body</th>
+    <th>Name of statutory body/ institution</th>
+    <th>Period</th>
+  </tr>
+<tr>
+    <td>Life Member</td>
+    <td>Society for Information Science (SIS), New Delhi</td>
+  </tr>
+<tr>
+    <td>Life Member</td>
+    <td>Indian Association of Special Libraries and Information Centres (IASLIC), Kolkata</td>
+  </tr>
+<tr>
+    <td>Life Member</td>
+    <td>Indian Library Association (ILA), Delhi</td>
+  </tr>
+<tr>
+    <td>Life Member</td>
+    <td>Delhi Library Association (DLA), Delhi</td>
+  </tr>
+</table>
+
+<p><b>OFFICIAL ADDRESS:</b></p>
+Room No. 107,<br>
+Block B,<br>
+Library & Documentation Division,<br>
+IGNOU,<br>
+New Delhi-110068,<br>
+New Delhi, India,<br>
+Contact No.: +91-11-29571907, +91-11-29532032 <br>
+Email: librarian@ignou.ac.in, jeevan@ignou.ac.in</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Librarian</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Library and Information Science</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>24-01-2006</span><br/>
+                                                    </span>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/LDD/pp/Seema.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                        <label class="fw-bold">Dr. Seema Chandhok</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Seema Chandhok</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Sr. Deputy Librarian</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Library and Information Science</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>28-09-1988</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p><b>EDUCATION:</b></p>
+<table>
+  <tr>
+    <th>Education</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>PhD. in Library and Information Science</td>
+    <td>2005</td>
+  </tr>
+<tr>
+    <td>M.A. Distance Education</td>
+    <td>1997</td>
+  </tr>
+<tr>
+    <td>M.A. Publica Administration</td>
+    <td>1987</td>
+  </tr>
+<tr>
+    <td>Master in Library Science</td>
+    <td>1985</td>
+  </tr>
+<tr>
+    <td>B.Sc.</td>
+    <td>1983</td>
+  </tr>
+</table>
+
+<p><b>WORK EXPERIENCE:</b></p>
+<table>
+  <tr>
+    <th>S.No.</th>
+    <th>Full Address of the Institution</th>
+     <th>Post Held</th>
+    <th>Period of Service</th>
+  </tr>
+<tr>
+<td>1.</td>
+<td>Indira Gandhi National Open University</td>
+<td>University Librarian(I/c)</td>
+<td>22.6.2018 to 21.7.2021</td>
+  </tr>
+<tr>
+<td>2.</td>
+<td>Indira Gandhi National Open University</td>
+<td>Deputy Librarian</td>
+<td>17.2.2005 to 21.6.2018</td>
+  </tr>
+<tr>
+<td>3.</td>
+<td>Indira Gandhi National Open University</td>
+<td>Assistant Librarian</td>
+<td>28.9.1988 to 16.2.2005</td>
+  </tr>
+<tr>
+<td>4.</td>
+<td>National Institutional of Immunology, New Delhi</td>
+<td>Documentation Librarian</td>
+<td>13.3.1987 to 27.9.1988</td>
+  </tr>
+<tr>
+<td>5.</td>
+<td>Cytology Research Centre (ICMR), New Delhi</td>
+<td>Assistant Librarian</td>
+<td>21.1.1986 to 12.3.1987</td>
+  </tr>
+</table>
+<p><b>Fellowship/Awards:</b></p>
+<table>
+  <tr>
+    <th>S.No.</th>
+    <th>Name of Fellowship/Awards</th>
+     <th>Garnting/Awarding Institution</th>
+    <th>Year</th>
+  </tr>
+<tr>
+<td>1.</td>
+<td>Awarded Fellowship to Attend World Library and Information Congress: 82nd IFLA General Conference and Assembly, 2016</td>
+<td>IFLA, U.S. National Committee</td>
+<td>August 13-19, 2016</td>
+  </tr>
+</table>
+
+<p><b>PUBLICATIONS:</b></p>
+<p>Books: (authored)+(edited)=1 (Bibliograpgy)</p>
+<p>Chapters in Books: 16</p>
+<p>Research Papers: 6</p>
+
+<p><b>MEMBERSHIP OF PROFESSIONAL BODY/ STATUTORY BODY (INTERNAL/ EXTERNAL):</b></p>
+<table>
+  <tr>
+    <th>Membership of Professional body/Statutory body</th>
+    <th>Name of statutory body/ institution</th>
+    <th>Period</th>
+  </tr>
+<tr>
+    <td>Member</td>
+    <td>Indian Library Association</td>
+    <td>Life</td>
+  </tr>
+<tr>
+    <td>Member</td>
+    <td>IGNOUTA, IGNOU</td>
+    <td>Since Inception-till date</td>
+  </tr>
+<tr>
+    <td>Ex-Officio Member</td>
+    <td>Academic Council, IGNOU</td>
+    <td>2018-2021</td>
+  </tr>
+<tr>
+    <td>Member, Academic</td>
+    <td>Programme Committee, IGNOU</td>
+    <td>2018-2021</td>
+  </tr>
+<tr>
+    <td>Member Secretary (Ex-Officio)</td>
+    <td>Library Committee, IGNOU</td>
+    <td>2018-2021</td>
+  </tr>
+<tr>
+    <td>Member</td>
+    <td>Committee againts Sexual Harassment (CASH)</td>
+    <td>2015-2016</td>
+  </tr>
+</table>
+
+<p><b>OFFICIAL ADDRESS:</b></p>
+Library & Documentation Division,</br>
+Room No. 125,</br>
+Academic Block-B,</br>
+New Academic Complex,</br>
+Ambedkar Bhawan,</br>
+Indira Gandhi National Open University,</br>
+New Delhi-110068</br>
+Tel: 011-29571901</br>
+Email: schandhok@ignou.ac.in</br>
+</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Sr. Deputy Librarian</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Library and Information Science</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>28-09-1988</span><br/>
+                                                    </span>
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/178 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 08:43:51 GMT -->
+</html>

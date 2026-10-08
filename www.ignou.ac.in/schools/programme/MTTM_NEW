@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/schools/programme/MTTM_NEW by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:25:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+    <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+
+<body>
+<div>
+    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../../images/banners/sothsmB.jpg" alt="Master of Tourism and Travel Management&lt;br/&gt;(SOTHSM)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Master of Tourism and Travel Management<br/>(SOTHSM)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Tourism and Hospitality Service Management</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="../../pages/1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/46">School of Tourism and Hospitality Service Management</a>
+                        </li>
+                        <li>Master of Tourism and Travel Management</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="innerRightBox">
+                            <div class="hdng_container">
+                                <h2 class="border-bottom">
+                                    MTTM_NEW: Master of Tourism and Travel Management(ODL)
+                                    
+                                    <a href="../../../ignouadmission.samarth.edu.in/index.html" target="_blank" class="float-end btn btn-primary btn-sm">Apply Now</a>
+                                    
+                                </h2>
+                            </div>
+                            <h3>Introduction</h3>
+                            <p><p align=justify">The Master of Tourism & Travel Management (MTTM_NEW) Programme has been developed keeping in view the learners who are already employed in the tourism sector at various levels and those who intend to make a career in the tourism industry. The thrust at the Masters level is to train managers to meet the tourism industry requirements.</p></p>
+                            <h3>Objective</h3>
+                            <p><p>Objective<bt>
+On completion of the Master of Tourism and Travel Management (MTTM_NEW) programme, the graduates should be able to:<ul>
+<li>explain the inter-linkages among various sub-sectors of the tourism and hospitality industry.</li>
+<li>discuss the principles and theories of management in the context of tourism and hospitality operations.</li>
+<li>assess human resource requirements in organisations and to design human resource training and development programmes.</li>
+<li>acquire knowledge regarding technological advances and their application in the tourism and hospitality operations.</li>
+<li>comprehend entrepreneurial ventures and institutional interface for small scale industries considering tourism is an industry where the majority players belong to the small-scale sector.</li>
+<li>conduct market research to understand the tourism market.</li>
+<li>reflect on the needs and wants of tourists while developing tourism products and their marketing strategies.</li>
+<li>analyse the various accounting and financial functions applicable in tourism and hospitality enterprises.</li>
+<li>understand the intricacies involved in the functioning and organizing of various business tourism events like convention, trade shows, travel marts, expositions etc.</li>
+<li>analyse tourism impacts in relation to their relevance for future development and planning of tourism.</li>
+<li>demonstrate the acquisition of skills required to carry out managerial level responsibilities in tourism and hospitality -related enterprises.</li>
+<li>inculcate a professional approach for managing tourism operations and enterprises.</li></ul></p>
+</p>
+                            <div class="row mb-4">
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#targetGroupModal">Learner Target Group</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#eligibilityModal">Eligibility & Medium</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#durationModal">Duration & FeeStructure</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#jobModal">Job/Future Prospects</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#coordinatorModal">Programme Coordinator</button>
+                                </div>
+                                
+                            </div>
+                            <div class="modal fade" id="targetGroupModal" tabindex="-1" aria-labelledby="targetGroupModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="targetGroupModalLabel">Learner Target Group</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body"><p align="justify">The Master of Tourism and Travel Management (MTTM) programme is designed for graduates and professionals seeking advanced knowledge and managerial competencies in the tourism and hospitality sector. It is particularly beneficial for individuals employed in tourism and allied industries, as well as those working with central and state tourism organisations, who wish to enhance their professional expertise and career prospects. The programme is equally suitable for aspiring managers, entrepreneurs planning to establish or expand tourism-related enterprises, professionals involved in tourism promotion and destination development, and researchers seeking to deepen their understanding of contemporary tourism issues. The programme aims to prepare learners for leadership roles and lifelong professional development in the dynamic travel and tourism industry.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="eligibilityModal" tabindex="-1" aria-labelledby="eligibilityModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="eligibilityModalLabel">Eligibility & Medium</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <span class="fw-bold">Eligibility for admission:</span>
+                                                <span>Any graduate from a recognized institution/university</span>
+                                            </p>
+                                            <p><span class="fw-bold">Medium of Instruction:</span> <span>English</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="durationModal" tabindex="-1" aria-labelledby="durationModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="durationModalLabel">Duration & Fee Structure</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <span class="fw-bold">Programme Duration:</span>
+                                            <span>Minimum Duration: 24 Months and Maximum Duration: 48 Months</span>
+                                            <div class="col-12 mt-2"><span class="fw-bold text-primary h6">Fees Structure</span></div>
+
+                                            <ul class="nav nav-tabs mt-1" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a aria-controls="home" aria-selected="true" class="nav-link active font-weight-bold" data-bs-toggle="tab" href="#national"
+                                                       id="nationalFees" role="tab">National Students</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a aria-controls="profile" aria-selected="false" class="nav-link font-weight-bold" data-bs-toggle="tab" href="#international"
+                                                       id="InternationalFees" role="tab">International Students</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div aria-labelledby="nationalFees" class="tab-pane fade show active" id="national" role="tabpanel">
+                                                    <div>INR(Rs.): 18,200.00/- for Full Programme</div>
+                                                    <div><p>Rs. 9100/- per year<br>
+Note: <br>
+<ul><li>University Development fee of Rs 400/-and Registration fee Rs 300/- is to be paid at the time of admission in addition to the programme fee</li>
+<li>Exam Fees is not included in Fee Structure, it will be as decided by the University</li></ul></p>
+</div>
+                                                </div>
+                                                <div aria-labelledby="InternationalFees" class="tab-pane fade" id="international" role="tabpanel">
+                                                    <div>
+
+                                                        
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="alert alert-danger mt-2"><strong>Note:</strong> Exam Fees is not included in Fee Structure it will be as decided by the University</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="jobModal" tabindex="-1" aria-labelledby="jobModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="jobModalLabel">Job/Future Prospects</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body"><p>Make a career in the tourism industry (travel agency, hotel business, tour operator, travel consultant, Tourism Officer, etc.)</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="coordinatorModal" tabindex="-1" aria-labelledby="coordinatorModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="coordinatorModalLabel">Programme Coordinator</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <span>Dr. Tangjakhombi Akoijam</span>
+                                                <br/>
+                                                <span>Associate Professor</span>
+                                                <br/>
+                                                <span>School of Tourism and Hospitality Service Management (SOTHSM)</span>
+                                                <br/>
+                                                <i class="fas fa-envelope"></i> <span>akoijam@ignou.ac.in</span><br/>
+                                                <i class="fas fa-mobile"></i><span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="subHdng_container">
+                                    <h2 class="border-bottom">Courses <span>Structure</span></h2>
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-101: Travel and Tourism Industry</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5432">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5432" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-101: Travel and Tourism Industry</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Travel and Tourism Industry</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-101</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides a comprehensive introduction to the travel and tourism industry by examining its fundamental concepts, structure, operations, and significance at both national and global levels. It explores diverse forms of tourism, tourism markets, planning, policies, marketing, destination management, technology, and emerging trends. The course also highlights the multidisciplinary nature of tourism and will equip learners with the foundational knowledge required for higher studies and careers in the travel and tourism sector.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-102: Introduction to the Hospitality Industry</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5433">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5433" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-102: Introduction to the Hospitality Industry</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Introduction to the Hospitality Industry</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-102</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Harkirat Bains</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course introduces learners to the hospitality industry by providing an overview of its key sectors, operations, and management practices. It covers accommodation, food and beverage services, airline and cruise hospitality, event management, guest service, marketing, human resource management, and financial aspects of hospitality operations. The course also explores the role of technology, innovation, and sustainable practices in delivering exceptional hospitality experiences and preparing learners for careers in the hospitality sector.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-103: Management Concepts and Organisational Behaviour in Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5434">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5434" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-103: Management Concepts and Organisational Behaviour in Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Management Concepts and Organisational Behaviour in Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-103</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Arvind Kumar Dubey</label></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Arvind Kumar Dubey</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides a foundation in the principles of management and organisational behaviour with special reference to the tourism industry. It introduces the core functions of management, including planning, organising, staffing, directing, controlling, and decision-making, while examining organisational communication, culture, and change. The course also explores individual and group behaviour, motivation, learning, team building, and leadership to develop effective managerial and interpersonal skills required in tourism organisations</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-104: Accounting and Finance in Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5435">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5435" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-104: Accounting and Finance in Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Accounting and Finance in Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-104</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Prof. Sonia Sharma</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course introduces learners to the fundamental principles of accounting and finance and their application in tourism organisations. It covers the preparation and analysis of financial statements, costing techniques, budgeting, investment appraisal, working capital management, and capital structure. The course will equip learners with the financial knowledge and analytical skills required for informed decision-making and effective management in the tourism and hospitality industry.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-105: Business Communication in Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5436">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5436" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-105: Business Communication in Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Business Communication in Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-105</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course aims to develop the communication skills essential for academic success and professional effectiveness in the workplace. It covers the fundamentals of communication, oral and written business communication, presentation and interpersonal skills, employment communication, technology-enabled communication, cross-cultural communication, and ethical practices. </p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-106: Management of Travel and Tourism Business</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5437">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5437" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-106: Management of Travel and Tourism Business</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Management of Travel and Tourism Business</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-106</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Paramita Suklabaidya</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides an understanding of the operations and management of travel and tourism businesses. It covers passenger transportation, travel documentation, tour planning and costing, tourism circuits, cargo management etc. The course also introduces entrepreneurial opportunities and the skills required to establish and manage successful travel and tourism enterprises.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-107: Tourism Marketing Management</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5438">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5438" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-107: Tourism Marketing Management</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Tourism Marketing Management</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-107</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course examines the principles and practices of marketing management in the tourism industry. It covers tourism consumer behaviour, market research, segmentation, product and pricing strategies, distribution channels, marketing communication, sales management, and marketing analytics. The course intends to equip learners with the skills to develop and implement effective tourism marketing strategies.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-108: Human Resource Management in Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5439">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5439" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-108: Human Resource Management in Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Human Resource Management in Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-108</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Prof. Sonia Sharma</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course introduces the concepts and practices of human resource management in tourism and hospitality organisations. It covers workforce planning, recruitment, training, performance management, employee relations, labour welfare, ethics, and diversity management. The course will prepare learners to effectively manage human resources in service-oriented tourism organisations.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-109: Design and Development of Special Interest Tourism Products</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5440">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5440" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-109: Design and Development of Special Interest Tourism Products</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Design and Development of Special Interest Tourism Products</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-109</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Paramita Suklabaidya</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course focuses on the design, development, and management of special interest tourism products for diverse market segments. It explores emerging tourism forms such as adventure, wellness, rural, culinary, cruise, dark, and religious tourism while emphasising product innovation and visitor experiences. The course aims to develop the skills required to create competitive and sustainable tourism products.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-115: MICE Management</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5441">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5441" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-115: MICE Management</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>MICE Management</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-115</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides a comprehensive understanding of the Meetings, Incentives, Conferences, and Exhibitions (MICE) industry and its growing significance within business tourism. It covers the planning and management of meetings, conventions, events, exhibitions, logistics, marketing, ICT applications, and entrepreneurship in the MICE sector. The course attempts to equip learners with the knowledge and managerial skills required to plan, organise, and manage successful MICE events in diverse national and international contexts.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-110: Tourism Planning and Development</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 3</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5442">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5442" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-110: Tourism Planning and Development</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Tourism Planning and Development</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-110</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Arvind Kumar Dubey</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides a comprehensive understanding of tourism planning and development at global, national, regional, and local levels. It examines planning methodologies, environmental, economic, socio-cultural, and political considerations, along with implementation and monitoring techniques. The course will equip learners to contribute to sustainable and strategic tourism development.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-111: Tourism Content Creation and Dissemination</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 3</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5443">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5443" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-111: Tourism Content Creation and Dissemination</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Tourism Content Creation and Dissemination</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-111</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course introduces learners to the principles and practices of creating, managing, and disseminating tourism content across platforms. It covers storytelling, visual communication, social media, destination branding, influencer marketing, content strategy, and performance measurement. The course attempts to develop creative and technical skills for effective tourism communication.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-112: Technological Environment and Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 3</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5444">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5444" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-112: Technological Environment and Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Technological Environment and Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-112</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Jatashankar Ramprasad Tewari</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course explores the application of emerging technologies in tourism and hospitality management. It examines digital transformation, AI, IoT, blockchain, GDS, RFID, mobile technologies, big data, cybersecurity, and smart tourism solutions. The course will enable learners to understand how technology enhances operational efficiency, visitor experiences, and sustainable tourism development.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-113: Research Methodology for Tourism and Hospitality</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 3</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5445">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5445" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-113: Research Methodology for Tourism and Hospitality</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Research Methodology for Tourism and Hospitality</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-113</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Paramita Suklabaidya</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides a systematic introduction to research methods used in tourism and hospitality studies. It covers research design, literature review, sampling, research methods, data collection, analysis, research ethics, and thesis writing. The course attempts to equip learners with the skills required to undertake scientific research and evidence-based decision-making.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-114: Digital Marketing for Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 3</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5446">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5446" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-114: Digital Marketing for Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Digital Marketing for Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-114</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Jatashankar Ramprasad Tewari</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course introduces digital marketing strategies and tools used to promote tourism products and destinations. It covers SEO, SEM, content marketing, social media, email marketing, online travel platforms, analytics, reputation management, and emerging digital technologies. The course will prepare learners to design effective digital marketing campaigns for tourism organisations.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-116: Cultural Production and Heritage Management</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 4</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5447">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5447" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-116: Cultural Production and Heritage Management</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Cultural Production and Heritage Management</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-116</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Arvind Kumar Dubey</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course examines the concepts of culture, heritage, traditions, and cultural production within the context of tourism. It explores heritage conservation, folklore, festivals, indigenous cultures, legal frameworks, and the impact of technology on cultural transformation. The course aims to develop an understanding of sustainable heritage management and cultural preservation.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-117: Innovation, Entrepreneurship and Incubation in Tourism</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 4</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5448">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5448" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-117: Innovation, Entrepreneurship and Incubation in Tourism</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Innovation, Entrepreneurship and Incubation in Tourism</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-117</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Prof. Sonia Sharma</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course introduces the principles of innovation and entrepreneurship in the tourism sector. It covers entrepreneurial thinking, business model development, startup funding, incubation processes, leadership, sustainability, and emerging technological trends. The course will prepare learners to identify business opportunities and innovative tourism ventures.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTM-118: Tourism Destination Management</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 4</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5449">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5449" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTM-118: Tourism Destination Management</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Tourism Destination Management</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTM-118</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">This course provides a comprehensive understanding of tourism destination planning, development, marketing, and management. It examines destination stakeholders, product development, infrastructure, visitor management, sustainability, risk management, and global best practices. The course will equip learners with the knowledge required to manage destinations in a competitive and sustainable manner.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTMP-119: Dissertation Work</h5>
+                                        <p>Credits: <span>8</span> <br/>
+                                            <span>Semester 4</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5450">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5450" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTMP-119: Dissertation Work</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Dissertation Work</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTMP-119</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Project (8 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">The dissertation work aims to strengthen learners' research competencies by providing practical exposure to the tourism and hospitality sector through independent research. It will enable learners to apply theoretical knowledge, research methods, and analytical skills to investigate real-world tourism issues. </p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MTTMP-119: Dissertation Work</h5>
+                                        <p>Credits: <span>8</span> <br/>
+                                            <span>Semester 4</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal5450">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal5450" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MTTMP-119: Dissertation Work</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Dissertation Work</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MTTMP-119</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#"><label>Dr. Tangjakhombi Akoijam</label></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Project (8 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p align="justify">The dissertation work aims to strengthen learners' research competencies by providing practical exposure to the tourism and hospitality sector through independent research. It will enable learners to apply theoretical knowledge, research methods, and analytical skills to investigate real-world tourism issues. </p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="../../pages/205">Empanelled Hospitals</a></li>
+                        <li><a href="../../pages/219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="../../pages/218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="../../pages/65">Study Material Status</a></li>
+                        <li><a href="../../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="../../pages/64">FAQs</a></li>
+                        <li><a href="../../pages/222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="../../pages/281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../../assets/vendor/aos/aos.js"></script>
+    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/schools/programme/MTTM_NEW by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:25:55 GMT -->
+</html>

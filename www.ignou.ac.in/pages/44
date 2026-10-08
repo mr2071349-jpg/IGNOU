@@ -1,0 +1,2353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/44 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:23:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/sopvaB.jpg" alt="School of Studies&lt;br/&gt;(School of Performing and Visual Arts)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Performing and Visual Arts)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="44">School of Performing and Visual Arts</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>The School of Performing and Visual Arts is functional at the University Head quarters since February 2000 with a vision to provide higher educational opportunities in Performing and Visual arts through open and distance learning mode of education. Within the above context, the School of Performing and Visual Arts is visualized as a location that intents to implement a new vision of art pedagogy and practices in the Country. It aims at being constituted by the principle of creative expression, processes, practices and disciplines, including historical, theoretical and critical engagements. The idea is to focus on areas of knowledge and professional specializations and is imagined a breeding ground for the development of classical and newer art practices and theoretical insights in the direction of finding paradigms in performing and visual art forms with greater amalgamation between theory, practice and research on one hand, and interdisciplinary approach between various arts on the other.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Objectives"  ><p><ul><li>To promote all forms of arts at higher education to unfold the aesthetic and creative potentialities of learner enabling them to become a contributing professional. </li>
+<li>To promote aesthetics as a learning process in professional and academic arena.</li>
+<li>To inculcate creativity through diverse range of creative activities and modes of expression.</li>
+<li>To engage in praxis and theory through latest and modern pedagogical tools that reach out to the distant learner in the Open and Distance Learning system.</li>
+<li>To nurture traditional and contemporary art practices in areas of the Visual and Performing Arts and provide grounds for critical research.</li></ul></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="History"  ><p>The School of Performing and Visual Arts is functional at the University headquarters since February 2009 with a vision to provide higher education opportunities in the Performing and Visual Arts through open & distance learning mode of education.  Within the above context, the School of Performing and Visual Arts is visualized as a location that intends to implement a new vision of art pedagogy and practices in the Country. It aims to be constituted by the principle of creative expression, processes, practices and disciplines, including historical, theoretical and critical engagements. The idea is to focus on areas of knowledge and professional specializations and is imagined as a breeding ground for the development of classical and newer art practices and theoretical insights in the direction of finding paradigms in performing and visual art forms with greater amalgamation between theory, practice and research on one hand, and interdisciplinary approach between various arts on the other.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p>Greetings from the School of Performing and Visual Arts!</p>
+<p>Since our establishment in February 2009, we have dedicated ourselves to providing higher education opportunities through an innovative open and distance learning mode.</p>
+<p>Our vision is to foster a new approach to art pedagogy and practice in our country. At our school, we emphasize creative expression, processes, and practices, along with historical, theoretical, and critical engagements. We believe in nurturing both classical and contemporary art practices, offering a harmonious blend of theory, practice, and research.</p>
+<p>We invite the learners to become a part of our vibrant and dynamic community, where your artistic talents will be honed, and your creative potential will flourish. Together, let's embark on a journey of artistic excellence and innovation.</p>
+<p>Best wishes,</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="SchoolBoardMembers"  ><h4>SCHOOL BOARD MEMBERS</h4>
+		<table>
+			<tr>
+				<th>Sl. No.</th>
+				<th>Name & Address</th>
+				<th>Designation with Terms</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>Prof. Lakshaman Prasad <br>
+					Director, <br>
+					SOPVA, IGNOU, New Delhi-110068
+				</td>
+				<td>Chairperson, <br>
+					Under Clause 2 (a) of Statute 10 (A)
+				</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Prof. (Dr.) Sanjeev Kumar <br>
+					College of Art <br>
+					Government of NCT Delhi, <br>
+					20-22, Tilak Marg, <br>
+					New Delhi-110001
+				</td>
+				<td>External Member <br>
+					Under Clause (2) (e) of Statute 10 A <br>
+					<b>Term:- 01.04.2025 to 31.03.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/568, dt. 01.04.2025				
+				</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Dr. Sunil Kr. Vishwakarma <br>
+					Head of Department <br>
+					Deptt. of Fine Arts, <br>
+					MGKV, Varanasi & Chairman, <br>
+					Lalit Kala Academy, U.P.-221002
+				</td>
+				<td>External Member <br>
+					Under Clause (2) (e) of Statute 10 A <br>
+					<b>Term:- 01.04.2025 to 31.03.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/568, dt. 01.04.2025
+				</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>Dr. Navdeep Kaur, <br>
+					Chairman, <br>
+					Deptt. of Indian Theatre Punjab University, <br>
+					Chandigarh,-160014
+				</td>
+				<td>External Member <br>
+					Under Clause (2) (e) of Statute 10 A <br>
+					<b>Term:- 01.04.2025 to 31.03.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/568, dt. 01.04.2025
+				</td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>Prof. Madhu Bala Saxena (Retd.) <br>
+					Faculty of Music & Fine Arts, <br>
+					University of Delhi, New Delhi-110007
+				</td>
+				<td>External Member <br>
+					Under Clause (2) (e) of Statute 10 A <br>
+					<b>Term:- 01.04.2025 to 31.03.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/568, dt. 01.04.2025
+				</td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>Prof. Mandvi Singh <br>
+					Vice-Chancellor, <br>
+					Bhatkhande University, <br>
+					Lucknow, Uttar Pradesh-226001
+				</td>
+				<td>External Member <br>
+					Under Clause (2) (e) of Statute 10 A <br>
+					<b>Term:- 01.04.2025 to 31.03.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/568, dt. 01.04.2025
+				</td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>Prof. P.V.K. Shashidhar, <br>
+					Professor, SOEDS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Internal Member <br>
+					Under Clause (2) (d) of Statute 10 A <br>
+					<b>Term:- 28.02.2025 to 27.02.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/368, dt. 28.02.2025
+				</td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>Prof. V.V Subrahmanyam, <br>
+					Professor, SOCIS, <br>
+					IGNOU, New Delhi-110068
+				</td>
+				<td>Internal Member <br>
+					Under Clause (2) (d) of Statute 10 A <br>
+					<b>Term:- 28.02.2025 to 27.02.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/368, dt. 28.02.2025
+				</td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>Prof. Vijay Kumar Barik, <br>
+					SOS, IGNOU, <br>
+					New Delhi-110068
+				</td>
+				<td>Internal Member <br>
+					Under Clause (2) (d) of Statute 10 A <br>
+					<b>Term:- 28.02.2025 to 27.02.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/368, dt. 28.02.2025
+				</td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>Prof. R.S.P Singh, <br>
+					Professor, <br>
+					SOVET,IGNOU, <br>
+					New Delhi-110068
+				</td>
+				<td>Internal Member <br>
+					Under Clause (2) (d) of Statute 10 A <br>
+					<b>Term:- 28.02.2025 to 27.02.2027</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/368, dt. 28.02.2025
+				</td>
+			</tr>
+			<tr>
+				<td>11.</td>
+				<td>Dr. Seema Johari, <br>
+					Associate Professor, <br>
+					SOPVA, IGNOU, <br>
+					New Delhi-110068
+				</td>
+				<td>Internal Member assigned to SOPVA <br>
+					Under Clause (2) (c) of Statute 10 A <br>
+					<b>Term:- 02.09.2024 to 01.09.2026</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/4239, dt. 02.09.2024
+				</td>
+			</tr>
+			<tr>
+				<td>12.</td>
+				<td>Dr. Mallika Banerjee, <br>
+					Associate Professor, <br>
+					SOPVA, IGNOU, <br>
+					New Delhi-110068
+				</td>
+				<td>Internal Member assigned to SOPVA <br>
+					Under Clause (2) (c) of Statute 10 A <br>
+					<b>Term:- 02.09.2024 to 01.09.2026</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/4239, dt. 02.09.2024
+				</td>
+			</tr>
+			<tr>
+				<td>13.</td>
+				<td>Dr. P. Radhika <br>
+					Associate Professor, <br>
+					SOPVA, IGNOU, <br>
+					New Delhi-110068
+				</td>
+				<td>Internal Member assigned to SOPVA <br>
+					Under Clause (2) (c) of Statute 10 A <br>
+					<b>Term:- 02.09.2024 to 01.09.2026</b> <br>
+					<b>Notification No.:</b> IG/ACD/SB-SOPVA/2008/4239, dt. 02.09.2024
+				</td>
+			</tr>
+		</table>
+</div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center">2007-12-07</td>
+                                                <td class="text-center">Board Room, Btock No.8, IGNOU, New Delhi - 110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-1.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-1</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center">2008-04-01</td>
+                                                <td class="text-center">Diseussion Room, Convention Centre, IGNOU , New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-2.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-2</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center">2008-07-08</td>
+                                                <td class="text-center">Board Room, Btock No.8, IGNOU, New Delhi - 110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-3.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-3</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center">2009-04-19</td>
+                                                <td class="text-center">Room No-2, Convention Centre, IGNOU , New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-4.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-4</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center">2009-08-19</td>
+                                                <td class="text-center">Conference Room, Convention Centre, Block-8, IGNOU Campus, Maidan Garhi, New Delhi.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-5.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-5</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center">2010-04-23</td>
+                                                <td class="text-center"> Conference Room of SOET </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-6.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-6</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center">2010-09-10</td>
+                                                <td class="text-center">Conference Room, Block- C, SOET, IGNOU, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-7.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-7</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center">2011-04-20</td>
+                                                <td class="text-center">Room No:6, Convention Centre, IGNOU, Maidan Garhi, </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-8.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-8</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center">2011-07-04</td>
+                                                <td class="text-center">Room No:6, Convention Centre, IGNOU, Maidan Garhi, </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-9.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-9</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center">2012-01-04</td>
+                                                <td class="text-center">Conference Room, C Block, SOMS, IGNOU, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-10.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-10</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center">2012-07-09</td>
+                                                <td class="text-center">Board Room, Block 8, IGNOU, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-11.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-11</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center">2012-11-30</td>
+                                                <td class="text-center">Room No. 2, Convention Centre, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-12.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-12</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center">2013-04-25</td>
+                                                <td class="text-center">IGNOU, New Delhi.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-13.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-13</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center">2013-10-24</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-14.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-14</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center">2014-04-25</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-15.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-15</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center">2015-02-23</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-16.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-16</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center">2016-02-08</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-17.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-17</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center">2016-10-07</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-18.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-18</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center">2017-04-07</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-19.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-19</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center">2017-10-26</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA,First Floor, Block-15G, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-20.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-20</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center">2018-04-25</td>
+                                                <td class="text-center">Hall-3, SOPVA, First Floor, Block 15-G, IGNOU, Maidan Garhi, New Delhi</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-21.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-21</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center">2018-11-02</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-22.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-22</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center">2019-06-10</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-23.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-23</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center">2019-10-17</td>
+                                                <td class="text-center">Meeting Hall – 3 of SOPVA, IGNOU, New Delhi– 110068 </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-24.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-24</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center">2020-08-03</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-25.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-25</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center">2020-08-28</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-26.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-26</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center">2020-11-11</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-27.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-27</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center">2021-03-05</td>
+                                                <td class="text-center">Hall-3, Block 15-G, SOPVA, IGNOU, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-28.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-28</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center">2021-08-27</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-29.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-29</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center">2022-04-13</td>
+                                                <td class="text-center">Virtual Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-30.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-30</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center">2023-01-12</td>
+                                                <td class="text-center">Hall-3, SOPVA, Block 15-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-31.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-31</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center">2023-07-03</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-32.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-32</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center">2023-09-25</td>
+                                                <td class="text-center">Hall-3, SOPVA, Block 15-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-33.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-33</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center">2024-04-19</td>
+                                                <td class="text-center">Hall-3, SOPVA, Block 15-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-34.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-34</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">35</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">35</td>
+                                                <td class="text-center">2024-07-05</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-35.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-35</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">36</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">36</td>
+                                                <td class="text-center">2025-01-21</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-36.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-36</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">37</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">37</td>
+                                                <td class="text-center">2025-08-29</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-37.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-37</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">38</td>
+                                                <td class="text-center" style="width: 5px;">BSOPVA</td>
+                                                <td class="text-center" style="width: 2px;">38</td>
+                                                <td class="text-center">2025-09-20</td>
+                                                <td class="text-center">Through Circulation</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOPVA/SBM-38.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-38</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/govindaraju.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal360">
+                                                        <label class="fw-bold">Dr. Govindaraju Bharadwaza</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal360" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Govindaraju Bharadwaza</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Theartre Arts</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>25-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>dr.g_bharadwaza@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>EDUCATIONAL QUALIFICATIONS:</br>
+ Doctorate from University of Hyderabad-2002.</br>
+ Post-Graduate in MPA (Master of Performing Arts) from University of Hyderabad-1994.</br>
+ A Post-Graduate Diploma Holder in Acting from University of Hyderabad-1992.</br>
+ A Graduate in Political Science, Public Administration and History from Osmania University, Hyderabad-1990.  AWARDS AND FELLOWSHIPS:</br>
+ PhD awarded by University of Hyderabad-2002.</br>
+ Senior Research Fellowship by University Grants Commission-1997.</br>
+ Junior Research Fellowship National Eligibility for Lectureship by University Grants Commission-1994.</br>
+ Awarded Gold Medal in MPA (Theatre Arts) from University of Hyderabad-1994.</br>
+ Won Best Director Award for the play let “NYVEDYAM” in National Drama Competitions-2002.</br>
+ Won Best Director Awards for the play “PRIYACHAMPODDE” at BHEL Drama Competitions-2002.</br>
+ Won Nandi Award for Best Supporting Actor for the Play let “ELAKALABONU” in Nandi Drama Competitions-2003.  SEMINARS:</br>
+ Presented a paper titled “Where is Theatre?” in State Level seminar conducted by PS. Telugu University, 2002.</br>
+ Participated in National seminar on Theatre Studies conducted by PS.Telugu University and presented a paper on “Greek Theatre”.</br>
+ Presented a paper on ‘TYPOLOGIES OF PAGATIVESHAM TEXTS’ in 9th All India Fossils conference at Warangal-2001.</br>
+ Jointly presented a paper titled “PAGATIVESHAM-KALAPORRPA AVAGAHANA’ with Dr.YA. Sudhakar Reddy in Folk arts festival in Nalgonda-2001 conducted by PS. Telugu University.</br>
+ Jointly presented a paper titled “PAGATIVESHALU –RESPONDING TO CHANGE” with Dr.YA. Sudhakar Reddy in National seminar conducted jointly by University of Hyderabad and University of Glasgow in Hyderabad-2001.</br>
+ Presented a paper on Children Theatre: Some Ideas in a Seminar on Children theatre, conducted by Children Art Theatre, Ps. Telugu University. -2005.</br></p>
+
+<b>PUBLICATIONS:</b></br>
+ Fifteen  articles in different Journals and Special issues.</br>
+
+<b>AREAS OF INTEREST:</b></br>
+
+ Indian Theatre, Western Theatre, Folk Theatre, Children and Youth theatre, Ritual theatre and theatre in every day life.</br>
+
+<b>TEACHING EXPERIENCE</b></br>
+
+ Fifteen   years of teaching experience as a Guest faculty, in the Theatre Departments of University of Hyderabad, Osmania University and PS Telugu University, Hyderabad and as a Lecturer in the Department of Education in Arts and Aesthetics, NCERT, New Delhi.</br>
+</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Theartre Arts</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>25-02-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>dr.g_bharadwaza@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/lakshaman.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal361">
+                                                        <label class="fw-bold">Dr. Lakshaman Prasad</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal361" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Lakshaman Prasad</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Fine Arts</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>25-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571653</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>lakshaman.mau@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Dr. Lakshaman Prasad Academic Qualification- M.A, NET, Ph.D, (fine Arts) . Associated with Programmes at IGNOU- CVAA, CVAP, MADP &  Ph.D.  Author of several books on Fine Arts  Contributed to rsearch journals with published articles and units for SLM.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Fine Arts</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>25-02-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571653</span>, <i class="fas fa-envelope"></i> <span>lakshaman.mau@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/radhika.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal362">
+                                                        <label class="fw-bold">Dr. P.Radhika</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal362" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. P.Radhika</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Associate Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Dance</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>25-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>radhika@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Dr. Radhika Puthenedam is an experienced researcher  with proven abilities in areas of  Bharatanatyam technique and choreography,   Pedagogy in Dance in distance and Online and  K-12 education, Critical Dance studies, Post colonial History of Bharatanatyam,  and  Dance in the Diaspora and Dance and Gender.</p>
+<p>Dr.Radhika  has made significant contributions to research journals with many publications and chapters in books. She is on the editorial board of prominent Dance & Music journals in the country and contributes as a reviewer in both national and international journals in the fields of Performing arts and in Distance education. She also contributes as an expert member of various committees and boards of important statutory and educational bodies in the country concerned with Dance and education. Shealso has been involved as a resource person at national Seminars and workshops concerned with Dance studies and Arts education. She regularly gives lectures on Gyanvani (FM105.6) and Gyandarshan Channel. Since 2009, when she joined IGNOU, she has looked after the programmes and courses in Dance that include Ph.D. Dance, Certificate programme in Bharatanatyam (ODL programme) and two upcoming programmes – Diploma and Bachelors in Dance. She is also presently developing a skill development course and a generic elective course for the FYUP bachelor's programme.</p>
+<p>Dr.Radhika completed her basic training in Dance from  Kalakshetra College of Fine Arts, Chennai, a reputed institution in the field of Bharatanatyam and further earned her master’s degree and PhD in Dance from University of Hyderabad and later qualified NET and JRF-SRF of the University Grants Commission, 2004. She is also a post graduate in English and a PGD holder in Television production, and Distance education. She is a certified Yoga practitioner from Vemana Institute, Telangana. Dr.Radhika's doctoral work dealt with the transitional phase of Bharatanatyam in India focussing on the works of Rukmini Devi and Chandralekha.</p>
+</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Associate Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Dance</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>25-02-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>radhika@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/seema.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal363">
+                                                        <label class="fw-bold">Dr. Seema Johari</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal363" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Seema Johari</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Associate Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Music</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>18-05-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>dr.seemajohari@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Dr. Seema Johari Academic Qualification-M.A, NET, Ph.D, D. Litt. (Music) Pedagogy in Music (vocal) theory and practical through online and ODL mode. Associated with Programmes at IGNOU- CPAHM, BAPFHM, Ph.D.  Author of several books on music (Hindi)  Contributed to rsearch journals with published articles and units for SLM of CPAHM. Associated with IRC-Gyanvani and Tele-conferencing sessions-Gyan Darshan since joining at IGNOU, 2009. Invited as resource person for lecture-demonstration concerned with Hindustani classical music. All India Radion and T.V. artist. Cassettes of songs relesed by T-series and other leading music companies. Aptitutde for stage performance and compering.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Associate Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Music</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>18-05-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>dr.seemajohari@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/mallika.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal364">
+                                                        <label class="fw-bold">Dr. Mallika Banerjee</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal364" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Mallika Banerjee</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Associate Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Hindustani Vocal Music</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>01-04-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>mallikabanerjee@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Dr. Mallika Banerjee is an educationist and a TOP grade vocalist of All India Radio. Her research area has been Indian Classical music and music of ancient civilizations.She is working as a Faculty in IGNOU since 2009. Prior to this she gave her valuable services to All India Radio for 20 Years. So far  6 scholars have completed their Ph.D under the supervison of Dr. M. Banerjee. Presently she is the Programme Coordinator of BAPFHMH, BPAFHM and CPAKM. She has authored a book -  Music in Ancient  Civilizations. She has 9 Research Articles published to her credit. Pedagogy in Music(vocal)theory and practical through Online and ODL mode.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Associate Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Hindustani Vocal Music</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>01-04-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>mallikabanerjee@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/yashpal.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal365">
+                                                        <label class="fw-bold">Sh. Yashpal </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal365" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sh. Yashpal </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/pawan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal366">
+                                                        <label class="fw-bold">Sh. Pawan Kumar Gautam</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal366" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sh. Pawan Kumar Gautam</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Personal Assistant</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Personal Assistant</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">8</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOPVA/pp/rajkuamr.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal367">
+                                                        <label class="fw-bold">Sh. Rajkuamr</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal367" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sh. Rajkuamr</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assisstant</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assisstant</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">9</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="https://www.ignou.ac.in/images/SOPVA/pp/null">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal368">
+                                                        <label class="fw-bold">Sh. C. B. Rasaily</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal368" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sh. C. B. Rasaily</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">10</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="https://www.ignou.ac.in/images/SOPVA/pp/null">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal369">
+                                                        <label class="fw-bold">Sh. Amit Thapa</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal369" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sh. Amit Thapa</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MFAP">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mfap.jpg" alt="675" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Fine Arts -  Painting(MFAP)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MPATHA">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mpatha.jpg" alt="839" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Masters in Performing Arts - Theatre Arts (MPATHA)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/BPAFHM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/bpafhm.jpg" alt="157" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">BA(Performing Arts)Hindustani Music Hons.(BPAFHM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DTH">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dth.jpg" alt="160" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Theatre Arts(DTH)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CPABN">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cpabn.jpg" alt="155" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Performing Arts- Bhartanatyam(CPABN)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CPAHM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cpahm.jpg" alt="156" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Performing Arts- Hindustani Music(CPAHM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CPAKM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cpakm.jpg" alt="158" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Performing Arts- Karnatak Music(CPAKM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CPATHA">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cpatha.jpg" alt="159" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Ceritificte in Performing Arts- Theatre Arts(CPATHA)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CVAA">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cvaa.jpg" alt="161" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Visual Arts- Applied Arts(CVAA)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CVAP">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cvap.jpg" alt="162" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Ceritificate in Visual Arts - Painting(CVAP)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/44 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:23:51 GMT -->
+</html>

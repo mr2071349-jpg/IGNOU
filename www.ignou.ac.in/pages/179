@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/179 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:15:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/mpddB.jpg" alt="Divisions&lt;br/&gt;(Material Production and Distribution Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Material Production and Distribution Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="179">Material Production and Distribution Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ImportantFunctionsofMPDD" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Important Functions of MPDD</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="StudentSupportCell" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Student Support Cell</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="OtherUnitsofMPDD" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Other Units of MPDD</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="StudyMaterialStatus" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Study Material Status</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                    <div>
+                                        <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Staff</button>
+                                    </div>
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>The Material Production and Distribution Division (MPDD) is one of the most important subsystems of the Distance Education and Open Learning System. Material Production & Distribution Division handles the production and distribution of self-instructional material for various programmes and courses of the University. It is responsible for timely printing and dispatch of study materials to the learners as well as to Regional Centres/Study Centres of IGNOU. It also undertakes the activity of synchronization of production of materials, printing the required number of these materials, storing and inventory control of these materials and dispatching them to the individual learners (course-wise and medium-wise), IGNOU’s RCs/SCs through the postal system. By nature the entire task is a complex operation and is compounded by a large number of students changing their addresses, medium of instruction and courses very often.</p>
+<p>The University has taken a decision to offer option of e-material to the students. Those students who have opted for e-material will be given discount of 15% on the Programme Fee. This is also a way to encourage the learners towards e-leaning.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="ContactUs"  ><p><b>Student Support Cell</b>
+<br/>Colonel Sree Krishna (Retd.)<br/>
+Registrar<br/>
+Material Production & Distribution Division<br/>
+Indira Gandhi National Open University<br/>
+Maidan Garhi, New Delhi – 110068, India<br/></p><br/><b>Email:</b> registrarmpdd@ignou.ac.in<br/><b>Phone:</b> +91-011-29534521, 29572002</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="ImportantFunctionsofMPDD"  ><ul><li>Planning of SLMs requirement.</li>
+<li>Execution of complete reprinting work of IGNOU and Printing work of Schools of studies as per SLM requirement.</li>
+<li>Maintenance of inventory of study materials and other related items.</li><li>Distribution of study materials to the students.</li>
+<li>Distribution of study materials to Regional Centres of IGNOU.</li>
+<li>Sale of study materials to the Open University, other Institutions, agents and general public.</li>
+<li>Meeting of the SLM printing requirements and special printing jobs like Convocation, Prof. G. Ram Reddy Memorial Lecture, Annual Reports etc. are also responsibility of MPDD.</li>
+<li>The Division comprises of seven Units namely, A&F Unit, Computer Unit, Printing Unit, Student Support Cell, Marketing Cell, International Dispatch/Prospectus Unit and Stores.</li>
+<li>Tender for Empanelment of Offset Printer for Printing of Study Materials with Text and Cover Paper across India through CPP Portal.</li>
+<li>Tender for Laser Typesetter and Graphic Designers through CPP Portal.</li><li>Procurement of P-I, P-II and P-III envelopes through GeM</li></ul>.</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="StudentSupportCell"  ><p>The MPDD has developed a single window to cater to needs of students visiting the IGNOU Headquarters in connection with non-receipt of SLMs, etc. It also provides replies to the queries received on the following phones & e-mail.<br/>
+<b>Telephone No.:</b> 011-29572008 or 29572012<br/>
+<b>E-mail:</b> mpdd@ignou.ac.in</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="OtherUnitsofMPDD"  ><ul><li>Printing Unit</li>
+<li>Stores</li>
+<li>Internal Administration & Finance Unit</li>
+<li>Student Support Cell</li>
+<li>International Dispatch/Prospectus Cell</li>
+<li>Marketing Cell</li>
+<li>Computer Unit</li></ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="StudyMaterialStatus"  ><h4>Price Catalogue of IGNOU Study Material</h4>
+<a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Price Catalogue</a>
+<br/><br/>
+<h4>Study Material Status</h4>
+<ul>
+<li><a href="../../gradecard.ignou.ac.in/mpddstatus/Jan26/StudentMaterialStatus.aspx" target="_blank">January 2026</a></li>
+<li><a href="../../gradecard.ignou.ac.in/mpddstatus/Jul25/StudentMaterialStatus.aspx" target="_blank">July 2025</a></li>
+ <li><a href="../../gradecard.ignou.ac.in/mpddstatus/Jan25/StudentMaterialStatus.aspx" target="_blank">January 2025</a></li>
+    <li><a href="../../gradecard.ignou.ac.in/mpddstatus/Jul24/StudentMaterialStatus.aspx" target="_blank">July 2024</a></li>
+    <li><a href="../../gradecard.ignou.ac.in/mpddstatus/Jan24/StudentMaterialStatus.aspx" target="_blank">January 2024</a></li>
+  <!--  <li><a href="https://gradecard.ignou.ac.in/mpddstatus/Jul23/StudentMaterialStatus.aspx" target="_blank">July 2023</a></li>
+    <li><a href="https://gradecard.ignou.ac.in/mpddstatus/Jan23/StudentMaterialStatus.aspx" target="_blank">January 2023</a></li>
+    <li><a href="https://gradecard.ignou.ac.in/mpddstatus/Jul22/StudentMaterialStatus.aspx" target="_blank">July 2022</a></li>-->
+</ul></div>
+                                    </div>
+                                    
+                                    
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                
+                                                <th>Staff Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/colonel.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal54">
+                                                        <label class="fw-bold">Colonel Sree Krishna (Retd.)</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal54" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Colonel Sree Krishna (Retd.)</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Registrar </td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Registrar </span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/surekha.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal55">
+                                                        <label class="fw-bold">Ms. Surekha Mittimani</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal55" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Surekha Mittimani</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Registrar (Store-I & Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Registrar (Store-I & Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/sanjeev.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal56">
+                                                        <label class="fw-bold">Sh. Sanjeev Kumar Verma</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal56" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sh. Sanjeev Kumar Verma</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Registrar (Printing Unit, SSC Unit (I) & Marketing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Registrar (Printing Unit, SSC Unit (I) & Marketing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/rajiv.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal57">
+                                                        <label class="fw-bold">Mr. Rajiv Girdhar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal57" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Rajiv Girdhar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Registrar (Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Registrar (Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/tillak.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal58">
+                                                        <label class="fw-bold">Mr. Tilak Raj</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal58" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Tilak Raj</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/bijender.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal59">
+                                                        <label class="fw-bold">Mr. Bijender Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal59" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Bijender Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Director (S) (Computer Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Director (S) (Computer Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/vivek.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal60">
+                                                        <label class="fw-bold">Mr. Vivek Singh </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal60" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Vivek Singh </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Drawing Officer)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Drawing Officer)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">8</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/sanjay.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal61">
+                                                        <label class="fw-bold">Mr. Sanjay Aggarwal</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal61" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Sanjay Aggarwal</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">9</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/manisha.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal62">
+                                                        <label class="fw-bold">Ms. Manisha Rani</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal62" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Manisha Rani</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (International Dispatch/Prospectus Unit/Store-I & Store-II)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (International Dispatch/Prospectus Unit/Store-I & Store-II)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">10</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/rajini.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal63">
+                                                        <label class="fw-bold">Ms. Rajni Guwalani</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal63" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Rajni Guwalani</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">11</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/seema.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal64">
+                                                        <label class="fw-bold">Ms. Seema Bhatia</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal64" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Seema Bhatia</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">12</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/vijaya.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal65">
+                                                        <label class="fw-bold">Ms. Vijaya Brijwal</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal65" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Vijaya Brijwal</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Printing Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Printing Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">13</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/MPDD/pp/rajesh.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal66">
+                                                        <label class="fw-bold">Mr. Rajesh Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal66" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Rajesh Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar (Administration & Finance Unit)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar (Administration & Finance Unit)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/179 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:15:06 GMT -->
+</html>

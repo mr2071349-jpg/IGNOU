@@ -1,0 +1,223 @@
+
+/************************MEDIA QUERY************************************/
+@media screen and (max-width: 500px) {
+    .captcha {
+        flex-direction: row;
+    }
+    .text {
+        margin: .5em !important;
+        text-align: center;
+    }
+    .logo {
+        align-self: center !important;
+    }
+    .spinner {
+        margin: 2em .5em .5em .5em !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text-foot {
+        text-align: center !important;
+    }
+    .text-foot-1 {
+        text-align: center;
+    }
+    .ft-1 {
+        position: relative;
+        bottom: 0px;
+    }
+    .nonm {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        list-style: inside !important;
+    }
+    .wrapper {
+        display: block !important;
+    }
+    .as-d {
+        float: left;
+        margin-left: 20px;
+    }
+    .pl-0 {
+        padding-left: 1rem !important;
+    }
+    .pb-m {
+        padding-bottom: 1rem !important;
+    }
+    .pt-m {
+        padding-top: 1rem !important;
+    }
+    .wm {
+        width: 100%;
+    }
+    .modal.left .modal-dialog,
+    .modal.right .modal-dialog {
+        width: auto;
+    }
+    .mr-s {
+        margin-right: 0;
+    }
+    .card-text {
+        font-size: 0.688rem;
+    }
+    .wm-50 {
+        width: 50%;
+    }
+    .leftbar-scrollable {
+        /*display: none;*/
+    }
+    .leftbar{
+        height:0px;
+    }
+    .leftbar {
+        min-height: 0px;
+        max-height: auto;
+    }
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0px;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+    .btn-block-m {
+        width: 100%;
+    }
+}
+
+
+/* For 1024 Resolution */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .shah2 {
+        display: none;
+    }
+}
+@media (min-width: 1279px) {}
+
+/******* for Laptop with HiDPI screen & 4K Ultra HD Television **********/
+
+@media screen and (max-width: 990px) {
+    #wrapper-level2 {
+        padding-left: 0px;
+    }
+    #sidebar-wrapper-level2 {
+        min-height: 10vh;
+        max-height: 44vh;
+        margin-bottom: 10px;
+    }
+    .page-level-menu-buttons {
+        visibility: hidden;
+        height: 0px;
+    }
+    .navbar-toggler.menu-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0.7rem 0rem !important;
+    }
+    .navbar .col-lg-5 {
+        padding-left: 0.4rem !important;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .card-mobile-width {
+        width: 71vw;
+    }
+}
+
+@media screen and (max-width: 1214px) {
+    .nonm{
+        visibility: hidden;
+    }
+    .hideOnTablet{
+        visibility: hidden;
+    }
+    .noneOnTablet{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pl-wrapper{
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .slide-arrow{
+        display: none;
+    }
+    span.float-right{
+        float: inherit !important;
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    .main-logo-dashboard {
+        margin-top: 20px;
+        display: block;
+        margin-bottom: -10px;
+    }
+    .col.navbar-nav.justify-content-end{
+        display: block !important;
+        text-align: right !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #sidebar-wrapper-level2{
+        position: inherit;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar.fixed-top{
+        height: auto !important;
+    }
+    .breadcrumb{
+        margin-top: 10px !important;
+        margin-bottom: 6px !important;
+        margin-left: -2px;
+    }
+    .col.navbar-nav.justify-content-end{
+        display: -webkit-inline-box;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .page-level-menu{
+    position: initial;
+        padding-top: 24px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .table-responsive{
+        max-height: 72vh;
+        overflow: auto;
+    }
+    thead{
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+    }
+    thead tr{
+        border-width: 0px !important;
+    }
+    thead tr:nth-child(2){
+        background-color: white;
+    }
+    thead tr:nth-child(2):hover {
+        background-color: white;
+    }
+}

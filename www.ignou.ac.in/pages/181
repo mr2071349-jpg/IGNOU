@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/181 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:15:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/rsdB.jpg" alt="Divisions&lt;br/&gt;(Regional Services Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Regional Services Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="181">Regional Services Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="LearnerSupportCentres" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Learner Support Centres</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="MonthlyMonitoringReports" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Monthly Monitoring Reports</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="StudentServicesCommittee" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Student Services Committee</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><html>
+	<body>
+		<p>The Regional Services Division) was operationalized in 1986, with the mandate of developing policies, systems and procedures, establishing and managing student support system of the University comprising Regional Centres and Learner Support Centres. The University has set up a nation-wide network of 67 Regional Centres. These include nine Regional Centres in the North-East Region, six Army Recognized Regional Centres, four Navy Recognized Regional Centres and one Assam Rifle Recognized Regional Centre. This network of Regional Centres is managed by nearly 700 academic and administrative staff posted at Regional Centres. The Regional Centres being full time offices of the University oversee the operations of LSCs within their respective jurisdiction and also monitor academic and administrative support to distance learners.</p>
+		<p>IGNOU has established a vast network of nearly 2000 Learner Support Centres (LSCs) covering the remotest corners of the country. A large number of these LSCs are located in jails, slums, economically and educationally backward districts and remote rural areas, catering to the educational needs of the disadvantaged communities, which would otherwise have remained deprived. Academic support in the form of face-to-face academic counselling is provided to the learners at the LSCs. In addition, practical sessions, seminars, workshops, field based activities, extended contact programmes etc are organized as per the curricular requirement of various academic programmes. Library services are also made available.</p>
+		<b>Functions of Regional Services Division</b>
+		<p>The responsibilities and functions assigned to the Regional Services Division are as follows:
+		<ul>
+			<li>To develop policies, systems and procedures in respect of establishment and management of Regional Centres and Learner Support Centres</li>
+			<li>To organise and administer the national network of Regional Centres and Learner Support Centres</li>
+			<li>To negotiate with Government Departments, educational institutions, other organisations including voluntary organisations for establishment of new Regional Centres and Learner Support Centres</li>
+			<li>To identify and appoint suitable persons as Academic Counsellors for counselling, practicals and evaluation of assignments</li>
+			<li>To organise orientation programmes for part-time functionaries of Learner Support Centres</li>
+			<li>To organize induction and in-service training programmes for full time staff of Regional Centres.</li>
+			<li>To regulate funding and expenditure control of Regional Centres and Learner Support Centres</li>
+			<li>To ensure provisions of necessary furniture and equipment to RCs .</li>
+			<li>To coordinate matters pertaining to Student Support Services between the Schools and Divisions in the Headquarters and between the RCs and LSCs.</li>
+		</ul>		
+		</p>
+		<b>Country wide Presence of IGNOU Regional Centres</b><br>
+		<img src="../DATA/ignou/website/upload/RC/Division/rc_profile/map.jpg"><br>
+		
+		<b>Zone and State Wise Presence of IGNOU Regional Centres</b><br>
+		<table border="1">
+	<tr>
+		<td colspan="4" align="center">NORTH EAST ZONE</td>		
+	</tr>
+	<tr>
+		<td>S.No.</td>
+		<td>State</td>
+		<td>No. of RCs</td>
+		<td>Name of Regional Centre</td>
+	</tr>
+	<tr>
+      <td>1</td>
+      <td>Tripura</td>
+      <td>1</td>
+      <td>Agartala</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mizoram</td>
+      <td>1</td>
+      <td>Aizwal</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sikkim</td>
+      <td>1</td>
+      <td>Gangtok</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Assam</td>
+      <td>2</td>
+      <td>Guwahati, Jorhat</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Manipur</td>
+      <td>1</td>
+      <td>Imphal</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Arunachal Pradesh</td>
+      <td>1</td>
+      <td>Itanagar</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Nagaland</td>
+      <td>1</td>
+      <td>Kohima</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Meghalaya</td>
+      <td>1</td>
+      <td>Shillong</td>
+    </tr>
+	<tr>
+		<td colspan="4" align="center">NORTH ZONE</td>		
+	</tr>
+    <tr>
+      <td>9</td>
+      <td>Uttar Pradesh</td>
+      <td>4</td>
+      <td>Aligarh, Lucknow, Noida, Varanasi</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Delhi</td>
+      <td>3</td>
+      <td>Delhi 1, Delhi 2, Delhi 3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Uttarakhand</td>
+      <td>1</td>
+      <td>Dehradun</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Jammu & Kashmir</td>
+      <td>2</td>
+      <td>Jammu, Srinagar</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Haryana</td>
+      <td>1</td>
+      <td>Karnal</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Punjab</td>
+      <td>1</td>
+      <td>Khanna</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Himachal Pradesh</td>
+      <td>1</td>
+      <td>Shimla</td>
+    </tr>
+	
+    <tr>
+      <td>16</td>
+      <td>Chandigarh(UT)</td>
+      <td>1</td>
+      <td>Chandigarh</td>
+    </tr>
+	<tr>
+		<td colspan="4" align="center">WEST ZONE</td>		
+	</tr>
+    <tr>
+      <td>17</td>
+      <td>Gujarat</td>
+      <td>2</td>
+      <td>Ahmedabad, Rajkot</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Rajasthan</td>
+      <td>2</td>
+      <td>Jaipur, Jodhpur</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Maharashtra</td>
+      <td>3</td>
+      <td>Pune, Mumbai, Nagpur</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Goa</td>
+      <td>1</td>
+      <td>Panaji</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Madhya Pradesh</td>
+      <td>2</td>
+      <td>Bhopal, Jabalpur</td>
+    </tr>
+	<tr>
+		<td colspan="4" align="center">EAST ZONE</td>		
+	</tr>
+    <tr>
+      <td>22</td>
+      <td>Orissa</td>
+      <td>2</td>
+      <td>Bhubaneshwar, Koraput</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Bihar</td>
+      <td>4</td>
+      <td>Patna, Saharsa, Darbhanga, Bhagalpur</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Jharkhand</td>
+      <td>2</td>
+      <td>Ranchi, Deoghar</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Chhattisgarh</td>
+      <td>1</td>
+      <td>Raipur</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>West Bengal</td>
+      <td>3</td>
+      <td>Kolkata, Raghunathganj, Siliguri</td>
+    </tr>
+	<tr>
+		<td colspan="4" align="center">SOUTH ZONE</td>		
+	</tr>
+    <tr>
+      <td>27</td>
+      <td>Karnataka</td>
+      <td>2</td>
+      <td>Bangalore, Bijapur</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Tamil Nadu</td>
+      <td>2</td>
+      <td>Chennai, Madurai</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Telangana</td>
+      <td>1</td>
+      <td>Hyderabad</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Kerala</td>
+      <td>3</td>
+      <td>Cochin, Trivandrum, Vatakara</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Andhra Pradesh</td>
+      <td>2</td>
+      <td>Vijayawada, Visakhapatnam</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Andaman & Nicobar Islands(UT)</td>
+      <td>1</td>
+      <td>Port Blair</td>
+    </tr>
+</table>
+		
+		
+	</body>
+
+<!-- Mirrored from www.ignou.ac.in/pages/181 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:15:24 GMT -->
+</html>
+</div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="LearnerSupportCentres"  ><p>
+<ul>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/rsd/lsc/LSCsofSpecialCatrgory_27.01.2025.pdf" target="_blank">List of Special LSC</a>
+</li>
+</ul>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="MonthlyMonitoringReports"  ><p>
+<h5>2023-2024</h5>
+<table>
+<tr>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2023_July_MMR.pdf" target="_blank">July 2023</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2023_August_MMR.pdf" target="_blank">August 2023</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2023_September_MMR.pdf" target="_blank">September 2023</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2023_October_MMR.pdf" target="_blank">October 2023</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2023_November_MMR.pdf" target="_blank">November 2023</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2023_December_MMR.pdf" target="_blank">December 2023</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2024_January_MMR.pdf" target="_blank">January 2024</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2024_February_MMR.pdf" target="_blank">February 2024</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2024_March_MMR.pdf" target="_blank">March 2024</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2024_April_MMR.pdf" target="_blank">April 2024</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2024_May_MMR.pdf" target="_blank">May 2024</a></td>
+<td><a href="https://www.ignou.ac.in/viewFile/rsd/mmr/2024_June_MMR.pdf" target="_blank">June 2024</a></td>
+</tr>
+</table>
+</p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="StudentServicesCommittee"  ><table>
+		<tr>		
+		<td colspan="5" align="center">	Name & Address of the Student Services Committee Members</td>
+		</tr>
+		<tr>
+		<td>S. No.</td>
+		<td colspan="5">Clause (i) - The Vice-Chancellor or a member of the Board of Management present at the meeting – Chairman</td>
+		</tr>		
+		<tr>
+		<td>1.</td>
+		<td>Prof. Uma Kanjilal <br>
+			Vice-Chancellor, IGNOU <br>
+			MaidanGarhi, New Delhi – 110 068 <br>
+			Ph. No.: 29532484, 29532707 <br>
+			e-mail :  vc@ignou.ac.in
+		</td>		
+		<td colspan="2" style="vertical-align: middle;text-align: center;"><b>Chairman <br/> Ex-officio</b> </td>		
+		<td><img class="img-thumbnail"  src="../images/vc/umakanjilal.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (ii) - Two members of the Board of Management nominated by it.</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>2.</td>
+		<td>Prof. Meena Rajiv Chandawarkar <br>
+			Member, BOM, <br>
+			Bagalkot-587101, Karnataka  <br>
+			E-mail: meenarc@yahoo.com
+		</td>
+		<td colspan="2" rowspan="2">(Co-terminus with that of the membership of BOM)</td>		
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/MeenaRajivChandawarkar.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td>3.</td>
+		<td>Dr. V.P. Rupam <br>
+			Member, BOM and Additional Director, Student Registration Division <br>
+			IGNOU, New Delhi-110068 <br>
+			Ph. No.: 29571115 <br>
+			E-mail : vprupam@ignou.ac.in
+		</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/Rupam.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (ii) - Two members of the Board of Management nominated by it.</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>		
+		<tr>
+		<td>4.</td>
+		<td>Vacant</td>
+		<td>--</td>
+		<td>--</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (iv) – Two Directors, of whom, one shall be a Director of a School, nominated by the Vice-Chancellor</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>		
+		<tr>
+		<td>5.</td>
+		<td>Dr. Bharat Bhushan <br>
+			Director, SSC <br>
+			IGNOU, Maidan Garhi	 <br>
+			New Delhi – 110 068 <br>
+			Ph. No.: 29572505 <br>
+			E-mail: bbhushan@ignou.ac.in
+		</td>
+		<td>09.09.2024</td>
+		<td>08.09.2026</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/BharatBhushan.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td>6.</td>
+		<td>Prof. Smita Chaturvedi<br>
+			Director, School of Humanities <br>
+			IGNOU, Maidan Garhi	 <br>
+			New Delhi – 110 068 <br>
+			Ph. No.: 29572751 <br>
+			E-mail: schaturvedi@ignou.ac.in
+		</td>
+		<td>16.10.2025</td>
+		<td>15.10.2027</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/smita.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (v) - Director of a School offering programmes having laboratory component</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>		
+		<tr>
+		<td>7.</td>
+		<td>The Director <br>
+			School of Health Sciences  <br>
+			IGNOU, Maidan Garhi, New Delhi – 110 068 <br>
+			Ph. No.: 29572801  <br>
+			E-mail: directorsohs@ignou.ac.in
+		</td>
+		<td>18.06.2025</td>
+		<td>17.06.2027</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/neerja.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (vi) - Director of a newly established Schools</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>		
+		<tr>
+		<td>8.</td>
+		<td>Dr. Saumya <br>
+			Director, School of Social Work (SOSW) <br>
+			IGNOU, Maidan Garhi, New Delhi – 110 068 <br>
+			Ph. No.: 29571692 <br>
+			E-mail: saumya@ignou.ac.in 
+		</td>
+		<td>24.03.2025</td>
+		<td>14.10.2026</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/saumya.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (vii) - Regional Directors of two Regional Centres</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>		
+		<tr>
+		<td>9.</td>
+		<td>Dr. M. Rajesh <br>
+			Regional Director,  <br>
+			RC Thiruvananthapuram <br>
+			Ph. No.: 9447044132
+		</td>
+		<td>10.02.2025</td>
+		<td>09.02.2027</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/MRajesh.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td>10.</td>
+		<td>Dr. Joginder Kr. Yadav <br>
+			Regional Director <br>
+			RC Shimla <br>
+			Ph. No.:0177-2624612
+		</td>
+		<td>06.03.2025</td>
+		<td>05.03.2027</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/JoginderKrYadav.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="5">Clause (viii) – Director (RSD) – Member Secretary</td>
+		</tr>		
+		<tr>
+		<td>11.</td>
+		<td>Dr. Manorama Singh - Member Secretary <br>
+			Director,  <br>
+			Regional Services Division <br>
+			IGNOU <br>
+			Ph. No.:29572402  <br>
+			E-mail: rsd@ignou.ac.in 
+		</td>
+		<td colspan="2">Ex-Officio</td>
+		<td><img class="img-thumbnail"  src="../viewFile/rsd/student_services_committee/Manorama.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		</table></div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+</html>

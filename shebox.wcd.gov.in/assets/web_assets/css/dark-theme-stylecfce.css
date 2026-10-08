@@ -1,0 +1,137 @@
+.dark-theme {
+  background: #181818;
+  color: #fff709;
+}
+.dark-theme .wh-img {
+  display: none;
+}
+.dark-theme .dark-img {
+  display: inline-block;
+}
+.dark-theme .error-message {
+  background: none;
+}
+.dark-theme .top-left ul li#theme-change button {
+  background: #fff !important;
+  color: #181818 !important;
+}
+.dark-theme .shape-box-one-main .shape-box-inner-one, .dark-theme .state-box-outer-gallery .state-name-inner-page-gallery, .dark-theme .port-box-main .state-inner-gallery-view .round-icon-box-icon, .dark-theme .testimonial-item a::after, .dark-theme .testimonial-item a::before {
+  background: #fff709;
+}
+.dark-theme .accessibility-panel, .dark-theme .gallery-main-panel-shebox .gallery-inner-one .state-title-text {
+  background: #242424;
+}
+.dark-theme .port-box-main {
+  background: #242424;
+  border: none;
+}
+.dark-theme .accessibility-close, .dark-theme .accessibility-header h2, .dark-theme .cookie-info h3, .dark-theme .header-right a, .dark-theme .header-left a, .dark-theme .whats-new-grid .whats-new-inner .marquee ul li a, .dark-theme .about-us-body ul li:before, .dark-theme .about-us-body ul li, .dark-theme .inner-heading, .dark-theme .sitemap-link i, .dark-theme .sitemap-link, .dark-theme h2.sitemap-title, .dark-theme .sitemap-home, .dark-theme .iec-training-outer .iec-training-heading, .dark-theme .float-labels-form .form-field .field-label, .dark-theme .float-labels-form .form-field .field-label i, .dark-theme .cta-text, .dark-theme .breadcrumb-nav .breadcrumb li + li:before, .dark-theme .breadcrumb-nav .breadcrumb li a, .dark-theme .breadcrumb-nav .breadcrumb li, .dark-theme .counter-content .counter-name-content, .dark-theme .footer-nav-outer ul li a, .dark-theme .header-center a, .dark-theme .header-center a span, .dark-theme .modal-title h5 i.text-danger, .dark-theme .lead p strong.text-danger, .dark-theme table a, .dark-theme .form-heading h4, .dark-theme .float-labels-form input, .dark-theme .float-labels-form textarea, .dark-theme .float-labels-form select, .dark-theme .form-field:before, .dark-theme label .text-danger, .dark-theme .float-labels-form textarea + label, .dark-theme .float-labels-form input + label, .dark-theme .float-labels-form select + label, .dark-theme .counter-content, .dark-theme .counter-content h5, .dark-theme .about-left h3, .dark-theme .about-left h3 span, .dark-theme .heading h3, .dark-theme .banner-left h1, .dark-theme .banner-left h1 span, .dark-theme .banner-left h2, .dark-theme .pagination > li > a, .dark-theme .pagination > li > span, .dark-theme button.accordion:after, .dark-theme .copy-right, .dark-theme .inner-body p a, .dark-theme .page-heading, .dark-theme p, .dark-theme .inner-banner-outer h1, .dark-theme .nav > li > .parent:after, .dark-theme .nav li a, .dark-theme .topbar ul li, .dark-theme .topbar ul li span, .dark-theme .topbar ul li a, .dark-theme .topbar ul li button, .dark-theme .port-box-main .state-inner-gallery-view .text-value-down, .dark-theme .port-box-main .state-inner-gallery-view .text-value-down span, .dark-theme .gallery-main-panel-shebox .gallery-inner-one .state-title-text span, .dark-theme .whats-new-grid .whats-new-inner marquee ul li a, .dark-theme .whats-new-grid .whats-new-inner marquee ul li::before,
+.dark-theme .shape-box-one-main .shape-box-inner-one .shape-mini-main-outer span, .dark-theme .accordian-outer ul li, .dark-theme .accordian-outer ul li:before, .dark-theme .mobile-app-heading .get-tody, .dark-theme .footer-app-link-outer a .link-bottom, .dark-theme .status-point-title, .dark-theme .status-point-value {
+  color: #fff709 !important;
+}
+.dark-theme .access-title, .dark-theme .shape-box-one-main .shape-box-inner-one .shape-mini-main-outer .shape-mini-left, .dark-theme .shape-box-one-main .shape-box-inner-one .shape-mini-main-outer .shape-mini-right {
+  color: #fff709 !important;
+}
+.dark-theme .gallery-main-panel-shebox .gallery-inner-one .state-title-text, .dark-theme .status-point-item, .dark-theme .complaints-nested-card, .dark-theme .nested-box-pending, .dark-theme .nested-box-disposed {
+  border: 0;
+}
+.dark-theme span.header-pledge-inner-outer, .dark-theme .header-pledge-content-outer, .dark-theme .shape-box-one-main .shape-box-inner-one .shape-box-inner-text, .dark-theme .port-box-main .state-inner-gallery-view .round-icon-box-icon i, .dark-theme .pop-up-content h4, .dark-theme a.read-about-us:after, .dark-theme button.accordion.active:after, .dark-theme .nav > li:hover > .parent:after, .dark-theme .nav > li.select > .parent:after, .dark-theme .state-box-outer-gallery .state-name-inner-page-gallery {
+  color: #181818 !important;
+}
+.dark-theme .header-search-outer, .dark-theme .drop-tabbing .sub-tabs, .dark-theme .header-select-dropdown {
+  border-color: #fff709;
+}
+.dark-theme .accessibility-option, .dark-theme .header-search-outer input, .dark-theme .whats-new-grid .whats-new-inner, .dark-theme ul.tabs li.tab-link, .dark-theme .drop-tabbing .parent-tab, .dark-theme .drop-tabbing .sub-tabs, .dark-theme .drop-tabbing .sub-tabs button, .dark-theme .top-right li.bhashini-li ul.bhashini-dropdown-content, .dark-theme .bhashini-branding {
+  background: #181818;
+}
+.dark-theme .whats-new-grid .whats-new-inner marquee ul li::before, .dark-theme .drop-tabbing .sub-tabs button:hover, .dark-theme .bhashini-dropdown-content li:hover, .dark-theme .bhashini-dropdown-content div:hover, .dark-theme .shape-box-one-main .shape-box-inner-one .shape-mini-main-outer .shape-mini-left, .dark-theme .shape-box-one-main .shape-box-inner-one .shape-mini-main-outer .shape-mini-right {
+  background: #2e2e2e;
+}
+.dark-theme .top-left ul li button.takePledge, .dark-theme .header-pledge-outer, .dark-theme .take-pledge-anchor, .dark-theme .iec-training-outer .iec-training-list li a, .dark-theme .btn-reset, .dark-theme a.gallery-download, .dark-theme ul.tabs li button.current, .dark-theme .float-labels-form button.btn-danger, .dark-theme .j-pro .j-divider-text span, .dark-theme .select-group .select-card.selected, .dark-theme .btn.btn-secondary, .dark-theme .toggleMenu, .dark-theme .top-left ul li a:hover, .dark-theme .top-right ul li a:hover, .dark-theme .pop-up-content, .dark-theme #complaintmodal .pop-up-content, .dark-theme .btn-default, .dark-theme .modal-header, .dark-theme .captcha-grid .captcha-refresh-icon, .dark-theme .counter-dot, .dark-theme a.read-about-us, .dark-theme .banner-right ul li span, .dark-theme .pagination > .active > a, .dark-theme .pagination > .active > a:focus, .dark-theme .pagination > .active > a:hover, .dark-theme .pagination > .active > span, .dark-theme .pagination > .active > span:focus, .dark-theme .pagination > .active > span:hover, .dark-theme .scroll-top a, .dark-theme button.accordion.active, .dark-theme .btn-primary, .dark-theme .table > thead > tr > th, .dark-theme ul.tabs li.current, .dark-theme .nav > li:hover > a, .dark-theme .nav > a:hover, .dark-theme .nav > li li:hover > a, .dark-theme .nav li a:hover, .dark-theme .nav li a.select, .dark-theme .icon.blue, .dark-theme .icon.green,
+.dark-theme .icon.yellow, .dark-theme .inner-icon.blue, .dark-theme .inner-icon.green, .dark-theme .whats-new-grid .whats-new-inner .whats-new-she-box, .dark-theme .iec-material-content, .dark-theme .complaints-headline-banner, .dark-theme .complaints-label, .dark-theme .banner-icon-wrapper svg, .dark-theme .icon-offices, .dark-theme .icon-office-ic, .dark-theme .icon-lc, .dark-theme .icon-nodal, .dark-theme .icon-complaints, .dark-theme .icon-reports, .dark-theme .icon-pledges, .dark-theme .text-right span, .dark-theme .take-pledge .take-pledge-anchor {
+  background: #fff709 !important;
+  color: #181818 !important;
+}
+.dark-theme .whats-new-grid .whats-new-inner .marquee ul li::before, .dark-theme .modal-header .close, .dark-theme .about-us-outer, .dark-theme .contact-detail-outer, .dark-theme .accordian-outer button.active + .panel, .dark-theme .inner-card {
+  background: #242424;
+  color: #fff709;
+}
+.dark-theme .select-group .select-card, .dark-theme .float-labels-form select:focus + label, .dark-theme .float-labels-form select + label.freeze, .dark-theme .float-labels-form textarea:focus + label, .dark-theme .float-labels-form textarea + label.freeze, .dark-theme .float-labels-form input:focus + label, .dark-theme .float-labels-form input + label.freeze, .dark-theme .counter-content, .dark-theme button.accordion, .dark-theme .nested-box-pending, .dark-theme .nested-box-disposed {
+  background: #2e2e2e;
+  color: #fff709;
+}
+.dark-theme .footer-nav-outer, .dark-theme footer, .dark-theme .banner-modal .modal-body .btn-close, .dark-theme .bar1, .dark-theme .bar2, .dark-theme .bar3, .dark-theme .login-form-body, .dark-theme .header-select-dropdown, .dark-theme .status-point-item, .dark-theme .complaints-nested-card {
+  background: #181818;
+}
+.dark-theme div.dataTables_wrapper div.dataTables_filter input, .dark-theme .j-pro .j-footer, .dark-theme .menu .nav, .dark-theme .modal-content, .dark-theme .banner-outer, .dark-theme .tab-content, .dark-theme .nav li ul, .dark-theme .gallery-view-main-outer .faq-main-outer .faq-inner-div .faq-middle-img, .dark-theme .list-outer-main, .dark-theme .event-main-div .event-one {
+  background: #242424;
+  background-color: #242424;
+}
+.dark-theme .float-labels-form input, .dark-theme .float-labels-form textarea, .dark-theme .float-labels-form select, .dark-theme .counter-line-outer:after, .dark-theme .counter-content, .dark-theme .pagination > li > a, .dark-theme .pagination > li > span, .dark-theme .dt-buttons button, .dark-theme .login-form, .dark-theme .table-striped > tbody > tr:nth-of-type(even), .dark-theme .menu, .dark-theme .topbar, .dark-theme .outreach-icon-box {
+  background: #2e2e2e !important;
+}
+.dark-theme .inner-heading, .dark-theme .workplace-card, .dark-theme .select-group .select-card, .dark-theme .form-heading h4, .dark-theme .captcha-grid, .dark-theme .float-labels-form input, .dark-theme .float-labels-form textarea, .dark-theme .float-labels-form select, .dark-theme .pagination > li > a, .dark-theme .pagination > li > span, .dark-theme .contact-detail-outer, .dark-theme .page-heading, .dark-theme .table-bordered > tbody > tr > td, .dark-theme ul.tabs li {
+  border-color: #fff709 !important;
+}
+.dark-theme .accessibility-option, .dark-theme .table > thead > tr > th {
+  border-color: #181818 !important;
+}
+.dark-theme .header-pledge-inner-outer, .dark-theme a.gallery-download, .dark-theme .counter-dot {
+  border-color: #2e2e2e !important;
+}
+.dark-theme ul.tabs li button, .dark-theme div.dataTables_wrapper div.dataTables_filter input, .dark-theme .footer-nav-outer ul li {
+  border-color: #fff709 !important;
+}
+.dark-theme .counter-content:after {
+  border-top-color: #2e2e2e !important;
+}
+.dark-theme .banner-right ul li a, .dark-theme .banner-right ul a li {
+  background: rgba(255, 247, 9, 0.9);
+  color: #181818;
+}
+.dark-theme .reset-filters img, .dark-theme .access-icon, .dark-theme .header-right-icon-outer > ul > li > a > img, .dark-theme .header-right-icon-outer > ul > li > button > img, .dark-theme .header-search-outer img, .dark-theme .header-left a img, .dark-theme .pop-up-content img, .dark-theme .banner-right ul li span img, .dark-theme .icon.blue img, .dark-theme .icon.green img, .dark-theme .icon.yellow img {
+  filter: invert(1);
+}
+.dark-theme .banner-outer:before {
+  opacity: 0.25;
+}
+.dark-theme ::placeholder, .dark-theme .form-field input::placeholder, .dark-theme ::-webkit-calendar-picker-indicator, .dark-theme div#total-workplace-heading, .dark-theme div#total-ics-heading, .dark-theme div#new-ics-heading,
+.dark-theme h4.card-header-title, .dark-theme .header-select-dropdown, .dark-theme .outreach-label, .dark-theme .outreach-label-indigo, .dark-theme .outreach-icon-box svg {
+  color: #fff709 !important;
+}
+.dark-theme input:-webkit-autofill, .dark-theme .inner-card {
+  -webkit-box-shadow: 0 0 0 1000px #2e2e2e inset !important;
+  -webkit-text-fill-color: #fff709 !important;
+}
+.dark-theme .heading {
+  background-image: url(../images/heading-border-dark.png);
+}
+.dark-theme .premium-card, .dark-theme .map-interactive-wrapper {
+  background: #242424;
+  border: none;
+}
+.dark-theme .card-header-line {
+  border-bottom-color: #fff709;
+}
+.dark-theme .outreach-banner-activity, .dark-theme .outreach-banner-participants {
+  background: #181818;
+  color: #fff709;
+}
+.dark-theme .sitemap-item, .dark-theme h2.sitemap-title, .dark-theme .sitemap-home {
+  border-color: #2e2e2e;
+}
+.dark-theme .header-search-outer input {
+  color: #fff;
+}
+.dark-theme .header-right-icon-outer > ul > li {
+  background-color: #181818 !important;
+}
+.dark-theme .header-right-icon-outer > ul > li.bhashini-li svg path {
+  fill: #fff !important;
+}
+.dark-theme .switch input:checked + .slider {
+  background-color: #fff709 !important;
+}
+.dark-theme .switch .slider:before {
+  background-color: #181818 !important;
+}/*# sourceMappingURL=dark-theme-style.css.map */

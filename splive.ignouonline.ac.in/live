@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from splive.ignouonline.ac.in/live by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:20:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Swayam Prabha Live </title>
+    <link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="webjars/font-awesome/6.2.0/css/all.css" rel="stylesheet" type="text/css"/>
+    <link href="../fonts.googleapis.com/css2a6f3?family=Oswald:wght@700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/master.css" type="text/css"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="../www.googletagmanager.com/gtag/js4e39?id=G-QEQZ9STW7Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-QEQZ9STW7Q');
+    </script>
+</head>
+<body>
+
+<!-- Header Section Start Here -->
+<div class="headerBg">
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-auto ignouLogoWhite"><img class="mt-3" src="img/ignouWhiteLogo.png" alt="">
+            </div>
+            <div class="col text-center headingText">
+                <img src="img/swayamLogo.png" alt="">
+            </div>
+            <div class="col col-sm-auto text-end naacLogo"><img class="mt-3" src="img/naacLogo.png" alt=""></div>
+
+            <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Header Section End Here -->
+</div>
+
+<!-- Middle Section Start Here -->
+<div class="middleBg">
+    <!-- <div class="text-danger fw-bold" style="padding-left: 20px;">Note:- Click <a
+             href="https://www.youtube.com/watch?v=ka7xu6BtAOs" target="_blank">here</a> to watch <a
+             href="https://www.youtube.com/watch?v=ka7xu6BtAOs" target="_blank">Live conference of NEP-PDP on Swayam Prabha Channel 20</a> at 11AM-12PM.</div>
+ -->
+    <div class="skyBlueStrip">
+        <!--<div class="text-danger fw-bold" style="padding-left: 20px;">Note:- Click <a
+            href="https://www.youtube.com/watch?v=ka7xu6BtAOs" target="_blank">here</a> to watch <a
+            href="https://www.youtube.com/watch?v=ka7xu6BtAOs" target="_blank">Live conference of NEP-PDP on Swayam Prabha Channel 20</a> at 11AM-12PM.</div>-->
+    </div>
+    <div class="container">
+        <div class="row mt-2 archiSchdulBtns content">
+            <!--<div class="col-sm-8 text-danger fw-bold fs-5">
+             Important Note:- Click <a
+                    href="https://www.youtube.com/watch?v=ka7xu6BtAOs" target="_blank">here</a> to watch <a
+                    href="https://www.youtube.com/watch?v=ka7xu6BtAOs" target="_blank">Live conference of NEP-PDP on
+                Swayam Prabha Channel 20</a> between 11AM - 12PM on 08th August 2022.
+            </div>-->
+            <div class="col">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text btn-success"><i class="fa-solid fa-house"></i> </span>
+                    <a class="btn btn-success fbld" href="live">Home</a>
+                </div>
+            </div>
+            <div class="col-sm-auto">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text"><i class="fa-solid fa-tv"></i> </span>
+                    <a href="live/ignou" class="btn btn-danger btn-xs">IGNOU Live</a>
+                </div>
+            </div>
+            <div class="col-sm-auto">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text"><i class="fa-solid fa-box-archive"></i> </span>
+                    <a href="live/archived/0bbea?programme=0&amp;courseCode=All&amp;language=0&amp;channelNo=0" class="btn btn-danger btn-xs">Archived Lectures</a>
+                </div>
+            </div>
+            <div class="col-sm-auto ">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text"><i class="fa-solid fa-calendar-days"></i> </span>
+                    <a href="live/schedule" type="button" class="btn btn-danger btn-xs">Schedule</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6 col-sm-12">
+                <div class="tvBox">
+                    <div class="channelRow">
+                        <div class="channelNumbr">
+                            <a href="live/ch/11" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">11</span>
+                            </a>
+                        </div>
+                        <div class="channelNumbr">
+                            <a href="live/ch/12" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">12</span>
+                            </a>
+                        </div>
+                        <div class="channelNumbr">
+                            <a href="live/ch/13" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">13</span>
+                            </a>
+                        </div>
+                        <div class="channelNumbr">
+                            <a href="live/ch/15" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">15</span>
+                            </a>
+                        </div>
+                        <div class="channelNumbr">
+                            <a href="live/ch/IG" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">IG</span>
+                            </a>
+                        </div>
+                        <div class="channelNumbr">
+                            <a href="live/ch/16" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">16</span>
+                            </a>
+                        </div>
+                        <div class="channelNumbr">
+                            <a href="live/ch/14" type="button" class="btn-chnl">
+                                <span class="channelNumberTxt">14</span>
+                            </a>
+                        </div>
+                        <div class="tvContainer">
+                            
+                            <img class="defaultFrm img-fluid" src="img/default.jpg"
+                                 alt="Click on the Channel number for Live Counselling"/>
+                        </div>
+                        <div class="w100 tc">
+                            <a href="live/feedbackForm" class="btn btn-primary">
+                                <i class="fa-solid fa-comment"></i> Feedback</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 questionBox">
+                <div class="w100 posRelative">
+                    <h1 class="d-inline-block">Ask Question?</h1>
+                    <h5 class="subHdngAsk">
+                        <span></span><br/>
+                        <span class="fs-6"></span>
+                    </h5>
+
+                    <!-- <button type="button" class="btn btn-dark schheduleBtn"><i class="fa-solid fa-calendar-days"></i> Schedule</button> -->
+                </div>
+                
+                <form id="askAQ-form" class="mt-4" action="https://splive.ignouonline.ac.in/live/askQuestion" method="post"><input type="hidden" name="_csrf" value="Jpomipa9txydqedD45gtfou5sxH6z1eyypTBcM6F_sfuLrcdFvlEuqPf1iqwmYJ3gLUZG76NninC_mKfq_D1Eq_nx_WMH4R4"/>
+                    <input type="hidden" name="_csrf" value="Jpomipa9txydqedD45gtfou5sxH6z1eyypTBcM6F_sfuLrcdFvlEuqPf1iqwmYJ3gLUZG76NninC_mKfq_D1Eq_nx_WMH4R4"/>
+                    <!-- <input type="hidden" th:field="${chId}"/>-->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label class="form-label fbld">Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter Your name"
+                                   required id="name" name="name" value=""/>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label fbld">Email Id:</label>
+                            <input type="email" class="form-control"
+                                   placeholder="Enter Your emailId" required id="emailId" name="emailId" value=""/>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label class="form-label fbld">Are you IGNOU's student:</label>
+                            <div class="w100">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" id="enrollYes" value="1" required name="ignouStudent">
+                                    <label class="form-check-label" for="enrollYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" id="enrollNo" value="0" required name="ignouStudent" checked="checked">
+                                    <label class="form-check-label" for="enrollNo">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label fbld">Mobile No.</label>
+                            <input type="text" class="form-control"
+                                   placeholder="Enter Your mobile No" required id="mobileNo" name="mobileNo" value="">
+
+                        </div>
+                    </div>
+                    <div class="row mb-3" id="show-me" style="display: none;">
+                        <div class="col-6">
+                            <label class="form-label fbld">Enrollment No:</label>
+                            <input type="text" class="form-control"
+                                   placeholder="Enter Your Enrollment No" id="enrollmentNo" name="enrollmentNo" value="">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label class="form-label fbld">Channel Slots</label>
+                            <select name="slotAllocation" class="form-select select-sm" id="channel_id" required>
+                                </select>
+                        </div>
+                        <!-- <div class="col-6">
+                             <label class="form-label">Language</label>
+                             <select name="language" class="form-select select-sm" id="language_id" required>
+                                 <option value=0 selected="selected" disabled="disabled">Select Language</option>
+                             </select>
+                         </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label class="form-label fbld">Your Question</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                      rows="3" required name="question"></textarea>
+                            <!-- <button class="g-recaptcha"
+                                     data-siteKey="6LeVf8EeAAAAAOJfLsXat-e7sQJ8cOz7t3k9kDw1"
+                                     data-callback='onSubmit'
+                                     data-action='submit'>Submit</button> -->
+                        </div>
+                    </div>
+                    <div class="row mb-3 mt-3">
+                        <div class="col-6">
+                            <label class="form-label fbld">Enter the Captcha:</label>
+                            <img src="data:realCaptcha/jpg;base64,null" class="float-end"/>
+                        </div>
+                        <div class="col-6">
+                            <input type="hidden" id="hiddenCaptcha" name="hiddenCaptcha" value=""/>
+                            <input type="text" class="form-control" required id="captcha" name="captcha" value=""/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="col-12 tc">
+                                <button type="submit" class="btn btn-success mt-4">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Middle Section Start Here -->
+</div>
+
+<!-- Footer Section Start Here -->
+<div class="container footer">
+    <div class="row">
+        <div class="col">
+            <small>Copyright © 2022 COE, Indira Gandhi National Open University. All rights reserved</small>
+        </div>
+    </div>
+</div>
+<!-- Footer Section End Here -->
+
+<script src="webjars/jquery/3.6.1/jquery.min.js" type="application/javascript"></script>
+<script src="webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js" type="application/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        loadData();
+    });
+    $(function () {
+        $('input[type="radio"]').click(function () {
+            if ($(this).attr('id') == 'enrollYes') {
+                $('#show-me').show();
+            } else {
+                $('#show-me').hide();
+            }
+        });
+    });
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
+
+    /*  function loadData() {
+          $.get("/api/channels", function (data) {
+              //  console.log("DATA....." + data);
+              const string = data;
+              jQuery(string).each(function (i, item) {
+                  $("#channel_id").append($("<option></option>").val(item.id).html(item.channelNumber));
+              });
+          });
+
+        $(function () {
+            $("#channel_id").change(function () {
+                $("#language_id").empty();
+                var sId = $('option:selected', this).val();
+                $.get("/api/language/ch" + sId, function (data) {
+                    var string = data;
+                    var row = '';
+                    if (data != "") {
+                        $.each(string, function (i, item) {
+                            $("#language_id").append($("<option></option>").val(item.id).html(item.language));
+                        });
+                    } else {
+                        $('#language_id').val("Not Available");
+                        /!*   $('#dd_programme').removeAttr('disabled');*!/
+                    }
+                });
+            });
+        });*/
+
+</script>
+<script src="../www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("askAQ-form").submit();
+    }
+</script>
+
+</body>
+
+<!-- Mirrored from splive.ignouonline.ac.in/live by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:20:56 GMT -->
+</html>

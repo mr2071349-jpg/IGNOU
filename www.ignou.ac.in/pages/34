@@ -1,0 +1,2519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/34 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:21:41 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/soaB.jpg" alt="School of Studies&lt;br/&gt;(School of Agriculture)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Agriculture)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="34">School of Agriculture</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Aboutus" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">About us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>The School of Agriculture (SOA) was established in 2005 with a mission to improve and sustain the quality of human life and productivity of Agriculture and allied sectors through Open and Distance education.
+                 <p><b>Vision:</b><br/>
+                 Extend outreach of agriculture education by harnessing convergence between ODL and conventional system through national and international linkages.</p>
+<p><b>Mission:</b><br/>
+Improve and sustain the quality of human life and productivity of Agriculture and Allied Sectors through ODL.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Aboutus"  ><td>Presently School has three disciplines namely Agricultural Production System; Agriculture Economics & Extension; and Food Science & Technology. There are 7 faculty members coordinating 18 ODL and one on-line programmes and 7 MOOCs in the area of Agriculture and allied sectors at different levels. The School also organises need based training programmes, undertakes systemic research and fosters collaborations with different organisations to disseminate education and build skills in agriculture and allied sectors. The School is coordinating one SWAYAM PRABHA Channel.</td></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Objectives"  ><td>
+			    <ul style="list-style-type:disc;">
+				     <li>To strengthen the human resource in agriculture and allied sector through ODL;</li>
+					 <li>To provide equitable quality education in agriculture to marginalized and disadvantaged groups;</li>
+					 <li>To enhance knowledge, skills and entrepreneurial capabilities for livelihood security;</li>
+					 <li>To use ICT in improving outreach and effectiveness of distance education in agriculture;</li>
+					 <li>To conduct research in emerging areas for effective technology transfer and adoption; </li>
+					 <li>To established national and international linkages in agriculture education and knowledge management for sustainable development;</li>
+					 <li>To plan and conduct research and training through ODL in agriculture production and management system under different locations including North-Eastern Regions; and  </li>
+					 <li>To develop and maintain an open repository of agricultural educational resources. </li>
+			    
+			 </td></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="History"  ><td>The University’s Board of Management in its 74th meeting held on 28/02/2003 approved the establishment of School of Agriculture.<br>
+                  The School of Agriculture came into existence in 2005. <br>
+                  The School started with 2 programmes in 2005 and currently offering 19 programmes including Ph.D., PG, UG, Diploma and Certificate programmes. <br>
+                  The School is also offering one on-line programme and 7 MOOCs. <br>
+                  The School signed MoU with different organizations:
+                  <ul style="list-style-type:disc;">
+				     <li>Indian Council of Agricultural Research (ICAR)</li>
+					 <li>International Food Policy Research Institute (IFPRI)</li>
+					 <li>Food Safety and Standards Authority of India (FSSAI)</li>
+					 <li>National Dairy Research Institute (NDRI)</li>
+					 <li>Central Silk Board</li>
+					 <li>Agricultural and Processed Food Products Export Development Authority (APEDA)</li>
+					 <li>Food Industry Capacity and Skill Initiative</li>
+					 <li>Agriculture Skill Council of India</li>
+					 <li>Institute of Cost Accountants of India</li>
+				   </ul> 
+				   
+				    The School received grant-in-aid from the following Organisation:
+				    <ul style="list-style-type:disc;">
+					  
+				      <li>National Horticulture Mission, Ministry of Agriculture and Farmers Welfare, GOI•	Department of Land Resources, MoRD, GOI</li>
+					  <li>Department of Land Resources, MoRD, GOI</li>
+					  <li>Ministry of Food Processing Industries, GOI</li>
+				   </ul>
+				   
+				    <p>The School is involved in teaching, research and extension activities. <br>
+                       The School has conducted more than 50 need-based training programmes including two model training programmes for extension functionaries funded by Directorate of Extension, Ministry of Agriculture and Farmers Welfare, GOI.<br>
+                       The School had completed one NAIP-ICAR Research Project.<br>
+                       The School organised one International Conference and one Regional Seminar. <br>
+                       The School has established one Study Centre in the School of Agriculture and food processing lab. 
+                       </p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p>The agriculture sector has been evolving rapidly, particularly over the last 20-25 years. Farmers are increasingly using high-cost inputs to achieve higher production per unit area. They not only work hard to maximize production but also aim for more returns from the available farm resources. The continuous advancement of technology and innovation in the agriculture sector necessitates the upgradation of knowledge and skills among farmers and rural communities. Ensuring access to quality agricultural education at the doorstep of farmers and rural youth is the need of the hour to empower them.
+                   <p>In this direction, a significant step was taken in 2005 with the establishment of the School of Agriculture at Indira Gandhi National Open University (IGNOU).The mission of the school is to improve and sustain productivity and enhance the quality of human life in rural areas through the Open and Distance Learning System (ODL) in agriculture and allied Sectors. </p>
+
+                   <p>The School of Agriculture offers a total of 18 education programmes in agriculture, keeping in view the requirements of the farming community, rural youth, women, unemployed youths, technicians, entrepreneurs and working professionals. These educational programmes are significant for sensitization, building employable skills, entrepreneurship development and capacity building. Agribusiness management, food safety, agriculture policy, agri cost management, value addition and processing of fruits and vegetables, dairy and meat technology, watershed management, horticulture, sericulture, water harvesting, poultry farming, beekeeping, organic farming and dairy farming are important areas covered for imparting agricultural education through open and distance learning.  </p>
+
+                   <p>The School of Agriculture is actively working to develop more such programmes that directly impact the income of farming communities and enhance employability. Additionally, these programmes cater to the needs of agro-based industries by providing trained human resources at technician, supervisory and managerial levels. </p>
+                   <p>The School focuses on transforming agriculture as an industry and enterprise, sharing resources, promoting start-ups, and organising outreach activities. Together, these efforts are important for transformative growth in Indian agriculture. The institutions and academic bodies may extend their consistent support in enhancing the reach of agricultural education to geographically remote and far-flung areas, particularly to disadvantaged sections of society.</p>
+                   Thank you and best wishes. <br>
+<span style="text-align:right">
+                   With regards, <br>
+
+                   Prof. Vijayakumar P., <br>
+                   Director, School of Agriculture</span>
+             </p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="ContactUs"  ><td>Director <br>
+                 School of Agriculture <br>
+                 Block G-2, Academic Complex, <br>
+                 IGNOU, Maidan Garhi, New Delhi-110 068 <br>
+                 Email:<u> soa@ignou.ac.in </u>
+             </td></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="SchoolBoardMembers"  ><p style="text-align: center;"><b>IGNOU</b></p>
+<p style="text-align: center;"><b>School of Agriculture</b></p>
+<p style="text-align: center;"><b>School Board - Member</b></p>
+<table width="100%">
+<tr>
+    <th>S.No.</th>
+    <th>Name & Address</th>
+    <th>Designation</th>
+     <th>Photo</th>
+  </tr>
+   <tr>
+    <td>1.</td>
+    <td>Prof. Vijayakumar P.,<br>
+	Director,<br>
+School of Agriculture, IGNOU, New Delhi<br>
+Email: pvkumar@ignou.ac.in</td>
+    <td><b>Chairperson</b><br>
+      Under Clause 2(a) of Statute 10 (A)</td>
+    <td><img class="img-thumbnail"  src="../viewFile/soa/pp/VijayakumarP.jpg" style="width: 120px; height: 120px"/></td>
+  </tr>
+   <tr>
+<td>2.</td>
+    <td>Dr. Ajeet Kumar Karnatak<br>
+	Former Vice-Chancellor<br>
+	Maharana Pratap University of Agriculture & Technology,<br>
+	Udaipur-313001 (Rajasthan)<br>
+	Tel.: 0294-2471101, 2470682 (O)<br>
+	Email: ajeetkumarkarnatak@gmail.com</td>
+     <td><b>External Member</b><br>
+Under Clause 2(e) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Ajeetkumar.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+ <tr>
+<td>3.</td>
+    <td>Dr. Siddayya<br>
+        Professor & Head, Institute of Agri-Business Management and<br>
+        Principal Co-ordinator, MBA (ABM)<br>
+	GKVK, UAS, Bengaluru,(Karnataka)-560 065<br>
+	Mob: 9640689311<br>
+	Email: hodamcben@uasbangalore.edu.in</td>
+<td><b>External Member</b><br>
+Under Clause 2(e) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Prof.Siddayya.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+ <tr>
+<td>4.</td>
+<td>Dr. Rajarshi Roy Burman<br>
+Assistant Director General (Agricultural Extension),<br>
+Division of Agricultural Extension,<br>
+Krishi Anusandhan Bhawan,ICAR,<br>
+New Delhi - 110012<br>
+Email: burman_extn@hotmail.com</td>
+<td><b>External Member</b><br>
+Under Clause 2(e) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/RajarshiRoy.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>5.</td>
+    <td>Prof. M. K. Salooja<br>
+(Retired Professor, School of Agriculture, IGNOU)<br>
+B-2/10, Janakpuri, New Dehli-110058.<br>
+E: mksalooja@gmail.com<br></td>
+   <td><b>External Member</b><br>
+Under Clause 2(e) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Salooja.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Dr. Prabodh S. Halde<br>
+Address: 102, Oxford Hiranandani Estate, <br>
+G. B. Road, Thane West, Maharashtra 400607<br>
+Email: prabodh1972@gmail.com</td>
+<td><b>External Member</b><br>
+Under Clause 2(e) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Prabodh.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>7.</td>
+<td>Prof. Neera Kapoor<br>
+Professor,<br>
+School of Sciences (SOS), IGNOU, New Delhi<br>
+Email: neerakapoor@gmail.com<br>
+<td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Neera.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>8.</td>
+<td>Prof. Grace Don Nemching,<br>
+Professor,<br>
+School of Extension and Development Studies (SOEDS), IGNOU, New Delhi<br>
+Email: gdnemching@ignou.ac.in
+<td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/GraceDon.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>9.</td>
+    <td>Dr. Vishal Warpa,<br>
+	Associate Professor,<br> 
+   School of Sciences (SOS), IGNOU, New Delhi,<br>
+   Email: vishalwarpa@ignou.ac.in<br></td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/VishalWarpa.jpg" style="width: 120px; height: 120px"/></td>
+<td></td>
+</tr>
+<tr>
+<td>10.</td>
+    <td>Dr. Binod Kumar<br>
+	Assistant Professor, <br>
+    School of Social Work (SOSW), IGNOU, New Delhi<br>
+    Email: binodkumar@ignou.ac.in<br></td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/binod.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>11.</td>
+    <td>Prof. S.K. Yadav,<br>
+	Professor,<br>
+School of Agriculture(SOA), IGNOU, New Delhi<br>
+Email: skyadav@ignou.ac.in</td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/skyadav.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>12.</td>
+    <td>Prof. Praveen Kumar Jain, <br>
+	Professor,<br>
+	School of Agriculture, IGNOU, New Delhi<br>
+	Email:pkjain@ignou.ac.in</td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Praveen-KumarJain.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>13.</td>
+    <td>Prof. Mukesh Kumar, <br>
+	Professor,<br>
+	School of Agriculture (SOA), IGNOU, New Delhi <br>
+	Email:mkumar@ignou.ac.in</td>
+	<td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/mukesh.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<td>14.</td>
+    <td>Prof. Mita Sinhamahapatra, <br>
+	Professor, <br>
+	School of Agriculture(SOA), IGNOU, New Delhi<br>
+	Email:mitasinhamahapatra@ignou.ac.in<br>
+	</td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/Mita-Sinhamahapatra.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>15.</td>
+    <td>Dr. Dinkar B. Kamble, <br>
+	Assistant Professor, <br>
+	School of Agriculture(SOA), IGNOU, New Delhi<br>
+	Email:dinkar_soa@ignou.ac.in</td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/dinkar.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+<td>16.</td>
+    <td>Dr. Chaithra N.R.<br>
+	Assistant Professor, <br>
+School of Agriculture(SOA), IGNOU, New Delhi<br>
+Email: chaithranr@ignou.ac.in</td>
+     <td><b>Member</b><br>
+Under Clause 2(d) of Statute 10 (A)</td>
+<td colspan="2"><img class="img-thumbnail"  src="../viewFile/soa/pp/chaithra.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+<tr>
+</table></div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center">2005-03-09</td>
+                                                <td class="text-center">DEC Building, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-1.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-1</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center">2005-08-05</td>
+                                                <td class="text-center">Conference Room, DEC Building, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-2.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-2</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center">2006-06-20</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-3.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-3</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center">2006-12-14</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-4.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-4</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center">2007-02-14</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-5.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-5</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center">2007-07-04</td>
+                                                <td class="text-center">Board Room, Block-8, IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-6.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-6</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center">2007-10-30</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-7.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-7</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center">2008-03-07</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-8.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-8</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center">2008-07-25</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-9.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-9</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center">2008-11-17</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-10.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-10</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center">2009-04-15</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-11.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-11</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center">2009-05-13</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-12.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-12</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center">2009-07-15</td>
+                                                <td class="text-center">Conference Room, SOSS, Block-F, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-13.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-13</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center">2009-10-28</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-14.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-14</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center">2010-04-09</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-15.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-15</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center">2010-08-13</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-16.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-16</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center">2010-12-10</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-17.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-17</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center">2011-04-26</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-18.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-18</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center">2011-11-15</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-19.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-19</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center">2012-06-12</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, New Academic Complex, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-20.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-20</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center">2012-10-17</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-21.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-21</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center">2013-04-17</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-22.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-22</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center">2013-11-20</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-23.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-23</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center">2014-09-25</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-24.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-24</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center">2015-03-13</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-25.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-25</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center">2015-09-30</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-26.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-26</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center">2016-03-11</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-27.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-27</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center">2016-08-22</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-28.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-28</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center">2017-03-15</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-29.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-29</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center">2017-10-12</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-30.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-30</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center">2018-03-16</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-31.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-31</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center">2018-10-31</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-32.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-32</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center">2019-03-15</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-33.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-33</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center">2019-10-11</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-34.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-34</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">35</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">35</td>
+                                                <td class="text-center">2020-02-26</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, Zakir Hussain Bhawan, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-35.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-35</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">36</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">36</td>
+                                                <td class="text-center">2020-08-14</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-36.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-36</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">37</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">37</td>
+                                                <td class="text-center">2021-07-14</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-37.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-37</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">38</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">38</td>
+                                                <td class="text-center">2021-10-13</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-38.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-38</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">39</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">39</td>
+                                                <td class="text-center">2021-12-20</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-39.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-39</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">40</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">40</td>
+                                                <td class="text-center">2022-02-28</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-40.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-40</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">41</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">41</td>
+                                                <td class="text-center">2022-08-26</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-41.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-41</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">42</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">42</td>
+                                                <td class="text-center">2023-03-15</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-42.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-42</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">43</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">43</td>
+                                                <td class="text-center">2023-06-07</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-43.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-43</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">44</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">44</td>
+                                                <td class="text-center">2023-12-08</td>
+                                                <td class="text-center">Conference Room, SOA, Block-G, IGNOU, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-44.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-44</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">45</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">45</td>
+                                                <td class="text-center">2024-05-22</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-45.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-45</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">46</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">46</td>
+                                                <td class="text-center">2024-11-22</td>
+                                                <td class="text-center">Conference Room, SOA</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-46.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-46</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">47</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">47</td>
+                                                <td class="text-center">2025-08-08</td>
+                                                <td class="text-center">Conference Room, SOA (Hybrid Mode)</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/SBM-47.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-47</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">48</td>
+                                                <td class="text-center" style="width: 5px;">BSOA</td>
+                                                <td class="text-center" style="width: 2px;">48</td>
+                                                <td class="text-center">2026-02-07</td>
+                                                <td class="text-center">Conference Room, SOA (Hybrid Mode)</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOA/null.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> null</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/vijaya.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal26">
+                                                        <label class="fw-bold">Prof. Vijayakumar P.</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Vijayakumar P.</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director, SoA, Director, CIQA and Head, NEP Cell</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Livestock Production Management (LPM)</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>17-04-2006</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>pvkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Dr. Vijayakumar obtained his B.V.Sc. & A.H. from Pondicherry University, M.V.Sc. (Livestock Production Management - LPM) from Kerala Agricultural University and Ph.D. (LPM) from Indian Vetereinary Research Institute (IVRI), Bareilly. He has more than 18 years’ of experience in Teaching, Research and Extension in the area of Livestock Production Management, Distance Education, and Food Safety. Currently, he is working as Professor in the School of Agriculture, Indira Gandhi National Open University, New Delhi. He has made significant contribution in designing course curriculum of various educational programmes at different levels viz. awareness, certificate, diploma, UG degree and PG Degree. He has developed educational programmes in the areas of Dairy Farming, Sericulture, Poultry Farming, Value Added Products from Fruits and Vegetables, Fish Products Technology, and Food Safety & Quality Management. Currently, he is coordinating five Open and Distance Learning (ODL) programmes viz. Bachelor of Science (Food Safety and Quality Management) (BSCFFSQM), Diploma in Dairy Technology (DDT), Certificate in Sericulture (CIS), Certificate in Poultry Farming (CPF) and Awareness Programme on Dairy Farming (APDF). He is also coordinating a MOOC on "Introduction to Poultry Farming" in the SWAYAM Platform. He has published 15 research papers in peer reviewed national & international journals and participated in national & international conferences. He has also contributed to 3 book chapters. He has organized a number of training programmes in different subjects like poultry farming, fish farming, watershed management, soil and water conservation, sericulture etc. </p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director, SoA, Director, CIQA and Head, NEP Cell<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Livestock Production Management (LPM)</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>17-04-2006</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>pvkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/shailendra.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal43">
+                                                        <label class="fw-bold">Prof. Shailendra Kumar Yadav</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal43" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Shailendra Kumar Yadav</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director, EMPC and, Chairman, Horticulture Cell</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Agronomy</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>skyadav@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Shailendra Kumar Yadav completed his PhD degree in Agronomy from G B Pant University of Agriculture and Technology. He specializes in Weed Science, Organic and Natural Farming. He had worked as ARS scientist in Indian Council of Agricultural Research(ICAR) from 1998 to 2006. In 2006, he joined at School of Agriculture, Indira Gandhi National Open University(IGNOU),  as a Reader in Agricultural Production System. From 2012, he is working as a Professor in the School of Agriculture, Indira Gandhi National Open University(IGNOU). He has published a total of 15 Research papers and have attended many seminars and sympoia. Presently, he is coordinating three programmes under Open and Distance Learning viz, Diploma in Horticulture, Certificate in Organic Farming and Certificate in Beekeeping.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director, EMPC and, Chairman, Horticulture Cell<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Agronomy</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>skyadav@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/Praveen-KumarJain.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal47">
+                                                        <label class="fw-bold">Prof. Praveen Kumar Jain</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal47" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Praveen Kumar Jain</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Agricultural Economics</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>pkjain@ignou.ac..in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Praveen Kumar Jain, Ph.D. in Agricultural Economics has developed and presently coordinating MBA (Agribuiness Management), PG Diploma in Agribusiness Management, PG Certificate in Agriculture Policy and Diploma in Agricultural Cost Management programmes. He has developed and offered seven Massive Open Online Courses through SWAYAM platform. Implemented ICAR-NAIP sponsored research project “Innovations in Technology Mediated Learning: An Institutional Capacity Building in Re-Usable Learning Object Technology in Agro-Horticulture” as Principal Investigator.  Conducted six training programmes for farmers, rural youth, and extension functionaries. He has organised one International Conference “Agriculture Education and Knowledge Management” as Co-organizing Secretary and one Regional Conference on “Food Security and Sustainable Agriculture Development” as Organizing Secretary. He has participated in two international training programmes at USA and Canada on reusable learning objects technology under NAIP project. He has participated in 56 Seminars/Conferences/Workshops. He has published 45 research papers, 4 books and 8 book chapters.  His areas of interest include Agribusiness Management, Agricultural Policy, Open and Distance Learning, Agricultural Marketing, and Agriculture Extension.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Agricultural Economics</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>pkjain@ignou.ac..in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/mukesh.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal50">
+                                                        <label class="fw-bold">Prof. Mukesh Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal50" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Mukesh Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Agricultural Engineering (Soil and Water Conservation Engineering)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>mkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Dr. Mukesh Kumar obtained his B. Tech. (Agricultural Engineering) and M. Tech. (Soil and Water Engineering) from Punjab Agricultural University, Ludhiana. He received his Ph.D. in Agricultural Engineering with specialization in Soil and Water Conservation Engineering from Indian Agricultural Research Institute, New Delhi. He has more than 18 years’ experience in Teaching and Research and Extension in the area of Watershed Management, Water Management and Drip Irrigation. Presently he is working as Professor in Indira Gandhi National Open University, New Delhi. He has made significant contribution in designing course curriculum of various educational programmes at different levels viz. awareness,  certificate, diploma, UG degree and PG Degree.</p><p>He has developed number of educational programmes in the field of solar water pumping system, water management, watershed management and food safety & quality management at national level. Presently he is coordinating four programmes viz Bachelor of Science (Food Safety and Quality Management) (BSCFFSQM), Diploma in watershed Management (DWM), Diploma in Value Added Products from Fruits and Vegetables (DVAPFV), Certificate in Water Harvesting and Management (CWHM), Awareness Programme in Solar Water Pumping System (APSWP). He has published 50 research papers in peer reviewed national & international journals and participated in 38 national & international conferences. He has also contributed more than 22 book chapters and published three book and two extension manuals. He has organized number of national and international conferences as Organizing Secretary /Co-organizing Secretary/ member organizing committee. He has received Ph.D. Student Incentive Award-2012 award, Gold Medal-2014, Special Research Award-2016 and National Fellow-2019 from Soil Conservation Society of India. Fertilizer Association of India has awarded him with Golden Jubilee Award for Doctoral Research in Fertilizer Uses in 2013 for outstanding research work on dynamics of nutrient movement in soil under fertigation during Ph.D. He has also honored with University Silver Medal-2015 by the Indira Gandhi National Open University, New Delhi, India. Dr. Kumar is a life member of different professional societies and actively involved in Indian Society of Soil and Water Conservation, New Delhi. He was Joint Secretary and presently holding position of Treasure in Soil Conservation Society of India, New Delhi.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Agricultural Engineering (Soil and Water Conservation Engineering)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>mkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/mita.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal51">
+                                                        <label class="fw-bold">Prof. Mita Sinhamahapatra</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal51" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Mita Sinhamahapatra</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Animal Products Technology and Marketing (APTM)</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>mitasinhamahapatra@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Animal Products Technology and Marketing (APTM)</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>mitasinhamahapatra@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/dinkar.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal52">
+                                                        <label class="fw-bold">Dr. Dinkar B. Kamble</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal52" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Dinkar B. Kamble</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Food Science and Technology</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>dinkar_soa@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Food Science and Technology</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>dinkar_soa@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOA/pp/chaithra.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal53">
+                                                        <label class="fw-bold">Dr.Chaithra N.R.</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal53" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr.Chaithra N.R.</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Agricultural Extension</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>chaithranr@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Agricultural Extension</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>chaithranr@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MBAABM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mbaabm.jpg" alt="578" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Business Administration(Agribusiness Management)(MBAABM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/COF">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cof.jpg" alt="74" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Organic Farming(COF)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CIB">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cib.jpg" alt="75" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Beekeeping(CIB)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MSCFSQM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mscfsqm.jpg" alt="99" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">M.Sc. (Food Safety &amp; Quality Management)(MSCFSQM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDFSQM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdfsqm.jpg" alt="98" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">PG Diploma in Food Safety &amp; Quality Management(PGDFSQM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/BSCFFSQM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/bscffsqm.jpg" alt="100" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Bachelor of Science (Food Safety and Quality Management(BSCFFSQM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDAB">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdab.jpg" alt="101" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">PG Diploma in Agribusiness(PGDAB)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGCAPOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcapol.jpg" alt="692" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Certificate in Agriculture Policy(PGCAPOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGCAP">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcap.jpg" alt="97" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Certificate in Agriculture Policy(PGCAP)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DOHRT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dohrt.jpg" alt="80" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Horticulture(DOHRT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DACM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dacm.jpg" alt="96" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Agricultural Cost Management(DACM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DWM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dwm.jpg" alt="95" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Watershed Management(DWM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DMT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dmt.jpg" alt="78" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Meat Technology(DMT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DDT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/ddt.jpg" alt="77" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Dairy Technology(DDT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DVAPFV">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dvapfv.jpg" alt="76" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Value Added Products from Fruits and Vegetables(DVAPFV)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CIS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cis.jpg" alt="73" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Sericulture(CIS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CPF">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cpf.jpg" alt="72" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Poultry Farming(CPF)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CWHM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cwhm.jpg" alt="71" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Water Harvesting and Management(CWHM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/APDF">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/apdf.jpg" alt="70" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Awareness Programme on Dairy Farming(APDF)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/34 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:21:41 GMT -->
+</html>

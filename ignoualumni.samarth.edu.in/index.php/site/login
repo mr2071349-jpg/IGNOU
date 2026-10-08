@@ -1,0 +1,115 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+<!-- Mirrored from ignoualumni.samarth.edu.in/index.php/site/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 08:45:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="pFqpOda3Dn8eAmQfwx7Tr-mUJpbCX0Nq-12IRSSRh1ycHsNM5YVZEVh2Km6xRLbaudZowK4QBSmvEuIMUaP2OA==">
+        <title>
+            SAMARTH-IGNOU        </title>
+        <link href="../../assets/57d9af12/css/bootstrap0cfd.css?v=1630259621" rel="stylesheet">
+<link href="../../assets/6d275b2/css/main5fc9.css?v=1630259616" rel="stylesheet">
+<link href="../../assets/6d275b2/css/material-design-iconic-font5fc9.css?v=1630259616" rel="stylesheet">
+<link href="../../assets/6d275b2/css/custom5fc9.css?v=1630259616" rel="stylesheet">
+<link href="../../assets/6d275b2/css/perfect-scrollbar5fc9.css?v=1630259616" rel="stylesheet">
+<link href="../../assets/6d275b2/css/toastr5fc9.css?v=1630259616" rel="stylesheet">
+<link href="../../assets/6d275b2/css/new-theme26a4.css?v=1765446025" rel="stylesheet">    </head>
+    <body class="be-splash-screen">
+        <div class=" be-fixed-sidebar be-collapsible-sidebar be-collapsible-sidebar-hide-logo">
+                <div class="main-content container-fluid">
+            <div style="margin-top: 40px">
+                <div class="row">
+    <div class="col-lg-12">
+                                    </div>
+</div>
+
+
+            </div>
+            <div style="margin-top: 40px">
+                <div class="splash-container">
+    <div class="card card-border-color card-border-color-primary">
+        <div class="card-header">
+            <a href="../site">
+                <img style="width: 150px" src="../../../ignou.samarth.ac.in/uploads/uims/logo.png"
+                class="img-fluid logo-img" alt="Institute Logo">
+            </a>
+            <h4 class="mt-0">Alumni Portal</h4>
+
+        </div>
+        <div class="card-body">
+            <h4 class="mt-0">Sign In</h4>
+            <form id="login-form" action="https://ignoualumni.samarth.edu.in/index.php/site/login" method="post">
+<input type="hidden" name="_csrf" value="pFqpOda3Dn8eAmQfwx7Tr-mUJpbCX0Nq-12IRSSRh1ycHsNM5YVZEVh2Km6xRLbaudZowK4QBSmvEuIMUaP2OA==">
+            <div class="form-group field-loginform-username required">
+<label class="control-label" for="loginform-username">Username</label>
+<input type="text" id="loginform-username" class="form-control" name="LoginForm[username]" autofocus placeholder="Username" aria-required="true">
+
+<p class="help-block help-block-error"></p>
+</div>
+            <div class="form-group field-loginform-password required">
+<label class="control-label" for="loginform-password">Password</label>
+<input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" placeholder="Password" aria-required="true">
+
+<p class="help-block help-block-error"></p>
+</div>
+            <label class="control-label">Captcha Verification</label>
+            <div class='well'>
+                <div class="form-group field-loginform-verifycode">
+
+<div class="row"><div class="col-6"><img id="loginform-verifycode-image" src="captchadd68?v=6ac756d2ec0064.33192743" alt=""></div><div class="col-6"><span style="font-size:0.8em;vertical-align: top;">Type the text</span><input type="text" id="loginform-verifycode" class="form-control" name="LoginForm[verifyCode]"></div></div>
+
+<p class="help-block help-block-error"></p>
+</div>                <span style="font-size:0.8em;"> Click on the text to change</span>
+            </div>
+
+            <div class="form-group field-loginform-rememberme">
+<div class="checkbox">
+<label for="loginform-rememberme">
+<input type="hidden" name="LoginForm[rememberMe]" value="0"><input type="checkbox" id="loginform-rememberme" name="LoginForm[rememberMe]" value="1" checked>
+Remember Me
+</label>
+<p class="help-block help-block-error"></p>
+
+</div>
+</div>
+            <button type="submit" class="btn btn-primary float-right" name="login-button">Login</button>            <a class="btn btn-warning" href="forgot-password">Forgot Password</a>            <a class="btn btn-warning" href="../alumni/registration/register">New Registration</a>            </form>
+
+        </div>
+    </div>
+</div>
+
+
+            </div>
+            <div class="footer page-footer">
+                <a href="../../../samarth.edu.in/index.html" target="_blank">&copy; Samarth</a>
+
+            </div>
+        </div>
+
+                    <input style="display:none" id="sessionData" value="1">
+        
+        <!-- END wrapper -->
+
+        <script src="../../assets/67d04080/jquerycefb.js?v=1630259617"></script>
+<script src="../../assets/99ac22b0/yiicefb.js?v=1630259617"></script>
+<script src="../../assets/99ac22b0/yii.validationcefb.js?v=1630259617"></script>
+<script src="../../assets/99ac22b0/yii.captchacefb.js?v=1630259617"></script>
+<script src="../../assets/99ac22b0/yii.activeFormcefb.js?v=1630259617"></script>
+<script src="../../assets/57d9af12/js/bootstrap.bundle0cfd.js?v=1630259621"></script>
+<script src="../../assets/6d275b2/js/main5fc9.js?v=1630259616"></script>
+<script src="../../assets/6d275b2/js/perfect-scrollbar5fc9.js?v=1630259616"></script>
+<script src="../../assets/6d275b2/js/toastr.min5fc9.js?v=1630259616"></script>
+<script>jQuery(function ($) {
+jQuery('#loginform-verifycode-image').yiiCaptcha({"refreshUrl":"\/index.php\/site\/captcha?refresh=1","hashKey":"yiiCaptcha\/site\/captcha"});
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Username cannot be blank."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}},{"id":"loginform-verifycode","name":"verifyCode","container":".field-loginform-verifycode","input":"#loginform-verifycode","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.captcha(value, messages, {"hash":768,"hashKey":"yiiCaptcha/site/captcha","caseSensitive":false,"message":"The verification code is incorrect."});}},{"id":"loginform-rememberme","name":"rememberMe","container":".field-loginform-rememberme","input":"#loginform-rememberme","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.boolean(value, messages, {"trueValue":"1","falseValue":"0","message":"Remember Me must be either \"1\" or \"0\".","skipOnEmpty":1});}}], []);
+      $(document).ready(function(){
+      	//-initialize the javascript
+      	App.init();
+      });
+});</script>            </body>
+    
+<!-- Mirrored from ignoualumni.samarth.edu.in/index.php/site/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 08:45:35 GMT -->
+</html>

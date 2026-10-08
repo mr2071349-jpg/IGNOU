@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/180 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:14:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/idB.jpg" alt="Divisions&lt;br/&gt;(International Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(International Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="180">International Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Achievements" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Achievements</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Activities" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">Activities</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Newinitiatives" data-bs-toggle="pill" data-bs-target="#pills-8"
+                                                type="button" role="tab" aria-controls="pills-8" aria-selected="false">New initiatives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Whomtocontact" data-bs-toggle="pill" data-bs-target="#pills-9"
+                                                type="button" role="tab" aria-controls="pills-9" aria-selected="false">Whom to contact</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ProgrammesonOffer" data-bs-toggle="pill" data-bs-target="#pills-10"
+                                                type="button" role="tab" aria-controls="pills-10" aria-selected="false">Programmes on Offer</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="FeeStructure" data-bs-toggle="pill" data-bs-target="#pills-11"
+                                                type="button" role="tab" aria-controls="pills-11" aria-selected="false">Fee Structure</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="StudyCentres" data-bs-toggle="pill" data-bs-target="#pills-12"
+                                                type="button" role="tab" aria-controls="pills-12" aria-selected="false">Study Centres</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="PhotoGallery" data-bs-toggle="pill" data-bs-target="#pills-13"
+                                                type="button" role="tab" aria-controls="pills-13" aria-selected="false">Photo Gallery</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                    <div>
+                                        <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Staff</button>
+                                    </div>
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>
+International Division was established as International Cell in 1996 with the mandate to promote bilateral and multilateral collaborations and to network with international educational institutions and inter-governmental agencies to provide opportunities for higher education to a larger segment internationally and to coordinate the international delegation and visits to the University.  The International Division in its objective of expanding the frontiers of IGNOU follows a four-fold approach of “Collaboration, cooperation, coordination and competition”.  International Division is the mini unit of all operation divisions and offers complete student support services to the overseas and foreign students residing in India like Admission, Examination, evaluation, award of degree and an integrated ICT support.  The University has also entrusted International Division as nodal centre for promoting, offering and monitoring online programmes for international students.
+<li><b>Role and functions</b>
+	<ul>
+<li>Single window for International Operations of University.</li>
+	<li>Recognition of Overseas Study Centres (OSCs).</li>
+	<li>Complete student support services to the overseas and foreign students residing in India (FSRI).</li>
+	<li>Coordinates the international delegation and visits to the University.</li>
+	</ul>
+	</li>
+</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Objectives"  ><p><ul style="list-style-type:disc;">
+					    <li>Expansion of IGNOU reach at international level through a four-fold approach of “Collaboration, cooperation, coordination and competition”.</li>
+						<li>Internationalization of higher education through bilateral and multi-lateral collaborations. </li>
+						<li>To network with international educational institutes of repute and inter-governmental agencies to provide opportunities for higher education to a larger segment internationally.</li>
+						<li>Offering IGNOU’s academic programmes (ODL and online mode) in international arena. </li>
+						<li>Promotion of Indian Knowledge System (IKS) internationally. </li>
+						<li>To develop cultural, educational and scientific ties of cooperation, to encourage academic exchange and collaboration, and to advance education and training in the respective institutions through collaborations with educational institutes outside India.</li>
+                     </ul>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="History"  ><p><ul>
+	<li>International Division was established as International Cell in 1996 with the mandate to promote bilateral and multilateral collaborations and to network with international educational institutions and inter-governmental agencies to provide opportunities for higher education to a larger segment internationally and to coordinate the international delegation and visits to the University. </li>
+	<li>The International Division in its objective of expanding the frontiers of IGNOU follows a four-fold approach of “Collaboration, cooperation, coordination and competition”. </li>
+	<li>International Division is the mini unit of all operation divisions and offers complete student support services to the overseas and foreign students residing in India like Admission, Examination, evaluation, award of degree and an integrated ICT support. </li>
+	<li>The University has also entrusted International Division as nodal centre for promoting, offering and monitoring online programmes for international students.  </li>
+	</ul>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="Achievements"  ><p>Keeping the objective of National Education Policy 2020 i.e. internationalization of higher education in focus, the University has taken many initiatives. At present, the University has its presence in 88 countries through various agreements/projects including 25 Overseas Study Centres (OSCs) spread over 15 foreign countries. The cumulative enrolment of international students is around 92000.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p>
+International Division is committed to provide opportunities for higher education to a larger segment internationally through various international collaborations of mutual benefits. For expansion of the international presence of the University, we are following a four-fold approach of “Collaboration, cooperation, coordination and competition”.</p>
+<p>At present, we offer 168 programmes through Open & Distance Learning (ODL) Mode through Universities/Institutions identified as its Overseas Study Centres internationally.  The very objective of this initiative is to impart quality higher education through open and distance learning mode on mutual benefit basis.  The programmes are offered in various disciplines at certificate, diploma, pg diploma, undergraduate and postgraduate level.  We register overseas students through 25 Overseas Study Centre located in 15 Countries.</p>
+<p>Moreover, Foreign Students Residing in India (FSRI) may register in all academic programmes on offer for national students through any of our Regional Centres in India subject to fulfilment of educational and other requirements.</p>
+<p>We offer complete student support services to the overseas and FSRI like Admission, Examination, evaluation, award of degree and an integrated ICT support.</p>
+<p>International Division is also nodal centre for promoting, offering and monitoring online programmes for international students and a dedicated Learning Management System (LMS) portal has been provided for 44 online programmes on offer at present.</p>
+<p>Further, for promoting online programmes of the University internationally, the University come out with a scheme of “Overseas Facilitator” and agreements have been signed with most of our existing OSCs for this purpose.</p>
+<p>
+<p style="text-align:right;">Prof. Pema Eden Samdup<br>Director, International Division</p>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="ContactUs"  >Director, International Division<br/>
+Swami Vivekananda Bhawan<br/>
+2nd Floor, Block-15, IGNOU, MaidanGarhi,<br/>
+New Delhi – 110068, India.<br/>
+Ph: 91-11-29571681, 91-11-29571683<br/>
+Email IDs: directorid@ignou.ac.in, internationaldivision@ignou.ac.in<br/><b>Email:</b> internationaldivision@ignou.ac.in<br/><b>Phone:</b> +91-11-29571683</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="Activities"  ><p><ul>
+	<li>Recognition of Overseas Study Centres.</li>
+	<li>Complete student support services to the overseas and foreign students residing in India </li>
+	<li>Coordinates the international delegation and visits to the University.</li>
+	</ul>	</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="Newinitiatives"  ><p align="justify">The University is continuously working for expanding its reach and writes letters to Indian Embassies/High Commissions in various countries from time-to-time for their kind assistance for collaboration with institutes to recognize them as Overseas Study Centres.<ul>
+<li>Under the e-VidyaBharati and e-AarogyaBharati(e-VBAB) Network Project of the Ministry of External Affairs, Government of India, the University is offering its 51 programmes online in 19 African countries. Later, Afghanistan was included in eVBAB Project.</li>
+<li>The University offered a three-month online Basic Hindi Awareness programme for foreign nationals in collaboration with Indian Council for Cultural Relations (ICCR), and Central Hindi Directorate (CHD) and registered students from 9 countries in the first batch and from 29 countries in the second batch. Recently, the University have successfully completed the third batch of three-month online Basic Hindi Awareness Course with registration from 42 countries</li>
+<li>The University signed a Memorandum of Understanding (MoU) with Open University of Kenya (OUK).</li>
+<li>Further, the University also signed Memorandum of Collaboration (MoC) with the Baikal State University, Russia the Financial University, Moscow, Russia and the Hellenic Open University (HOU), Greece.</li>
+<li>For promoting online programmes of the University internationally, the University come out with a scheme of “Overseas Facilitator” and Memorandum of Agreementshave been signed with 14 existing Overseas Study Centres in the first phase. Recently, Memorandum of Agreement (MoA) has been signed with ‘ICA, Education Pvt. Ltd. (ICAEPL), Nepal and Centre for Open and Distance Education, Kenya for Overseas Facilitator.</li>
+<li>•	International Division renewed seven MoAs with the following Overseas Study Centre of the University:
+o	Bridge Academy, Muscat, Sultanate of Oman 
+o	Polyglot Institute, Muscat, Sultanate of Oman
+o	Kuwait Educational Centre, Kuwait
+o	Al Hikma Education Institution, Sharjah, UAE
+o	Emirates Professional Training Institute, Sharjah, UAE
+o	Central Asian Indian Institute Of Distance Education (CAIIDE), Kyrgyzstan
+o	BakhtarUniversity,  Afghanistan</li>
+
+<li>•he University organised 11th Overseas Coordinators Consortium Meet at the University Headquarters, New Delhi on 23rd and 24th September, 2024 for strengthening our relationship with Overseas Study Centres and to discuss various steps for enhancing IGNOU’s enrolment and outreach</li></ul></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-9" role="tabpanel" aria-labelledby="Whomtocontact"  ><p>
+<h4>
+Whom to contact at International Division for what? (In case of Learner Support Divisions)<br>
+	<u><center>Whom to Contact  for what (For International Students only)</center></u>
+</h4>
+	<table>
+	<tr>
+	<td>1</td>
+	<td style="width: 42%;">Admission/ Re-Registration/ Re-admission/ Change of Region/ Degree/Grade Card/ Re-Evaluation/Results/ Duplicate Degree/Grade Card/Student ID Card/ etc.</td>
+	<td>International Division<br>
+	Phone No. 011-29571690, 29571686, 29571687<br>
+	Email : internationaldivision@ignou.ac.in
+	</td>
+	</tr>
+	<tr>
+	<td>2</td>
+	<td>Study Material  </td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>1. For Overseas Students </td>
+	<td>1. Please Contact concerned Overseas Study Centre</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>2. For FSRI Students  </td>
+	<td>2. Please Contact:- <br>
+		Registrar, Material Production Distribution  Division <br>
+		Phone No. 011-29572008, 29572012, 29572013 <br>
+		Email : registrarmpdd@ignou.ac.in, internationaldivision@ignou.ac.in
+	</td>
+	</tr>
+	<tr>
+	<td>3</td>
+	<td>Verification/ Transcript / Migration/ Project/Synopsis/ Assignment</td>
+	<td>International Division <br>
+		Phone No. 011-29571688, 29571686, 29571687 <br>
+		Email : internationaldivision@ignou.ac.in
+	</td>
+	</tr>
+	<tr>
+	<td>4</td>
+	<td>Examination</td>
+	<td>International Division <br>
+		Phone No. 011-29571688, 29571686, 29751687 <br>
+		Email : internationaldivision@ignou.ac.in
+	</td>
+	</tr>
+	<tr>
+	<td>5</td>
+	<td>Any other enquiries </td>
+	<td>International Division <br>
+		Phone No. 011-29571683 <br>
+		Email : internationaldivision@ignou.ac.in
+	</td>
+	</tr>	
+	</table>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-10" role="tabpanel" aria-labelledby="ProgrammesonOffer"  ><p>
+<ul>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/id/programmes/id_prospectus.pdf" target="_blank">Prospectus for International Students</a>
+</li>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/id/programmes/Programme-on-offer-(OSCs_JUL2026_152).pdf" target="_blank">Programmes on offer to the candidate registering through Overseas Study Centres</a>
+</li>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/id/programmes/Programme-on-offer-(FSRI_JULY_2026_308).pdf" target="_blank">Programmes on offer to the Foreign Students Residing in India (FSRI)</a>
+</li>
+</ul>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-11" role="tabpanel" aria-labelledby="FeeStructure"  ><p><b>Programmes on offer</b></p>
+<p><ul>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/id/programmes/Programme-Fee-(OSC_JULY26_152).pdf" target="_blank">Programme Fee applicable for Overseas students registering through Overseas Study Centres</a>
+</li>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/id/programmes/Programme-Fee-(FSRI_JULY_2026_308).pdf" target="_blank">Programme Fee for Foreign Students Residing in India (FSRI) )</a>
+</li></ul></p>
+
+<p><b>Fee Structure</b>
+<p><ul>
+<li>
+<a href="https://www.ignou.ac.in/viewFile/id/programmes/Fee Structure -various-services.pdf" target="_blank">Fee for Various services (Applicable to all International Students)</a>
+</li></ul></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-12" role="tabpanel" aria-labelledby="StudyCentres"  ><p>
+<a href="https://www.ignou.ac.in/viewFile/id/osc/Current-Operational-OSCs-updated-on-31-08-2026.pdf" target="_blank">List of Approved Overseas Study Centres</a>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-13" role="tabpanel" aria-labelledby="PhotoGallery"  ><p class="departmentGallery">
+       <img class="d-block w-100" src="../images/sed/gallery/11th-occ.jpg" alt="1"/><br/>
+<center><b>11th Overseas Coordinators Consortium Meet was organisedat the University Headquarters, New Delhi on 23rd and 24th September, 2024 for strengthening our relationship with Overseas Study Centres and to discuss various steps for enhancing IGNOU’s enrolment and outreach.</b></center>
+<br/>
+       <img class="d-block w-100" src="../images/sed/gallery/moa-ica.jpg" alt="2"/><br/>
+<center><b>Memorandum of Agreement (MoA) has been signed with ‘ICA, Education Pvt. Ltd. (ICAEPL), Nepal  for Overseas Facilitator for promoting online programmes of the Univeristy on 05.02.2024</b></center>
+<br/>
+       <img class="d-block w-100" src="../images/sed/gallery/11th-occ-meet.jpg" alt="3"/><br/>
+<br/>
+<center><b>Exchange of Agreement with the existing Overseas Study Centre, Centre for Open and Distance Education, Kenya for Overseas Facilitator for promoting online programmes of the University during 11thOverseas Coordinators Consortium Meet.</b></center><br/>
+       <img class="d-block w-100" src="../images/sed/gallery/tcil.jpg" alt="4"/><br/>
+<br/>
+<center><b>IGNOU signed an agreement with TCIL for offering 51 online programmes in 19 African Countries under the e-VidyaBharati and e-Aarogya Bharati(e-VBAB) Network Project of Ministry of External Affairs, Government of India on 7th June, 2022</b></center><br/>
+       <img class="d-block w-100" src="../images/sed/gallery/guyana1.jpg" alt="5"/><br/>
+       <img class="d-block w-100" src="../images/sed/gallery/guayan2.jpg" alt="6"/><br/>
+<br/>
+<center><b>IGNOU signed anMoA with Guyana Online Academy of Learning (GOAL), Guyana for providing ODL and Online Programmes of the University.</b></center><br/>
+       <img class="d-block w-100" src="../images/sed/gallery/ignou-iccr.jpg" alt="7"/><br/>
+<br/>
+<center><b>IGNOU signed a Tripartite Agreement amongst IGNOU, ICCR and CHD for offering online three month basic awareness course in Hindi for international students on 9th November, 2022.</b></center><br/>
+
+        <img class="d-block w-100" src="../images/sed/gallery/kenya-ouk.jpg" alt="8"/><br/>
+<center><b>IGNOU and The Open University of Kenya (OUK) signed a Memorandum of Understanding (MoU) on 03.11.2023. The MoU was exchanged in the presence of Hon'ble PM of India, Shri Narendra Modi and H.E. President William Samoei Ruto, Kenyan President by the Principal Secretary for Higher Education and Research, Ministry of Education, Kenya, and Prof. Nageshwar Rao, VC IGNOU.</b></center><br/>
+
+<br/>
+       <img class="d-block w-100" src="../images/sed/gallery/hou-3.jpg" alt="9"/><br/>
+<br/>
+<center><b>Signing of MoC between IGNOU and the Hellenic Open University (HOU), Greece on 22nd April, 2024.</b></center><br/>
+<br/>
+        <img class="d-block w-100" src="../images/sed/gallery/russian-fed.jpg" alt="10"/><br/>
+
+<center><b>Exchange of MoC (signed in the year 2023) between IGNOU and the Financial University under the Government of the Russian Federation, Russia during the visit of a delegation from the Financial University on 13th November, 2024.</b></center><br/>
+<br/>
+          <img class="d-block w-100" src="../images/sed/gallery/baikal-3.jpg" alt="11"/><br/>
+<center><b>Signing of MoC between IGNOU and Baikal State University, Russia on 1st October, 2023.</b></center><br/>
+<br/>
+          <img class="d-block w-100" src="../images/sed/gallery/poland-3.jpg" alt="12"/><br/>
+<center><b>University hosted a visit of Prof. (Dr.) Danuta Stasik, Chair of South Asian Studies, Faculty of Oriental Studies, University of Warsaw, Poland and arranged a lecture on "हिंदी: पोलैंड और मध्य-यूरोप के संदर्भ में" on 4th February, 2025.</b></center><br/>
+<br/>
+          <img class="d-block w-100" src="../images/sed/gallery/bou-3.jpg" alt="13"/><br/>
+<center><b>Prof. ABM Obaidul Islam, Vice Chancellor, Bangladesh Open University visited IGNOU and interacted with senior officials of the University on 3rd  March, 2025.</b></center><br/>
+<br/>
+          <img class="d-block w-100" src="../images/sed/gallery/global-idp.jpg" alt="14"/><br/>
+<center><b>A lecture on ‘Global Indian Diaspora’ on 16th October, 2024 by Divya Mathur.</b></center><br/>
+</p></div>
+                                    </div>
+                                    
+                                    
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                
+                                                <th>Staff Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/ID/pp/pema.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal533">
+                                                        <label class="fw-bold">Prof. Pema Eden Samdup</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal533" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Pema Eden Samdup</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director, International Division</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Fiction, South Asian Diaspora, Semiotics, Culture Studies.</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>psamdup@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p align="justify">Dr Pema Eden Samdup joined the Faculty of English in August 1999, and has developed both Bachelor’s Degree as well as Master’s Degree Courses. She has a Ph D in Culture Studies from the Jawaharlal Nehru University, New Delhi. She is deeply interested in ICT interventions in the Humanities. Her areas of research interest include Culture Studies, Semiotics, Fiction, South Asian Diasporic Literature and Native Literatures and Culture.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director, International Division<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Fiction, South Asian Diaspora, Semiotics, Culture Studies.</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>psamdup@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/ID/pp/dinesh.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal535">
+                                                        <label class="fw-bold">Dinesh Chand</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal535" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dinesh Chand</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/180 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:14:13 GMT -->
+</html>

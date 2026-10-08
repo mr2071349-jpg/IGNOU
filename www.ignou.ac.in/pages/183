@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/183 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:16:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/srdB.jpg" alt="Divisions&lt;br/&gt;(Student Registration Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Student Registration Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="183">Student Registration Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Vision&amp;Mission" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Vision & Mission</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="CoreFunctions&amp;Activities" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Core Functions & Activities</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ProgrammesonOffer" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Programmes on Offer</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="OnlineFreshAdmission" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Online Fresh Admission</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Re-Registration" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">Re-Registration</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ProgrammesofferinCollaboration" data-bs-toggle="pill" data-bs-target="#pills-8"
+                                                type="button" role="tab" aria-controls="pills-8" aria-selected="false">Programmes offer in Collaboration</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Websitebasedstudentservices" data-bs-toggle="pill" data-bs-target="#pills-9"
+                                                type="button" role="tab" aria-controls="pills-9" aria-selected="false">Website based student services</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="RecognitionofIGNOUProgrammes" data-bs-toggle="pill" data-bs-target="#pills-10"
+                                                type="button" role="tab" aria-controls="pills-10" aria-selected="false">Recognition of IGNOU Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Notifications" data-bs-toggle="pill" data-bs-target="#pills-11"
+                                                type="button" role="tab" aria-controls="pills-11" aria-selected="false">Notifications</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="EquivalenceCommitteeMinutes" data-bs-toggle="pill" data-bs-target="#pills-12"
+                                                type="button" role="tab" aria-controls="pills-12" aria-selected="false">Equivalence Committee Minutes</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                    <div>
+                                        <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Staff</button>
+                                    </div>
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p align="justify">The Student Registration Division (SRD) is responsible for planning, managing, and delivering all services related to student admission and registration at IGNOU. It serves as a single-window platform for learners to access information and complete processes such as fresh admission, re-registration, credit transfer, elective changes, study centre updates, and related services in a learner-friendly and technology-enabled manner. <br/>
+<br/>
+The Student Registration Division (SRD) of IGNOU is responsible for:<ul>
+<li>developing policies and procedures for admission of learners into various academic programmes offered by the University;</li>
+<li>managing the processes of admission, re-registration, credit transfer etc.;</li>
+<li>maintaining the database of enrolled students and providing data/reports to various stakeholders;</li>
+<li>providing information and guidance to the prospective learners; and</li>
+<li>assessing equivalence of degrees awarded by other Universities/Institutions for the purpose of admission in academic programmes offered by the University.</li></ul>
+
+</div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="ContactUs"  ><p><b>Central Helpline:</b><ul>
+<li>Centralised Student Registration Cell: 011-29571528</li>
+<li>Email: csrc@ignou.ac.in</li></ul></p>
+<br/>
+<p><b>Other IGNOU Contacts:</b><ul>
+<li>Official IGNOU address: Maidan Garhi, New Delhi-110068</li></ul></p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Vision&amp;Mission"  ><b>Vision & Mission</b><br/>
+<br/>
+To provide efficient, transparent, and digital student registration services contributing to an enriching academic experience. <br/>
+<br/>
+<b>Mission</b>
+<ul>
+<li>To simplify admission and registration processes using state-of-the-art technology</li>
+<li>To maintain accurate and up-to-date student records.</li>
+<li>To offer easy access to registration details and support services for learners across India and abroad.</li></ul></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="CoreFunctions&amp;Activities"  >The key responsibilities for SRD:<ul>
+<li>Formulate policies and procedures for admission to various programmes.</li>
+<li>Manage online admission, re-registration, elective change, address change, and credit transfer.</li>
+<li>Maintain the university’s student database and generate reports for internal and external stakeholders.</li>
+<li>Assess equivalence of qualifications from other universities for IGNOU programme admission.</li>
+<li>Enable Regional Centres to download scholar registers from the online system.</li></ul></p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="ProgrammesonOffer"  ><p align ="justify">
+<br/>
+IGNOU provides programmes across disciplines such as Arts, Science, Commerce, Education, Social Work, Management, Computer Applications, Health Sciences, Agriculture, Law, and more. The programmes offer through Open and Distance Learning (ODL) and Online modes to promote inclusive and flexible higher education.<p/>
+<table border="1">
+  <tr>
+    <th><b>Open Distance Learning/ Face-to-Face Mode (ODL)</b></th>
+    <th><b>Online Mode</b></th>
+    <th><b>Ph.D</b></th>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/ODL-Master-Degree-Programmes.pdf">Master Degree Programmes (ODL)</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/OL-Master-Degree-Programmmes.pdf">Master Degree Programmes (OL)</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/PhD-Doctor-of-Philosophy.pdf">Doctor of Philosophy</a></td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/ODL-Bachelor-Degree-Programmes.pdf">Bachelor Dregree Programmes (ODL)</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/OL-Bachelor-Degree-Programmes.pdf">Bachelor Dregree Programmes (OL)</a></td>
+    <td></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/ODL-PG-Diploma-Programmes.pdf">Post Graduate Diploma Programmes (ODL)</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/OL-PG-Diploma-Programmes.pdf">Post Graduate Diploma Programmes (OL)</a></td>
+    <td></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/ODL-Diploma-programmes.pdf">Diploma Programmes (ODL)</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/OL-Diploma-Programmes.pdf">Diploma Programmes (OL)</a></td>
+    <td></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/ODL-Certificate-Programmes.pdf">Certificate Programmes (ODL)</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/OL-Certificate-Programmes.pdf">Certificate Programmes (OL)</a></td>
+    <td></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/programmes-offer/ODL-Awareness-Non-Credit.pdf">Awareness Programmes -Non-Credit (ODL)</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="OnlineFreshAdmission"  ><p>Applicants are required to create their user ID and password before proceeding with IGNOU’s Online Admission system (OAS). Thereafter they can submit the online application forms along the details of Programme, Regional Centre and Study Centre chosen for the purpose. The programme fee can be paid through Credit/Debit Card/Net Banking using the online payment Gateway.</p>
+<p>The Online Admission System provides many facilities to the students. Once the admission form is submitted online, the students can track the progress of their application. On confirmation of the admission, an SMS is sent to the mobile number of the students in addition to the email message sent on the email ID registered with the System.</p>
+<p>The student Identity Card is generated online, which the students can download and print. We suggest that the interested applicants should carefully go through the Prospectus before submitting their application. The Prospectus can be downloaded from IGNOU website at <a href="../index.html" target="_blank">http://www.ignou.ac.in/</a>. The prospective students can access the online admission system at <a href="../index.html" target="_blank">https://onlineadmission.ignou.ac.in</a></p>
+<hr>
+<b>Online Fresh Admission</b><br/>
+<br/>
+<b>How to Apply Online</b><br/>
+Prospective learners must:<ol type="1">
+<li>Visit the Online Admission System at <a href="ignouadmission.samarth.edu.in">ignouadmission.samarth.edu.in. </a></li>
+<li>Click New Registration and create an account using valid email and mobile. </li>
+<li>Choose programme, regional and study centre.</li>
+<li>Fill personal and academic details.</li>
+<li>Upload required documents and pay fees online.</li>
+<li>Submit application and download acknowledgment.</li>
+(Note: Enrollment number will be shared via email/SMS upon confirmation.)</li>
+</ol>
+<hr>
+<b>Check Admission & Registration Status</b><br/>
+<br/>
+Students can verify the status of their application/admission through the official “Know Your Status” service.<br/>
+<b>How to:</b>
+<ul>
+<li>Enter Enrollment Number and Programme Code.</li>
+<li>The system displays details of admission, electives, centre, and confirmation.</li></ul>
+Link: Admission/Registration Status Portal: <a href="../../isms.ignou.ac.in/changeadmdata/AdmissionStatusNew.ASP">https://isms.ignou.ac.in/changeadmdata/AdmissionStatusNew.ASP</a></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="Re-Registration"  >Existing students must re-register to continue in the next semester/year.<ul>
+<li>Visit IGNOU re-registration portal</li>
+<li>Login with Enrollment + password</li>
+<li>Select next session courses</li>
+<li>Pay re-registration fee online</li>
+<li>Submit & download receipt<br/>(Useful especially for July & January sessions.)</li></ul>
+
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="ProgrammesofferinCollaboration"  ><p>
+<table>
+<tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/1(2).pdf" target="_blank">MOU 1</a> 
+			&amp; <a href="https://www.ignou.ac.in/viewFile/srd/mou/1a.pdf" target="_blank">1a</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/2_14_21_22_28.pdf" target="_blank">MOU 2,14,21,22,28</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/3(2).pdf" target="_blank">MOU 3</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/4_5_10_27.pdf" target="_blank">MOU 4, 5, 10,27</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/6_7_9_12.pdf" target="_blank">MOU 6,7,9,12</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/8(2).pdf" target="_blank">MOU 8</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/11_25.pdf" target="_blank">MOU 11, 25</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/13(2).pdf" target="_blank">MOU 13</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/15_17_19.pdf" target="_blank">MOU 15,17,19</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/16_18.pdf" target="_blank">MOU 16,18</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/20(2).pdf" target="_blank">MOU 20</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/23(3).pdf" target="_blank">MOU 23</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/24(3).pdf" target="_blank">MOU 24</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/26(1).pdf" target="_blank">MOU 26</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/29_30_31_32.pdf" target="_blank">MOU 29,30,31,32</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/33_35_39_40.pdf" target="_blank">MOU 33,35,39,40</a> &amp; <a href="https://www.ignou.ac.in/viewFile/srd/mou/33_35_39_40a.pdf" target="_blank">33,35,39,40a</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/34_38.pdf" target="_blank">MOU 34, 38</a></td>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/36(1).pdf" target="_blank">MOU 36</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ignou.ac.in/viewFile/srd/mou/37(1).pdf" target="_blank">MOU 37</a></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr></table>
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-9" role="tabpanel" aria-labelledby="Websitebasedstudentservices"  ><p align="justify">To strengthen student services, SRD provides online services at IGNOU website at the weblink 
+<a href="http://admission.ignou.ac.in/changeadmdata/admissionstatusnew.asp"_blank"> http://admission.ignou.ac.in/changeadmdata/admissionstatusnew.asp</a> whereby learners can check their admission and re-registration details, change of elective course(s), address of the learner, credit transfer effected, study centre change and download prospectus for various programmes. For ready availability and convenience of IGNOU’s learners spread all over the country and abroad, SRD has incorporated validity period of admission in each student‘s registration in the database. Learners can view and check the status of their registration along with name and address details at the IGNOU website. Provision has been made for Regional Centres to download scholar register from the website itself.<br/>
+<br/>
+SRD has also uploaded on IGNOU website, Credit transfer scheme of various programmes with prescribed pro-forma; notifications issued pertaining to equivalence/recognition granted and the notifications/gazette publications by various regulatory bodies regarding recognition of IGNOU degrees, diplomas and certificates.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-10" role="tabpanel" aria-labelledby="RecognitionofIGNOUProgrammes"  ><p align="justify">IGNOU Degrees/Diplomas/Certificates are recognized by all member universities of the Association of Indian Universities (AIU) and are at par with Degrees/Diplomas/ Certificates of all Indian Universities/Institutions, as per UGC Circular letter No. F.1-52/2000 (CPP-II) dated 5th May, 2004, AIU Circular No. EV/11(449/94/176915- 177115 dated January 14, 1994, AICTE Circular No. AICTE/Academic/ MOU-DEC/2005 dated May 13, 2005 and UGC/DEB/2013 dated 14.10.2013.<br/>
+<br/>
+For details, please refer to the latest <b>IGNOU Common Prospectus</b><ul><ol type="1">
+<li>UGC, DEB, Notification F.No. 1-1/2018(DEB-II) Dated 14th August 2018, 17 October 2018  regarding recognition of IGNOU Programmes by Distance  Education Bureau.</li>
+<li>UGC, DEB, Notification F.No. 6-2/2016(DEB-I)/347 Dated 4th July 2016 regarding recognition of IGNOU Programmes by Distance Education Bureau.</li>
+<li>UGC, DEB, Notification F.No. UGC/DEB/18/4/IGNOU/201/98 Dated October 2015 regarding recognition of IGNOU Programmes by Distance Education Bureau.</li>
+<li>DEC, Notification F.No. DEC/IGNOU/2011/8435 Dated 19/12/2011 regarding recognition of IGNOU Programmes by Distance Education Council.</li>
+<li>NCTE, Notification F.No. RC/NCTE/DL-83/2018/196265 Dated 20 August, 2018 regarding recognition of IGNOU's B.Ed Programmes by NCTE.</li>
+<li>INC, Notification F.No. 12-6/2018-INC Dated 12  September, 2018 regarding recognition of IGNOU's Post Basic B.Sc (Nursing) Programme by INC.v
+<li>AICTE, Notification F.No. North-West/2021-22/1-9862336271 Deated  09 December, 2021 regarding recognition of IGNOU's MBA, MCA Programme by AICTE.</li>
+<li>AICTE Notification F.No. North-West/2022-23/1-11278340263 dated 31st May 2022 regarding recognition of IGNOU's MBA, MCA Programme by AICTE from 2022-23 to 2026-27.</li></ol></ul></p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-11" role="tabpanel" aria-labelledby="Notifications"  ><b>Notification on Multiple Entry and Multiple Exit Facility for IGNOU programmes</b><br/> 
+<b>Notification on Pursuing two UG/PG Programmes Simultaneously in IGNOU </b><br/> 
+Fee Exemption to SCST Students under SCSP/TSP Scheme for July 2020 Session<br/> 
+HINDI COURSES of Voluntary Hindi Institutions set up for promotion of Hindi language<br/> 
+
+<br/> 
+<a href="https://www.ignou.ac.in/viewFile/srd/notification/Notification-regarding_credit_transfer.pdf" target="_blank">Notification Regarding credit transfer of Swayam Courses.</a><br/>
+<a href="https://www.ignou.ac.in/viewFile/srd/notification/Exemption-from-UGC-regulations-ODLandOnline 25Mar2021.pdf" target="_blank">Notification Regarding Exemption from applicablity of UGC Regulations-2020 to IGNOU.</a><br/>
+<a href="../viewFile/srd/notification/12.12.1986.jpg" target="_blank">Notification No.IV/II(00)/86/ dated 12.12.1986 issued by Association of Indian Universities admitting IGNOU to the membership of AIU</a><br/>
+<a href="../viewFile/srd/notification/14.01.1994.jpg" target="_blank">Notification No.IV/II(449)/94/176915-177115 dated 14.01.1994 issued by Association of Indian Universities regarding recognition of Degrees/Diplomas of Open Universities.</a><br/>
+<a href="../viewFile/srd/notification/February-1992.jpg" target="_blank">Notification No.F.1-8/92(CPP) dated February, 1992 issued by University Grants Commission regarding recognition of Degrees/Diplomas awarded by Indira Gandhi National Open University</a><br/>
+<a href="https://www.ignou.ac.in/viewFile/srd/notification/Recog-of-degrees-of-OUs-Circular-5-MAY-2004.pdf" target="_blank">Notification No.F1-52/2000(CPP-II) dated 5th May 2004 issued by University Grants Commission regarding recognition of Degrees awarded by Open Universities.</a><br/>
+<a href="../viewFile/srd/notification/2nd-Nov-2004.jpg" target="_blank">Notification No.F1-52/2000(CPP-II) dated 2nd Nov. 2004 issued by University Grants Commission regarding recognition of Degrees awarded by Open Universities</a><br/>
+<a href="https://www.ignou.ac.in/viewFile/srd/notification/UGC-Regulations-1985-251185.pdf" target="_blank">UGC Regulations 1985 regarding minimum standards of instructions for the grant of first degree through non-formal/distance education - Notification No.F.I-117/83(CP) dated 25th November, 1985</a><br/>
+<a href="../viewFile/srd/notification/October-1995.jpg" target="_blank">UGC Notification No.F.1-1117/83(CPP-II) dated 18th October, 1995 regarding first amendment Regulations 1995 pertaining to the minimum standards of instructions for the grant of first degree through non-formal/ distance education in the faculties of Arts, Humanities, Fine Arts, Music, Social Sciences, Commerce and Sciences bringing down the age limit to 18 years</a><br/>
+<a href="../viewFile/srd/notification/31-05-1999.jpg" target="_blank">Notification No.F3/DL-83/99/7807-7812 dated 31.05.1999 issued by National Council for Teacher Education, Northern Regional Committee, Jaipur, for publishing in the Gazette of India (Part III – Section 4) regarding recognition of IGNOU’s B.Ed. (Distance Education).</a><br/>
+<a href="../viewFile/srd/notification/09-08-2007.jpg" target="_blank">Letter D.O.No.62-5/2003/NCTE(N&S)Vol-II/69560 dated 09.08.2007 addressed to Shri Manoj Kumar, Principal Secretary (Basic Education), Govt. of Uttar Pradesh by Shri V.C.Tewari, Member Secretary, National Council for Teacher Education, New Delhi, stating that there is no difference between B.Ed. (face-to-face) and B.Ed. (Distance Mode).</a><br/>
+<a href="../viewFile/srd/notification/May-13-2005.jpg" target="_blank">Notification F.No.AICTE/Academic/MOU-DEC/2005 dated May 13, 2005 issued by All India Council for Technical Education, New Delhi , regarding recognition of IGNOU’s MBA and MCA Programmes.</a><br/>
+<a href="../viewFile/srd/notification/2nd-June-2000.jpg" target="_blank">Certificate No.20-30/99-INC dated 2nd June 2000 issued by Indian Nursing Council, New Delhi , regarding recognition of IGNOU’s POST BASIC B.Sc.(Nursing) programme.</a><br/>
+<a href="../viewFile/srd/notification/20-12-2010.jpg" target="_blank">Bar Council of India Circular No. LE Cir.:02/2010 dated 20.12.2010 regarding acceptance of first degree (10+2+3 stream) obtained under ODL for admission to LL.B. Course.</a><br/>
+<a href="../viewFile/srd/notification/19-12-2011.jpg" target="_blank">DEC’s Notification F.No.DEC/IGNOU/2011/8435 dated 19/12/2011 regarding recognition of IGNOU Programmes by Distance Education Council.</a><br/>
+<a href="../viewFile/srd/notification/01-03-2012.jpg" target="_blank">RCI's letter dated 01.03.2012 regarding recognition of IGNOU's M.A. Psychology</a><br/>
+<a href="../viewFile/srd/notification/18-10-2012.jpg" target="_blank">Govt. of Rajasthan – Order dated 18.10.2012 regarding recognition of Degrees/ Diplomas awarded by IGNOU</a><br/>
+<a href="../viewFile/srd/notification/14-10-2013.jpg" target="_blank">UGC Circular dated 14.10.2013 on Equivalence of Degrees awarded by ODL Institutions at par with Conventional Universities/Institutions</a><br/>
+<a href="../viewFile/srd/notification/10-06-2015.jpg" target="_blank">Recognition of Degrees/Diplomas/Certificates, including technical education degrees/ diplomas awarded through ODL mode - MHRD Notification dated 10th June 2015</a><br/>
+<a href="../viewFile/srd/notification/23-02-2018.jpg" target="_blank">UGC’s Pubic Notice dated 23/02/2018 on ‘Equivalence of  degrees of ODL mode</a><br/>
+<a href="../viewFile/srd/notification/02-09-2022.jpg" target="_blank">UGC Notice dated 2-9-2022: Equivalence of degrees obtained through ODL and Online modes with degrees obtained through conventional Mode</a><br/>
+<a href="../viewFile/srd/notification/minimum-and-maximum-duration.jpg" target="_blank">Notification on the minimum and maximum duration of academic programs.</a>
+
+
+
+
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-12" role="tabpanel" aria-labelledby="EquivalenceCommitteeMinutes"  ><table border="1">
+  <tr>
+    <th colspan="3">Equivalence Committee Minutes</th>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/1st-Equivalence-Meeting.pdf">1st Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/2nd-Equivalence-Meeting.pdf">2nd Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/3rd-Equivalence-Meeting.pdf">3rd Equivalence Meeting</a></td>
+  </tr>
+   <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/4th-Equivalence-Meeting.pdf">4th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/5th-Equivalence-Meeting.pdf">5th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/6th-Equivalence-Meeting.pdf">6th Equivalence Meeting</a></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/7th-Equivalence-Meeting.pdf">7th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/8th-Equivalence-Meeting.pdf">8th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/9th-Equivalence-Meeting.pdf">9th Equivalence Meeting</a></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/10th-Equivalence-Meeting.pdf">10th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/11th-Equivalence-Meeting.pdf">11th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/12th-Equivalence-Meeting.pdf">12th Equivalence Meeting</a></td>
+  </tr>
+ <tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/13th-Equivalence-Meeting.pdf">13th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/14th-Equivalence-Meeting.pdf">14th Equivalence Meeting</a></td>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/15th-Equivalence-Meeting.pdf">15th Equivalence Meeting</a></td>
+  </tr>
+<tr>
+    <td><a target="_blank" href="https://www.ignou.ac.in/viewFile/srd/equivalence-meeting/16th-Equivalence-Meeting.pdf">16th Equivalence Meeting</a></td>
+ </tr>
+</table></div>
+                                    </div>
+                                    
+                                    
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                
+                                                <th>Staff Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/mythili.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal883">
+                                                        <label class="fw-bold">Dr. G. Mythili </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal883" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. G. Mythili </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Registrar, SRD</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Distance Education, Online learning, Blended Learning, Educational Technology, Computer Science</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>03-11-1997</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>gmythili@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p align="justify">Dr. G. Mythili is Additional Director at the Staff Training and Research Institute of Distance Education, IGNOU, with expertise in MOOCs, e-learning, and educational broadcasting. She has designed three flagship MOOCs for SWAYAM and co-developed an OER-based professional development programme for Commonwealth of Learning. Former Managing Editor of the Indian Journal of Open Learning and Channel Coordinator for SWAYAM Prabha Channels 20 and 15, she has received the Gold Medal for Innovation in Distance Education from the Hon’ble President of India and the Silver Medal for Best Research Paper from IGNOU. Her work advances quality and accessibility in digital education.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Registrar, SRD</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Distance Education, Online learning, Blended Learning, Educational Technology, Computer Science</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>03-11-1997</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>gmythili@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/yasmin.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal884">
+                                                        <label class="fw-bold">Dr. Yasmin </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal884" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Yasmin </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Director</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>International Relation, Ambedkar, Social justice, Gender, Inclusiveness, Programme evaluation, ODL, Data mining, analytics,</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>03-06-2011</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>yasmin@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Director</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>International Relation, Ambedkar, Social justice, Gender, Inclusiveness, Programme evaluation, ODL, Data mining, analytics,</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>03-06-2011</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>yasmin@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/suman.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal885">
+                                                        <label class="fw-bold">Dr. Shekhar Suman </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal885" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Shekhar Suman </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Director</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Foreign Language (Russian), Educational Technology, Language Tourism</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>07-06-2011</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>shekhar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p align ="justify">Dr. Shekhar Suman is currently serving as Deputy Director in the Student Registration Division (SRD) at IGNOU. In this role, he is associated with learner admission processes, registration systems, and compliance with regulatory frameworks in ODL.<br/>
+<br/>
+Prior to this assignment, he was associated with the Centre for Internal Quality Assurance (CIQA) at IGNOU, where he contributed to institutional quality initiatives, including NAAC accreditation processes, academic audits, and matters related to university NIRF ranking and performance benchmarking. His work focused on strengthening quality assurance mechanisms and aligning institutional practices with national standards.<br/>
+<br/>
+Earlier, he served as Assistant Director at the Distance Education Council (DEC) and subsequently at the Distance Education Bureau (DEB) of the University Grants Commission, New Delhi—the apex regulatory body responsible for maintaining standards in higher education, including distance and online learning. In this capacity, he was engaged in policy implementation, programme recognition, coordination and regulation of distance education programmes across higher education institutions in India.<br/>
+<br/>
+Dr. Shekhar Suman has academic experience in the field of Russian language and literature. He has served as a Guest Lecturer in Russian Language at the University of Delhi. His academic training, supported by B.A (Hons), M.A, M.Phil. and Ph.D. in Russian Language from Jawaharlal Nehru University, reflects his strong foundation in philological research and language pedagogy.</p>
+</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Director</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Foreign Language (Russian), Educational Technology, Language Tourism</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>07-06-2011</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>shekhar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/maya.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal887">
+                                                        <label class="fw-bold">Ms. Maya Kumari </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal887" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Maya Kumari </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/paokhan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal888">
+                                                        <label class="fw-bold">Mr. T. Paokhan Lal </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal888" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. T. Paokhan Lal </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/vikas.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal889">
+                                                        <label class="fw-bold">Mr. Vikash Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal889" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Vikash Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SRD/pp/shashi.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal890">
+                                                        <label class="fw-bold">Ms. Shashi Surendranath</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal890" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Shashi Surendranath</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/183 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:16:15 GMT -->
+</html>

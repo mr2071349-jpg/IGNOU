@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/176 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:13:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/fadB.jpg" alt="Divisions&lt;br/&gt;(Finance &amp; Accounts Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Finance & Accounts Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="176">Finance &amp; Accounts Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="FinanceCommittee" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Finance Committee</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Documents" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Documents</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>
+The University is funded partly by grant-in-aid from Ministry of Human Resource Development in respect of its development activities and mainly by University’s Receipt/Revenue collection and the Finance & Accounts Division is responsible for:
+<ul><li>Preparation of Budget Estimates,</li><li>
+Review of Receipt and Expenditure to facilitate Management Information System,</li><li>
+Preparation of Inputs for Expenditure Finance Committee (EFC),</li><li>
+Monitoring of Financial Targets of Development Plans,</li><li>
+Rendering Financial Advice/Concurrence,</li><li>
+Collection of Revenue/Receipts,</li><li>
+Release of Quarterly Grant under Plan and Non-Plan Funds to Regional Centres/ Schools/Units,</li><li>
+Processing and payment of Bills/Claims under the Plan/Non-Plan and EMF Funds,</li><li>
+Preparation of Annual Accounts of the University as well as Provident Funds and Pension Funds Accounts, and</li><li>
+Internal Audit of accounts of Regional/Study Centres, Divisions and Schools.</li></ul>
+
+<b><u>Disclaimer:</u></b> The Data/Matter/Figures of Finance & Accounts Division in IGNOU Website are given for information only and not for any other purposes.
+
+</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="FinanceCommittee"  ><table >
+		<tr>
+		<td colspan="5" align="center">Name & Address of the Finance Committee Members</td>
+		</tr>
+		<tr>
+		<td>S. No.</td>
+		<td colspan="4">Statute 11(1)(i) - The Vice-Chancellor – Chairman</td>		
+		</tr>
+		<tr>
+		<td>1.</td>
+		<td>Prof. Uma Kanjilal <br>
+			Vice-Chancellor, IGNOU <br>
+			MaidanGarhi, New Delhi – 110 068 <br>
+			Ph. No.: 29532484, 29532707	 <br>
+			e-mail :  vc@ignou.ac.in
+		</td>
+		<td colspan="2">Chairman <br> Ex-officio</td>
+		<td><img class="img-thumbnail"  src="../images/vc/umakanjilal.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (ii) - A Pro-Vice-Chancellor by rotation, by seniority</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>2.</td>
+		<td>Vacant</td>
+		<td>--</td>
+		<td>--</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (iii) - A Director of School of the University by rotation according to seniority</td>
+		</tr>
+		<tr>
+		<td>3.</td>
+		<td>Prof. Nita Mathur <br>
+			Director, School of Social Sciences (SOSS), <br>
+			IGNOU, Maidan Garhi, New Delhi-110068 <br>
+			Ph. No.: 29572727  <br>
+			E-mail: nitamathur@ignou.ac.in 
+		</td>
+		<td></td>
+		<td></td>
+		<td><img class="img-thumbnail"  src="../viewFile/fad/finance_committee/NitaMathur.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (iv) - One person appointed by Board of Management from amongst its members other than an employee of the University</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>4.</td>
+		<td>Prof. Ashok Sharma <br>
+			2-B-9 Rangbari Scheme, <br>
+			Kota – 324005 (Rajasthan) <br>
+			Ph. No.: 0744-2478788 <br>
+			E-mail: ashoksharmakota@gmail.com
+		</td>
+		<td colspan="2">(Co-terminus with the membership of the BOM)</td>
+		<td><img class="img-thumbnail"  src="../viewFile/fad/finance_committee/AshokSharma.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (v) - One person, not an employee of the University nominated by the Board of Management</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>5.</td>
+		<td>Dr. Suman Kumar <br>
+			Finance officer,  <br>
+			Jawaharlal Nehru University,New Delhi <br>
+			Ph. No.: 26704032 <br>
+			E-mail: fo@mail.jnu.ac.in 
+		</td>
+		<td>18.07.2024</td>
+		<td>17.07.2027</td>
+		<td><img class="img-thumbnail"  src="../viewFile/fad/finance_committee/SumanKumar.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">
+		<p>Clause (vi) – Two nominees of the Visitor:
+		<ol type="i">
+		<li>Joint Secretary/Additional Secretary in the Ministry of Human Resource Development dealing with the subject matter of  Indira Gandhi National Open University (Ex-officio), and</li>
+		<li>The Financial Adviser in the Ministry of Human Resource Development (Ex-officio)</li>
+		</ol>
+		</p>
+		</td>
+		</tr>		
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>		
+		<tr>
+		<td>6.</td>
+		<td>Joint Secretary/ Additional Secretary in the Ministry of Human Resource Development dealing with the subject matter of  Indira Gandhi National Open University</td>
+		<td rowspan="2" colspan="2">Ex-officio</td>
+		<td></td>		
+		</tr>
+		<tr>
+		<td>7.</td>
+		<td>The Financial Adviser in the Ministry of Human Resource Development</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause 1(a) – Finance Officer – Secretary</td>
+		</tr>
+		<tr>
+		<td>8.</td>
+		<td>Dr. Jitendra Dev Gangwar <br>
+			Finance Officer  <br>
+			IGNOU, Maidan Garhi <br>
+			New Delhi – 110 068 <br>
+			Ph. No. 29571216 <br>
+			E-mail: financeofficer@ignou.ac.in
+		</td>
+		<td colspan="2">Ex-Officio </td>
+		<td><img class="img-thumbnail"  src="../viewFile/fad/finance_committee/JitendraDevGangwar.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>	
+		</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Documents"  ><p><ul>
+<li><a href="https://www.ignou.ac.in/viewFile/fad/docs/FinancialCode.pdf" target="_blank">Financial Code</a>
+</li>
+<li><a href="https://www.ignou.ac.in/viewFile/fad/docs/OptimalUtilizationofResources.pdf" target="_blank">Procedure of Optimal Utilization of Resources</a>
+</li><li><a href="https://www.ignou.ac.in/viewFile/fad/docs/Resource_Moblisation.pdf" target="_blank">Resource Moblisation for the University</a>
+</li>
+</ul>
+</p></div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">55</td>
+                                                <td class="text-center">2007-06-29</td>
+                                                <td class="text-center">BOARD ROOM, BLOCK NO. 8, IGNOU CAMPUS,</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC55.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC55</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">56</td>
+                                                <td class="text-center">2007-08-27</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC56.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC56</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">57</td>
+                                                <td class="text-center">2007-12-17</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC57.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC57</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">58</td>
+                                                <td class="text-center">2008-03-31</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC58.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC58</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">59</td>
+                                                <td class="text-center">2008-04-09</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC59.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC59</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">60</td>
+                                                <td class="text-center">2008-07-21</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC60.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC60</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">61</td>
+                                                <td class="text-center">2008-09-12</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC61.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC61</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">62</td>
+                                                <td class="text-center">2008-11-17</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC62.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC62</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">63</td>
+                                                <td class="text-center">2009-01-12</td>
+                                                <td class="text-center">THE VICE CHANCELLORâ€™S CHAMBER.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC63.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC63</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">64</td>
+                                                <td class="text-center">2009-03-30</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC64.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC64</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">65</td>
+                                                <td class="text-center">2009-06-25</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC65.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC65</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">66</td>
+                                                <td class="text-center">2009-08-03</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC66.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC66</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">67</td>
+                                                <td class="text-center">2009-10-08</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC67.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC67</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">68</td>
+                                                <td class="text-center">2009-12-08</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC68.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC68</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">69</td>
+                                                <td class="text-center">2009-03-03</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC69.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC69</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">70</td>
+                                                <td class="text-center">2010-06-02</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC70.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC70</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">71</td>
+                                                <td class="text-center">2010-07-26</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC71.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC71</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">73</td>
+                                                <td class="text-center">2010-12-28</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC73.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC73</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">74</td>
+                                                <td class="text-center">2011-04-05</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC74.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC74</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">75</td>
+                                                <td class="text-center">2011-05-25</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC75.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC75</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">76</td>
+                                                <td class="text-center">2011-07-12</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC76.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC76</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">77</td>
+                                                <td class="text-center">2011-12-26</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC77.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC77</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">78</td>
+                                                <td class="text-center">2012-07-18</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC78.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC78</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">79</td>
+                                                <td class="text-center">2013-01-04</td>
+                                                <td class="text-center">CONFERENCE ROOM, VICE CHANCELLOR&#39;S BLOCK,IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC79.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC79</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">80</td>
+                                                <td class="text-center">2013-04-29</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC80.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC80</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">81</td>
+                                                <td class="text-center">2013-06-12</td>
+                                                <td class="text-center">CONFERENCE ROOM, VICE CHANCELLOR&#39;S BLOCK,IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC81.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC81</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">83</td>
+                                                <td class="text-center">2014-04-09</td>
+                                                <td class="text-center">BOARD ROOM, NEW VCO BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC83.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC83</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">84</td>
+                                                <td class="text-center">2014-06-04</td>
+                                                <td class="text-center">BOARD ROOM, NEW VCO BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC84.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC84</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">85</td>
+                                                <td class="text-center">2014-11-14</td>
+                                                <td class="text-center">BOARD ROOM, NEW VCO BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC85.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC85</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">86</td>
+                                                <td class="text-center">2015-06-09</td>
+                                                <td class="text-center">CONFERENCE ROOM, VICE CHANCELLOR&#39;S BLOCK,IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC86.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC86</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">87</td>
+                                                <td class="text-center">2015-11-27</td>
+                                                <td class="text-center">CONFERENCE ROOM, VICE CHANCELLOR&#39;S BLOCK,IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC87.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC87</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">88</td>
+                                                <td class="text-center">2016-06-20</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC88.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC88</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">89</td>
+                                                <td class="text-center">2016-12-15</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC89.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC89</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">90</td>
+                                                <td class="text-center">2017-03-17</td>
+                                                <td class="text-center">BOARD ROOM, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC90.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC90</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">35</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">91</td>
+                                                <td class="text-center">2017-06-22</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC91.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC91</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">36</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">92</td>
+                                                <td class="text-center">2017-12-22</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC92.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC92</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">37</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">93</td>
+                                                <td class="text-center">2018-06-04</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC93.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC93</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">38</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">94</td>
+                                                <td class="text-center">2018-09-07</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC94.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC94</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">39</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">95</td>
+                                                <td class="text-center">2018-12-22</td>
+                                                <td class="text-center">VICE CHANCELLOR&#39;S BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC95.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC95</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">40</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">96</td>
+                                                <td class="text-center">2019-05-01</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S OFFICE, IGNOU </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC96.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC96</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">41</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">97</td>
+                                                <td class="text-center">2019-06-26</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S OFFICE, IGNOU CAMPUS </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC97.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC97</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">42</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">98</td>
+                                                <td class="text-center">2019-12-19</td>
+                                                <td class="text-center">VICE CHANCELLOR&#39;S BLOCK, IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC98.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC98</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">43</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">99</td>
+                                                <td class="text-center">2020-10-14</td>
+                                                <td class="text-center">Indira Gandhi National Open University, New Delhi</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC99.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC99</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">44</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">100</td>
+                                                <td class="text-center">2021-03-24</td>
+                                                <td class="text-center">CONFERENCE ROOM, VICE CHANCELLOR&#39;S OFFICE,IGNOU CAMPUS</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC100.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC100</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">45</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">101</td>
+                                                <td class="text-center">2021-09-06</td>
+                                                <td class="text-center">ONLINE </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC101.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC101</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">46</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">102</td>
+                                                <td class="text-center">2022-03-04</td>
+                                                <td class="text-center">ONLINE</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC102.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC102</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">47</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">103</td>
+                                                <td class="text-center">2022-06-27</td>
+                                                <td class="text-center">BOARD ROOM, VICE CHANCELLOR&#39;S OFFICE, IGNOU </td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC103.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC103</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">48</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">104</td>
+                                                <td class="text-center">2022-11-01</td>
+                                                <td class="text-center">ONLINE</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC104.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC104</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">49</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">105</td>
+                                                <td class="text-center">2023-09-20</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC105.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC105</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">50</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">106</td>
+                                                <td class="text-center">2024-02-15</td>
+                                                <td class="text-center">ONLINE</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC106.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC106</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">51</td>
+                                                <td class="text-center" style="width: 5px;">FC</td>
+                                                <td class="text-center" style="width: 2px;">107</td>
+                                                <td class="text-center">2024-07-16</td>
+                                                <td class="text-center">ONLINE</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/FC/FC107.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> FC107</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/176 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:13:29 GMT -->
+</html>

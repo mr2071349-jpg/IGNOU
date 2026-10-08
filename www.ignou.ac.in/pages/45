@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/45 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:24:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/sosw.jpg" alt="School of Studies&lt;br/&gt;(School of Social Work)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Social Work)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="45">School of Social Work</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Aboutus" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">About us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>First School to offer social work programme through ODL in India. The school was established in 2007 and offers 10 programmes - CSWCJS, CTRBS (Online and SWAYAM), CAFÉ, DAFE, BFSW, BSWOL, MSW, MSWC, PGDCOUN, PhD. The social work programmes focuses on enhancement of employable skills, competencies, skill development, multi-disciplinary and offers fieldwork through concurrent fieldwork, block placement and internship. Enables students to get employment after completing the programme both nationally and internationally.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Aboutus"  ><p>The School of Social Work (SOSW) at Indira Gandhi National Open University (IGNOU) was established in 2007. It aims to provide quality education in the areas of social work, HIV/AIDS, counselling, correctional social work, tribal studies and family studies by offering programmes leading to the award of Certificate, Diploma, Graduate, Postgraduate and Doctoral degrees. The SOSW at IGNOU is the first School of Social work offering social work programmes in ODL, Online mode and SWAYAM platform. It is the first school of Social Work in India to take social work education to all the States, Union Territories in the country and abroad. It has indigenously developed high-quality Self- Instructional Materials (SIM) and uses multi-media approach for imparting social work teaching and training both in English and Hindi. It offers social work programmes to in-service learners and engages a large number of practitioners for field supervision.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Objectives"  ><ul><li>To promote human resources aiming at improving the quality of life of poorest of the poor. </li>
+<li>To meet the growing demand for professionally trained social workers across the country.</li>
+<li>To provide social work education and training based on indigenous knowledge and uniform curriculum across the country.  </li>
+<li>To help the learner acquire professional skills and knowledge to help the clients to deal with their emotional and psychological problems.  </li>
+<li>To help the learner acquire professional skills and develop capacity in helping people to solve various social and economic problems.  </li>
+<li>To help the learner to develop required attitudes in understanding people’s problem-solving interventions.</li>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="History"  ><p>The School of Social Work (SOSW) at IGNOU was established with the approval of the President of India Smt. Pratibha Singh Patil on August 16, 2007. The proposal to establish the First School of Social Work through Open and Distance Learning (ODL) was drafted by a team of eminent social work faculty comprising Prof. Gracious Thomas, Director, School of Continuing Education, IGNOU, Prof. Surendra Singh, Former Vice Chancellor, Mahatma Gandhi Kashi Vidyapeeth, Varanasi, Prof. G. C. Khan, Head, Department of Social Work, Visva - Bharati, Sriniketan, Prof. Anjali Gandhi, Head, Department of Social Work, Jamia Millia Islamia, Prof. Sanjai Bhatt, Head, Department of Social Work, Delhi University and Prof. Thomas Kalam, Director, St. John's National Academy of Health Sciences, Bengaluru, on February 15, 2007. The proposal was subsequently approved by various statutory bodies of IGNOU including the Planning Board, Academic Council and the Board of Management. It was then forwarded to the Ministry of Human Resources and Development (MHRD). After due process at MHRD, the proposal was placed and approved in both the Houses of Parliament. After the approval from Parliament, the proposal was submitted to the President of India for her approval. The, then, MHRD conveyed the approval of the President of India (Visitor of the University) regarding approval of the new Schools, which includes School of Social Work on August 16, 2007.</p><p>Apart from academic programmes, the school housed two prestigious Chairs namely, The CBCI Chair (2000-2024) and the Mother Teresa Chair. Besides these, the School has the Centre for Tibetan Studies.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p>With great pleasure, I welcome you to the School of Social Work at Indira Gandhi National Open University (IGNOU). We are the first School to offer social work programme through Open and Distance Learning (ODL) and Online Learning (OL) in India. Our school is dedicated to providing high-quality education, research, and field practicum training in social work, with a focus on promoting social justice, community empowerment, and sustainable development.</p><p>The discipline of social work plays an indispensable role in addressing the complex issues that affect individuals, families, and communities, both locally and globally. In today’s rapidly changing world, where social inequalities and problems of the marginalised and vulnerable communities are more pronounced than ever, the need for compassionate, skilled, and ethical social workers has never been greater. At IGNOU, we are committed to preparing our students to meet these challenges with empathy, professionalism, and a deep commitment to the values of social justice, human rights, and dignity.</p><p>The School offers ten diverse programmes, ranging from certificate to PhD, designed to offer flexible and accessible learning opportunities for students from varied backgrounds and professions. We leverage the power of distance education and technology to reach out to learners across the country, ensuring that the benefits of affordable quality education are accessible to everyone, regardless of their geographical location.</p><p>At the heart of our academic and research initiatives is the goal to develop practitioners and scholars who not only excel in the technical aspects of social work but are also deeply engaged with the communities they serve. We ensure capacity building and continuing education for thousands of Non-Government Organization (NGO) functionaries working in remote areas. Fulfilling the mandate of National Education Policy (NEP) 2020, the social work programmes focus on enhancement of employable skills, competencies, skill development, is multi-disciplinary in nature and offers hands-on experience through fieldwork, internships, and projects that allow our students to apply theoretical knowledge in real-world settings, making a tangible difference in society.</p><p>As Director of the School of Social Work, I am proud of our eminent faculty and dedicated staff, and all our learners in India and abroad, all of whom contribute to the growth and success of our University. We continuously strive to evolve and adapt to the changing needs of the field, ensuring that our students are well-equipped to face the challenges of tomorrow’s social landscape.</p><p>I encourage all of you, whether prospective students, current learners, or alumni, to actively engage with us to work together to create a more inclusive, just, and equitable world. Your passion, commitment, and contribution are crucial to the advancement of the field of social work, and we are here to support you every step of the way.</p><p>Thank you for choosing the School of Social Work at IGNOU. We look forward to working with you and helping you achieve your academic and professional goals.</p><p>Warm regards,<br/>Dr. Saumya<br/>Director, School of Social Work <br/>Indira Gandhi National Open University (IGNOU), Delhi</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="ContactUs"  ><p>School of Social Work, Block 15,<br/>
+Vivekananda Bhawan,<br/>
+IGNOU, <br/>
+Maidangarhi-110068</p>
+<b>Phone:</b> 011-29571691 / 98</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="SchoolBoardMembers"  >
+		<center><h4>School Board Members <br> External</h4></center>
+		<ul>
+			<li>Prof. Manish Kumar Jha, TISS, Mumbai</li>
+			<li>Prof. Sanjoy Roy, DU, Delhi</li>
+			<li>Prof. Sigamani Paneer, JNU, New Delhi</li>
+			<li>Prof. Ushvinder Kaur Popli, JMI, Delhi</li>
+			<li>Prof. K. G. Parashuram, TU, Tumkuru, Karnataka</li>
+		</ul>
+		<center><h4>Internal</h4></center>
+		<p>The Vice Chancellor of Indira Gandhi National Open University (IGNOU) has nominated members for the School Board of the School of Social Work (SOSW), under Statute 10(A), Clauses 2(c) and 2(d):
+		<ul>
+			<li>Clause 2(c) (Statute 10(A)):
+				<ul>
+					<li>Dr. N Ramya, Associate Professor, SOSW</li>
+					<li>Dr. G. Mahesh, Assistant Professor, SOSW</li>
+					<li>Dr. Kannappa Setty V, Assistant Professor, SOSW</li>
+					<li>Dr. Seema Rani, Assistant Professor, SOSW</li>
+				</ul>			
+			</li>
+			<li>Clause 2(d) (Statute 10(A)):
+				<ul>
+					<li>Prof. N.A. Farooquee, Professor, SOEDS</li>
+					<li>Prof. Pema Eden Samdup, Professor, SOH</li>
+					<li>Prof. Mansi Sharma, Professor, SOL</li>
+					<li>Prof. Swati Patra, Professor, SOSS</li>
+				</ul>			
+			</li>
+		</ul>
+		</p></div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center">2019-11-08</td>
+                                                <td class="text-center">CONFERENCE ROOM,BLOCK-15,SCHOOL OF SOCIAL WORK (SOSW),IGNOU,NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/24th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 24th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center">2021-05-07</td>
+                                                <td class="text-center">VIRTUAL MODE</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/25th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 25th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center">2021-10-04</td>
+                                                <td class="text-center">VIRTUAL MODE</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/26th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 26th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center">2021-12-21</td>
+                                                <td class="text-center">VIRTUAL MODE</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/27th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 27th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center">2022-09-01</td>
+                                                <td class="text-center">VIRTUAL MODE</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/28th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 28th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center">2023-07-10</td>
+                                                <td class="text-center">VIRTUAL MODE</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/29th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 29th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center">2023-09-26</td>
+                                                <td class="text-center">VIRTUAL MODE</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/30th-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 30th-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center">2024-04-16</td>
+                                                <td class="text-center">BLENDED MODE,CONFERENCE ROOM,SCHOOL OF SOCIAL WORK (SOSW),IGNOU,NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/31st-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 31st-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center">2024-12-04</td>
+                                                <td class="text-center">CONFERENCE ROOM,BLOCK-15,SCHOOL OF SOCIAL WORK (SOSW),IGNOU,NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/32nd-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 32nd-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center" style="width: 5px;">BSOSW</td>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center">2025-04-11</td>
+                                                <td class="text-center">CONFERENCE ROOM,BLOCK-15,SCHOOL OF SOCIAL WORK (SOSW),IGNOU,NEW DELHI</td>
+                                                <td class="text-center">
+                                                    <a href="../viewFile/MOM/BSOSW/33rd-SBM-SOSW.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> 33rd-SBM-SOSW</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/saumya.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal28">
+                                                        <label class="fw-bold">Prof. Saumya</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Saumya</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director, SOSW</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>social work</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>24-08-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>saumya@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director, SOSW<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>social work</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>24-08-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>saumya@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/rose.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal29">
+                                                        <label class="fw-bold">Prof. Rose Nembiakkim</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal29" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Rose Nembiakkim</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>social work</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>27-12-2005</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>rosenembiakkim@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>social work</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>27-12-2005</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>rosenembiakkim@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/sayantani.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal30">
+                                                        <label class="fw-bold">Dr. Sayantani Guin</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Sayantani Guin</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>social work</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>14-09-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>sayantaniguin@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>social work</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>14-09-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>sayantaniguin@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/dilip.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal31">
+                                                        <label class="fw-bold">Dr. Dilip Diwakar G</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Dilip Diwakar G</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Associate Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Community Development, Public Health, Access to Health and Education by Marginalised Communities, Intersectionality, Urban Poor, Food Security.</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>08-12-2022</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>dilipdiwakar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Associate Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Community Development, Public Health, Access to Health and Education by Marginalised Communities, Intersectionality, Urban Poor, Food Security.</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>08-12-2022</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>dilipdiwakar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/ramya.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal32">
+                                                        <label class="fw-bold">Dr. N. Ramya</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. N. Ramya</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Associate Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Psychiatric Social work</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>13A</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>31-08-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>ramya@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Associate Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Psychiatric Social work</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>13A</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>31-08-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>ramya@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/kannappa.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal33">
+                                                        <label class="fw-bold">Dr. Kannappa Setty V</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Kannappa Setty V</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Mental Health Psychaitric Social Work </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>22-11-2021</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>vksetty@ignou.ac.in </span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Mental Health Psychaitric Social Work </span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>22-11-2021</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>vksetty@ignou.ac.in </span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/konde.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal34">
+                                                        <label class="fw-bold">Dr. Konde.Lingaswamy</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal34" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Konde.Lingaswamy</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Community development, Urbanization and slums, Social Policy and Planning, Tribal,Agriculture and Environmental issues.</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>27-10-2021</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>klingaswamy@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Community development, Urbanization and slums, Social Policy and Planning, Tribal,Agriculture and Environmental issues.</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>27-10-2021</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>klingaswamy@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">8</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/binod.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal35">
+                                                        <label class="fw-bold">Dr. Binod Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal35" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Binod Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Disaster management, Law & Social Work, Community Development, Social Entrepreneurship, Corporate Social Responsibility and Social Policy</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>03-11-2021</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>binodkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Disaster management, Law & Social Work, Community Development, Social Entrepreneurship, Corporate Social Responsibility and Social Policy</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>03-11-2021</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>binodkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">9</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/mahesh.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal36">
+                                                        <label class="fw-bold">Dr. G. Mahesh</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal36" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. G. Mahesh</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Public Health and Working with Communities </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>11</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>24-08-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>gmahesh@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Public Health and Working with Communities </span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>11</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>24-08-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>gmahesh@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">10</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOSW/pp/seema.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal38">
+                                                        <label class="fw-bold">Dr. Seema Rani</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal38" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Seema Rani</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>HIV/ADS,Counselling, Life Skills Education</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>08-11-2021</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>seemarani4903@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>HIV/ADS,Counselling, Life Skills Education</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>08-11-2021</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>seemarani4903@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PHDSW">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/phdsw.jpg" alt="50" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">PhD in Social Work(PHDSW)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MSW">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/msw.jpg" alt="49" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Social Work(MSW)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MSWC">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mswc.jpg" alt="55" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Social Work: Counselling(MSWC)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MSWOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mswol.jpg" alt="702" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Social Work(MSWOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/BFSW">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/bfsw.jpg" alt="48" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Bachelor of Social Work(BFSW)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/BSWGOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/bswgol.jpg" alt="51" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Bachelor of Social Work(BSWGOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/BSW">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/bsw.jpg" alt="754" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Bachelor of Social Work(BSW)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGDCOUN">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdcoun.jpg" alt="56" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Social Work Counselling(PGDCOUN)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/DAFE">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dafe.jpg" alt="54" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in HIV and Family Education(DAFE)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/CTRBS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/ctrbs.jpg" alt="47" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Tribal Studies(CTRBS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/CAFE">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cafe.jpg" alt="53" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in HIV and Family Education(CAFE)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/CTRBSOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/ctrbsol.jpg" alt="688" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Tribal Studies(CTRBSOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/CCJSW">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/ccjsw.jpg" alt="823" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Criminal Justice Social Work(CCJSW)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/45 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:24:30 GMT -->
+</html>

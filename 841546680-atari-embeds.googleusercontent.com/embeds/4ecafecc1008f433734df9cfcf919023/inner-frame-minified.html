@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from 841546680-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:39 GMT -->
+<head>
+  <style>body,html,iframe{margin:0;padding:0;height:100%;width:100%;overflow:hidden}.forceIosScrolling{overflow:scroll;-webkit-overflow-scrolling:touch}</style>
+</head>
+
+<body>
+<iframe id='userHtmlFrame' frameborder='0' scrolling='yes'>
+</iframe>
+
+<script>
+  const MessageAction = {
+    GENAI_TEXT_EDIT: 'ATARI_GENAI_TEXT_EDIT',
+    JS_CRASH: 'onJsCrash'
+  };
+
+  let enableErrorReporting = false;
+
+  window.addEventListener('error', function(event) {
+    if (enableErrorReporting && window.parent && window.parent.postMessage) {
+      if (event instanceof ErrorEvent || event.message) {
+        window.parent.postMessage({
+          type: MessageAction.JS_CRASH,
+          message: event.message || 'Unknown JS Error',
+          stack: event.error ? event.error.stack : undefined
+        }, '*');
+      } else if (event.target && (event.target.src || event.target.href)) {
+        var failedElement = event.target;
+        var resourceUrl = failedElement.src || failedElement.href;
+        var tagName = failedElement.tagName ? failedElement.tagName.toLowerCase() : 'element';
+        window.parent.postMessage({
+          type: MessageAction.JS_CRASH,
+          message: 'Resource load failed for <' + tagName + '>: ' + resourceUrl,
+          stack: undefined
+        }, '*');
+      }
+    }
+  }, true);
+  window.addEventListener('unhandledrejection', function(event) {
+    if (enableErrorReporting && window.parent && window.parent.postMessage) {
+      window.parent.postMessage({
+        type: MessageAction.JS_CRASH,
+        message: event.reason ? event.reason.message || String(event.reason) : 'Unhandled Promise Rejection',
+        stack: event.reason ? event.reason.stack : undefined
+      }, '*');
+    }
+  });
+  let policy;
+  if (window.trustedTypes && window.trustedTypes.createPolicy) {
+    policy = window.trustedTypes.createPolicy('atari-gapi-loader', {
+      createScriptURL: (url) => {
+        if (url === 'https://apis.google.com/js/api.js?checkCookie=1') {
+          return url;
+        }
+        throw new Error('Attempted to load unexpected script URL');
+      },
+      createHTML: (html) => html
+    });
+  }
+
+  function loadGapi() {
+    var loaderScript = document.createElement('script');
+    var url = 'https://apis.google.com/js/api.js?checkCookie=1';
+    if (policy) {
+      loaderScript.src = policy.createScriptURL(url);
+    } else {
+      loaderScript.setAttribute('src', url);
+    }
+    loaderScript.onload = function() {
+      this.onload = function() {};
+      loadGapiClient();
+    };
+    loaderScript.onreadystatechange = function() {
+      if (this.readyState === 'complete') {
+        this.onload();
+      }
+    };
+    (document.head || document.body || document.documentElement).appendChild(loaderScript);
+  }
+
+  function updateUserHtmlFrame(userHtml, enableInteraction, forceIosScrolling, enableHtmlSitesGenAi, isLiquidArtifact, inEditor) {
+    enableErrorReporting = !!isLiquidArtifact;
+    if (isLiquidArtifact && inEditor) {
+      window.__atariSourcePayloadDom = new DOMParser().parseFromString(policy ? policy.createHTML(userHtml) : userHtml, 'text/html');
+    }
+    var frame = document.getElementById('userHtmlFrame');
+    if (enableInteraction) {
+      if (forceIosScrolling) {
+        var iframeParent = frame.parentElement;
+        iframeParent.classList.add('forceIosScrolling');
+      } else {
+        frame.style.overflow = 'auto';
+      }
+    } else {
+      // TODO(tianm): Figure out a better way to do this, esp if the scrolling attribute stops being
+      // supported in browsers. Even though the scrolling attribute is deprecated, we need it for
+      // the innermost frame because we can't set "overflow:hidden" on its body and html without
+      // manually inserting a style tag into the frame, which we want to avoid (because it could
+      // interfere/conflict with the user code).
+      frame.setAttribute('scrolling', 'no');
+      frame.style.pointerEvents = 'none';
+    }
+    clearCookies();
+    clearStorage();
+    frame.contentWindow.document.open();
+    const hoverClass = 'atari-ai-hover-' + Math.random().toString(36).substring(2, 9);
+    const selectedClass = 'atari-ai-selected-' + Math.random().toString(36).substring(2, 9);
+    const bootstrapStyle = isLiquidArtifact ? '<link rel="stylesheet" href="bootstrap.min.css">' : '';
+    const prosemirrorBundle = (isLiquidArtifact && inEditor) ? '<script src="prosemirror_bundle.js"><\/script>' : '';
+
+    const textEditorPayload = (isLiquidArtifact && inEditor) ? `
+      <style>
+        .${hoverClass} {
+          outline: 2.36px solid #0b57d0 !important;
+          cursor: pointer !important;
+        }
+        .${selectedClass} {
+          outline: 2.36px solid #0b57d0 !important;
+          cursor: text !important;
+        }
+        .ProseMirror { outline: none !important; white-space: pre-wrap; cursor: text !important; }
+        .ProseMirror p { margin: 0; padding: 0; display: inline; }
+        .ProseMirror > p:only-child {
+          font-family: inherit; font-size: inherit; font-weight: inherit;
+          font-style: inherit; line-height: inherit;
+          color: inherit; text-shadow: inherit;
+          letter-spacing: inherit; word-spacing: inherit;
+          text-transform: inherit; text-align: inherit; text-indent: inherit;
+        }
+        .ProseMirror:focus { outline: none !important; }
+        .editable-text.pm-edited { white-space: pre-wrap; }
+      </style>
+      <script>
+        (function() {
+          var waitForProsemirrorToInitialize = function() {
+            if (window.ProseMirror && window.ProseMirror.initLiquidAppsTextEditor) {
+              window.ProseMirror.initLiquidAppsTextEditor({
+                hoverClass: '${hoverClass}',
+                selectedClass: '${selectedClass}',
+                postMessageType: '${MessageAction.GENAI_TEXT_EDIT}'
+              });
+            } else {
+              setTimeout(waitForProsemirrorToInitialize, 10);
+            }
+          };
+
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', waitForProsemirrorToInitialize);
+          } else {
+            waitForProsemirrorToInitialize();
+          }
+        })();
+      <\/script>
+    ` : '';
+    // In-page hash link interceptor:
+    // In code embeds, <base target="_blank"> is injected so external links open
+    // in a new tab. However, this causes in-page anchor links (<a href="#...">)
+    // to also default to target="_blank", opening the sandboxed harness
+    // (inner-frame-minified.html#...) in a blank new tab.
+    //
+    // This script intercepts clicks in the capturing phase (useCapture: true)
+    // before the browser triggers default navigation, preventing the new tab
+    // and scrolling smoothly to the target element within the iframe.
+    const hashLinkInterceptor = `
+      <script>
+        (function() {
+          // Listen during capturing phase to intercept before <base target="_blank"> takes effect.
+          document.addEventListener('click', function(e) {
+            // Find the nearest ancestor anchor (handles nested icons, spans, svgs).
+            var el = e.target;
+            var anchor = null;
+            while (el && el !== document) {
+              if (el.tagName && el.tagName.toLowerCase() === 'a') {
+                anchor = el;
+                break;
+              }
+              el = el.parentElement;
+            }
+            if (!anchor) return;
+
+            // Only intercept relative in-page fragment links, not external links with hashes.
+            var href = anchor.getAttribute('href');
+            if (!href) return;
+            href = href.trim();
+            if (!href.startsWith('#')) return;
+
+            // Prevent default <base target="_blank"> navigation to a new blank tab.
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Handle empty anchor or top anchor.
+            if (href === '#' || href === '#top') {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              return;
+            }
+
+            // Resolve target element by id, falling back to legacy name attribute.
+            var targetId = href.slice(1);
+            try {
+              targetId = decodeURIComponent(targetId);
+            } catch (err) {}
+
+            var targetEl = document.getElementById(targetId);
+            if (!targetEl) {
+              try {
+                var escaped = window.CSS && CSS.escape ? CSS.escape(targetId) : targetId.replace(/["\\\\]/g, '\\\\$&');
+                targetEl = document.querySelector('[name="' + escaped + '"]');
+              } catch (err) {}
+            }
+
+            // Smoothly scroll to the target within the embed and update URL hash history.
+            if (targetEl) {
+              targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              if (window.history && window.history.pushState) {
+                window.history.pushState(null, '', href);
+              }
+            }
+          }, true); // useCapture: true is critical to preempt <base target="_blank">
+        })();
+      <\/script>
+    `;
+    const content = '<base href="' + window.location.href + '" target="_blank">' + hashLinkInterceptor + bootstrapStyle + prosemirrorBundle + userHtml + textEditorPayload;
+    frame.contentWindow.document.write(policy ? policy.createHTML(content) : content);
+    frame.contentWindow.document.close();
+  }
+
+  function onGapiInitialized() {
+    // Inform the parent frame that GAPI has been initialized.
+    gapi.rpc.call('..', 'innerFrameGapiInitialized');
+    gapi.rpc.register('updateUserHtmlFrame', updateUserHtmlFrame);
+  }
+
+  function loadGapiClient() {
+    gapi.load('gapi.rpc', onGapiInitialized);
+  }
+
+  if (document.readyState == 'complete') {
+    loadGapi();
+  } else {
+    self.addEventListener('load', loadGapi);
+  }
+
+  function clearCookies() {
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var equalPosition = cookie.indexOf("=");
+        var name = equalPosition > -1 ? cookie.substr(0, equalPosition) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        // Try deleting any cookies set on the googleusercontent domain.
+        document.cookie =
+          name + "=;expires=Thu, 01 Jan 1970 00:00:01 GMT ;domain=.googleusercontent.com";
+    }
+  }
+
+  function clearStorage() {
+    try {
+      localStorage.clear();
+      sessionStorage.clear();
+    } catch (e) {}
+  }
+  window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === MessageAction.GENAI_TEXT_EDIT) {
+      var innerIframe = document.getElementById('userHtmlFrame');
+      if (innerIframe && e.source !== innerIframe.contentWindow) return;
+      window.parent.postMessage(e.data, '*');
+    }
+  });
+</script>
+</body>
+
+<!-- Mirrored from 841546680-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:39 GMT -->
+</html>

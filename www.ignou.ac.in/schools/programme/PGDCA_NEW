@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/schools/programme/PGDCA_NEW by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:25:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+    <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+
+<body>
+<div>
+    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../../images/banners/socisB.jpg" alt="Post Graduate Diploma in Computer Applications&lt;br/&gt;(SOCIS)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Post Graduate Diploma in Computer Applications<br/>(SOCIS)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Computer and Information Sciences</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="../../pages/1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="../../pages/35">School of Computer and Information Sciences</a>
+                        </li>
+                        <li>Post Graduate Diploma in Computer Applications</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="innerRightBox">
+                            <div class="hdng_container">
+                                <h2 class="border-bottom">
+                                    PGDCA_NEW: Post Graduate Diploma in Computer Applications(ODL)
+                                    
+                                    <a href="../../../ignouadmission.samarth.edu.in/index.html" target="_blank" class="float-end btn btn-primary btn-sm">Apply Now</a>
+                                    
+                                </h2>
+                            </div>
+                            <h3>Introduction</h3>
+                            <p><P>The broad objective of the MCA programme is to prepare graduate students for productive careers in software industry and academia by providing an outstanding environment for teaching and research in the core and emerging areas of the discipline. The Programme’s thrust is on giving the students a thorough and sound background in theoretical and application-oriented courses relevant to the latest computer applications. The programme emphasizes the application of software technology to solve mathematical, computing, communications/networking and commercial problems.</P></p>
+                            <h3>Objective</h3>
+                            <p><p>The broad objective of the Post Graduate Diploma in Computer Applications (PGDCA)
+ programme is to prepare graduate students for productive careers in software industry. The
+ programme‘s thrust is on giving the students a thorough and sound background in theoretical
+ and application-oriented courses relevant to the latest computer software development. The
+ programme emphasizes the application of software technology to solve mathematical,
+ computing, communications / networking and commercial problems.</p>
+<p>This PG Diploma is a stand-alone programme consists of 10 (6 theory and 4 practical) courses
+ worth 32 credits. It has been designed with a semester approach in mind. The courses are aimed
+ at skills development in computers using various technologies. It prepares the student to aim for
+ a programmer level / web developer in a software company to design and develop small
+ business application software or lab personnel / technician in institutions or a freelancer to
+ develop software projects.</p></p>
+                            <div class="row mb-4">
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#targetGroupModal">Learner Target Group</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#eligibilityModal">Eligibility & Medium</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#durationModal">Duration & FeeStructure</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#jobModal">Job/Future Prospects</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#coordinatorModal">Programme Coordinator</button>
+                                </div>
+                                <div class="col-auto pe-0 mb-1">
+                                    <a target="_blank" href="https://www.ignou.ac.in/viewFile/SOCIS/programmeguide/PGDCA_New2025.pdf" class="btn btn-warning btn-sm">Programme
+                                        Guide</a>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="targetGroupModal" tabindex="-1" aria-labelledby="targetGroupModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="targetGroupModalLabel">Learner Target Group</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body"><p>Under Graduates in Computer Science and Other Graduates with Mathematics at 10+2 level or Graduate level</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="eligibilityModal" tabindex="-1" aria-labelledby="eligibilityModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="eligibilityModalLabel">Eligibility & Medium</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <span class="fw-bold">Eligibility for admission:</span>
+                                                <span><p>Any Bachelor’s degree of minimum 3 (three) year duration from a recognized University AND Mathematics as one of the subject at 10+2 level or Graduation level.</p>
+<p>OR</p>
+<p>Any Bachelor’s degree of minimum 3 (three) year duration from a recognized University AND doesn’t have Mathematics as one of the subject at 10+2 level or graduation level. These students are required to successfully complete BCS-012 (Graduate level Mathematics course) as Bridge Course.</p></span>
+                                            </p>
+                                            <p><span class="fw-bold">Medium of Instruction:</span> <span>English</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="durationModal" tabindex="-1" aria-labelledby="durationModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="durationModalLabel">Duration & Fee Structure</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <span class="fw-bold">Programme Duration:</span>
+                                            <span>Minimum Duration: 12 Months and Maximum Duration: 36 Months</span>
+                                            <div class="col-12 mt-2"><span class="fw-bold text-primary h6">Fees Structure</span></div>
+
+                                            <ul class="nav nav-tabs mt-1" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a aria-controls="home" aria-selected="true" class="nav-link active font-weight-bold" data-bs-toggle="tab" href="#national"
+                                                       id="nationalFees" role="tab">National Students</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a aria-controls="profile" aria-selected="false" class="nav-link font-weight-bold" data-bs-toggle="tab" href="#international"
+                                                       id="InternationalFees" role="tab">International Students</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div aria-labelledby="nationalFees" class="tab-pane fade show active" id="national" role="tabpanel">
+                                                    <div>INR(Rs.): 11,000.00/- for Per Semester</div>
+                                                    <div><p>Non-Maths students have to pay Rs.1000/- additional in the first semester.</p></div>
+                                                </div>
+                                                <div aria-labelledby="InternationalFees" class="tab-pane fade" id="international" role="tabpanel">
+                                                    
+                                                    <div>This Programme not offered for International Students.</div>
+                                                </div>
+                                            </div>
+                                            <div class="alert alert-danger mt-2"><strong>Note:</strong> Exam Fees is not included in Fee Structure it will be as decided by the University</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="jobModal" tabindex="-1" aria-labelledby="jobModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="jobModalLabel">Job/Future Prospects</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body"><p>One may go for employment in the IT Industry (Assistant programmer, Assistant Software engineer, data processing assistant, etc.) </p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="coordinatorModal" tabindex="-1" aria-labelledby="coordinatorModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="coordinatorModalLabel">Programme Coordinator</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <span>Prof. Sandeep Singh Rawat</span>
+                                                <br/>
+                                                <span>Professor</span>
+                                                <br/>
+                                                <span>School of Computer & Information Sciences (SOCIS)</span>
+                                                <br/>
+                                                <i class="fas fa-envelope"></i> <span>pgdca@ignou.ac.in</span><br/>
+                                                <i class="fas fa-mobile"></i><span>011-29572902</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="subHdng_container">
+                                    <h2 class="border-bottom">Courses <span>Structure</span></h2>
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-201: Programming in C and Python </h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal204">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal204" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-201: Programming in C and Python </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Programming in C and Python </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-201</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>The course is aimed to develop problem-solving strategies, techniques and skills that can be applied to computers and problems in other areas which give students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Emphasis of this course is to act as an introduction to the thinking world of computers, to help students develop the logic, ability to solve the problems by using C & Python as programming languages. Knowledge in a programming language is prerequisite to the study of most of computer science courses. This knowledge area consists of those skills and concepts that are essential to problem solving and programming practice independent of the underlying paradigm. The student will learn various concepts and techniques for problem solving and will implement those ideas using C and Python programs.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-202: Computer Organisation</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal201">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal201" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-202: Computer Organisation</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Computer Organisation</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-202</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>This course explains the basic component of computer systems. This course includes details on data representation, interconnection structures, memory system, input-output system, and the Central Processing Unit. It also provides a detailed view of digital logic circuits, microprocessors and assembly language Programming and some of the important peripheral devices. Some of the advanced computer organizations are also part of this course. The first block of the course explains Data Representation, Instruction Execution, Interrupts, Buses, Boolean algebra, Design of Logic Circuits, etc. The second block deals with the Memory System, The Memory Hierarchy, Secondary Storage technologies, the concepts of high speed memory, Cache Organistation , Input Output interfaces, Input Output techniques, DMA, Input Output processors, External Communication Interfaces, Interrupt Processing, BUS arbitration, etc. The third block deals with the Central Processing Unit. It includes the Instruction Set, the Instruction format, the Instruction Set Architecture, Micro-Operations, the organization of Arithmetic logic unit, Design of simple units of ALU, the Control Unit, The hardwired control, Wilkes control, the Micro-programmed control etc. The fourth block deals with the Assembly Language Programming, Microprocessor, RISC, and various types of multiprocessor technologies.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-203: Operating Systems</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal202">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal202" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-203: Operating Systems</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Operating Systems</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-203</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>This is the core course on Operating Systems (OS). </p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Course Objectives:</th>
+                                                            <td><p>The main objectives of this course are: 
+<ul>
+<li>To understand the OS role in the overall computer system</li>
+<li>To study the operations performed by OS as a resource manager</li>
+<li>To understand process concept, process concurrency, synchronization and Deadlocks</li>
+<li>To design and solve synchronization problems</li>
+<li>To understand the scheduling policies of OS</li>
+<li>To understand the different memory management techniques</li>
+<li>To understand the concepts of input/output, storage and file management</li>
+<li>To understand the goals and principles of protection</li>
+<li>To understand the advanced topics such as Multiprocessor Systems, Distributed OS and Mobile OS</li>
+<li>To study and compare different OS(Windows, Linux, Android and Ios) and compare their features.</li>
+</ul>
+</p></td>
+                                                        </tr>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCSL-204: WINDOWS and LINUX Lab </h5>
+                                        <p>Credits: <span>2</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal203">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal203" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCSL-204: WINDOWS and LINUX Lab </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>WINDOWS and LINUX Lab </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCSL-204</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practical (2 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        <tr>
+                                                            <th>Course Objectives:</th>
+                                                            <td><p>Main objective of this laboratory course is to provide hands on exercises to the learners based on Operating Systems Course.</p></td>
+                                                        </tr>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCSL-205: C and Python Lab</h5>
+                                        <p>Credits: <span>2</span> <br/>
+                                            <span>Semester 1</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal205">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal205" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCSL-205: C and Python Lab</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>C and Python Lab</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCSL-205</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practical (2 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        <tr>
+                                                            <th>Course Objectives:</th>
+                                                            <td><p>Main objective of this laboratory course is to provide hands on exercises to the learners based on Programming in C and Python course.</p></td>
+                                                        </tr>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-207: Database Management Systems</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal208">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal208" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-207: Database Management Systems</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Database Management Systems</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-207</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>Database systems are pervasive. They are present in every segment of commercial, academic and virtual world. They are required as the backbone of any information system, enterprise resource planning, e-commerce website and other activity that required permanence of data storage. Database management systems manage data more efficiently and effectively. This course provides the basic conceptual background necessary to design and develop simple database system. This course also provides you information about various types of database management system. After going through this course, a student will be able to: 
+<ul>
+<li>explain features of a DBMS and various database models</li>
+<li>create conceptual database model like E-R models and create a relational database design</li>
+<li>write relational algebraic and SQL queries including static and dynamic SQL queries</li>
+<li>normalize a database design </li>
+<li>explain the features of transactions, Recovery, Concurrency and Security in DBMS.</li>
+</ul>
+</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-208: Data Structures  and Algorithms</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal206">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal206" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-208: Data Structures  and Algorithms</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Data Structures  and Algorithms</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-208</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>The learner should become well versed with Algorithms and various data structures. S/he should be able to use them appropriately as per need during development of programs. Also, the learner should know different sorting and searching techniques so that correct techniques can be used in different programs so that the complexity of the program does not increase due the sorting/search technique employed. The course also includes Advanced Data Structures which will enable learner to apply them in solving complex problems.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCSL-209: Data Structures  and Algorithms Lab</h5>
+                                        <p>Credits: <span>2</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal207">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal207" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCSL-209: Data Structures  and Algorithms Lab</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Data Structures  and Algorithms Lab</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCSL-209</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practical (2 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        
+                                                        <tr>
+                                                            <th>Course Objectives:</th>
+                                                            <td><p>Main objective of this laboratory course is to provide hands on exercises to the learners based data Structures and Algorithms course.</p></td>
+                                                        </tr>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCSL-210: DBMS and Java Lab</h5>
+                                        <p>Credits: <span>2</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal236">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal236" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCSL-210: DBMS and Java Lab</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>DBMS and Java Lab</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCSL-210</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Practical (2 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>This laboratory course is based on two courses: Object Oriented Programming using Java and Database Management Systems.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-206: Object Oriented Programming using Java </h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal212">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal212" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-206: Object Oriented Programming using Java </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Object Oriented Programming using Java </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-206</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>Today almost every branch of computer science is feeling presence of object- orientation. Object oriented technology is successfully incorporated in various fields of computer science. Java is one of the prominent programming language for Object Oriented Programming. This Course is designed to give you exposure to the concepts of object-oriented programming using java. It will help in learning to write programs in java using object-oriented concepts and features of java including exceptions handling and multithreading. Also this course will teach learners to use java API, Stream classes, GUI in java, and use of JDBC in applications development.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box">
+                                    
+                                    <div class="img-box">
+                                        <img src="../../images/courses/noimage.jpg" class="img-fluid" alt="Course Image"/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>MCS-208: Data Structures  and Algorithms</h5>
+                                        <p>Credits: <span>4</span> <br/>
+                                            <span>Semester 2</span>
+                                        </p>
+                                        <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#coursesModal3893">
+                                            Read more..
+                                        </a>
+                                    </div>
+                                    <!-- Courses Modal -->
+                                    <div class="modal fade" id="coursesModal3893" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="coursesModalLabel">MCS-208: Data Structures  and Algorithms</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tbody class="text-start">
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Title:</th>
+                                                            <td>Data Structures  and Algorithms</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Course Code:</th>
+                                                            <td>MCS-208</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 100px;">Coordinator:</th>
+                                                            <td>
+                                                                <ul>
+                                                                    
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 150px;">Course Type (Credit):</th>
+                                                            <td>Theory (4 Credits)</td>
+                                                        </tr>
+                                                        <!--                                                        <tr>-->
+                                                        <!--                                                            <th>Evaluation Methodology</th>-->
+                                                        <!--                                                            <th style="width: 2%; text-align: center;">:</th>-->
+                                                        <!--                                                            <td th:utext="${c.courses.evalMethodology}"/>-->
+                                                        <!--                                                        </tr>-->
+                                                        <tr>
+                                                            <th>Course Introduction:</th>
+                                                            <td><p>The learner should become well versed with Algorithms and various data structures. S/he should be able to use them appropriately as per need during development of programs. Also, the learner should know different sorting and searching techniques so that correct techniques can be used in different programs so that the complexity of the program does not increase due the sorting/search technique employed. The course also includes Advanced Data Structures which will enable learner to apply them in solving complex problems.</p></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="../../pages/205">Empanelled Hospitals</a></li>
+                        <li><a href="../../pages/219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="../../pages/218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="../../pages/65">Study Material Status</a></li>
+                        <li><a href="../../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="../../pages/64">FAQs</a></li>
+                        <li><a href="../../pages/222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="../../pages/281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../../assets/vendor/aos/aos.js"></script>
+    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/schools/programme/PGDCA_NEW by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:25:19 GMT -->
+</html>

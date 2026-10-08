@@ -1,0 +1,2568 @@
+ 
+  
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Mirrored from shebox.wcd.gov.in/addOrganizationForm by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:29:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Verification Form for Empanelment of Organization Providing POSH Act Trainings | SHe-Box | MINISTRY OF WOMEN & CHILD DEVELOPMENT | GOI</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="Sexual Harassment electronic Box (SHe-Box) is an effort of GoI to provide a single window access to every woman, irrespective of her work status, whether working in organised or unorganised, private or public sector, to facilitate the registration of complaint related to sexual harassment.">
+    <meta name="author" content="">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://shebox.wcd.gov.in/">
+    <meta property="og:title" content="SHe-Box">
+    <meta property="og:description"    content="Online Complaint Management System">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shebox.wcd.gov.in/">
+    <meta property="og:image"   content="https://shebox.wcd.gov.in/assets/web_assets/images/she-box-logo.png">
+    <meta property="og:site_name" content="SHe-Box">
+    <meta property="og:locale" content="en_IN">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <meta name="description" content="SHe-Box is the Government of India’s online platform for registering and tracking complaints of sexual harassment at the workplace. It provides a secure and accessible single-window system for women to submit and monitor their complaints.">
+    <meta name="keywords" content="SHe-Box, SheBox, SHe-Box portal, sexual harassment, workplace sexual harassment, sexual harassment complaint, online sexual harassment complaint, complaint registration, complaint tracking, women safety, women empowerment, workplace harassment, POSH, Prevention of Sexual Harassment, Government of India, Ministry of Women and Child Development, sexual harassment at workplace, women workplace safety">
+    <meta name="author" content="Ministry of Women and Child Development, Government of India">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="index.html">
+    <meta property="og:title" content="SHe-Box | Online Sexual Harassment Complaint Management System">
+    <meta property="og:description" content="SHe-Box is the Government of India’s online platform for registering and tracking complaints of sexual harassment at the workplace through a secure single-window system.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:image" content="assets/web_assets/images/she-box-logo.png">
+    <meta property="og:site_name" content="SHe-Box">
+    <meta property="og:locale" content="en_IN">
+
+<link rel="preconnect" href="../fonts.googleapis.com/index.html">
+<link rel="preconnect" href="../fonts.gstatic.com/index.html" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900"      rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/web_assets/css/style998e.css?v=1791450428">
+    <link rel="stylesheet" href="assets/web_assets/css/bootstrap.min998e.css?v=1791450428">
+    <link rel="stylesheet" href="assets/bower_components/sweetalert/css/sweetalert.css">
+    <link rel="stylesheet" href="assets/web_assets/css/menu998e.css?v=1791450428" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="https://shebox.wcd.gov.in/assets/web_assets/css/animate.css" /> -->
+    <link href="assets/web_assets/css/fontAwesome.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/web_assets/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="assets/web_assets/css/datatables.responsive.bootstrap4.min.css">
+    
+    <link rel="preconnect" href="../cdn.jsdelivr.net/index.html" crossorigin>
+    <link rel="stylesheet" href="assets/web_assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/web_assets/css/dark-theme-style998e.css?v=1791450428">
+    <link rel="icon" href="assets/web_assets/images/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="assets/web_assets/images/she-box-logo.png" as="image">
+     <style>
+        .searchable_dropdown{
+        width:200px;
+        }
+
+        .custom-swal-btn {
+            background-color: #28a745 !important; /* Bootstrap green */
+            color: #fff !important;
+            padding: 8px 25px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: none;
+            cursor: pointer;
+            }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- <div class="header-outer">
+        <div class="topbar">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-4 col-xs-12 top-left">
+                        <ul>
+                            <li>
+                                <a href="#main-content" class="">Skip to Main Content</a>
+                            </li>
+                            <li>
+                                <a href="https://shebox.wcd.gov.in/screen-reader-access" class="">Screen Reader Access</a>
+                            </li>
+                            <li class="font-gigw" id="btn-decrease font-decrease" onclick="decrAllFontSize()" title="Decrease Text">
+                                <button aria-label="Decrease Font Size">A-</button>
+                            </li>
+                            <li class="font-gigw" id="btn-orig font-actual" onclick="orgAllFontSize()" title="Reset Text">
+                                <button aria-label="Reset Font Size">A</button>
+                            </li>
+                            <li class="font-gigw" id="btn-increase font-increase" onclick="incrAllFontSize()" title="Increase Text">
+                                <button aria-label="Increase Font Size">A+</button>
+                            </li>
+                            <li id="theme-change" onclick="themeChange()" title="Website Contrast"><button aria-label="Toggle dark mode">A</button>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-8 col-xs-12 top-right">
+                        
+                        <ul class="header-call-outer">
+                            <li>National Cyber Crime Helpline : <span>1930</span></li>
+                            <li>WHL : <span>181</span></li>
+                            <li>CHL: <span>1098</span></li>
+                            <li>Legal Assistance Helpline: <span>15100</span></li>
+                            <li>For Emergency <span>112</span></li>
+                            <li style="background-color:white;" class="bhashini-li">
+                                <div class="bhashini-plugin-container" aria-label="language selector"></div>
+                                <script src="https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"></script>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="header-left">
+                        <a href="https://shebox.wcd.gov.in/" title="Satyamev Jayate">
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/satyamev-jayate.png"
+                                alt="State Emblem of India Logo" title="State Emblem of India" class="wh-img" />
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/satyamev-jayate-dark.png"
+                                alt="State Emblem of India Logo" title="State Emblem of India" class="dark-img" />
+                        </a>
+                        <a href="https://shebox.wcd.gov.in/" title="Towards A Naya Dawr">
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/wcd-logo.png"
+                                alt="Towards A Naya Dawr Logo" title="Towards A Naya Dawr" class="wh-img" />
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/wcd-logo-dark.png"
+                                alt="Towards A Naya Dawr Logo" title="Towards A Naya Dawr" class="dark-img" />
+                        </a>
+                        <a href="https://shebox.wcd.gov.in/" title="SHe-Box" class="she-box-logo">
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/she-box-logo.png"
+                                alt="SHe-Box Logo" title="SHe-Box" />
+                        </a>
+                        <a href="https://shebox.wcd.gov.in/" title="Beti Bachao Beti Padhao" class="beti-bacho-sm">
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/bbbp.png"
+                                alt="Beti Bachao Beti Padhao Logo" title="Beti Bachao Beti Padhao" />
+                        </a>
+                        
+                    </div>
+                    <div class="header-center">
+                        <a href="https://shebox.wcd.gov.in/" aria-label="Ministry of Women & Child Development | Government of India">
+                            Ministry of Women & Child Development
+                            <span>Government of India</span>
+                        </a>
+
+                    </div>
+                    <div class="header-right">
+                        <div class="header-pledge-outer" data-toggle="modal" data-target="#takePledge" role="button">
+                            <span class="header-pledge-inner-outer">
+                                <span class="header-pledge-icon-outer">
+                                    <img src="https://shebox.wcd.gov.in/assets/web_assets/images/pledge-icon-new.png"
+                                alt="Take Pledge Icon" title="Take Pledge" class="wh-img" />
+                                    <img src="https://shebox.wcd.gov.in/assets/web_assets/images/pledge-icon-new-dark.png"
+                                alt="Take Pledge Icon" title="Take Pledge" class="dark-img" />
+                                </span>
+                                <span class="header-pledge-content-outer">Take<br> Pledge</span>
+                            </span>
+                        </div>
+                        <a href="https://shebox.wcd.gov.in/" title="Beti Bachao Beti Padhao" class="beti-bacho-lg">
+                            <img src="https://shebox.wcd.gov.in/assets/web_assets/images/bbbp.png"
+                                alt="Beti Bachao Beti Padhao Logo" title="Beti Bachao Beti Padhao" />
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+        </header>
+    </div> -->
+
+    <div class="header-outer">
+        <div class="topbar">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-8 col-xs-12 top-right">
+                        <ul class="header-call-outer">
+                            <li>National Cyber Crime Helpline : <span>1930</span></li>
+                            <li>WHL : <span>181</span></li>
+                            <li>CHL: <span>1098</span></li>
+                            <li>Legal Assistance Helpline: <span>15100</span></li>
+                            <li>For Emergency <span>112</span></li>
+                            <li>Tele Law : <span>14454</span></li>
+                           
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-4 col-xs-12 top-left">
+                        <ul>                            
+                            <li>
+                                <a href="screen-reader-access" class="">Screen Reader Access</a>
+                            </li>
+                            <li>
+                                <button data-toggle="modal" data-target="#takePledge" role="button" class="takePledge">
+                                    <img src="assets/web_assets/images/pledge-icon-new.png"
+                                    alt="Take Pledge Icon" title="Take Pledge" class="wh-img" />
+                                    <img src="assets/web_assets/images/pledge-icon-new-dark.png"
+                                    alt="Take Pledge Icon" title="Take Pledge" class="dark-img" />
+                                    Take Pledge
+                                </button>
+                            </li>
+                            
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                <!-- Left Logo -->
+                <div class="header-left">
+                    <a href="index.html" aria-label="Satyamev Jayate - Home">
+                        <img src="assets/web_assets/images/ministry-logo.svg"
+                            alt="State Emblem of India">
+                    </a>
+                </div>
+
+
+                <!-- Search -->
+                <div class="header-center">
+                    <div class="header-search-outer">
+
+                        <label for="searchInput" class="sr-only">
+                            Search
+                        </label>
+
+                        <img src="assets/web_assets/images/search.svg"
+                            alt=""
+                            aria-hidden="true">
+
+                        <input type="search" id="searchInput" name="search" placeholder="Search" autocomplete="off">
+                    </div>
+                </div>
+
+
+                <!-- Right Header -->
+                <div class="header-right">
+
+                    <!-- Logos -->
+                    <div class="header-right-logo-outer">
+
+                        <a href="index.html"
+                        aria-label="Towards A Naya Dawr - Home">
+
+                            <img src="assets/web_assets/images/wcd-logo.png"
+                                alt="Towards A Naya Dawr"
+                                class="wh-img">
+
+                            <img src="assets/web_assets/images/wcd-logo-dark.png"
+                                alt="Towards A Naya Dawr"
+                                class="dark-img">
+                        </a>
+
+
+                        <a href="index.html"
+                        aria-label="SHe-Box">
+
+                            <img src="assets/web_assets/images/she-box-logo.png"
+                                alt="SHe-Box">
+                        </a>
+
+
+                        <a href="index.html"
+                        aria-label="Beti Bachao Beti Padhao">
+
+                            <img src="assets/web_assets/images/bbbp.png"
+                                alt="Beti Bachao Beti Padhao">
+                        </a>
+
+                    </div>
+
+
+                    <!-- Header Controls -->
+                    <div class="header-right-icon-outer">
+
+                        <ul>
+
+                            <!-- Skip Link -->
+                            <li>
+                                <a href="#main-content"
+                                class="skip-link">
+                                    <img src="assets/web_assets/images/skip.svg" alt="Skip to main content" title="Skip to main content" aria-hidden="true">
+                                </a>
+                            </li>
+
+
+                            <!-- Language Selector -->
+                            <li class="bhashini-li">
+
+                                <div class="bhashini-plugin-container"
+                                    aria-label="Language selector">
+                                </div>
+
+                                <script src="../translation-plugin.bhashini.co.in/v3/website_translation_utility.js"></script>
+
+                            </li>
+
+
+                            <!-- Accessibility Button -->
+                            <li>
+
+                                <button type="button" class="accessibility-btn access" aria-label="Open Accessibility Controls" aria-expanded="false" aria-controls="accessibilityPanel">
+
+                                    <img src="assets/web_assets/images/accessibility.svg" alt="Accessibility" aria-hidden="true">
+
+                                </button>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Accessibility Panel -->
+                    <div id="accessibilityPanel" class="accessibility-panel" role="dialog" aria-modal="true" aria-labelledby="accessibilityPanelTitle" aria-hidden="true" tabindex="-1">
+
+
+                        <!-- Panel Header -->
+                        <div class="accessibility-header">
+
+                            <h2 id="accessibilityPanelTitle">
+                                Accessibility Controls
+                            </h2>
+
+                            <button type="button" class="accessibility-close" aria-label="Close Accessibility Controls">
+
+                                <span aria-hidden="true">&times;</span>
+
+                            </button>
+
+                        </div>
+
+
+                        <!-- Panel Body -->
+                        <div class="accessibility-body">
+
+                            <div class="accessibility-grid">
+
+
+                                <!-- Contrast -->
+                                <button type="button" class="accessibility-option" id="theme-change" aria-label="Contrast View" aria-pressed="false" onclick="themeChange()">
+
+                                    <span class="access-icon contrast-icon" aria-hidden="true">
+
+                                        <img src="assets/web_assets/images/contrast.svg" alt="Contrast View">
+
+                                    </span>
+
+                                    <span class="access-title">
+                                        Contrast View
+                                    </span>
+
+                                </button>
+
+
+                                <!-- Invert -->
+                                <button type="button" class="accessibility-option" id="invrt" aria-label="Invert Colors" aria-pressed="false">
+
+                                    <span class="access-icon invert-icon" aria-hidden="true">
+
+                                        <img src="assets/web_assets/images/invert.svg" alt="Invert Colors">
+
+                                    </span>
+
+                                    <span class="access-title">
+                                        Invert
+                                    </span>
+
+                                </button>
+
+
+                                <!-- Text Size -->
+                                <div class="accessibility-option font-size-option" role="group" aria-labelledby="textSizeLabel">
+
+                                    <span id="textSizeLabel" class="access-title sr-only">
+                                        Text Size
+                                    </span>
+
+                                    <div class="font-size-buttons">
+
+                                        <button type="button" id="btn-decrease" aria-label="Decrease text size" onclick="decrAllFontSize()">
+                                            A-
+                                        </button>
+
+                                        <button type="button" id="btn-normal" aria-label="Reset text size to normal" onclick="orgAllFontSize()">
+                                            A
+                                        </button>
+
+                                        <button type="button" id="btn-increase" aria-label="Increase text size" onclick="incrAllFontSize()">
+                                            A+
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Saturation -->
+                                <button type="button" class="accessibility-option" id="saturate" aria-label="Saturation" aria-pressed="false">
+
+                                    <span class="access-icon" aria-hidden="true">
+
+                                        <img src="assets/web_assets/images/saturation.svg" alt="Saturation">
+
+                                    </span>
+
+                                    <span class="access-title">
+                                        Saturation
+                                    </span>
+
+                                </button>
+
+
+                                <!-- Highlight Links -->
+                                <button type="button" class="accessibility-option" id="highlight" aria-label="Highlight Links" aria-pressed="false">
+
+                                    <span class="access-icon" aria-hidden="true">
+
+                                        <img src="assets/web_assets/images/highlight.svg" alt="Highlight Links">
+
+                                    </span>
+
+                                    <span class="access-title">
+                                        Highlight Links
+                                    </span>
+
+                                </button>
+
+
+                                <!-- Hide Images -->
+                                <button type="button" class="accessibility-option" id="hide-img" aria-label="Hide Images" aria-pressed="false">
+
+                                    <span class="access-icon" aria-hidden="true">
+
+                                        <img src="assets/web_assets/images/hide-img.svg" alt="Hide Images">
+
+                                    </span>
+
+                                    <span class="access-title">
+                                        Hide Images
+                                    </span>
+
+                                </button>
+                                <button type="button" class="reset-filters" id="reset-filters" aria-label="Reset Filters" onclick="resetFilters()">
+
+                                    <img src="assets/web_assets/images/reset.svg" alt="Reset Filters" aria-hidden="true">
+
+                                    <span class="access-title">
+                                        Reset Filters
+                                    </span>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+            
+
+            <div class="clear-both"></div>
+
+
+        </header>
+
+    </div>
+    <div class="container-fluid">
+        <div class="menu">
+            <button class="toggleMenu" onclick=myFunction(this)><span>Menu</span>
+                <div class="bar-outer">
+                    <div class=bar1></div>
+                    <div class=bar2></div>
+                    <div class=bar3></div>
+                </div>
+            </button>
+            <nav role="navigation" aria-label="Main menu">
+                <ul class="nav" role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="complince_gallery">Gallery</a></li>
+                    <li><a href="legalprovision">Laws and Regulations</a></li>
+                    <li><a href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">Resource Directory</a>
+                        <ul role="list">
+                            <li role="none"><a role="listitem" href="snoDetailsLists" target="_blank">State Nodal Officer (SNO)</a></li>
+                            <li role="none"><a role="listitem" href="dnoDetailsLists" target="_blank">District Nodal Officer (DNO)</a></li>
+                            <li role="none"><a role="listitem" href="doDetailsLists" target="_blank">District Officer (DO)</a></li>
+                            <li role="none"><a role="listitem" href="lcDetailsLists" target="_blank">Local Committee (LC)</a></li>
+                             <li><a href="nodalOfficerSectionLists" target="_blank">Nodal Officer as per section 6(2)</a></li>  
+                        </ul>
+                    </li>
+                    <li><a href="iec_material">IEC Material</a></li>
+                    <li><a href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">Empanelment</a>
+                        <ul role="list">
+                            <li role="none"><a role="listitem" href="addIndividualForm" target="_blank">Individual Trainer</a></li>
+                            <li role="none"><a role="listitem" href="addOrganizationForm" target="_blank">Organization's providing POSH training</a></li>
+                            <li role="none"><a role="listitem" href="empanelmentReport" target="_blank">Approved Empanelment Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">User Manual</a>
+                        <ul role="list">
+                            <li role="none"><a role="listitem" href="assets/usermanual/SHe-Box-Centralgovt-Complainant-Usermanual.pdf" target="_blank">Complainant/Aggrieved</a></li>
+                            <li role="none"><a role="listitem" href="assets/usermanual/SheBoxUsermanual(central)-V1.pdf" target="_blank">Central Government Nodal Officer</a></li>
+                            <li role="none"><a role="listitem" href="assets/usermanual/SheBoxUsermanual(state)-V3.pdf" target="_blank">State Nodal Officer</a></li>
+                            <li role="none"><a role="listitem" href="assets/usermanual/SheBoxUsermanual(DNO)-V2.pdf" target="_blank">District Nodal Officer</a></li>
+                            <li role="none"><a role="listitem" href="assets/usermanual/Private-Head-Office-User-Manual.pdf" target="_blank">Private Head Office Nodal Officer</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="faq">FAQ</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                    
+                
+                    <li>
+                        <a href="signin"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+                    </li>
+                    
+                </ul>
+                 <!-- <span class="take-pledge-anchor pledge-lg" data-toggle="modal" data-target="#takePledge" role="button">Take Pledge</span> -->
+            </nav>
+        </div>
+    </div>
+
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="takePledge" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Take Pledge</h4>
+        </div>
+        <form id="pledgeForm">
+        <div class="modal-body">
+            <div class="row">
+                <!-- Name -->
+                <div class="col-lg-4 col-xs-12 form-group">
+                    <label for="name" class="form-label">
+                        Name <span class="text-danger" aria-hidden="true">*</span>
+                    </label>
+                    <input type="text" class="form-control" id="name" name="name" maxlength="50" required
+                        aria-required="true" oninput="nameValidateInput(this)" placeholder="Enter Name">
+                    <span id="name_err" class="text-danger" role="alert" aria-live="assertive"></span>
+                </div>
+
+                
+                <!-- Mobile -->
+                <div class="col-lg-4 col-xs-12  form-group">
+                    <label for="mobile" class="form-label">
+                        Mobile No. <span class="text-danger" aria-hidden="true">*</span>
+                    </label>
+                    <input type="text" name="mobile" class="form-control number" id="mobile" maxlength="10" required
+                        aria-required="true" inputmode="numeric" oninput="mobileNoValidateInput(this)" placeholder="Enter Mobile No.">
+                    <span id="mobile_err" class="text-danger" role="alert" aria-live="assertive"></span>
+                </div>
+
+                <!-- Language -->
+                <div class="col-lg-4 col-xs-12  form-group">
+                    <label for="language" class="form-label">
+                        Select Language <span class="text-danger" aria-hidden="true">*</span>
+                    </label>
+                    <select name="language" id="language" class="form-control" required aria-required="true">
+                        <option value="">-- Select Language --</option>
+                        <option value="1">English</option>
+                        <option value="2">Hindi</option>
+                    </select>
+                    <span id="language_err" class="text-danger" role="alert" aria-live="assertive"></span>
+                </div>
+               
+            </div>
+            <div class="row">
+                 <!-- State -->
+
+
+
+                <div class="col-lg-4 col-xs-12 select-outer form-group" id="state-divpleadge">
+                    <label for="statepleadge" class="form-label">
+                        State <span class="text-danger" aria-hidden="true">*</span>
+                    </label>
+                        <select name="state_id"   id="statepleadge"   class="form-control" onchange="getDistricts(this.value)">
+                        <option value="">-- Select State --</option>
+                    </select>
+                    <span id="state_err" class="text-danger" role="alert" aria-live="assertive"></span>
+                </div>
+                <!-- District -->
+                <div class="col-lg-4 col-xs-12 mb-3">
+                    <div class="select-outer form-group">
+                        <label for="district_id_pledge" class="form-label">
+                            District <span class="text-danger" aria-hidden="true">*</span>
+                        </label>
+                        <div id="district-div-pledge">
+                            
+                        <select name="district_id" id="district_id_pledge" class="form-control">
+                            <option value="">-- Select District --</option>
+                        </select>
+                        </div>
+                        <span id="dist_err" class="text-danger" role="alert" aria-live="assertive"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <!-- Captcha -->
+                  
+                         <input type="hidden" name="captcha_id" id="captcha-id" value="captcha_6ac75d3c5ed8b2.31784762" />
+
+                        <div class="col-xs-12 form-group captcha-img-field-grid">
+                            <div class="captcha-audio-grid">
+                                <div class="captcha-grid">
+                                    <span class="captchaImage">
+                                        <img id="captcha" src="application/third_party/securimage/securimage_show9192.php?id=captcha_6ac75d3c5ed8b2.31784762&amp;t=1791450428" alt="CAPTCHA image, enter the text shown in the image" />
+                                    </span>
+                                    <button class="btn captcha-refresh-icon" onclick="
+                                        const newId = 'captcha_' + Date.now();
+                                        document.getElementById('captcha').src = 'application/third_party/securimage/securimage_show5445.php?id=' + newId + '&t=' + Math.random();
+                                        document.getElementById('captcha-audio').src = 'application/third_party/securimage/securimage_play5445.php?id=' + newId + '&t=' + Math.random();
+                                        document.getElementById('captcha-id').value = newId;
+                                        return false;" aria-label="Refresh CAPTCHA" tabindex="0">
+                                        <i class="fa fa-refresh" title="Refresh" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="captcha-audio-outer">
+                                    <audio id="captcha-audio" controls  aria-label="Play CAPTCHA audio">
+                                        <source src="application/third_party/securimage/securimage_playedf1.php?id=captcha_6ac75d3c5ed8b2.31784762" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="form-field captcha-field-grid form-group">
+                                <label for="captcha-input" class="form-label"><i class="fa fa-pencil" aria-hidden="true"></i> Captcha Code <span class="text-danger" aria-hidden="true">*</span></label>
+                                <input type="text" placeholder="Enter Captcha Code" name="captcha" autocomplete="off" aria-describedby="captcha-error" id="captcha-input" class="form-control" required
+                        aria-required="true">
+                                <p id="captcha-error" class="error-message" role="alert"> </p>
+                            </div>
+                        </div>
+
+            </div>
+            <div class="row">
+            <div class="col-xs-12">
+                <!-- Submit -->
+                <button type="button" id="submitPledge" class="btn btn-primary" aria-label="Submit Pledge Form">
+                Submit
+                </button>
+            </div>
+            </div>
+
+            </div>
+            </form>     
+      </div>
+      
+    </div>
+  </div>
+  </div>
+
+
+     <div class="modal takePledge-modal" id="takePledge1" role="dialog" aria-modal="true" aria-labelledby="takePledgeTitle">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="takePledgeTitle">Take Pledge</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>                
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <marquee direction="left" height="28px" style="background-color:aliceblue;color:darkred;font-size:18px;font-weight:800">
+            The website will be unavailable from 7:00 PM to 11:30 PM today, due to scheduled maintenance activity.
+    </marquee>  -->
+
+<div class="banner-outer inner-banner-outer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-xs-12 banner-page-left">
+                <h1>Verification Form for Empanelment of Organization Providing POSH Act Trainings</h1>
+            </div>
+            <div class="col-lg-4 col-xs-12 banner-breadcrumb-outer">
+                <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Empanelment of Organization</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="inner-body login-form-body" id="main-content" role="main">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                                <div class="login-form">
+                    <form action="https://shebox.wcd.gov.in/addOrganizationForm" method="post" enctype="multipart/form-data" autocomplete="off" accept-charset="utf-8">
+<input type="hidden" name="token" value="f9ca6325700cc7d236df31484dd76741" style="display:none;" />
+
+                    <div class="float-labels-form">
+                        <div class="card-body row">
+
+
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-0">
+                                    Organization Information :
+                                </h2>
+                            </div>
+                            
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group organization_name">
+                                <div class="form-field feed-name">
+                                    <label for="organization_name" class="field-label"><i class="fa fa-user" aria-hidden="true"></i> Name of Organization <span class="text-danger estric-size">*</span></label>
+                                    <input type="text" name="organization_name" id="organization_name" value="" required="" class="alpha" aria-describedby="organization_name-instruction organization_name-error" aria-required="true" aria-invalid="false" placeholder="Enter Name of Organization" autocomplete="organization">
+                                    
+                                    <p id="organization_name-error" class="error-message" role="alert" aria-live="polite"></p>
+                                    <span id="organization_name-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group contact">
+                                <div class="form-field feed-name">
+                                    <label for="organization_contact" class="field-label">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        Contact Number
+                                        <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="tel" name="contact" id="organization_contact" maxlength="10" minlength="10" value="" required="" class="number" aria-describedby="organization_contact-instruction organization_contact-error" aria-required="true" aria-invalid="false" placeholder="Enter Contact Number" autocomplete="tel">
+                                    <p id="organization_contact-error" class="error-message" role="alert" aria-live="polite"></p>
+                                    <span id="organization_contact-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group email">
+                                <div class="form-field feed-name">
+                                    <label for="organization_email" class="field-label">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        Email Address <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="email" name="email" id="organization_email" value="" required="" class="" aria-describedby="organization_email-instruction organization_email-error" aria-required="true" aria-invalid="false" placeholder="Enter Email Address" autocomplete="email">
+                                    <p id="organization_email-error" class="error-message" role="alert" aria-live="polite"></p>
+                                    <span id="organization_email-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    
+                                    
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group website">
+                                <div class="form-field feed-name">
+                                    <label for="organization_website" class="field-label">
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                        Website <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text"   pattern="^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}(\S*)?$" name="website" id="organization_website" value="" required="" class="" aria-describedby="organization_website-instruction organization_website-error" aria-required="true" aria-invalid="false" placeholder="Enter Website URL" autocomplete="url">
+                                    <p id="organization_website-error" class="error-message" role="alert" aria-live="polite"></p>
+                                    <span id="organization_website-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group state_id">
+                                <div class="form-field feed-name">
+                                    <label for="organization_state_id" class="field-label">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Select State <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <select type="text" name="state_id" value="" required="" class=""
+                                        onchange="getDistrictByState(this.value);" id="organization_state_id" aria-describedby="organization_state_id-instruction organization_state_id-error" aria-required="true" aria-invalid="false" autocomplete="address-level1">
+                                        <option value="" disabled="" selected="" aria-hidden="true">Select State</option>
+                                                                            <option value="35">Andaman And Nicobar Islands                                        </option>
+                                                                                <option value="28">Andhra Pradesh                                        </option>
+                                                                                <option value="12">Arunachal Pradesh                                        </option>
+                                                                                <option value="18">Assam                                        </option>
+                                                                                <option value="10">Bihar                                        </option>
+                                                                                <option value="04">Chandigarh                                        </option>
+                                                                                <option value="22">Chhattisgarh                                        </option>
+                                                                                <option value="07">Delhi                                        </option>
+                                                                                <option value="30">Goa                                        </option>
+                                                                                <option value="24">Gujarat                                        </option>
+                                                                                <option value="06">Haryana                                        </option>
+                                                                                <option value="02">Himachal Pradesh                                        </option>
+                                                                                <option value="01">Jammu and Kashmir                                        </option>
+                                                                                <option value="20">Jharkhand                                        </option>
+                                                                                <option value="29">Karnataka                                        </option>
+                                                                                <option value="32">Kerala                                        </option>
+                                                                                <option value="37">Ladakh                                        </option>
+                                                                                <option value="31">Lakshadweep                                        </option>
+                                                                                <option value="23">Madhya Pradesh                                        </option>
+                                                                                <option value="27">Maharashtra                                        </option>
+                                                                                <option value="14">Manipur                                        </option>
+                                                                                <option value="17">Meghalaya                                        </option>
+                                                                                <option value="15">Mizoram                                        </option>
+                                                                                <option value="13">Nagaland                                        </option>
+                                                                                <option value="21">Orissa                                        </option>
+                                                                                <option value="34">Puducherry                                        </option>
+                                                                                <option value="03">Punjab                                        </option>
+                                                                                <option value="08">Rajasthan                                        </option>
+                                                                                <option value="11">Sikkim                                        </option>
+                                                                                <option value="33">Tamil Nadu                                        </option>
+                                                                                <option value="36">Telangana                                        </option>
+                                                                                <option value="38">The Dadra And Nagar Haveli And Daman And Diu                                        </option>
+                                                                                <option value="16">Tripura                                        </option>
+                                                                                <option value="09">Uttar Pradesh                                        </option>
+                                                                                <option value="05">Uttrakhand                                        </option>
+                                                                                <option value="19">West Bengal                                        </option>
+                                                                            </select>
+                                    <p id="organization_state_id-error" class="error-message" role="alert" aria-live="polite"></p>
+                                    <span id="organization_state_id-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group district_id">
+                                <div class="form-field feed-name">
+                                    <label for="dist" class="field-label">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> Select District <span class="text-danger estric-size">*</span></label>
+                                    <select class="select4-single" name="district_id" id="dist" required="" class="" aria-describedby="district_id-instruction district_id-error" aria-required="true" aria-invalid="false" autocomplete="address-level2">
+                                        <option value="" disabled="" selected="" aria-hidden="true">Select District</option>
+                                    </select>
+                                    <span id="district_id-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="district_id-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                    
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-6 col-xs-12 form-group address">
+                                <div class="form-field feed-name">
+                                    <label for="organization_address" class="field-label">
+                                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                                        Address <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <textarea id="organization_address" name="address" required="" class="" aria-describedby="address-instruction address-error" aria-required="true" aria-invalid="false" placeholder="Enter Address" autocomplete="address-level2"></textarea>
+                                    <p id="address-error" class="error-message" role="alert" aria-live="polite">                                    
+                                                                            </p>
+                                    <span id="address-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3">
+                                    Organizational Details :
+                                </h2>
+                            </div>
+
+                            
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group regist_number">
+                                <div class="form-field feed-name">
+                                    <label for="regist_number" class="field-label">
+                                        <i class="fa fa-id-badge" aria-hidden="true"></i>
+                                        Registration Number <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text" name="regist_number" id="regist_number" value="" required="" class="" aria-describedby="regist_number-instruction regist_number-error" aria-required="true" aria-invalid="false" placeholder="Enter Registration Number" autocomplete="off">
+                                    <p id="regist_number-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                    <span id="regist_number-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group establishment_date">
+                                <div class="form-field feed-name">
+                                    <label for="regist_establishment" class="field-label">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        Date of Establishment <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="date" name="establishment_date" id="regist_establishment" value="" required="" class="" aria-describedby="establishment_date-instruction establishment_date-error" aria-required="true" aria-invalid="false" autocomplete="off">
+                                    <p id="establishment_date-error" class="error-message" role="alert" aria-live="polite">                                    
+                                                                            </p>
+                                    <span id="establishment_date-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group organization_type">
+                                <div class="form-field feed-name">
+                                    <label for="regist_organization" class="field-label">
+                                        <i class="fa fa-building" aria-hidden="true"></i>
+                                        Type of Organization <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <select type="text" name="organization_type" value="" required="" class="" id="regist_organization" aria-describedby="organization_type-instruction organization_type-error" aria-required="true" aria-invalid="false" autocomplete="off">
+                                        <option value="" disabled="" selected="" aria-hidden="true">Select Type of Organization</option>
+                                        <option value='1'>NGO</option>
+                                        <option value='2'>Private Company</option>
+                                        <option value='3'>Government Agency</option>
+                                        <option value='4'>Other</option>
+                                    </select>
+                                    <span id="organization_type-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="organization_type-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3">
+                                    Training Information :
+                                </h2>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group training_title">
+                                <div class="form-field feed-name">
+                                    <label for="training_program" class="field-label">
+                                        <i class="fa fa-book" aria-hidden="true"></i>
+                                        Title of Training Program <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text" name="training_title" value="" required="" class="" id="training_program" aria-describedby="training_title-instruction training_title-error" aria-required="true" aria-invalid="false" placeholder="Enter Title of Training Program" autocomplete="off">
+                                    <span id="training_title-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="training_title-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group training_duration">
+                                <div class="form-field feed-name">
+                                    <label for="training_duration" class="field-label">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        Duration of Training <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text" name="training_duration" value="" required="" class="" id="training_duration" aria-describedby="training_duration-instruction training_duration-error" aria-required="true" aria-invalid="false" placeholder="Enter Duration of Training" autocomplete="off">
+                                    <span id="training_duration-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="training_duration-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group training_frequency">
+                                <div class="form-field feed-name">
+                                    <label for="training_frequency" class="field-label">
+                                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                                        Frequency of Training Sessions <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    
+                                    <input type="text" name="training_frequency" value="" required="" class="" id="training_frequency" aria-describedby="training_frequency-instruction training_frequency-error" aria-required="true" aria-invalid="false" placeholder="Enter Frequency of Training Sessions" autocomplete="off">
+                                    <span id="training_frequency-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="training_frequency-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group target_audience">
+                                <div class="form-field feed-name">
+                                    <label for="target_audience" class="field-label">
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        Audience <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    
+                                    <input type="text" name="target_audience" value="" required="" class="" id="target_audience" aria-describedby="target_audience-instruction target_audience-error" aria-required="true" aria-invalid="false" placeholder="Enter Audience" autocomplete="off">
+                                    <span id="target_audience-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="target_audience-error" class="error-message" role="alert" aria-live="polite">                                        
+                                                                            </p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3">
+                                    Trainer Information :
+                                </h2>
+                            </div>
+
+                            
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group lead_name">
+                                <div class="form-field feed-name">
+                                    <label for="lead_name" class="field-label">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                        Name of Lead Trainer <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text" name="lead_name" id="lead_name" value="" required class="" aria-required="true" aria-invalid="false" aria-describedby="lead_name-instruction lead_name-error" placeholder="Enter Name of Lead Trainer" autocomplete="name">
+                                    <span id="lead_name-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="lead_name-error" class="error-message" role="alert" aria-live="polite">                                        
+                                                                            </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group trainer_qualification">
+                                <div class="form-field feed-name">
+                                    <label for="trainer_qualification" class="field-label">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        Qualifications
+                                        <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text" name="trainer_qualification" id="trainer_qualification" value="" required="" class="" aria-describedby="trainer_qualification-instruction trainer_qualification-error" aria-required="true" aria-invalid="false" placeholder="Enter Qualifications" autocomplete="off">
+                                    <span id="trainer_qualification-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="trainer_qualification-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                    
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group trainer_experience">
+                                <div class="form-field feed-name">
+                                    <label for="trainer_experience" class="field-label">
+                                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                        Exp. in Conducting POSH Training <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text" name="trainer_experience" id="trainer_experience" value="" required="" class="" aria-describedby="trainer_experience-instruction trainer_experience-error" aria-required="true" aria-invalid="false" placeholder="Enter Experience in Conducting POSH Training" autocomplete="off">
+                                    <span id="trainer_experience-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="trainer_experience-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group trainer_contact">
+                                <div class="form-field feed-name">
+                                    <label for="trainer_contact" class="field-label">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        Contact Information <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="tel" name="trainer_contact" id="trainer_contact" maxlength="10" minlength="10" value="" required="" class="number" aria-describedby="trainer_contact-instruction trainer_contact-error" aria-required="true" aria-invalid="false" placeholder="Enter Contact Number" autocomplete="tel">
+                                    <span id="trainer_contact-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="trainer_contact-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3">
+                                    Certificate :
+                                </h2>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group compliance_certificate">
+                                <div class="form-field feed-name">
+                                    <label for="compliance_certificate" class="field-label">
+                                        <i class="fa fa-upload" aria-hidden="true"></i>
+                                        Certificate <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <!-- <input 
+                                        type="file" 
+                                        name="compliance_certificate"  
+                                        id="compliance_certificate"
+                                        accept="application/pdf,image/jpeg,image/png"
+                                        aria-describedby="compliance_certificate-instruction compliance_certificate-error"
+                                        aria-required="true"
+                                        aria-invalid="false"
+                                        required
+                                    > -->
+                                    <input 
+                                    type="file" 
+                                    name="compliance_certificate"  
+                                    id="compliance_certificate"
+                                    accept="application/pdf,image/jpeg,image/png"
+                                    aria-describedby="compliance_certificate-instruction compliance_certificate-error"
+                                    aria-required="false"
+                                    aria-invalid="false"
+                                    >
+                                    <span id="compliance_certificate-instruction" class="visually-hidden">
+                                        Max file size: 2MB (PDF, JPG, PNG only). Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="compliance_certificate-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                                <span>Max file size: 2MB (PDF, JPG, PNG only).</span>
+                            </div>
+                            
+
+
+
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3">
+                                    Details of Previous Trainings Conducted :
+                                </h2>
+                            </div>
+
+                            
+                            <div class="col-xs-12">
+                                <div class="table-responsive">
+                                    <table id="basic-btn" class="table table-striped table-bordered nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Training Topic</th>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Number of Participants</th>
+                                                <th scope="col">Feedback Summary</th>
+                                                <th scope="col">Upload Training Report</th>
+                                                <th scope="col">Upload Photo(Max 5)</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="ab1">
+                                            <tr>
+                                                <td>
+                                                    <div class="form-field feed-name">
+                                                        <label for="training_topic_0" class="field-label visually-hidden">
+                                                            Training Topic <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input type="text" name="training_topic[]" id="training_topic_0" value="" class="safeText"
+                                                            required="" placeholder="Enter Training Topic" aria-required="true" aria-describedby="training_topic_0-instruction training_topic_0-error">
+                                                        <span id="training_topic_0-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="training_topic_0-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="form-field feed-name">
+                                                        <label for="training_date_0" class="field-label visually-hidden">
+                                                            Training Date <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input type="date" name="training_date[]" id="training_date_0" value=""
+                                                            required="" aria-required="true" aria-describedby="training_date_0-instruction training_date_0-error">
+                                                        <span id="training_date_0-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="training_date_0-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+
+                                                
+
+                                                <td>
+                                                    <div class="form-field feed-name">
+                                                        <label for="no_of_participants_0" class="field-label visually-hidden">
+                                                            Number of Participants <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input 
+                                                            type="number" 
+                                                            class="number"
+                                                            name="no_of_participants[]" 
+                                                            id="no_of_participants_0"
+                                                            value="" 
+                                                            required 
+                                                            min="1"
+                                                            aria-required="true"
+                                                            aria-describedby="no_of_participants_0-instruction no_of_participants_0-error"
+                                                            aria-invalid="false"
+                                                            placeholder="Enter Number of Participants"
+                                                        >
+                                                        <span id="no_of_participants_0-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="no_of_participants_0-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+
+                                              
+
+                                                <td>
+                                                    <div class="form-field feed-name">
+                                                        <label for="feedback_summary_0" class="field-label visually-hidden">
+                                                            Feedback Summary <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <textarea 
+                                                            id="feedback_summary_0"
+                                                            name="feedback_summary[]"
+                                                            required
+                                                            aria-required="true"
+                                                            aria-describedby="feedback_summary_0-instruction feedback_summary_0-error"
+                                                            aria-invalid="false"
+                                                            placeholder="Enter Feedback Summary"
+                                                            class="safeText"
+                                                        ></textarea>
+                                                        <span id="feedback_summary_0-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="feedback_summary_0-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+
+                                              
+
+                                                <td>
+                                                    <div class="form-field feed-name">
+                                                        <label for="training_report_file_0" class="field-label visually-hidden">
+                                                            Upload Training Report <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input 
+                                                            type="file" 
+                                                            name="training_report_file[]" 
+                                                            id="training_report_file_0"
+                                                            accept="application/pdf" 
+                                                            required 
+                                                            aria-describedby="training_report_file_0-instruction training_report_file_0-error"
+                                                        >
+                                                        <span id="training_report_file_0-instruction" class="visually-hidden">
+                                                            Max file size: 2MB (PDF only). Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="training_report_file_0-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                    <span>Max file size: 2MB (PDF only).</span>
+                                                </td>
+
+                                                <td>
+                                                    <div class="form-field feed-name">
+                                                        <label for="photoInput" class="field-label visually-hidden">
+                                                            Upload Photo (Max 5) <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input 
+                                                            type="file" 
+                                                            id="photoInput" 
+                                                            multiple 
+                                                            accept="image/jpeg,image/png,image/jpg" 
+                                                            name="training_photo_0[]" 
+                                                            required 
+                                                            aria-describedby="training_photo_0-instruction training_photo_0-error"
+                                                            aria-required="true"
+                                                            aria-invalid="false"
+                                                            onchange="validateFiles()"
+                                                        >
+                                                        <span id="training_photo_0-instruction" class="visually-hidden">
+                                                            Max file size: 2MB (JPG, PNG only). You can upload up to 5 photos. Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="training_photo_0-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                    <span>Max file size: 2MB (JPG, PNG only).</span>
+                                                </td>
+
+                                                 
+
+
+
+                                                <td>
+                                                    <button type="button"
+                                                            class="btn btn-primary ti-plus addmoreTraining pl-3 pr-3"
+                                                            name="addmoreTraining" id="1" aria-label="Add more training rows"><i class="fa fa-plus mr-1" aria-hidden="true"></i> Add More</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3">
+                                    References :
+                                </h2>
+                            </div>
+
+
+                            <div class="col-xs-12">
+                                <div class="table-responsive">
+                                    <table id="basic-btn" class="table table-striped table-bordered nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">S.No.</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Designation</th>
+                                                <th scope="col">Contact Number</th>
+                                                <th scope="col">Email Address</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="ab2">
+                                            <tr>
+                                                <td>
+                                                    Reference 1
+                                                </td>
+                                                <td>
+                                                    <div class="form-field">
+                                                        <label for="reference_name_1" class="field-label visually-hidden">
+                                                            Name <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input type="text" name="reference_name[]" id="reference_name_1" value=""
+                                                            required="" placeholder="Enter Name" aria-required="true" aria-describedby="reference_name-instruction reference_name-error" class="alpha" autocomplete="name">
+                                                        <span id="reference_name-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="reference_name-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-field">
+                                                        <label for="reference_designation_1" class="field-label visually-hidden">
+                                                            Designation <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input type="text" name="reference_designation[]" id="reference_designation_1" value=""
+                                                            required="" placeholder="Enter Designation" aria-required="true" aria-describedby="reference_designation-instruction reference_designation-error" class="alpha">
+                                                        <span id="reference_designation-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="reference_designation-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-field">
+                                                        <label for="reference_contact_1" class="field-label visually-hidden">
+                                                            Contact Number <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input type="tel" name="reference_contact[]" id="reference_contact_1" maxlength="10" minlength="10" value=""
+                                                            required="" placeholder="Enter Contact Number" aria-required="true" aria-describedby="reference_contact-instruction reference_contact-error" class="number" autocomplete="tel">
+                                                        <span id="reference_contact-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="reference_contact-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-field">
+                                                        <label for="reference_email_1" class="field-label visually-hidden">
+                                                            Email Address <span class="text-danger estric-size">*</span>
+                                                        </label>
+                                                        <input type="email" name="reference_email[]" id="reference_email_1" value=""
+                                                            required="" placeholder="Enter Email Address" aria-required="true" aria-describedby="reference_email-instruction reference_email-error" autocomplete="email">
+                                                        <span id="reference_email-instruction" class="visually-hidden">
+                                                            Fields marked with an asterisk (*) are required.
+                                                        </span>
+                                                        <p id="reference_email-error" class="error-message visually-hidden" role="alert" aria-live="polite"></p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-primary ti-plus addmoreReference pl-3 pr-3" name="addmoreReference" id="1" aria-label="Add more references rows"><i class="fa fa-plus mr-1" aria-hidden="true"></i> Add More</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <h2 class="page-heading mt-3 mb-2">
+                                    Declaration :
+                                </h2>
+                                
+                                <p class="mb-3">I hereby declare that the information provided in this form is true and accurate to
+                                    the best of my knowledge and belief.
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group trainer_signature">
+                                <div class="form-field feed-name">
+                                    <label for="trainer_signature" class="field-label">
+                                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        Signature of Authorized Representative <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="text"  name="representative_signature"  id="trainer_signature" value="" required class="alpha" aria-required="true" aria-invalid="false" aria-describedby="trainer_signature-instruction trainer_signature-error" placeholder="Enter Signature of Authorized Representative" autocomplete="off">
+                                    <span id="trainer_signature-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="trainer_signature-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12 form-group signature_date">
+                                <div class="form-field feed-name">
+                                    <label for="signature_date" class="field-label">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                         Date <span class="text-danger estric-size">*</span>
+                                    </label>
+                                    <input type="date" name="signature_date" id="signature_date" value="" required aria-required="true" aria-invalid="false" aria-describedby="signature_date-instruction signature_date-error" autocomplete="off">
+                                    <span id="signature_date-instruction" class="visually-hidden">
+                                        Fields marked with an asterisk (*) are required.
+                                    </span>
+                                    <p id="signature_date-error" class="error-message" role="alert" aria-live="polite">
+                                                                            </p>
+                                </div>
+                            </div>
+                                                                                  <input type="hidden" name="captcha_id" id="captcha-id" value="captcha_6ac75d3c5edd95.47980324" />
+                        <div class="col-lg-6 col-xs-12 form-group captcha-img-field-grid">
+                            <div class="captcha-audio-grid">
+                                <div class="captcha-grid">
+                                    <span class="captchaImage">
+                                        <img 
+                                            id="captcha" 
+                                            src="application/third_party/securimage/securimage_show9347.php?id=captcha_6ac75d3c5edd95.47980324&amp;t=1791450428" 
+                                            alt="CAPTCHA image showing random letters and numbers" 
+                                            aria-describedby="captcha-instruction"
+                                        />
+                                    </span>
+                                    <a 
+                                        class="btn captcha-refresh-icon" 
+                                        href="#" 
+                                        onclick="
+                                            const newId = 'captcha_' + Date.now();
+                                            document.getElementById('captcha').src = 'application/third_party/securimage/securimage_show5445.php?id=' + newId + '&t=' + Math.random();
+                                            document.getElementById('captcha-audio').src = 'application/third_party/securimage/securimage_play5445.php?id=' + newId + '&t=' + Math.random();
+                                            document.getElementById('captcha-id').value = newId;
+                                            return false;"
+                                        aria-label="Refresh CAPTCHA"
+                                        title="Refresh CAPTCHA"
+                                    >
+                                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="captcha-audio-outer">
+                                    <audio id="captcha-audio" controls aria-label="Play CAPTCHA audio">
+                                        <source src="application/third_party/securimage/securimage_playdb2e.php?id=captcha_6ac75d3c5edd95.47980324" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="form-field captcha-field-grid feed-pencil">
+                                
+                                 <label for="captcha-input" class="field-label up freeze">
+                                    <i class="fa fa-pencil" aria-hidden="true"></i> Captcha Code <span class="text-danger estric-size">*</span>
+                                    
+                                </label>
+                          
+                                <input type="text" placeholder="Enter CAPTCHA code" name="captcha" id="captcha-input" required aria-required="true"  aria-describedby="captcha-instruction">
+                                
+                            </div>
+                        </div>
+                      
+
+                            
+                            <div class="col-lg-6 col-xs-12 form-group">
+                                <ul class="button-list" role="list">
+                                    <li>
+                                        <button class="btn btn-primary" type="submit" aria-label="Submit the form">Submit</button>
+                                    </li>
+                                    <li>
+                                        <button class="btn btn-reset" type="reset" aria-label="Reset form fields">Reset</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<footer role="contentinfo">
+    <div class="footer-nav-outer">
+        <div class="container-fluid">
+            <div class="main-footer-apps">
+                <div class="apps-footer-inner">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="legalprovision">Laws and Regulations</a></li>
+                        <li><a href="snoDetailsLists" target="_blank">Resource Directory</a> </li>
+                        <li><a href="iec_material">IEC Material</a></li>
+                        <li><a href="addIndividualForm" target="_blank">Empanelment</a></li>
+                        <li><a href="assets/usermanual/SHe-Box-Centralgovt-Complainant-Usermanual.pdf" target="_blank">User Manual</a></li>
+                        <!-- <li><a href="">Photo Gallery</a></li> -->
+                        <!-- <li><a href="">Whats New</a></li> -->
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="contact">Contact Us</a></li>
+                        <li><a href="signin"><i class="fa fa-sign-in"
+                        aria-hidden="true"></i> Login</a></li>
+                         <li><a href="term-conditions">Terms and Conditions</a></li>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="sitemap">Sitemap</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="mobile-app-icons">
+                    <a href="../play.google.com/store/apps/details2a62?id=com.mwcd.missionshakti&amp;hl=en_IN" onclick="downloadApp()" target="_blank" rel="noopener noreferrer" aria-label="Download Shakti App from Google Play Store (opens in new tab)">
+                                <img src="assets/web_assets/images/google-play.png" aria-hidden="true" alt="Call and Mail icon">
+                                <!-- <p class="link-bottom">Available for Android</p> -->
+                            </a>
+                            <a href="../apps.apple.com/in/app/mission-shakti/id6752487286" onclick="downloadApp()" target="_blank" rel="noopener noreferrer" aria-label="Download Shakti App from Apple App Store (opens in new tab)">
+                                <img src="assets/web_assets/images/apple-app-store.png" aria-hidden="true" alt="Call and Mail icon">
+                                <!-- <p class="link-bottom">Available for iOS</p> -->
+                            </a>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+    <div class="container-fluid">
+      	 <div class="copy-right">
+            <div class="copyright-left">© Copyright 2026 Ministry of Women & Child Development, Government of India
+            Designed & Developed By National Informatics Centre (NIC)</div>
+			<div class="visitor-right">
+			
+			<!-- <p >Visitor Count - <span class="website-counter" aria-live="polite">3,96,77,452</span></span></p> -->
+             <p>Visitor Count - <span class="website-counter" aria-live="polite">3,96,77,452</span> &nbsp; <span aria-hidden="true">|</span> &nbsp; Pledge Count - <span class="website-counter" aria-live="polite">7,150</span> &nbsp; <span aria-hidden="true">|</span> &nbsp; Last Updated: <time datetime="2026-10-06">06.10.2026</time></p>
+			</div>
+        </div>
+    </div>
+</footer>
+<div id="cookieConsent" class="cookie-consent" role="dialog" aria-modal="true" aria-labelledby="cookieTitle" aria-describedby="cookieDesc" tabindex="-1">
+  <div class="container-fluid">
+    <div class="cookie-container">
+      
+      <div class="cookie-text">
+        <strong id="cookieTitle">
+          This website uses cookies to provide a better user experience.
+        </strong>
+
+        <p id="cookieDesc">
+          By clicking accept, you agree to the policies outlined in the
+          <a href="cookiepolicy" rel="noopener noreferrer" aria-label="Read our Cookie Policy (opens in new tab)">
+            Cookie Settings
+          </a>.
+        </p>
+      </div>
+
+      <div class="cookie-actions">
+        <button type="button" class="btn-outline" id="customizeCookies" aria-label="Customize cookie preferences">
+          Customize Cookies
+        </button>
+
+        <button type="button" class="btn-outline" id="declineCookies" aria-label="Decline optional cookies">
+          Decline Optional Cookies
+        </button>
+
+        <button type="button" class="btn-primary" id="acceptCookies" aria-label="Accept all cookies">
+          Accept All Cookies
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="scroll-top"><a href="#" aria-label="Scroll to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
+<script language="javascript" type="text/javascript" src="assets/web_assets/js/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="assets/web_assets/js/scroll.js"></script>
+<script type="text/javascript" src="assets/web_assets/js/bootstrap.min.js"></script>
+<script src="assets/web_assets/js/cookie.js" async></script>
+<script type="text/javascript" src="assets/web_assets/js/jquery.dataTables.min.js"></script>
+
+
+<script src="assets/web_assets/js/script.js"></script> 
+<script src="assets/web_assets/js/viewportchecker.js"></script>
+<!-- <script src="https://shebox.wcd.gov.in/assets/web_assets/js/animate.js"></script> -->
+<script src="assets/web_assets/js/combine.js"></script>
+<script type="text/javascript" src="assets/bower_components/sweetalert/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="assets/web_assets/js/select2.min.js"></script>
+<script>
+$(document).ready(function () {
+
+    var $accessBtn = $('.accessibility-btn');
+    var $panel = $('#accessibilityPanel');
+    var $closeBtn = $('.accessibility-close');
+
+    var lastFocusedElement = null;
+
+
+    /* =====================================================
+       OPEN ACCESSIBILITY PANEL
+    ===================================================== */
+
+    $accessBtn.on('click', function (e) {
+
+        e.preventDefault();
+
+        lastFocusedElement = this;
+
+        $panel
+            .addClass('is-open')
+            .attr('aria-hidden', 'false');
+
+        $accessBtn.attr('aria-expanded', 'true');
+
+        /* Move keyboard focus inside panel */
+        setTimeout(function () {
+            $closeBtn.focus();
+        }, 50);
+
+    });
+
+
+    /* =====================================================
+       CLOSE FUNCTION
+    ===================================================== */
+
+    function closeAccessibilityPanel() {
+
+        $panel
+            .removeClass('is-open')
+            .attr('aria-hidden', 'true');
+
+        $accessBtn.attr('aria-expanded', 'false');
+
+        /* Return focus to accessibility button */
+        if (lastFocusedElement) {
+            $(lastFocusedElement).focus();
+        }
+
+    }
+
+
+    /* =====================================================
+       CLOSE BUTTON
+    ===================================================== */
+
+    $closeBtn.on('click', function () {
+
+        closeAccessibilityPanel();
+
+    });
+
+
+    /* =====================================================
+       ESCAPE KEY
+    ===================================================== */
+
+    $(document).on('keydown', function (e) {
+
+        if (e.key === 'Escape' || e.keyCode === 27) {
+
+            if ($panel.hasClass('is-open')) {
+
+                e.preventDefault();
+
+                closeAccessibilityPanel();
+
+            }
+
+        }
+
+    });
+
+
+    /* =====================================================
+       FOCUS TRAP
+    ===================================================== */
+
+    $panel.on('keydown', function (e) {
+
+        if (e.key !== 'Tab' && e.keyCode !== 9) {
+            return;
+        }
+
+
+        var $focusable = $panel.find(
+            'button:not([disabled]),' +
+            '[href]:not([disabled]),' +
+            'input:not([disabled]),' +
+            'select:not([disabled]),' +
+            'textarea:not([disabled]),' +
+            '[tabindex]:not([tabindex="-1"])'
+        );
+
+
+        var firstElement = $focusable[0];
+
+        var lastElement = $focusable[$focusable.length - 1];
+
+
+        /* Shift + Tab */
+
+        if (e.shiftKey) {
+
+            if (document.activeElement === firstElement) {
+
+                e.preventDefault();
+
+                lastElement.focus();
+
+            }
+
+        }
+
+
+        /* Normal Tab */
+
+        else {
+
+            if (document.activeElement === lastElement) {
+
+                e.preventDefault();
+
+                firstElement.focus();
+
+            }
+
+        }
+
+    });
+
+});
+</script>
+
+  
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#takePledge').on('shown.bs.modal', function () {
+            loadStates();
+        });
+
+        $('#pledge-btn1').on('click', function () {
+        // alert("sdfgsdf");
+            savePledgeData();
+        });
+        $('#pledge-btn2').on('click', function () {
+            savePledgeData();
+        });
+
+    });
+
+
+    function savePledgeData() {
+        $.ajax({
+            url: "https://shebox.wcd.gov.in/savePledgeData",
+            type: "GET",
+            dataType: "json",
+            success: function(response) {
+
+                if (response.status) {
+
+                    swal({
+                        title: "Success",
+                        text: response.message,
+                        type: "success"
+                    }, function() {
+                        window.location.href = response.redirect;
+                    });
+
+                } else {
+
+                    swal({
+                        title: "Warning",
+                        text: response.message,
+                        type: "warning"
+                    }, function() {
+                        window.location.href = response.redirect;
+                    });
+                }
+            },
+            error: function() {
+                Swal({
+                    title: "Error",
+                    text: "Something went wrong. Please try again.",
+                    type: "error"
+                });
+            }
+        });
+    }
+
+    function loadStates()
+    {
+        $.ajax({
+            url: "https://shebox.wcd.gov.in/getStates",
+            type: "GET",
+            dataType: "json",
+            success: function(response)
+            {
+                var html = '<option value="">-- Select State --</option>';
+
+                $.each(response, function(index, row){
+
+                    html += '<option value="'+row.stcode+'">'+row.stname+'</option>';
+
+                });
+
+                $('#statepleadge').html(html);
+            }
+        });
+    }
+
+    function getDistricts(state_id)
+    {
+        if(state_id === "")
+        {
+            $('#district_id_pledge').html('<option value="">-- Select District --</option>');
+            return;
+        }
+
+        $.ajax({
+            url: "https://shebox.wcd.gov.in/getDistricts",
+            type: "POST",
+            data: { state_id: state_id },
+            dataType: "json",
+            success: function(response)
+            {
+                console.log("District response:", response);
+
+                var html = '<option value="">-- Select District --</option>';
+
+                $.each(response, function(i, row){
+                    html += '<option value="'+row.dtcode+'">'+row.dtname+'</option>';
+                });
+
+                $('#district_id_pledge').html(html);
+            },
+            error: function(xhr){
+                console.log("District error:", xhr.responseText);
+            }
+        });
+    }
+</script>
+
+
+
+<script type="text/javascript">
+
+    $('#submitPledge').on('click', function(e){
+
+        e.preventDefault();
+
+        // Purane error clear karo
+        $('.text-danger').html('');
+
+        var name = $('#name').val().trim();
+        var mobile = $('#mobile').val().trim();
+        var language = $('#language').val();
+        var state = $('#statepleadge').val();
+        var district = $('#district_id_pledge').val();
+        //var district = $('#district_id_pledge').val();
+
+        
+
+        var isValid = true;
+
+        if(name == ''){
+            $('#name_err').html('Please enter name.');
+            isValid = false;
+        }
+
+        if(mobile == ''){
+            $('#mobile_err').html('Please enter mobile number.');
+            isValid = false;
+        } else if(!/^[0-9]{10}$/.test(mobile)){
+            $('#mobile_err').html('Please enter a valid 10 digit mobile number.');
+            isValid = false;
+        }
+
+        if(language == ''){
+            $('#language_err').html('Please select language.');
+            isValid = false;
+        }
+
+        if(state == ''){
+            $('#state_err').html('Please select state.');
+            isValid = false;
+        }
+
+        if(district == ''){
+            $('#dist_err').html('Please select district.');
+            isValid = false;
+        }
+
+        if(!isValid){
+            return false;
+        }
+
+        $.ajax({
+            url: "https://shebox.wcd.gov.in/savePledge",
+            type: "POST",
+            data: $('#pledgeForm').serialize(),
+            dataType: "json",
+            success: function(response)
+            {
+                if(response.status)
+                {
+                    window.location.href = response.redirect_url;
+                }
+                else
+                {
+                    swal("Error", response.message, "error");
+                }
+            },
+            error: function() {
+                swal("Error", "Something went wrong.", "error");
+            }
+        });
+    });
+
+</script>
+
+
+<script>
+    $(document).ready(function () {
+    $(".safeText").on("keyup paste", function () {
+        var value = $(this).val();
+
+        // Remove everything except letters, numbers, and space
+        var cleaned = value.replace(/[^a-zA-Z0-9 ]/g, "");
+
+        if (value !== cleaned) {
+        $("#error").text("Only alphanumeric characters are allowed");
+        $(this).val(cleaned);
+        } else {
+        $("#error").text("");
+        }
+    });
+    });
+</script>
+
+<script>
+    $('input').on('keypress', function (e) {
+        if ($(this).attr('type') == 'email') {
+            script_remover_email(e);
+        } else {
+            if ($(this).attr('class') == "form-control number") {
+                number_check(e);
+            } else if ($(this).attr('class') == "alpha") {
+                lettersOnly(e);
+            } else {
+                script_remover(e);
+            }
+        }
+    });
+
+    function lettersOnly(evt) {
+        console.log(evt);
+        evt = (evt) ? evt : event;
+        var charCode = (evt.charCode) ? evt.charCode : ((evt.keyCode) ? evt.keyCode :
+                ((evt.which) ? evt.which : 0));
+        if (charCode > 32 && (charCode < 65 || charCode > 90) &&
+                (charCode < 97 || charCode > 122)) {
+            evt.preventDefault();
+            return false;
+        }
+        return true;
+    }
+
+
+    $(document).ready(function () {
+        $(".searchable_dropdown").select2();
+        $('.tlClogo').bind('contextmenu', function (e) {
+            return false;
+        });
+
+    });
+  
+
+    function script_remover_email(e) {
+    var keyCode = e.keyCode || e.which;
+    var allowedKeys = [8, 9, 46, 36, 35, 37, 39, 64, 190, 95, 45];  
+    // Allowed: Backspace, Tab, Delete, Home, End, Left, Right, @, ., _, -
+
+    var isLetterOrNumber = (keyCode >= 48 && keyCode <= 57) || // Numbers (0-9)
+                            (keyCode >= 65 && keyCode <= 90) || // Uppercase letters (A-Z)
+                            (keyCode >= 97 && keyCode <= 122); // Lowercase letters (a-z)
+
+    var isAllowedSpecial = allowedKeys.includes(keyCode);
+
+    var isBlockedSpecial = ['#', '$', '%', '^', '&', '*', '(', ')'].includes(e.key); 
+    // Removed "-" from blocked list
+
+    if (!isLetterOrNumber && !isAllowedSpecial) {
+        e.preventDefault();
+        return false;
+    }
+
+    if (isBlockedSpecial) {
+        e.preventDefault();
+        return false;
+    }
+ }
+
+
+    $(document).ready(function () {
+        $(".number").keydown(function (e) {
+            // Allow: backspace, delete, tab, escape, enter and .
+            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                    // Allow: Ctrl+A, Command+A
+                            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                            // Allow: home, end, left, right, down, up
+                                    (e.keyCode >= 35 && e.keyCode <= 40)) {
+                        // let it happen, don't do anything
+                        return;
+                    }
+                    // Ensure that it is a number and stop the keypress
+                    if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                        e.preventDefault();
+                    }
+                });
+    });
+
+    function number_check(e) {
+//              $(".number").keydown(function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                // Allow: Ctrl+A, Command+A
+                        (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                        // Allow: home, end, left, right, down, up
+                                (e.keyCode >= 35 && e.keyCode <= 40)) {
+                    // let it happen, don't do anything
+                    return;
+                }
+                // Ensure that it is a number and stop the keypress
+                if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                    e.preventDefault();
+                }
+//                });
+            }
+
+
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    if (input.files[0]['size'] > 120000) {
+                        swal({
+                            title: "Please upload image with 120kb or less.",
+                            text: "",
+                            type: "error",
+                        });
+                        e.preventDefault();
+                    } else if (input.files[0]['type'] != 'image/jpeg' && input.files[0]['type'] != 'image/png') {
+                        swal({
+                            title: "Please upload image with png/jpg format only.",
+                            text: "",
+                            type: "error",
+                        });
+                        //        alert('Please upload image with jpeg/png/jpg format only');
+                        e.preventDefault();
+                    }
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('#previewHolder').attr('src', e.target.result);
+                    }
+                    reader.readAsDataURL(input.files[0]);
+                } else {
+                    alert('Please Upload Image');
+                }
+            }
+
+            function readURL1(input) {
+                if (input.files && input.files[0]) {
+                    if (input.files[0]['size'] > 120000) {
+                        swal({
+                            title: "Please upload image with 120kb or less.",
+                            text: "",
+                            type: "error",
+                        });
+                        e.preventDefault();
+                    } else if (input.files[0]['type'] != 'image/jpeg' && input.files[0]['type'] != 'image/png') {
+                        swal({
+                            title: "Please upload image with png/jpg format only.",
+                            text: "",
+                            type: "error",
+                        });
+                        //        alert('Please upload image with jpeg/png/jpg format only');
+                        e.preventDefault();
+                    }
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('#previewHolder').attr('src', e.target.result);
+                    }
+                    reader.readAsDataURL(input.files[0]);
+                } else {
+                    alert('Please Upload Image');
+                }
+            }
+
+            $("#filePhoto").change(function () {
+                readURL1(this);
+            });
+</script>
+
+
+<script>
+            $(document).ready(function () {
+                $('#hide_other').hide();
+                $(".send_otp_sms").change(function (e) {
+                    $('#private_form_submit').attr('disabled', 'disabled');
+                    var number = $(this).val();
+                    var otp_type  = $('#otp_type').val();
+                     if (number.length == 10) {
+                        var token = 'f9ca6325700cc7d236df31484dd76741'
+                        $.ajax({
+                            type: "POST",
+                            url: "https://shebox.wcd.gov.in/index.php/getSMSOTP",
+                            data: {number: number, token: token,otp_type:otp_type},
+                            dataType: 'json',
+                            success: function (response) {
+                            //    console.log(response);
+                                check_mobile_otp(number,otp_type);
+                            }
+                        });
+                    } else if (number.length < 10 && number.length > 0) {
+                        $('#phone_no').focus().css('border-color', 'red');
+                        $('.j-multi-next-btn').attr('disabled', true);
+                        e.preventDefault();
+                    } else {
+                        $('.j-multi-next-btn').removeAttr('disabled');
+                    }
+                });
+            });
+
+function check_mobile_otp(number, otp_type) {
+    var last4 = number.slice(-4);
+    var maskedMobile = "****" + last4;
+    var csrfToken = 'f9ca6325700cc7d236df31484dd76741';
+
+    let countdownHTML = `
+        <div id='resend-timer' style='margin-top: 12px; font-size: 14px; color: #888;'>
+            ⏳ Resend OTP in <span id='timer'>60</span> seconds
+        </div>
+    `;
+
+    swal({
+        title: "<div style='font-size: 22px; font-weight: bold;'>🔒 Verify Your Mobile Number</div>",
+        text: `
+            <div style='font-size: 15px; line-height: 1.8; text-align: left;'>
+                Please enter the <strong>6-digit One-Time Password (OTP)</strong> sent to your registered mobile number: 
+                <strong style='color: #333;'>(${maskedMobile})</strong><br><br>
+                <span style='color: #d9534f; font-weight: bold;'>Note:</span> OTP is valid for <strong>10 minutes</strong> only.
+                ${countdownHTML}
+            </div>`,
+        type: "input",
+        html: true,
+        inputPlaceholder: "Enter 6-digit OTP",
+        inputValue: "",
+        showCancelButton: false,
+        closeOnConfirm: false,
+        closeOnCancel: false,
+        allowEscapeKey: false,
+        allowOutsideClick: false,
+    }, function (inputValue) {
+        if (inputValue === false) return false;
+
+        inputValue = inputValue.trim();
+
+        if (inputValue === "") {
+            swal.showInputError("Please enter the OTP.");
+            return false;
+        }
+
+        if (!/^\d{6}$/.test(inputValue)) {
+            swal.showInputError("Please enter a valid 6-digit numeric OTP.");
+            return false;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "https://shebox.wcd.gov.in/index.php/checkOTPValid",
+            data: { number: number, otp_type: otp_type, entered_otp: inputValue, token: csrfToken },
+            dataType: 'json',
+            success: function (res) {
+                swal({
+                    title: "✅ Mobile Verified",
+                    text: "Your mobile number has been successfully authenticated.",
+                    icon: "success",
+                    button: {
+                        text: "Continue",
+                        className: "custom-swal-btn"
+                    },
+                });
+
+                $('.j-multi-next-btn, .popup-otp, #private_form_submit').removeAttr('disabled');
+                $('#hide_other').show();
+                // $('.send_otp_sms').prop('disabled', true);
+                $('#mobile-verified-icon').fadeIn();
+            },
+            error: function (xhr) {
+                if (xhr.status === 403) {
+                    const res = JSON.parse(xhr.responseText);
+                    swal.showInputError(res.message);
+                } else {
+                    alert("Unexpected error occurred.");
+                }
+            }
+        });
+    });
+
+    // Countdown timer & Resend logic
+    let seconds = 60;
+    const timerInterval = setInterval(() => {
+        seconds--;
+        $('#timer').text(seconds);
+
+        if (seconds <= 0) {
+            clearInterval(timerInterval);
+
+            $('#resend-timer').html(`
+                <a href="#" id="resendOtpBtn" style="display: inline-block; font-size: 15px; font-weight: 600; color: #007bff; text-decoration: underline; margin-top: 8px;">
+                    🔁 Resend OTP
+                </a>
+            `);
+
+            $('#resendOtpBtn').on('click', function (e) {
+                e.preventDefault();
+                $('#resend-timer').html("🔄 Resending OTP...");
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://shebox.wcd.gov.in/index.php/getSMSOTP",
+                    data: { number: number, otp_type: otp_type, token: csrfToken },
+                    success: function () {
+                        $('#resend-timer').html(`<span style="color: #28a745;">✅ OTP has been resent. Please check your mobile.</span>`);
+                        
+                        // Restart the timer
+                        seconds = 60;
+                        $('#resend-timer').html(`
+                            ⏳ Resend OTP in <span id="timer">60</span> seconds
+                        `);
+                        startTimer();
+                    },
+                    error: function () {
+                        $('#resend-timer').html(`<span style="color: #d9534f;">❌ Failed to resend OTP. Try again later.</span>`);
+                    }
+                });
+            });
+        }
+    }, 1000);
+
+    function startTimer() {
+        const interval = setInterval(() => {
+            seconds--;
+            $('#timer').text(seconds);
+            if (seconds <= 0) clearInterval(interval);
+        }, 1000);
+    }
+}
+
+
+
+            $(document).ready(function () {
+                $('#hide_other').hide();
+                $(".send_otp_email").change(function (e) {
+                    $('#private_form_submit').attr('disabled', 'disabled');
+                    var number = $(this).val();
+                    var form_type = $(this).attr('id');
+
+                    if(form_type == 'officer_email'){
+                        var type = 1;
+                    }else{
+                        var type = 2;
+                    }
+                    // if (number.length == 10) {
+                       
+                        var token = 'f9ca6325700cc7d236df31484dd76741'
+                        $.ajax({
+                            type: "POST",
+                            url: "https://shebox.wcd.gov.in/index.php/getOtp",
+                            data: {number: number, token: token,type:type},
+                            success: function (response) {
+                                console.log(response);
+                                check_otp(response.otp);
+                            }
+                        });
+                    // } else if (number.length < 10 && number.length > 0) {
+                        // $('#phone_no').focus().css('border-color', 'red');
+                        // $('.j-multi-next-btn').attr('disabled', true);
+                        // e.preventDefault();
+                    // } else {
+                        // $('.j-multi-next-btn').removeAttr('disabled');
+                    // }
+                });
+            });
+            function check_otp(otp) {
+                var otp = otp.replace(/\s+/g, '');
+			    swal({
+                    title: "Enter OTP!",
+                    text: "Please enter the OTP sent on your Email",
+                    type: "input",
+                    showCancelButton: false,
+					cancelButtonText:"Close",
+					closeOnCancel:false,
+                    closeOnConfirm: false,
+                    closeOnClickOutside: false,
+                    allowEscapeKey: false,
+                    allowOutsideClick: false,
+                    inputPlaceholder: "Enter OTP"
+			    }, function (inputValue) {
+                    // console.log(inputValue);
+                 
+                    if (inputValue === false)
+                        // $('.popup-otp').attr('disabled',true);
+                        return false;
+                    if (inputValue === "") {
+                        swal.showInputError("Please Enter OTP!");
+                        return false;
+                    }
+                    if (!$.isNumeric(inputValue)) {
+                        swal.showInputError("Please Enter Number Only");
+                        return false;
+                    }
+
+                    if (inputValue !== otp) {
+                        swal.showInputError("Please Enter Valid OTP");
+                        return false;
+                    }
+                    swal("Valid!", "Email authenticated successfully", "success");
+                    $('.j-multi-next-btn').removeAttr('disabled');
+                    $('.popup-otp').removeAttr('disabled');
+                    $('#private_form_submit').removeAttr('disabled');
+                    $('#hide_other').show();
+                });
+				$('.cancel').click(function(){
+					//console.log('clicked');
+                      $('.popup-otp').attr('disabled',true);
+					var number = $('#phone_no').val();
+					//console.log(number);
+					// resendOtp(number);
+				});
+            }
+
+            $(document).ready(function () {
+                $("#mobile").change(function () {
+                    var number = $(this).val();
+                    // alert(number.length);
+                    if (number.length != 10) {
+                        $('#mobile').focus().css('border-color', 'red');
+                    }
+                });
+            });
+			
+			
+			
+</script>
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#banner-modal').modal('show');
+    });
+
+    $(document).ready(function(){
+        $('input').bind("cut copy paste",function(e) {
+            e.preventDefault();
+        });
+    });
+
+    $(document).ready(function () {
+        $('body').bind('cut copy paste', function (e) {
+            e.preventDefault();
+        });
+    });
+</script>
+<script>
+    document.querySelector('.captcha-refresh-icon').addEventListener('keydown', function(e) {
+    if(e.key === 'Enter' || e.key === ' ') this.click();
+});
+</script>
+
+<script>
+  // Cookie helpers
+  function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + value + expires + "; path=/";
+  }
+
+  function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(";");
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === " ") c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+
+  // Show banner if not accepted
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!getCookie("cookie_consent")) {
+      document.getElementById("cookieConsent").style.display = "block";
+    }
+  });
+
+  // Accept all cookies
+  document.getElementById("acceptCookies").addEventListener("click", function () {
+    setCookie("cookie_consent", "accepted", 365);
+    document.getElementById("cookieConsent").style.display = "none";
+  });
+
+  // Decline optional cookies
+  document.getElementById("declineCookies").addEventListener("click", function () {
+    setCookie("cookie_consent", "declined", 365);
+    document.getElementById("cookieConsent").style.display = "none";
+  });
+
+  // Customize cookies (you can link modal here)
+  document.getElementById("customizeCookies").addEventListener("click", function () {
+    window.location.href = "cookiepolicy";
+  });
+
+
+
+    const dropdownToggle = document.getElementById('accessibilityMenuButton');
+    const dropdownMenu = document.getElementById('accessibilityMenu');
+
+    // STOP inside clicks from closing menu
+    dropdownMenu.addEventListener('click', function (e) {
+    e.stopPropagation();
+    });
+
+    // Handle dropdown open
+    dropdownToggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    });
+
+    // Close only when clicking the X button
+    document.querySelector('.close-dropdown').addEventListener('click', function () {
+    bootstrap.Dropdown.getInstance(dropdownToggle).hide();
+    });
+
+    // Clicking anywhere outside closes it (optional)
+    document.addEventListener('click', function () {
+    const instance = bootstrap.Dropdown.getInstance(dropdownToggle);
+    if (instance) instance.hide();
+    });
+
+</script>
+<style>
+    .banner-modal .modal-dialog{max-width:900px; width: 100%}
+    .banner-modal .modal-body{padding: 5px; position: relative;}
+    .banner-modal .modal-body .btn-close{padding: 5px; position: absolute; z-index: 2; background: #fff; opacity: 1; border-radius: 100px; width: 30px; height: 30px; right: -15px; top: -15px; display: inline-flex; align-items: center; justify-content: center; border:0}
+    .banner-modal .slider-grid{width: 100% !important; padding: 0; float:none}
+    .modal-backdrop.in{opacity: 0.85;}
+    @media (max-width: 1200px) {
+        .banner-modal .modal-dialog{max-width: calc(100% - 40px)}
+    }
+    @media (max-width: 640px){
+        .banner-modal .modal-body .btn-close{width: 20px; height: 20px; right: -10px; top: -10px}
+        .banner-modal .modal-body .btn-close i{font-size: 14px}
+    }
+    
+</style>
+</body>
+
+<!-- Mirrored from shebox.wcd.gov.in/addOrganizationForm by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:29:45 GMT -->
+</html><script type="text/javascript">
+  function getDistrictByState(id) {
+        var stcode = id;
+        var token = 'f9ca6325700cc7d236df31484dd76741'
+        $.ajax({
+            type: "POST",
+            url: "https://shebox.wcd.gov.in/index.php/getDistrictByStateEmpanel",
+            data: {stcode: stcode, token: token},
+            success: function (response) {
+                $("#dist").empty();
+                $("#dist").html(response);
+            }
+        });
+    }
+
+$(document).ready(function() {
+    $(".addmoreTraining").click(function() {
+        var id = parseInt($(this).attr('id'));
+        $('.addmoreTraining').attr('id', id + 1);
+        var url = "addOrgPreviousTraining";
+        var token = 'f9ca6325700cc7d236df31484dd76741'
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: {
+                token: token,
+                id: id
+            },
+            success: function(response) {
+                $("#ab1").append(response);
+            }
+        });
+
+    });
+
+
+    $(".addmoreReference").click(function() {
+        var id = parseInt($(this).attr('id'));
+        $('.addmoreReference').attr('id', id + 1);
+        var url = "addmoreReference";
+        var token = 'f9ca6325700cc7d236df31484dd76741'
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: {
+                token: token,
+                id: id
+            },
+            success: function(response) {
+                $("#ab2").append(response);
+            }
+        });
+
+    });
+
+
+});
+</script>
+<script>
+function removeClassesTraining(id) {
+    var n = '#t' + id;
+    $(n).remove();
+}
+
+function removeClassesReference(id) {
+    var n = '#r' + id;
+    $(n).remove();
+}
+</script>
+<script>
+    function validateFiles() {
+        const fileInput = document.getElementById('photoInput');
+        const files = fileInput.files;
+        
+        // Check if the number of selected files exceeds 5
+        if (files.length > 5) {
+            alert('You can only upload a maximum of 5 photos.');
+            fileInput.value = ""; // Clear the file input if limit exceeded
+        }
+    }
+</script>

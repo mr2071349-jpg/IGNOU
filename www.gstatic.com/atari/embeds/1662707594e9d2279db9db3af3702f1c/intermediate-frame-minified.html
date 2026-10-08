@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.gstatic.com/atari/embeds/1662707594e9d2279db9db3af3702f1c/intermediate-frame-minified.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:39 GMT -->
+<head>
+  <style>body,html,iframe{margin:0;padding:0;height:100%;width:100%;overflow:hidden}.forceIosScrolling{overflow:scroll;-webkit-overflow-scrolling:touch}</style>
+</head>
+
+<body>
+<iframe id='innerFrame' name='innerFrame' sandbox='allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation' frameborder='0' allowfullscreen>
+</iframe>
+
+<script>
+  let policy;
+  if (window.trustedTypes && window.trustedTypes.createPolicy) {
+    policy = window.trustedTypes.createPolicy('atari-gapi-loader', {
+      createScriptURL: (url) => {
+        if (url === 'https://apis.google.com/js/api.js?checkCookie=1') {
+          return url;
+        }
+        throw new Error('Attempted to load unexpected script URL');
+      }
+    });
+  }
+
+  function loadGapi() {
+    var loaderScript = document.createElement('script');
+    var url = 'https://apis.google.com/js/api.js?checkCookie=1';
+    if (policy) {
+      loaderScript.src = policy.createScriptURL(url);
+    } else {
+      loaderScript.setAttribute('src', url);
+    }
+    loaderScript.onload = function() {
+      this.onload = function() {};
+      loadGapiClient();
+    };
+    loaderScript.onreadystatechange = function() {
+      if (this.readyState === 'complete') {
+        this.onload();
+      }
+    };
+    (document.head || document.body || document.documentElement).appendChild(loaderScript);
+  }
+
+  function updateInnerFrame(url, enableInteraction, forceIosScrolling) {
+    var urlEl = document.createElement('a');
+    urlEl.setAttribute('href', url);
+    if (urlEl.protocol != "https:" && urlEl.protocol != "http://www.gstatic.com/atari/embeds/1662707594e9d2279db9db3af3702f1c/intermediate-frame-minified.html") {
+      // Do not allow updating the iframe's src to anything other than https or http (used for local
+      // servers), specifically javascript:
+      return;
+    }
+    var iframe = document.getElementById('innerFrame');
+    iframe.src = url;
+    iframe.onload = function() {
+      gapi.rpc.call('..', 'innerFrameLoaded');
+    };
+
+    if (enableInteraction) {
+      if (forceIosScrolling) {
+        var iframeParent = iframe.parentElement;
+        iframeParent.classList.add('forceIosScrolling');
+      } else {
+        iframe.style.overflow = 'auto';
+      }
+    } else {
+      iframe.style.pointerEvents = 'none';
+    }
+  }
+
+  function updateInnerIframeCode(userCode, enableInteraction, forceIosScrolling, enableHtmlSitesGenAi, isLiquidArtifact = false, inEditor = false) {
+    if (enableHtmlSitesGenAi && isLiquidArtifact && enableInteraction) {
+      var innerFrame = document.getElementById('innerFrame');
+      if (innerFrame) {
+        innerFrame.style.pointerEvents = 'auto';
+        innerFrame.setAttribute('scrolling', 'auto');
+      }
+    }
+    gapi.rpc.setup('innerFrame');
+    gapi.rpc.call(
+      'innerFrame',
+      'updateUserHtmlFrame',
+      undefined /* opt_callback */,
+      userCode,
+      enableInteraction,
+      forceIosScrolling,
+      enableHtmlSitesGenAi,
+      isLiquidArtifact,
+      inEditor);
+  }
+
+  const MessageAction = {
+    GENAI_TEXT_EDIT: 'ATARI_GENAI_TEXT_EDIT',
+    JS_CRASH: 'onJsCrash'
+  };
+
+  function onPostMessage(ev) {
+    var innerFrame = document.getElementById('innerFrame');
+    var type = ev.data && ev.data['type'];
+    if (ev.data['magic'] != 'SHIC' && (type != MessageAction.GENAI_TEXT_EDIT && type != MessageAction.JS_CRASH || !innerFrame || ev.source !== innerFrame.contentWindow)) {
+      return;
+    }
+    switch (type) {
+      case 'resize':
+        var height = ev.data['height'];
+        gapi.rpc.call('..', 'resize', undefined /* opt_callback */, height);
+        break;
+      case MessageAction.GENAI_TEXT_EDIT:
+        window.parent.postMessage(ev.data, '*');
+        break;
+      case MessageAction.JS_CRASH:
+        gapi.rpc.call('..', 'onJsCrash', undefined /* opt_callback */, {
+          message: ev.data['message'],
+          stack: ev.data['stack']
+        });
+        break;
+    }
+  }
+
+  function onGapiInitialized() {
+    // Inform the parent frame that GAPI has been initialized.
+    gapi.rpc.call('..', 'gapiInitialized');
+    gapi.rpc.register('updateInnerFrame', updateInnerFrame);
+    gapi.rpc.register('updateInnerIframeCode', updateInnerIframeCode);
+    window.addEventListener('message', onPostMessage);
+  }
+
+  function loadGapiClient() {
+    gapi.load('gapi.rpc', onGapiInitialized);
+  }
+
+  if (document.readyState == 'complete') {
+    loadGapi();
+  } else {
+    self.addEventListener('load', loadGapi);
+  }
+</script>
+</body>
+
+<!-- Mirrored from www.gstatic.com/atari/embeds/1662707594e9d2279db9db3af3702f1c/intermediate-frame-minified.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:39 GMT -->
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from freedom2learn.ignouonline.ac.in/pages/themeDetails/5 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134066302-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-134066302-6');
+    </script>
+
+    <title>Freedom2Learn IGNOU</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://freedom2learn.ignouonline.ac.in/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="https://freedom2learn.ignouonline.ac.in/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://freedom2learn.ignouonline.ac.in/css/jquery-ui.css">
+    <link href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://freedom2learn.ignouonline.ac.in/css/aos.css">
+    <link rel="stylesheet" href="https://freedom2learn.ignouonline.ac.in/css/style.css">
+</head>
+<body>
+<div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="Oz76BG2T"></script>
+</div>
+<!-- Header Section Start Here -->
+<div>
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar py-4 absolute transparent" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3" data-aos="fade-down">
+                    <h1><a class="text-white h2" href="https://freedom2learn.ignouonline.ac.in/pages/"><img alt="" src="https://freedom2learn.ignouonline.ac.in/images/ignouLogo.png"></a>
+                    </h1>
+                </div>
+                <div class="col-9" data-aos="fade-down">
+                    <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
+                        <div class="d-inline-block ml-md-0 mr-auto">
+                            <a class="site-menu-toggle js-menu-toggle text-white" href="#">
+                                <span class="icon-menu h1"></span>
+                            </a>
+                        </div>
+
+                        <ul class="site-menu js-clone-nav d-none">
+                            <li class="active"><a href="https://freedom2learn.ignouonline.ac.in/pages/">Home</a></li>
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/themes">Series</a></li>
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/currentEpisode">Episodes</a></li>
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/experts">Speakers</a></li>
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/coordinator">Coordinators</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/contact">Contact Us</a></li>
+                            <!--<li class="has-children">
+                                <a href="#">Podcast Series</a>
+                                <ul class="dropdown arrow-top">
+                                    <li><a th:href="@{/pages/themes}">Podcast Series</a>
+                                    <li><a href="#">Policy Makers</a></li>
+                                    <li><a href="#">Management Teachings</a></li>
+                                    <li><a href="#">Virtual Symposium/Seminar</a></li>
+                                </ul>
+                            </li>-->
+
+                            <!-- <li><a th:href="@{/pages/aboutUs}">Freedom 2 Learn</a></li>-->
+                            <!-- <li class="has-children">
+                                 <a href="#"></a>
+                                 <ul class="dropdown arrow-top">
+                                     <li><a th:href="@{/pages/currentEpisode}">Current Episodes</a></li>
+                                     <li><a href="#">Previous Episodes</a></li>
+                                 </ul>
+                             </li>-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="site-blocks-cover" data-aos="fade"
+         data-stellar-background-ratio="0.5"
+         style="background-position: center; background-image:url(https://freedom2learn.ignouonline.ac.in/images/hero_bg_2.jpg);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="text-white font-weight-light mb-2 display-4">
+                        <img alt="" class="img-fluid" src="https://freedom2learn.ignouonline.ac.in/images/freedomToLearn.png"/>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header Section End Here -->
+<div class="breadcrumBox" data-aos="fade">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://freedom2learn.ignouonline.ac.in/pages/">Home</a></li>
+            <li class="breadcrumb-item active">Podcast Series</li>
+        </ol>
+    </div>
+</div>
+<!-- Middle Section Start Here -->
+
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5" data-aos="fade-up">
+            
+            <div class="col-md-12 text-center">
+                <!-- <h2 class="font-weight-bold text-black ">Podcast Series: Introduction</h2>-->
+                <!--  <h3 class="font-weight-light fs24 txtBlue" th:utext="'Motto: '+ ${podTheme.motto}"></h3>-->
+                <h1 class="font-weight-bold text-uppercase pb-2">Series:5 Business Management Sessions</h1>
+                <audio controls id="player1" preload="none" style="max-width: 100%; margin-bottom: 5px;">
+                    <source src="https://freedom2learn.ignouonline.ac.in/media/theme5/intro.mp3" type="audio/mp3">
+                </audio>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="fb-like fl-l" data-href="https://freedom2learn.ignouonline.ac.in/pages/themeDetails/5" data-width="" data-layout="button_count"
+                             data-action="like"
+                             data-size="small" data-share="true"></div>
+                        <div class="snbuttons">
+                            <a class="twitter-share-button" data-size="small"
+                               target="_blank"
+                               href="https://twitter.com/intent/tweet?text=IGNOU%20Podcast%20Series:%20Business%20Management%20Sessions%20Business%20Management%20Sessions%20https://freedom2learn.ignouonline.ac.in/pages/themeDetails/{id}(id=5)%0A%0AFor%20more%20IGNOU%20Podcast%20Series,%20Please%20visit%20https://freedom2learn.ignouonline.ac.in/pages/themes"><span
+                                    class="icon-twitter"></span></a>
+                            <a href="whatsapp://send?text=IGNOU%20Podcast%20Series: Business Management Sessions Business Management Sessions%20https://freedom2learn.ignouonline.ac.in/pages/themeDetails/5%0A%0AFor more IGNOU Podcast Series, Please visit https://freedom2learn.ignouonline.ac.in/pages/themes"
+                               data-action="share/whatsapp/share"><span
+                                    class="icon-whatsapp"></span></a>
+                            <a class="pl-1 pr-1 ml-auto" target="_blank" href="https://freedom2learn.ignouonline.ac.in/media/theme5/intro.mp3"><span class="icon-cloud-download"></span> Download</a>
+                            <a class="pl-1 pr-1 ml-auto" target="_blank" href="#" title="RSS Feed"><span class="icon-rss_feed"></span></a>
+
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="pad15">
+                    <div class="fb-share-button"
+                         data-layout="button_count"
+                         data-size="small" th:data-href="'https://freedom2learn.ignouonline.ac.in/pages/themeDetails/'+${podTheme.id}">
+                        <a class="fb-xfbml-parse-ignore"
+                           target="_blank"
+                           th:href="'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffreedom2learn.ignouonline.ac.in%2Fpages%2FthemeDetails%2F'+${podTheme.id}+'&amp;src=sdkpreparse'">Share</a>
+                    </div>
+                    <a class="twitter-share-button" data-size="small"
+                       target="_blank"
+                       th:href="'https://twitter.com/intent/tweet?text=IGNOU%20Podcast%20Theme: '+${podTheme.title}+'%20https://freedom2learn.ignouonline.ac.in/pages/themeDetails/'+${podTheme.id}+'%0A%0AFor more IGNOU Podcast Theme, Please visit https://freedom2learn.ignouonline.ac.in/pages/themes'"><span
+                            class="icon-twitter"></span></a>
+                    <a class="pl-1 pr-1" href="#"><span class="icon-instagram"></span></a>
+                    <a class="pl-1 pr-1" href="#"><span class="icon-whatsapp"></span></a>
+                    <a class="pl-1 pr-1" target="_blank" th:href="${podTheme.introAudioClip}"><span
+                            class="icon-download"></span></a>
+                </div>-->
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="font-weight-bold text-center text-uppercase">Introduction</h2>
+                        <div class="text-justify"><p>Business management is an incredibly diverse field, and your inquisitiveness will reflect that. If you choose to start learning on business management then this series will provide an opportunity to learn without enrolling in any formal course. At the same time those who have enrolled for business management courses, this series will be helpful as additional classes.</p>
+<p>In this series the core courses of business management will be taught by renowned academicians from premier educational institutions.</p>
+</div>
+                    </div>
+                </div>
+                <div class="row mb-3" data-aos="fade-up">
+                    <div class="col-md-12 text-center">
+                        <h2 class="font-weight-bold text-black">Current Episode</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-12" data-aos="fade-up">
+                        <div class="podcast-entry bg-white mb-5">
+                            <!-- <div class="episodeImage"
+                                  th:styleappend="'background-image:url(/images/expertSpeak.jpeg);'">
+                             </div>-->
+                            <div style="float: left; width: 25%">
+                                <img style="width: 90%;" src="https://freedom2learn.ignouonline.ac.in/images/expertSpeak.jpeg"/>
+                            </div>
+                            <div class="episodeText">
+                                <h3 class="font-weight-bold text-left">
+                                    <a href="https://freedom2learn.ignouonline.ac.in/pages/episode/19"
+                                       title="Financial Management                                                                 ">
+                                        <span>Episode: 1 </span>
+                                        <span>Financial Management  </span>..
+                                    </a>
+                                </h3>
+                                <div class="text-white mb-3">
+                                    <p class="text-black-opacity-05">
+                                        <small>
+                                            By <span>Dr. Rajeev P.V.</span>
+                                            <span class="sep">/</span> <span>06-Oct-2020</span>
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        <!--    <div class="episodeText1 text-justify"
+                                 th:utext="${#strings.substring(episodes.podcastAbstract,0,180)}"></div>-->
+                            <a href="https://freedom2learn.ignouonline.ac.in/pages/episode/19" title="Financial Management                                                                 " class="text-danger font-weight-bold"
+                               style="text-align: right; display: block; padding-right: 15px;"> More...</a>
+                            <!-- <p class="pad15">
+                                 <a class="twitter-share-button" data-size="small"
+                                    target="_blank"
+                                    th:href="'https://twitter.com/intent/tweet?text=IGNOU%20Podcast%20Theme: '+${episodes.podThemes.title}+' '+${episodes.title}+'%20https://freedom2learn.ignouonline.ac.in/pages/episode/'+${episodes.id}+'%0A%0AFor more IGNOU Podcast Episodes, Please visit https://freedom2learn.ignouonline.ac.in/pages/currentEpisode'"><span
+                                         class="icon-twitter"></span></a>
+                             <div class="fb-share-button"
+                                  data-layout="button_count"
+                                  data-size="small" th:data-href="'https://freedom2learn.ignouonline.ac.in/pages/episode/'+${episodes.id}">
+                                 <a class="fb-xfbml-parse-ignore"
+                                    target="_blank"
+                                    th:href="'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffreedom2learn.ignouonline.ac.in%2Fpages%2Fepisode%2F'+${episodes.id}+'&amp;src=sdkpreparse'">Share</a>
+                             </div>
+                             &lt;!&ndash; <a href="#" class="pl-0 pr-1"><span class="icon-twitter"></span></a>&ndash;&gt;
+                             <a class="pl-1 pr-1" href="#"><span class="icon-instagram"></span></a>
+                             &lt;!&ndash;  <a href="#" class="pl-1 pr-1"><span class="icon-facebook"></span></a>&ndash;&gt;
+                             <a class="pl-1 pr-1" href="#"><span class="icon-whatsapp"></span></a>
+                             <a class="pl-1 pr-1" target="_blank" th:href="${episodes.audioUrl}"><span
+                                     class="icon-download"></span></a>
+                             </p>
+                             <div class="player">
+                                 <audio controls id="player2" preload="none" style="max-width: 100%">
+                                     <source th:src="${episodes.audioUrl}" type="audio/mp3">
+                                 </audio>
+                             </div>-->
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12" data-aos="fade-up">
+                        <div class="podcast-entry bg-white mb-5">
+                            <!-- <div class="episodeImage"
+                                  th:styleappend="'background-image:url(/images/expertSpeak.jpeg);'">
+                             </div>-->
+                            <div style="float: left; width: 25%">
+                                <img style="width: 90%;" src="https://freedom2learn.ignouonline.ac.in/images/expertSpeak.jpeg"/>
+                            </div>
+                            <div class="episodeText">
+                                <h3 class="font-weight-bold text-left">
+                                    <a href="https://freedom2learn.ignouonline.ac.in/pages/episode/25"
+                                       title="Human Resource Management                                                                       ">
+                                        <span>Episode: 2 </span>
+                                        <span>Human Resource Managem</span>..
+                                    </a>
+                                </h3>
+                                <div class="text-white mb-3">
+                                    <p class="text-black-opacity-05">
+                                        <small>
+                                            By <span>Dr. Sumita Mishra</span>
+                                            <span class="sep">/</span> <span>04-Nov-2020</span>
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        <!--    <div class="episodeText1 text-justify"
+                                 th:utext="${#strings.substring(episodes.podcastAbstract,0,180)}"></div>-->
+                            <a href="https://freedom2learn.ignouonline.ac.in/pages/episode/25" title="Human Resource Management                                                                       " class="text-danger font-weight-bold"
+                               style="text-align: right; display: block; padding-right: 15px;"> More...</a>
+                            <!-- <p class="pad15">
+                                 <a class="twitter-share-button" data-size="small"
+                                    target="_blank"
+                                    th:href="'https://twitter.com/intent/tweet?text=IGNOU%20Podcast%20Theme: '+${episodes.podThemes.title}+' '+${episodes.title}+'%20https://freedom2learn.ignouonline.ac.in/pages/episode/'+${episodes.id}+'%0A%0AFor more IGNOU Podcast Episodes, Please visit https://freedom2learn.ignouonline.ac.in/pages/currentEpisode'"><span
+                                         class="icon-twitter"></span></a>
+                             <div class="fb-share-button"
+                                  data-layout="button_count"
+                                  data-size="small" th:data-href="'https://freedom2learn.ignouonline.ac.in/pages/episode/'+${episodes.id}">
+                                 <a class="fb-xfbml-parse-ignore"
+                                    target="_blank"
+                                    th:href="'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffreedom2learn.ignouonline.ac.in%2Fpages%2Fepisode%2F'+${episodes.id}+'&amp;src=sdkpreparse'">Share</a>
+                             </div>
+                             &lt;!&ndash; <a href="#" class="pl-0 pr-1"><span class="icon-twitter"></span></a>&ndash;&gt;
+                             <a class="pl-1 pr-1" href="#"><span class="icon-instagram"></span></a>
+                             &lt;!&ndash;  <a href="#" class="pl-1 pr-1"><span class="icon-facebook"></span></a>&ndash;&gt;
+                             <a class="pl-1 pr-1" href="#"><span class="icon-whatsapp"></span></a>
+                             <a class="pl-1 pr-1" target="_blank" th:href="${episodes.audioUrl}"><span
+                                     class="icon-download"></span></a>
+                             </p>
+                             <div class="player">
+                                 <audio controls id="player2" preload="none" style="max-width: 100%">
+                                     <source th:src="${episodes.audioUrl}" type="audio/mp3">
+                                 </audio>
+                             </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Middle Section End Here -->
+
+<!-- Footer Section Start Here -->
+<footer class="site-footer">
+  <div class="container">
+        <div class="row footer">
+            <div class="col-lg-5">
+                <div class="mb-5">
+                    <h3 class="footer-heading mb-4">About Podcast</h3>
+                    <p class="text-justify">This Podcast is based on the motto: ‘freedom 2 learn’ and is to provide the
+                        learners and other stakeholders of the University an opportunity to update them on the advancements in the  field of management. It will also provide digital resources by which they can get the latest
+                        insights on various inter –disciplinary and contemporary topics.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="footer-heading mb-4">Quick Menu</h3>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <ul class="list-unstyled">
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/">Home</a></li>
+                            <li><a href="http://ignou.ac.in/" target="_blank">IGNOU</a></li>
+                            <li><a href="http://egyankosh.ac.in/" target="_blank">eGyanKosh</a></li>
+                            <li><a href="http://www.ignouonline.ac.in/gyandarshan/" target="_blank">Gyandarshan</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <ul class="list-unstyled">
+                            <li><a href="#"></a></li>
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/aboutUs">Freedom 2 Learn</a></li>
+                            <!-- <li><a href="#">Privacy Policy</a></li>-->
+                            <li><a href="https://freedom2learn.ignouonline.ac.in/pages/contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-0">
+                <div class="mb-2">
+                    <h3 class="footer-heading mb-4">Follow Us</h3>
+                    <div>
+                        <a class="pl-0 pr-3" href="https://www.facebook.com/IGNOU-Podcast-Freedom2Learn-103933354727739"
+                           target="_blank"><span
+                                class="icon-facebook"></span></a>
+                        <a class="pl-3 pr-3" href="https://twitter.com/ignoupodcast" target="_blank"><span
+                                class="icon-twitter"></span></a>
+                        <!--<a class="pl-3 pr-3" href="https://www.instagram.com/officialpageignou/" target="_blank"><span
+                                class="icon-instagram"></span></a>-->
+                        <a class="pl-3 pr-3" href="https://www.youtube.com/channel/UCRGhx5D_mLRZTW3IT_netBQ"
+                           target="_blank"><span class="icon-youtube"></span></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <p>
+                    © 2020 Indira Gandhi National Open University. All rights reserve.<br/>Design, Developed &
+                    Maintained by COE, IGNOU
+                </p>
+            </div>
+
+        </div>
+</div>
+</footer>
+<!-- Footer Section End Here -->
+
+<script src="https://freedom2learn.ignouonline.ac.in/js/jquery-3.3.1.min.js"></script>
+<script src="https://freedom2learn.ignouonline.ac.in/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="https://freedom2learn.ignouonline.ac.in/js/jquery-ui.js"></script>
+<script src="https://freedom2learn.ignouonline.ac.in/js/bootstrap.min.js"></script>
+<script src="https://freedom2learn.ignouonline.ac.in/js/aos.js"></script>
+<script src="https://freedom2learn.ignouonline.ac.in/js/mediaelement-and-player.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+        for (var i = 0; i < total; i++) {
+            new MediaElementPlayer(mediaElements[i], {
+                pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                shimScriptAccess: 'always',
+                success: function () {
+                    var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
+                    for (var j = 0; j < targetTotal; j++) {
+                        target[j].style.visibility = 'visible';
+                    }
+                }
+            });
+        }
+    });
+</script>
+<script src="https://freedom2learn.ignouonline.ac.in/js/main.js"></script>
+</body>
+
+<!-- Mirrored from freedom2learn.ignouonline.ac.in/pages/themeDetails/5 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:38 GMT -->
+</html>

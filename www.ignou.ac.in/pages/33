@@ -1,0 +1,2163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/33 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:22:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/soetB.jpg" alt="School of Studies&lt;br/&gt;(School of Engineering &amp; Technology)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Engineering & Technology)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="33">School of Engineering &amp; Technology</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Objectives</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Objectives"><p align="justify">The School of Engineering and Technology has the responsibility of initiating academic, continuing and extension education programmes in the areas of engineering and technology. The School has developed several programmes aimed at increasing job potential and economic advantage to the learners. To fulfill its mandate, the School regularly interacts with employing agencies, professional bodies and industry so as to reflect educational and training needs of the targeted learner group in the curriculum. The School practices participative and collaborative strategy by inviting different industries.</p>
+<p align="justify">The Programmes launched by the School range from a competency bases non-credit vocational qualification certificate to doctoral degree in engineering and technology. The school had successfully launched its programmes at various levels in the areas of Civil Engineering, Mechanical Engineering and Electrical Engineering and also in the area of Renewable Energy.</p>
+<p align="justify"><b>Vision:</b> The School of Engineering and Technology(SOET) aims to create a conducive learning environment and expertise in state of the art technologies, vocations and professions at all levels fulfilling the nation’s need of employment generations, skill upgradation, continuing education, research and development, using innovative technologies and methodologies, networking with technical and professional institutions and industries.</p>
+<p align="justify"><b>Mission:</b> To develop education work linkages and provide opportunities by disseminating knowledge and skills in employment oriented technical, vocational and professional education at all levels of learning so as to reach the rural and urban masses through distance, blended and other modes of learning using various information and communication technologies.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="History"  ><p align="text">The School of Engineering & Technology (SOET), came into existence in 1987, with a clear mandate to address the issues pertaining to continuing and extension education requirements in the country. The School devises and conducts academic continuing and extension education programmes in engineering and technology areas for disadvantaged and economically weaker sections, ranging from certificate to diploma/degree aimed at increasing job potential,knowledge and skill enhancement of learners. SOET also provides skill Upgradation and Training for capacity building using innovative technologies and methodology.</p>
+
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p>It is my privilege to welcome you to the School of Engineering and Technology (SOET) at the Indira Gandhi National Open University (IGNOU). Since its inception in 1989, SOET has remained steadfast in its mission to expand access to high-quality technical and professional education through innovative, flexible, and industry-relevant programmes.</p>
+<p>The School today offers a broad spectrum of programmes ranging from vocational certificates to postgraduate degrees and professional qualifications. Our academic offerings include the B.Sc. in Applied Science & Energy, M.Sc. in Renewable Energy and Environment, M.Sc. in Industrial Safety, MBA in Logistics and Supply Chain Management, and MBA in Construction Management. We also provide specialised programmes such as the Diploma in Smart City Development and Management, PG Certificate in Inventory Planning & Warehousing, Certificate in Waste Water Treatment Techniques, Certificate in Condition Monitoring, Certificate in Energy & Technology Management, Advanced Certificate in Power Distribution, and Competency Certificate in Power Distribution.</p>
+<p>In addition to these programmes, SOET focuses on the major disciplines of Civil, Mechanical, Electrical Engineering, Architecture, and the rapidly growing area of Renewable Energy. This multidisciplinary approach ensures that learners are equipped not only with domain-specific knowledge but also with the skills to address emerging challenges in sustainable development, infrastructure, and technology-driven industries.</p>
+<p>Our strength lies in our continuous engagement with industries, professional bodies, and employing agencies, which allows us to design curricula that are contemporary, skill-oriented, and aligned with workforce needs. By leveraging distance and blended learning approaches and the power of information and communication technologies, SOET is able to reach learners in both urban and rural areas, fulfilling IGNOU’s mission of inclusive education.</p>
+<p>We remain committed to nurturing talent, fostering innovation, and contributing to national development by preparing professionals who can lead with knowledge, creativity, and purpose.</p>
+<p>Director, SOET</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="SchoolBoardMembers"  >
+<title>School Board Members of SOET</title>
+
+
+<center><h4>School Board Members of SOET</h4></center>
+
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+<tr bgcolor="#dddddd">
+<th width="6%">Sl. No.</th>
+<th width="42%">Name and Address</th>
+<th width="27%">Designation</th>
+<th width="25%">Photo</th>
+</tr>
+
+<tr>
+<td valign="top">1.</td>
+<td valign="top">Prof. Sanjay Agrawal,<br>Director<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:sanjay.agrawal@ignou.ac.in">sanjay.agrawal@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Chairperson</b><br>Under Clause 2(a) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/sanjay.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">2.</td>
+<td valign="top">Prof. Amarendra Kumar S,<br>Professor in Civil Engineering,<br>Director, Rajiv Gandhi University of Knowledge Technologies, Nuzvid, Andhra Pradesh,<br>Email: <a href="mailto:aksandra@rguktrkv.ac.in">aksandra@rguktrkv.ac.in</a></td>
+<td valign="top" align="center"><b>External Member</b><br>Under Clause 2(e) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/amarendra.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">3.</td>
+<td valign="top">Prof. Gopi Chand,<br>Joint Secretary (On deputation),<br>Prof. of Computer Science,<br>UGC, New Delhi,<br>Email: <a href="mailto:gopi_merugu@yahoo.com">gopi_merugu@yahoo.com</a></td>
+<td valign="top" align="center"><b>External Member</b><br>Under Clause 2(e) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/gopi.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">4.</td>
+<td valign="top">Prof. (Dr.) A. Elayaperumal,<br>Director, NIT Nagaland,<br>Email: <a href="mailto:director@nitnagaland.ac.in">director@nitnagaland.ac.in</a>,<br><a href="mailto:profelaya@gmail.com">profelaya@gmail.com</a><br><b>Biodata/Profile Link:</b> <a href="#">View Biodata</a></td>
+<td valign="top" align="center"><b>External Member</b><br>Under Clause 2(e) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/elayaperumal.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">5.</td>
+<td valign="top">P.V.R.D. Prasada Rao,<br>HOD Computer Science,<br>Deputy Director (International Relations)<br>Associate Dean (Alumni Relations &amp; Placements)<br>Professor, Department of CSE, K.L University,<br>Email: <a href="mailto:pvrdprasad@gmail.com">pvrdprasad@gmail.com</a> ;<br><a href="mailto:pvrdprasad@kluniversity.ac.in">pvrdprasad@kluniversity.ac.in</a></td>
+<td valign="top" align="center"><b>External Member</b><br>Under Clause 2(e) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/prasada.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">6.</td>
+<td valign="top">Dr. Pradeep Kumar Ghosh,<br>Vice Chancellor, C.V. Raman University,<br>Bilaspur, Chhattisgarh,<br>Email: <a href="mailto:pradeepkghosh8@gmail.com">pradeepkghosh8@gmail.com</a></td>
+<td valign="top" align="center"><b>External Member</b><br>Under Clause 2(e) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/ghosh.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">7.</td>
+<td valign="top">Prof. P. Srinivas Kumar<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:psrinivask@ignou.ac.in">psrinivask@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Ex-officio</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/srinivas.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">7.</td>
+<td valign="top">Prof. Ashish Agarwal<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:ashish.agarwal@ignou.ac.in">ashish.agarwal@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Ex-officio</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/ashish.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">8.</td>
+<td valign="top">Prof. K.T. Mannan<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:ktmannan@ignou.ac.in">ktmannan@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Ex-officio</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/ktamilmannan.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">9.</td>
+<td valign="top">Prof. N. Venkateshwarlu<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:nvenkateshwarlu2008@ignou.ac.in">nvenkateshwarlu2008@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Ex-officio</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/venkateshwarlu.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">10.</td>
+<td valign="top">Prof. Rakhi Sharma<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:rakhi.sharma@ignou.ac.in">rakhi.sharma@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Ex-officio</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/rakhi.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">11.</td>
+<td valign="top">Prof. Munish Kumar Bhardwaj<br>School of Engineering &amp; Technology<br>IGNOU, New Delhi<br>Email: <a href="mailto:mbhardwaj@ignou.ac.in">mbhardwaj@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Ex-officio</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/munish.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">12.</td>
+<td valign="top">Prof. Kamal Vagrecha,<br>Professor, SOMS<br>Email: <a href="mailto:kamalvagrecha@ignou.ac.in">kamalvagrecha@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Under Clause 2(d) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/kamal.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">13.</td>
+<td valign="top">Prof. P.V.K. Sasidhar,<br>Professor, SOEDS<br>Email: <a href="mailto:pvksasidhar@ignou.ac.in">pvksasidhar@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Professor</b><br>Under Clause 2(d) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/sasidhar.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">14.</td>
+<td valign="top">Dr. Balkar Singh,<br>Assistant Professor, SOCE<br>Email: <a href="mailto:balkarsingh@ignou.ac.in">balkarsingh@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Assistant Professor</b><br>Under Clause 2(d) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/balkar.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">15.</td>
+<td valign="top">Dr. Chaithra N.R.,<br>Assistant Professor, SOA<br>Email: <a href="mailto:chaithranr@ignou.ac.in">chaithranr@ignou.ac.in</a> ;<br><a href="mailto:chaithranr143@gmail.com">chaithranr143@gmail.com</a></td>
+<td valign="top" align="center"><b>Assistant Professor</b><br>Under Clause 2(d) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/chaithra.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">16.</td>
+<td valign="top">Dr. Shiv Kumar Vyas,<br>Associate Professor, SOET<br>Email: <a href="mailto:skvyas@ignou.ac.in">skvyas@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Associate Professor</b><br>Under Clause 2(c) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/vyas.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">17.</td>
+<td valign="top">Dr. Shashank Srivastava,<br>Assistant Professor, SOET<br>Email: <a href="mailto:ssrivastav@ignou.ac.in">ssrivastav@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Assistant Professor</b><br>Under Clause 2(c) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/shashank.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">18.</td>
+<td valign="top">Dr. Shweta Tripathi,<br>Assistant Professor, SOET<br>Email: <a href="mailto:Shweta.tripathi@ignou.ac.in">Shweta.tripathi@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Assistant Professor</b><br>Under Clause 2(c) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/shweta.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+<tr>
+<td valign="top">19.</td>
+<td valign="top">Dr. Anuj Purwar,<br>Assistant Professor, SOET<br>Email: <a href="mailto:akpurwar@ignou.ac.in">akpurwar@ignou.ac.in</a></td>
+<td valign="top" align="center"><b>Assistant Professor</b><br>Under Clause 2(c) of Statute 10 (A)</td>
+<td align="center"><img class="img-thumbnail"  src="../viewFile/soet/pp/anuj.jpg" style="width: 120px; height: 120px"/></td>
+</tr>
+
+</table>
+</div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">63</td>
+                                                <td class="text-center">2021-10-28</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-63.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-63</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">64</td>
+                                                <td class="text-center">2022-02-04</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-64.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-64</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">65</td>
+                                                <td class="text-center">2022-05-25</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-65.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-65</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">66</td>
+                                                <td class="text-center">2022-09-29</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-66.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-66</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">67</td>
+                                                <td class="text-center">2022-05-25</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-67.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-67</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">68</td>
+                                                <td class="text-center">2023-07-28</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-68.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-68</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">BSOET</td>
+                                                <td class="text-center" style="width: 2px;">69</td>
+                                                <td class="text-center">2023-11-23</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOET/SBM-69.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> SBM-69</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/sanjay.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal395">
+                                                        <label class="fw-bold">Prof. Sanjay Agrawal</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal395" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Sanjay Agrawal</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director, SOET</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Electrical Engineering,  Energy Science & Engineering</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>21-12-2011</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29572919</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>sanjay.agrawal@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Sanjay Agrawal is presently a <b>Professor in Electrical Engineering </b>at the School of Engineering and Technology, Indira Gandhi National Open University (IGNOU), New Delhi. Prof Agrawal has also worked as <b>Pro Vice-Chancellor of Chhattisgarh Swami Vivekanand Technical University (CSVTU) Bhilai.</b> He is the recipient of the prestigious Bhaskara Solar Energy Fellowship from the Indo-US Science and Technology Forum (IUSSTF) and the Department of Science and Technology (DST), India. This led him to his Post Doctoral Fellowship from Smart Grid Energy Research Centre, University of California, Los Angeles (UCLA),USA. Prof Agrawal received his Ph.D. from the Indian Institute of Technology, Delhi.</p>
+<p>He has more than 22 years of rich teaching and research experience with a specialization in Electrical Engineering. He has published more than 70 papers in international journals. According to Google Scholar, his total citationsare over 2470 with andi-10 index of 39 and an h-index of 27.He has presented papers in Sweden, Spain, and the USA and has given more than 50 invited talks in reputed organizations. He has also published 03 patents, titled ‘Improved Hybrid Solar Collector’, ‘Hybrid Photovoltaic Thermal Apparatus with V-Groove Absorber” and Sheet and tubes based hybrid photovoltaic thermal system. He has guided 09 Ph.D. scholars so far and is a member of the editorial board and panel of reviewers of reputed international journals. Prof Agrawal has authored 03 books namely Analog and Digital Electronics, Control System, and Renewable Energy Technologies.</p>
+<p>His industrial experience includes working with MNCs like Johnson Control (I) PVT Ltd. He has worked on Projects like ‘Automatic power factor correction’ funded by Applied Electro-Magnetic (P) Ltd, ‘Improved hybrid solar cooker’, and ‘Greenhouse dryer’ funded by TEQIP.</p>
+<p>He has designed and developed industry-oriented programs like the PG Certificate and PG Diploma in Industrial Safety. He also coordinates a skill-oriented certificate course for technicians in Motorcycle Service Repair which is now also being offered to South African countries through IGNOU-GOAL, Guyana Project.</p>
+<p>He has also developed 06 Massive Open Online Courses (MOOCs): Principles of Electrical Science, Renewable Energy Technologies and Their Uses, Emerging Technologies in Renewable Energy, Power Generation Technologies, Industrial Automation and Drives, and Maintenance and Testing of Electrical Machines. All these courses are available on the SWAYAM platform. On the SWAYAM PRABHA channel of the Ministry of Education, he coordinates a course on ‘Electrical and Mechanical Safety’. His lectures are regularly telecasted on the Gyan Darshan channel, Gyan Vani radio, and the official Facebook page of IGNOU. His digital content is also available on Egyankosh, the digital repository of IGNOU.</p>
+<p>Prof Agrawal has been Chairman of, the National Assessment and Accreditation Council (NAAC) of various peer teams, a Memberof the National Board of Accreditation (NBA) of various peer teams, and Chairman of the selection committee, of the National Testing Agency, Delhi. He has also been a chairman and member of different committees of AICTE, Technical Universities, and the Public Service Commission. He has also been involved in examination-related activities of national agencies, state public service commissions, and other Universities. He has also been a member of different Executive Councils, Academic Councils, and Board members of the Universities/colleges. In addition to this, he has coordinated many Faculty Development Programme (FDP)/workshop/short-term courses sponsored by AICTE, DST and CSTT, Ministry of Education.</p>
+<p>Prof Agrawal is a Fellow of the Institution of Engineers, India (FIE) and a CharteredEngineer ofthe Institution of Engineers, India.  He is also a senior member of the Institute of Electrical and Electronics Engineers, USA (SMIEEE).He is also life member of ISTE Delhi. He is also a secretary General of the Indian Society for Technical University(ISTU). His areas of interest include grid-connected photovoltaic systems, micro-grids, solar PV water pumping systems, power electronics, electrical machines, circuit theory, power systems, and hybrid solar thermal.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                <a class="btn btn-primary btn-sm" target="_blank" href="https://www.ignou.ac.in/viewFile/SOET/profile/sanjay.pdf">
+                                                                                    <i class="fa fa-paperclip text-white" aria-hidden="true"></i> CV
+                                                                                </a>
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director, SOET<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Electrical Engineering,  Energy Science & Engineering</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>21-12-2011</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29572919</span>, <i class="fas fa-envelope"></i> <span>sanjay.agrawal@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/srinivas.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal404">
+                                                        <label class="fw-bold">Prof. P. Srinivas Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal404" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. P. Srinivas Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Green Building and Energy Conservation</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>15</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>10-09-1989</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>srinivask@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Srinivas Kumar joined School of Engineering and Technology,IGNOU ,New Delhi in 1989. His contribution first  faculty and Coordinators for developing BTCM, BTWRE,ADCM, AWRE in 1992. He has coordinatred several innovative field oriented courses of Civil Engineering for the above Programmes. He was the Director of School of Engineering and Technology  three times ( for the period 11th April 2008 to 04th August 2008, 5th August 2014 to 04th August 2017 and 5th August 2023 to 4th August 2026). He is the member of several professional bodies likr ISTE,IDEA etc.Life member for ISTE,IDEA and GSI (Geo-technical Society of India). He is also member for statutory bodies and other communities of IGNOU like Academic Councils, School Board  of Engineering and Technology since inception etc. He was also involved in formulation and coordination of several MoUs like IGNOU-FDDI,IGNOU-CIDC,IGNOU-MoP etc. His area for research is Geo-technical engineering and energy conservation of buildings. He is Research Associate in IIT Delhi w.e.f. 1999 to 2003.Contribution in the area of Green Building and Energy Conservation in building papers in International Journals. He developed innovatine severalself learning material Civil Enginering field oriented courses  like books/ blocks 500 plus of IGNOU.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Green Building and Energy Conservation</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>15</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>10-09-1989</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>srinivask@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/ashish.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal405">
+                                                        <label class="fw-bold">Prof. Ashish Agarwal</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal405" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Ashish Agarwal</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Mechanical Engineering, Production and Operations Management, Logistics and Supply Chain Management, Total Quality Management</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29572922</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>ashisha@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Ashish Agarwal joined School of Engineering and Technology,IGNOU ,New Delhi in 1997. His contribution as a faculty and Coordinators for developing B.Tech. Mechanical Engineering (BTME). He has coordinatred several courses of BTME. He was the Director of School of Engineering and Technology. He is the member of several bodies. Life member for Institution of Industrial Engineering, and Institution of Engineers. He is also member for statutory bodies and other communities of IGNOU, Academic Council, School Board etc. He has supervised more than 12 PhD candidates. His research papers in the area of Supply Chain Management appeared in International and National Journals. He is involved in reviewing process with International Journals.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Mechanical Engineering, Production and Operations Management, Logistics and Supply Chain Management, Total Quality Management</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29572922</span>, <i class="fas fa-envelope"></i> <span>ashisha@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/munish.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal406">
+                                                        <label class="fw-bold">Prof Munish Kumar Bhardwaj</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal406" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof Munish Kumar Bhardwaj</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Civil Engineering, Structural Control, Eathquake Engineering, Disaster Management</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>04-01-1993</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>mbhardwaj@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>He designed and developed M. Sc. (Industrial Safety) programme which is on offer since Jan 2024. Earlier he desined, developed and successfully launced Diploma in Civil Engineering and Bacheloer in Architecture programmes. He contributed in preparation of self learning material for several courses of BTCM, BTWRE, BTME, ACPDM, DCLE, DCLE(G), PGCINDS, PGDINDS and MSCIDS programmes in various capacities. Two MOOCS courses are on offer through SWAYAM namely (i) Concrete Technology and (ii) Repair and Maintenance of Buildings.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Civil Engineering, Structural Control, Eathquake Engineering, Disaster Management</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>04-01-1993</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>mbhardwaj@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/venkateshwarlu.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal407">
+                                                        <label class="fw-bold">Prof. N. Venkateshwarlu</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal407" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. N. Venkateshwarlu</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Industrial Engineering and Managment, Total Quality Managment, Operations Managment, Logistics and Supply Chain Managment, Smart Cities Development and Managment</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>07-05-1997</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29572918</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>nvenkateshwarlu2008@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>N. Venkateshwarlu is Professor, Mechanical Engineering, School of Engineering and Technology, IGNOU, New Delhi. He attained his PhD in Total Quality Management (2014) from SOET, IGNOU, New Delhi. He did his M.Tech in Industrial Engineering and Management (1996) from JNTU, Hyderabad. He did his Bachelor of Engineering in Mechanical Engineering (1989) from University College of Engineering, Osmania University. He also completed his PG Diploma programmes from IGNOU in three disciplines such as Distance Education, Operations Management, Urban Planning and Development while in service. He shows keen interest in learning new things in education, in this endeavor, he completed two online MOOCs courses through courseera.com and gained “Certificate in Urban Infrastructure Management-Part-I” in 2017 and “ Certificate in Smart Cities: Management of Smart Urban Infrastructure” in 2018.During 1997 to till date he designed, developed and launched a 98 credits programme on “Diploma in Mechanical Engineering (DME)” during 2006 to 2010 as Programme coordinator. He also developed around 32 credit course materials for B.Tech. Mechanical Engineering programme and Diploma in Mechanical Engineering programmes as course coordinator. At present he has designed and developed two new and innovative programmes “Diploma in Smart City Development and Management (DSCDM)” of 32 Credits launched in July 2021 and “Certificate in Smart City Development and Management (CSCDM)” of 18 Credits launched in July 2022 in ODL mode as programme coordinator. He also developed and launched two online MOOCs courses “Quality Engineering and Management “of 4 credits and “BME-025 Condition Monitoring and Maintenance Management” of 2 Credits through SWAYAM portal.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Industrial Engineering and Managment, Total Quality Managment, Operations Managment, Logistics and Supply Chain Managment, Smart Cities Development and Managment</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>07-05-1997</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29572918</span>, <i class="fas fa-envelope"></i> <span>nvenkateshwarlu2008@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/rakhi.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal408">
+                                                        <label class="fw-bold">Prof. Rakhi Sharma</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal408" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Rakhi Sharma</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Electrical Engineering, Energy Science & Engineering</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>25-06-2003</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29572921</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>rakhisharma@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Prof. Rakhi Sharma is a Professor in the discipline of Electrical Engineering and was former Director, School of Engineering & Technology (SOET), Indira Gandhi National Open University (IGNOU), New Delhi. She holds doctoral degree, Ph.D. from Indian Institute of Technology (IIT) Delhi, India and post graduation, Master of Technology (M.Tech.) with Distinction from Maulana Azad National Institute of Technology (MANIT), Bhopal, M.P. She obtained her Bachelor of Engineering (B.E.) degree in Electrical Engineering from Government Engineering College Jabalpur, M.P. Her areas of research interest includes Renewable Energy, Solar Energy technology and applications, Energy Systems and Environmental issues, Electrical Power System.</p><p>Prof. Rakhi Sharma is the recipient of prestigious All India University Gold Medal award for ‘Innovations in Distance Education’-2010. She has been conferred with the All India University Gold Medal for the ‘Best Research Paper Award’-2014 at IGNOU, New Delhi. Apart from this she also has many attainments in sport, won medals in state/university level tournaments and represented M.P. State at National Level Table Tennis tournaments. She won Youth Merit Award and selected for the National Scholarship Scheme for meritorious candidates from Madhya Pradesh.</p><p>She has more than 26 years of teaching and research experience and contributed significantly to the fields of electrical engineering and renewable energy. She has contributed extensively in designing, development and implementation of several technical academic courses at Certificate/UG/PG level in the area of electrical power and energy as Course/Programme coordinator. She has been associated with many collaborative projects. Under the Industry-education collaborative projects of IGNOU and Ministry of Power, she took initiatives as Project coordinator and planned, designed and successfully launched two innovative competency based skill development and capacity building training programmes in Power Distribution for engineers, managers and technicians engaged in power sector. Under the industrial-education work linkage programme in association with International Solar Alliance, she has worked for the development of solar application programme. She has been associated with curriculum development of courses, edited chapters/blocks and developed Self Instructional Material of many technical courses at the UG/PG/Certificate/Ph.D. level.  She specializes in use of multi-media and e-learning resources in teaching learning and coordinated/conducted more than 100 Videos/Teleconferencing/EDUSAT programmes from EMPC Studios, IGNOU, delivered several educational programmes through Gyan Darshan (Television), Swayam Prabha DTH channel and interactive radio counseling through Gyan Vani (FM radio). She has developed skill based MOOC (Massive Open and Online Course) titled ‘Electricity and Safety Measures’ that is hosted on the SWAYAM platform of the Ministry of Education.</p><p>She has over 35 research publications in international journals of repute and international/national conferences. She is reviewer of reputed international journals and also delivered invited talks in reputed organizations. She has been an Executive member of DKDF, Board of technical education, Govt. of NCT of Delhi (2015-18), Member, UG Board of Studies, J.C. Bose University of Science and technology, YMCA, Faridabad (2019-20), Selection committee and expert committee member in other institution/organizations. She is life member of ISTE, ICGR, Energy Forum IIT Delhi & other professional bodies.</p><p>She actively contributed/contributes in corporate life of IGNOU as a Member in various Statutory Bodies of IGNOU such as School Board, Academic Council, and Students Support Services, & member of Doctoral committee, Energy Audit Committee, Investment Sub Committee, Equivalence Committee, ICASH Committee, Examination Committee, Print Committee, Sports & Cultural Committee, Convocation Committee, as well as chaired several committees within the University.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Electrical Engineering, Energy Science & Engineering</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>25-06-2003</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29572921</span>, <i class="fas fa-envelope"></i> <span>rakhisharma@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/Ktamilmannan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal410">
+                                                        <label class="fw-bold">Prof. K Tamil Mannan</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal410" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. K Tamil Mannan</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Mechanical Engineering</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p align="justify">Prof. K Tamil Mannan is presently a Professor in Mechanical Engineering at the
+School of Engineering and Technology, Indira Gandhi National Open University
+(IGNOU), New Delhi. Prof Mannan has worked earlier as Assistant Professor,
+Mechanical Engineering, College of Technology, G.B.Pant University of Agriculture
+and Technology, Pant Nagar, Uttrakhand, (Govt of Uttarakhand). He is the recipient
+of the various prestigious awards which includes Best Research Paper Award in
+International Conference on ICECME 2016, National Technological University,
+Singapore and Best Research Supervisor National Award in IRDP 2020, IRDP
+Group of Journals, Chennai.</p>
+<p align="justify">Prof Mannan has completed in B.E (Mechanical Engineering) in Government College
+of Engineering, Salem (University of Madras), M.E in Engineering Design
+(Mechanical Engineering) in Government College of Technology, Coimbatore
+(Bharathiyar University), M.B.A in Training &amp; Development (HR), Madurai Kamaraj
+University and Ph.D in Nanomaterials (Mechanical Engineering) in G.B. Pant
+University of Agriculture and Technology, Pant Nagar, (Government of
+Uttarakhand) and all the Experimental works for the Ph.D research has been carried
+out in Indian Institute of Science, Bangalore.</p>
+<p align="justify">Prof Mannan has more than 25 years of rich teaching and research experience with a
+specialization in Nano Materials (Mechanical Engineering). He has published more
+than 75 papers in International Journals and International Conferences. Prof Mannan
+has delivered invited talk and also acted as Technical Session Chair in International
+Conference on ICECME 2016, National Technological University, Singapore and
+has given more than 25 invited talks and session chair in reputed organizations.</p>
+
+<p align="justify">Prof Mannan has guided 01 M.Tech, 12 M.Sc &amp; 03 Ph.D Scholars and also Evaluated
+and Conducted Viva – Voce Examination more than 06 M.Tech &amp; 30 Ph.D thesis as
+Indian Examiner which includes various reputed Institution / Universities, such as
+Indian Institute of Technology Delhi, Anna University and Jawaharlal Nehru
+Technological University.</p>
+<p align="justify">So far and is a member of the editorial board and panel of reviewers of reputed
+international journals. Prof Mannan has authored 04 books Namely Nanotechnology
+in Renewable Energy, Industrial Safety in Mechanical and Automobile Sectors,
+Computer Aided Design &amp; Computer Aided Manufacturing (CAD/CAM) and
+Computer Numerical Control (CNC) Machines.</p>
+<p align="justify">He has also developed and coordinate a Massive Open Online Courses (MOOCs):
+Computer Aided Design and Computer Aided Manufacturing (CAD/CAM), available
+on the SWAYAM platform. Also, Prof. Mannan has Industrial Experience, he was
+worked in India Radiator (P) Ltd, Chennai as Production Engineer.</p>
+<p align="justify">Prof Mannan was coordinated various skill development programmes and Academic
+Programmes in Certificate, P.G. Certificate / Diploma, Under Graduate and Post
+Graduate Level. Presently coordinating M.Sc (Industrial Safety) as Join Coordinator.
+He also coordinates a skill-oriented certificate course for technicians in Motorcycle
+Service Repair offered to South African countries through IGNOU-GOAL, Guyana
+Project via online mode.</p>
+<p align="justify">Prof Mannan has been a Member of the National Board of Accreditation (NBA) of
+various peer teams. He has also been a member of different committees of AICTE,
+Technical Universities, and Staff Selection Commission. He has also been involved in
+examination-related activities of national agencies, state public service
+commissions, and other Universities. He has also been a member of different
+Councils, and Board members of the Universities/colleges. In addition to this, he has
+coordinated Faculty Development Programme (FDP)/workshop/short-term courses
+sponsored by AICTE-ISTE and also Participated more than 100
+FDPs/STTPs/Workshops &amp; Conferences in National and International Level.</p>
+
+<p align="justify">Prof Mannan was the members of Various Professional bodies which includes ISTE,
+AMM &amp; IAE. In addition to that, Prof Mannan acting as Public Information Officer
+(PIO) for the School.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Mechanical Engineering</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">8</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/shweta.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal411">
+                                                        <label class="fw-bold">Dr. Shweta Tripathi</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal411" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Shweta Tripathi</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Bio-fuels, IC Engineering, Renewable Energy</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>12</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>22-02-2011</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>shweta.tripathi@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Bio-fuels, IC Engineering, Renewable Energy</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>12</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>22-02-2011</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>shweta.tripathi@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">9</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/anuj.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal412">
+                                                        <label class="fw-bold">Dr. Anuj Purwar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal412" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Anuj Purwar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Civil Engineering, Minor: Environmental Engineering</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>12</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>11-01-2012</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>akpurwar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p><ul><li>Working in the School of Engineering and Technology, IGNOU, New Delhi since January 11, 2012.</li> <li>Completed BE (Civil Engineering) from Motilal Nehru National Institute of Technology, Allahabad.</li><li>Completed MTech in Environmental Engineering (Civil Engineering) from Regional Engineering College (now MNIT), Jaipur.</li><li> Completed Ph.D in Waste Management and Technologies (Civil Engineering) from Motilal Nehru National Institute of Technology, Allahabad.</li></p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Civil Engineering, Minor: Environmental Engineering</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>12</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>11-01-2012</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>akpurwar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">10</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/shashank.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal667">
+                                                        <label class="fw-bold">Dr. Shashank Srivastava</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal667" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Shashank Srivastava</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor (Flight Mechanics)</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Aerospace</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>11</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>16-01-2012</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>ssrivastav@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor (Flight Mechanics)</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Aerospace</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>11</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>16-01-2012</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>ssrivastav@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">11</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOET/pp/shiv.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal891">
+                                                        <label class="fw-bold">Dr. Shiv Kumar Vyas</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal891" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Shiv Kumar Vyas</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>919968317583</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>skvyas@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p align="justify">Dr. Shiv Kumar Vyas has multidisciplinary qualifications in the areas of AgriculturalEngineering, Soil and Water Conservation Engineering, and Thermal Engineering. His research interests includes Field Irrigation &amp; Water Conveyance, Thermo-fluid Dynamics involving Multiple Effect Distillation for Water Desalination, Design &amp; Fabrication, Experimentation and Simulation etc.. He started his career as a Research Associate in 1987 at Water Technology Centre, Indian Agricultural Research Institute, New Delhi before joining IGNOU in 1988. He
+has to his credit Videos such as Energy Dissipators – A Programme on Hydraulics, Irrigation Channels, Discharge Measurement in Streams besides others which he developed with Prof. C. S. Moorthy (ex- IIT Kanpur) who was his mentor at IGNOU. He successfully piloted the B.Sc. (Nautical Science) programme in partnership with Directorate General of Shipping, GoI. He has been associated with IGNOU-Hero MotoCorp Project for its Certificate Programme in Motorcycle Service and Repair. He has coordinated B.Tech. (Civil- Water Resources Engineering) programme besides others. Over time he also developed interest in educational administration, and also conceived an employment oriented multidisciplinary “Bachelor Degree Programme in Office Administration” having inbuilt internship etc. and for which he carried out an Open Survey for its curriculum, acceptance and employability of such learners. The survey revealed that more than 95 percent of respondents agreed strongly and 90 percent of respondents agreed very strongly with the context and design of such programme. He has deep passion for work and loves to undertake challenging tasks, and has groomed himself as a trouble shooter.</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                <a class="btn btn-primary btn-sm" target="_blank" href="https://www.ignou.ac.in/viewFile/SOET/profile/Dr.ShivKumarVyas.pdf">
+                                                                                    <i class="fa fa-paperclip text-white" aria-hidden="true"></i> CV
+                                                                                </a>
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>919968317583</span>, <i class="fas fa-envelope"></i> <span>skvyas@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MBACN">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mbacn.jpg" alt="185" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">MBA(Construction Management)(MBACN)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MBALS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mbals.jpg" alt="186" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">MBA(Logistics and Supply Chain Management)(MBALS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MSCRWEE">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mscrwee.jpg" alt="191" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Science(Renewable Energy and Environment)(MSCRWEE)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MSCIDS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mscids.jpg" alt="193" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Science(Industrial Safety)(MSCIDS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/BSCAEY">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/bscaey.jpg" alt="544" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">B.Sc. ( Applied Science - Energy)(BSCAEY)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGDINDS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdinds.jpg" alt="549" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Industrial Safety(PGDINDS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGCINDS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcinds.jpg" alt="548" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Certificate in Industrial Safety(PGCINDS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/PGCIPWS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcipws.jpg" alt="725" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Certificate in Inventory Planning and Warehousing System for Engineers(PGCIPWS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DSCDM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dscdm.jpg" alt="187" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Smart City Development and Management(DSCDM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGDINDSOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdindsol.jpg" alt="825" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Industrial Safety(PGDINDSOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CSCDM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cscdm.jpg" alt="188" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Smart City Development and Management(CSCDM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/ACPDM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/acpdm.jpg" alt="189" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Advanced Certificate in Power Distribution Management(ACPDM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CCPD">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/ccpd.jpg" alt="190" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate of Competency in Power Distribution (Electrical Technicians)(CCPD)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CCOMO">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/ccomo.jpg" alt="192" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Condition Monitoring(CCOMO)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CETM">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cetm.jpg" alt="628" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Energy Technology and Management(CETM)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CSWATT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cswatt.jpg" alt="720" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Solid Waste Treatment Techniques(CSWATT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/33 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:22:32 GMT -->
+</html>

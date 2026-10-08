@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/37 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:22:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/soflB.jpg" alt="School of Studies&lt;br/&gt;(School of Foreign Languages)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Foreign Languages)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="37">School of Foreign Languages</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Aboutus" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">About us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>The School of Foreign Languages is one of the 21 Schools of Studies at IGNOU, established in 2007, with an aim to:<ul>
+
+<li>Offer innovative, flexible and cost-effective foreign language programme for learners from all sections of the society.</li>
+<li>Offer programmes based on the specific needs of the learner to create pool of specialized foreign language experts.</li>
+<li>Promote communication across borders and countries.</li></ul></p>
+<p>In view of the existing demand due to its multiple practical applications, the study of foreign languages is gaining lots of importance in the academic studies, and the demand is growing continuously. The School works in collaboration with other Schools of the University to develop human resources for a number of sectors, like science, technology, humanities, social sciences and commerce.</p>
+
+<p>The globalization of business has led to the demand of specialized foreign language experts. The expertise in foreign languages can be value addition for professionals of different sectors. The School also offers programmes specific to the requirements of organizations like the Indian Army, Navy and Air force.</p></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Aboutus"  ><p align="justify">The School of Foreign Languages (SOFL) is one of the 21 Schools of the Indira Gandhi National Open University. The School has designed and developed various programmes in Open and Distance Learning (ODL) and in Online Learning Mode.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="History"  ><p>The School of Foreign Languages is one of the 21 Schools of Studies at IGNOU, established in 2007.</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p align="justify">The School of Foreign Languages is one of thefirst in India to offer full fledged academic programmes in various Foreign Languages in the Open and Distance Learning mode. Established in the year 2007, it is one among the eleven new schools of study that were established by IGNOU aiming at diversification and introduction of new domains of study and research providing access to knowledge creation in foreign language studies.<br> 
+<br> 
+The School has pioneered courses from Elementary level courses upto Doctoral degree programmes. Presently the School of Foreign Languages offers programmes in nine–09 foreign languages including Arabic, French, Russian, Spanish. German, Persian, Mandarin, Japanese and Korean.<br> 
+<br> 
+Meticulously designed and in sync with the spirit of NEP 2020, all programmes at the SOFL have initiated a brand new phase in the domain of Foreign Language pedagogy that recognizes it as a vital skill component and contributes extensively upskilling the new age learner and prepares for global employability. Our frequent seminars, workshops and conferences and active collaboration with Foreign Universities, International Organizations and embassies have helped us to build and sustain global quality standards in teaching and research.<br> 
+<br> 
+Masters programmes in major foreign languages offered in the ODL mode have found huge acceptance among professionals who can now fulfill their dreams of completing Advanced degrees along with their professional commitments. Along with the very successful Research degree programme – Ph.D in French & Arabic, the School has contributed to vital knowledge creation in alternative pedagogies of Foreign languages apart from many other subjects of contemporary relevance and interest.<br> 
+<br> 
+Through its Online programmes as also a robust presence on SWAYAM-IGNOU MOOCs portal of the Ministry of Education, SOFL has reached out to learners even in the Virtual model. Recognizing the need for teacher training programmes, the School offers also a Diploma in Teacher Training for German language professionals.<br> 
+<br> 
+SOFL has evolved today into a major Centre for the study and research in Foreign languages and has established itself as an important participant in generating employability as well as advanced studies in the domain.<br> 
+<br> 
+In the coming days, SOFL is planning to  merge as a centre of excellence in the field of foreign language teaching by adopting latest and innovativepedagogy and digital leaning resources.<br> 
+
+<br>
+Best wishes to SOFL<br>
+<br>
+Prof. Mohammad Saleem<br>
+<br>
+Director, SOFL</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="ContactUs"  ><p>School of Foreign Languages<br>
+IGNOU</P><br/><b>Email:</b> sofl@ignou.ac.in<br/><b>Phone:</b> 01129571631</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="SchoolBoardMembers"  >		<h4>SCHOOL BOARD MEMBERS</h4>
+		<table>
+			<tr>
+				<th>Sl. No.</th>
+				<th>Name</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>Prof. Deepanwita Srivastava, <br>
+					Director, SOFL
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Prof. Mohd. Saleem <br>
+					Faculty, SOFL
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Mr. Vikash Kumar Singh <br>
+					Faculty, SOFL
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>Mr. Shivaji Bhaskar <br>
+					Faculty, SOFL
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>Prof. Jaideep Sharma <br>
+					SOSS
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>Dr. Anamika Shukla <br>
+					SOH
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>Dr. Konde Lingaswamy, <br>
+					SOSW
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>Dr. Chitresh Soni, <br>
+					SOTST
+				</td>
+				<td>Internal SB Members</td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>Prof. C. Thirumurugan <br>
+					Deptt. of French, <br>
+					Pondicherry University 
+				</td>
+				<td>External SB Members</td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>Prof. Sayed Hasnain Akhtar, <br>
+					HoD, Deptt of Arabic, <br>
+					University of Delhi
+				</td>
+				<td>External SB Members</td>
+			</tr>
+			<tr>
+				<td>11.</td>
+				<td>Dr. Neeraj Dhankhar, <br>
+					Associate  Prof., <br>
+					Mahatma Gandhi Kashi Vidyapith, Varanasi
+				</td>
+				<td>External SB Members</td>
+			</tr>
+			<tr>
+				<td>12.</td>
+				<td>Prof. Nabin Kumar Panda, <br>
+					Deptt of East Asian Studies, <br>
+					University of Delhi
+				</td>
+				<td>External SB Members</td>
+			</tr>
+			<tr>
+				<td>13.</td>
+				<td>Prof. T. Srivani, <br>
+					Head, Deptt of Hispanic and Italian Studies, <br>
+					The English and Foreign Language University, <br>
+					Hyderabad
+				</td>
+				<td>External SB Members</td>
+			</tr>
+		</table></div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center">2007-12-07</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL1.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL1</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center">2008-11-07</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL2.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL2</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center">2009-06-23</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL3.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL3</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center">2010-06-09</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL4.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL4</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center">2010-08-11</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL5.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL5</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center">2011-01-04</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL6.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL6</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center">2011-08-25</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL7.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL7</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center">2011-10-25</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL8.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL8</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center">2012-07-13</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL9.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL9</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">10</td>
+                                                <td class="text-center">2012-10-12</td>
+                                                <td class="text-center"></td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSFOL10.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSFOL10</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">11</td>
+                                                <td class="text-center">2013-05-14</td>
+                                                <td class="text-center">Room No.2, SOFL, Block 15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-11.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-11</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">12</td>
+                                                <td class="text-center">2013-07-02</td>
+                                                <td class="text-center">Classroom No. 2, SOFL, Block 15 (D), IGNOU</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-12.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-12</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">13</td>
+                                                <td class="text-center">2013-11-12</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-13.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-13</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">14</td>
+                                                <td class="text-center">2014-05-16</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-14.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-14</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">15</td>
+                                                <td class="text-center">2014-07-04</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-15.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-15</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">16</td>
+                                                <td class="text-center">2014-10-16</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-16.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-16</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">17</td>
+                                                <td class="text-center">2015-02-23</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-17.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-17</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">18</td>
+                                                <td class="text-center">2015-09-07</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-18.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-18</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">19</td>
+                                                <td class="text-center">2016-05-27</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-19.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-19</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">20</td>
+                                                <td class="text-center">2017-02-06</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-20.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-20</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">21</td>
+                                                <td class="text-center">2017-09-11</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-21.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-21</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">22</td>
+                                                <td class="text-center">2018-02-09</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-22.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-22</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">23</td>
+                                                <td class="text-center">2018-06-01</td>
+                                                <td class="text-center">Çlassroom No. 2, SOFL Block15 (D), IGNOU.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-23.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-23</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">24</td>
+                                                <td class="text-center">2018-10-31</td>
+                                                <td class="text-center">Committee Room, SOFL, IGNOU, New Delhi.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-24.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-24</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">25</td>
+                                                <td class="text-center">2019-04-26</td>
+                                                <td class="text-center">Committee Room, SOFL, IGNOU, New Delhi.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-25.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-25</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">26</td>
+                                                <td class="text-center">2020-07-13</td>
+                                                <td class="text-center">Virtual Mode (Google Meet)</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-26.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-26</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">27</td>
+                                                <td class="text-center">2020-12-30</td>
+                                                <td class="text-center">Room of the Director, SOFL.</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-27.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-27</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">28</td>
+                                                <td class="text-center">2021-09-08</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-28.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-28</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">29</td>
+                                                <td class="text-center">2022-02-02</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-29.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-29</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">30</td>
+                                                <td class="text-center">2022-02-28</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-30.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-30</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">31</td>
+                                                <td class="text-center">2022-07-15</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-31.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-31</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">32</td>
+                                                <td class="text-center">2022-09-11</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-32.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-32</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">33</td>
+                                                <td class="text-center">2022-12-06</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-33.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-33</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center" style="width: 5px;">BSOFL</td>
+                                                <td class="text-center" style="width: 2px;">34</td>
+                                                <td class="text-center">2024-07-19</td>
+                                                <td class="text-center">Online Mode</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/BSOFL/BSOFL-34.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> BSOFL-34</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOFL/pp/deepanwita.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal227">
+                                                        <label class="fw-bold">Prof. Deepanwita Srivastava</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal227" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Deepanwita Srivastava</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>French, Tourism Studies</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>01-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Deepanwita Srivastava is Professor of French and specializes in the areas of Didactics of French Language, Open Distance & Distributed Learning, Translation & Interpretation and Travel & Mobility Studies.<br>Alumna of the Centre of French and Francophone Studies, Jawaharlal Nehru University, N.Delhi she has a long experience of teaching French at several universities and institutions of Higher Education and is counted among the pioneers of French Studies in Open Distance & Distributed Learning in India.<br>Appointed Principal Lexicographer & Rédactrice en chef (Editor in Chief) for the United Nations Project on the Hindi-French Bilingual Dictionary with the Central Hindi Directorate-- CHD, Ministry of Education, Govt. of India.<br>Designed and developed the first Master’s Program in French in India in the Open & Distance Learning Mode, created French language learning modules for SWAYAM MOOCs, and designed multiple curricula catering to Pedagogy of French as a Foreign Language–Français langue étrangère FLE in ODL models. Actively engaged with Language courses and Skill development in the FYUP Program under the National Council for Vocational Education and Training (NCVET) (Ministry of Skill Development and Entrepreneurship - MSDE), Govt of India and the E-VBAB— E Vidya Bharati Project of the Govt. of India for students from Africa.<br>Coordinator of the Ph.D program in French at the School of Foreign Languages, she has successfully guided several Doctoral research students at IGNOU as well as at other universities contributing to innovation and knowledge creation  in the domain of French Studies.<br>Widely published and Invited/Visiting scholar at several universities abroad, she has been also recipient of International Fellowships from the Shastri Indo Canadian Institute - SICI, Asian Association of Open Universities - AAOU, UNESCO, and the ICSSR.<br>Member, Advisory Boards, Comités scientifiques/Editorial Boards of International journals, Boards of Studies and Academic Councils of universities, Committees on Educational Policies, Curriculum Planning & Research Councils.<br>Actively engaged in workshops, projects and collaborations with the French Embassy in India, Indian Council of Social Sciences Research (ICSSR, Ministry of Education, Govt. of India, Indian Council of Cultural Relations, Ministry of External Affairs, Govt. of India, UNESCO, Bureau du Quebec India,  CEMCA (Commonwealth of Learning- CoL Canada), the Shastri Indo Canadian Institute (SICI), India Africa Virtual University (IAVU, Ministry of External Affairs, Govt. of India), Asian Association of Open Universities (AAOU),  Innovation Council of India and the Indian Institute of Foreign Trade, - IIFT (Ministry of Commerce, Govt. of India).<br>Major publications include “संयुक्त राष्ट्र हिंदी-फ्रासीसी कोश" (Hindi-French Bilingual Dictionary), Ministry of Education, Govt of India and four more books on Didactics of French Language, Translation and Interpretation, African Francophonie, and Mobility Studies, apart from numerous research publications as book chapters and articles in national and international journals.<br>Was conferred upon the "Prix d’excellence de l’enseignement du français”– Award for Excellence in French Studies in 2023 by the Institut français en Inde –IFI, Embassy of France in India.<br></p><p><b>Areas of Interest:</b><br>Didactics of French as a Foreign Language<br>Language Teaching/Learning in Open and Distance Mode<br>Curriculum Planning & Instructional Design in ODL<br>Mobility & Travel Studies<br>Translation & Interpretation</p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>French, Tourism Studies</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>01-02-2009</span><br/>
+                                                    </span>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOFL/pp/saleem.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal228">
+                                                        <label class="fw-bold">Prof. Mohammad Saleem</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal228" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Mohammad Saleem</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Arabic</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>10-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Arabic</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>10-02-2009</span><br/>
+                                                    </span>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOFL/pp/vikash.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal229">
+                                                        <label class="fw-bold">Vikash Kumar Singh</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal229" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Vikash Kumar Singh</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Spanish</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>12</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>23-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Spanish</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>12</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>23-02-2009</span><br/>
+                                                    </span>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOFL/pp/shivaji.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal230">
+                                                        <label class="fw-bold">Shivaji Bhaskar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal230" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Shivaji Bhaskar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Russian</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>11</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>09-08-2010</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>shivajibhaskar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p>Mr Shivaji Bhaskar is Assistant Professor in School of Foreign Languages, IGNOU. He did his MA from Centre of Russian Studies, Jawaharlal Nehru University and M Phil from the School of International studies, Jawaharlal Nehru University. Currently, he is an Assistant Professor of Russian [stage 2] at Indira Gandhi National Open University (IGNOU) where he is responsible for the supervision of all aspects of the Russian language courses.  Prior to joining IGNOU, Mr. Shivaji Bhaskar worked in the capacity of Russian language expert for various organizations of high repute. He has been a Board Member of various institutions and Universities like JNU, HPU etc. Presently he is coordinating the various Russian language programmes in ODL, SWAYAM MOOCs and Online Learning Mode. In 2023, Mr. Shivaji Bhaskar along with a team of eminent Russian language/ studies experts from Indian and Russian universities have designed & developed MA Russian Programme in ODL mode. In addition to his present academic responsibilities, he has also been entrusted with the design and development of Korean and Japanese language programme at IGNOU. His areas of special interest are Teaching of Russian as Foreign Language, Culture and Civilization of Russia, Translation of Scientific and Social Science material, Interpretation and Area Studies with special emphasis on Russian and Eurasian Studies.</p><p><ul>style="list-style-type:square;"><b>Workshop & Seminars/Webinars</b><li>A national seminar on the writings of Great Russian writer Alexander Pushkin's writings was organized by the School of Foreign Languages to mark the Russian Language Day on 6th June, 2011.</li><li>A one day seminar on “The use of computer programmes and linguistic equipments at the lessons of the Russian Language” in collaboration with the Russian Centre of Science and Culture, New Delhi was organized and conducted on 15th Sept, 2011 at the Convention Centre, IGNOU.</li><li>A national seminar on “70 Years of India-Russia Relations: The Way Forward” was organized by the School of Foreign Languages on 18th April, 2017.</li><li>A national seminar on “Russia and the Changing World” was organized by the School of Foreign Languages to mark the Russian Language Day on 6th June, 2017.</li><li>A Panel Discussion on “Great Russian writer Alexander Pushkin's writings” was organized by the School of Foreign Languages to mark the Russian Language Day on 6th June, 2019.</li><li>Webinar on Remembering Alexander Pushkin on 6th June, 2022</li><li>Launched MA Russian Programme on 25th Jan, 2023</li><li>Webinar on Alexander Pushkin: The Icon of World Literature on 6th June, 2023 was organized in collaboration with Financial University, Russia.</li></ul></p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Russian</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>11</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>09-08-2010</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span></span>, <i class="fas fa-envelope"></i> <span>shivajibhaskar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="https://www.ignou.ac.in/images/SOFL/pp/null">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal850">
+                                                        <label class="fw-bold">Ms. Sarita Sharma</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal850" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ms. Sarita Sharma</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MASL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/masl.jpg" alt="636" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts (Spanish)(MASL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MARUS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/marus.jpg" alt="637" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts (Russian) (MARUS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MAARB">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/maarb.jpg" alt="638" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts (Arabic) (MAARB)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/MAFL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mafl.jpg" alt="635" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts (French) (MAFL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/DTG">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/dtg.jpg" alt="640" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Diploma in Teaching German as a Foreign Language (DTG)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CSLCOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cslcol.jpg" alt="686" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Spanish Language &amp; Culture (CSLCOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CRULOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/crulol.jpg" alt="685" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Russian Language (CRULOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CFLOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cflol.jpg" alt="684" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in French Language(CFLOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CPEL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cpel.jpg" alt="658" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Persian Language (CPEL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CFL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cfl.jpg" alt="657" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in French Language(CFL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CALOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/calol.jpg" alt="656" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Arabic Language(CALOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CAL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cal.jpg" alt="655" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Arabic Language(CAL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CJL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cjl.jpg" alt="645" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Japanese Language(CJL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CKLC">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cklc.jpg" alt="644" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Korean Language &amp; Culture(CKLC)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CRUL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/crul.jpg" alt="643" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Russian Language (CRUL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CGL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cgl.jpg" alt="642" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in German Language (CGL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="https://www.ignou.ac.in/schools/programme/CSLC">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/cslc.jpg" alt="641" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Certificate in Spanish Language &amp; Culture (CSLC)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/37 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:22:39 GMT -->
+</html>

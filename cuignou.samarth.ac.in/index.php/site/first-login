@@ -1,0 +1,126 @@
+
+
+
+    <!DOCTYPE html>
+
+    <html lang="en">
+
+    
+<!-- Mirrored from cuignou.samarth.ac.in/index.php/site/first-login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="qaOd1UQCrct_ai3aVCZ2aJfTDeWPHTk-jthNgwx_7GzAzf6_d2D_vD49H7Q2XzhdoeRfj8ZYSHD29Rrhfg28Dg==">
+        <title>
+            Login - Samarth eGov Suite        </title>
+        <link rel="shortcut icon" href="../../assets/8bf13fb3a8651f5abaae6821c9f9cd56/img/favicon.ico"/>
+        <link href="../../assets/59a5b067003222436c9a8665d19c4ec5/bootstrap.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-modal.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-buttons.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-cards.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-dropdown.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-media-query.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-nav.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-spacing.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-tables.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/custom-yii2-vendors.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/material-design-iconic-font.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/bs-stepper.min.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/bootstrap-icons.css" rel="stylesheet">
+<link href="../../assets/4e14337d0503e127609dfb3b751132fb/css/toastr.css" rel="stylesheet">            </head>
+
+    <body>
+
+    
+    <div class="login">
+
+        <div class="container mt-3">
+            
+
+
+        </div>
+
+        
+<div class="container">
+
+    <div class="row">
+
+
+        <div class="col-lg-6 ps-lg-5">
+                    </div>
+
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-5 pe-lg-5">
+            <div class="card login mx-auto my-auto p-4 mt-5 h-auto">
+                <div class="card-header form-header text-center pt-form form-pad-2">
+                    <img class="logo-univ mb-4 mt-2" src="../../uploads/uims/83c301b11330ac6bd673f1b0c14cc7c6f7e82f979c6a2351b474b27013ce055a1_1577162116_83729031_logo.png" alt="">                                        <h3>First Time Login?</h3>
+                </div>
+                <div class="card-body pt-5">
+                    <form id="forgot-password-form" action="https://cuignou.samarth.ac.in/index.php/site/first-login?captcha=FTMyLzD2qU" method="post">
+<input type="hidden" name="_csrf" value="qaOd1UQCrct_ai3aVCZ2aJfTDeWPHTk-jthNgwx_7GzAzf6_d2D_vD49H7Q2XzhdoeRfj8ZYSHD29Rrhfg28Dg==">                    <div class="form-group field-loginform-username required">
+<label class="control-label" for="loginform-username">Username</label>
+<input type="text" id="loginform-username" class="form-control" name="LoginForm[username]" autofocus placeholder="Username" aria-required="true">
+
+<div class="help-block"></div>
+</div>                                        <div class="form-group pt-2 text-center">
+                        <button type="submit" class="btn btn-login mt-3" name="login-button">Request Verification Code</button>                    </div>
+                    <div class="forgot-pass text-center mb-3">
+                        <p class="mt-4">
+                            <a class="formp" href="login">Returning User ?</a>                        </p>
+                    </div>
+                    <br/>
+                    </form>                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Footer -->
+
+<div class="container-fluid position-fixed bottom-0 bg-light border-top footer mt-4">
+    <div class="row">
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 pt-2 text-ellipsis-scroll">
+            <p class="mb-2 mt-1"><strong>© Samarth eGov Suite</strong><span>- Designed & Developed by <a
+                            href="../../../www.du.ac.in/index.html" target="_blank" class="log-foot">University of Delhi</a> | An Initiative by <a
+                            href="../../../www.education.gov.in/en" target="_blank" class="log-foot">Ministry of Education</a></span>
+            </p>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 noneOnTablet text-right pt-2">
+            <a target="_blank" href="../../../samarth.edu.in/index.html" class="log-foot"><img class="pb-1"
+                                                                                    src="../../assets/8bf13fb3a8651f5abaae6821c9f9cd56/img/samarth-logo-min.svg">
+            </a>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <input style="display:none" id="sessionData" value="1">
+    
+    <!-- END wrapper -->
+
+    <script src="../../assets/0379fbefcc2a4f9edd1010f273dd54c2/jquery.js"></script>
+<script src="../../assets/3280b3ada47f0ba6facefd54a3e05ffb/yii.js"></script>
+<script src="../../assets/3280b3ada47f0ba6facefd54a3e05ffb/yii.validation.js"></script>
+<script src="../../assets/3280b3ada47f0ba6facefd54a3e05ffb/yii.activeForm.js"></script>
+<script src="../../assets/8316a1e4e53ff3e7e73a4768c3e824de/bootstrap.bundle.js"></script>
+<script src="../../assets/4e14337d0503e127609dfb3b751132fb/js/main.js"></script>
+<script src="../../assets/4e14337d0503e127609dfb3b751132fb/js/custom.js"></script>
+<script src="../../assets/4e14337d0503e127609dfb3b751132fb/js/perfect-scrollbar.js"></script>
+<script src="../../assets/4e14337d0503e127609dfb3b751132fb/js/toastr.min.js"></script>
+<script src="../../assets/4e14337d0503e127609dfb3b751132fb/js/bs-stepper.min.js"></script>
+<script>jQuery(function ($) {
+jQuery('#forgot-password-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Username cannot be blank."});}}], []);
+});</script>
+    </body>
+
+    
+<!-- Mirrored from cuignou.samarth.ac.in/index.php/site/first-login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:34:20 GMT -->
+</html>
+

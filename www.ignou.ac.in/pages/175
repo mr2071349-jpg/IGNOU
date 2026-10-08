@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/175 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:13:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/cdB.jpg" alt="Divisions&lt;br/&gt;(Computer Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Computer Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="175">Computer Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Activities" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Activities</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="NewInitiatives" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">New Initiatives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="CyberCrisisManagement" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Cyber Crisis Management</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="ActivityAllocation" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">Activity Allocation</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                    <div>
+                                        <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Staff</button>
+                                    </div>
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p>Computer Division is the IT services centre and is the backbone of the University for providing various computing and network services through Information & Communication Technologies (ICTs). The Division offers services to the Learners, Staff and Faculty at the Hqrs, Regional Centres, Study Centres, Partner Institutions across India and abroad. The Website of the University ‘www.ignou.ac.in’   is used for the extensive student support services in a virtual mode.</p>
+</div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><p>Computer Division is the technology backbone of the University for providing various Computing and Network services through Information & Communication Technologies (ICTs). The Division offers IT services to the Learners, Staff and Faculty at the Headquarters New Delhi, Regional and Study Centres across India and also Partner Institutions in various Counties. The Website of the University ‘www.ignou.ac.in’ is a Learners’-centric digital interface of the University that facilitates Learners’ for various Online/Offline services during their learning life cycle that starts from Admission to the Convocationin virtual mode.</p>
+<p>The Division also provides various ICTservices for e-Governance of the University that includes the HR, the Finance and Student Management. In addition, the Division develops Application Software, Website Interfacing, System & Network Administration, SAMARTH Project implementation, IT Infrastructure Procurement, Commissioning and Maintenance, e-Procurement (through CPP and  GeM), Training & Capacity Building and User Support</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="ContactUs"  ><p>The Director <br>
+Computer Division <br>
+
+Mother Teresa Bhawan <br>
+Block-A <br>
+Academic Complex <br>
+IGNOU <br>
+Maidan Garhi <br>
+New Delhi - 110068 <br>
+India<br>
++91-011-29571913,29571912<br>
+cd@ignou.ac.in
+</p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="Activities"  ><p>Following are glimpse of some of the core activities of the Division. Apart, the Division also contributes in academic and research activities of the university.</p>
+<b>Network Services </b>
+<p>Computer Division is providing various network services 24X7 through secure network gateway with 1Gbps internet bandwidth through National Knowledge Network (NKN) under NMEICT. Additional internet connectivity of 512 mbps through M/S Airtel  to ensure high availability of network services. The following are some of the network and application services: </p>
+<ul>
+<li>Local Area Network (Wired/Wifi)/ and Wide Area Network (WAN) </li>
+<li>Secure Network Gateway Setup and Allied Services</li>
+<li>Internet Bandwidth Management</li>
+<li>Security Policy & ACLs Enforcement</li>
+<li>On-demand Network Services access</li>
+</ul>
+<b>Application Services</b>
+<ul>
+<li>Email </li>
+<li>Web-based Learner & Employee Support Services</li>
+<li>Technical Support to SAMARTH Project Modules (HR, Finance and Learners)</li>
+<li>Website and allied Services</li>
+<li>Webcasting/Web-Conferencing Support</li>
+</ul>
+<b>Software Development </b>
+<p>Computer Division focuses on Software development by using Web Technologies for needs of the University, in  particular the student management for various activities those are being performed during learner life cycle by various stake holders. Some of the Software Applications (Online/Offline) developed by the Division are University Digital Dashboard, Registration Data Transfer Service (RDTS), Creation of Learners’ Central Database, Term End Examination (TEE) registration, submission of Assignment, Practical and Project marks, Student e-Profile, registry & process of Unfair Means (UFM), Convocation registration and other such related. Different Software interfaces are designed and developed for various stake holders of the University to facilitate for their needs, on demand. Division is providing technical support in implementation of SAMARTH project Modules in respect of HR, Finance and Learners. </p>
+<b>Website & Software Applications Interfacing </b>
+<p>The University website www.ignou.ac.in is hosted, updated, managed and maintained by the Division. The Data is being collected from the respective Divisions/Schools/Cells/Units and Institutes at the main campus and also from Regional Centres (RCs) across India from time to time and on demand. The Division maintains and support all 57 Regional Centres websites of the university. The Website disseminates Static/Dynamic information about the University and facilitates to access various learner and employee support services. Website facilitates, in particular for learners to know programmes on offer, admission cycles, admission process, admission status, support services available, and also download Prospectus, Hall Tickets, Assignments, Term-End-Examination results, Grade Card, Entrance Exam results, and many such. The Website is a strong interface to access various online/offline support services, Webcasting/Web conferencing, Education broadcasting TV Channels and Audio/Video programmes, </p>
+<b>Samarth Project </b>
+<p>Computer Division implemented and provides technical support in implementation of various HR, Finance and Learners’ modules of SAMARTH Project. Majority of SAMARTH Project Modules have been implemented at the University. </p>
+<b>System & Network Administration </b>
+<p>Computer Division provides all computing, network and application services (Online/Offline) of the University  through the Servers and Storage Devices hosted at Server room of the Division. The Division performs System and Network administration in installation, configuration and commissioning of various Computing, Storage and Network devices of Windows and Open source platforms along with network gateway infrastructure. VLANs have been in place to manage and monitor Building/Block wise LANs. The NKN link of 1 Gbps and Airtel link of 512  Mbps are terminated at the server room. Back up support for Webcasting and Web Conferencing is regularly provided for all virtual meetings on demand throughout the year. </p>
+<p><b>IT Infrastructure Procurement, Commissioning  & Maintenance </b>
+<p>Computer Division is playing vital role in establishment of IT Infrastructure such as Computers, Printers, UPSs, Scanners, Projectors and other peripheral devices to Faculty & Staff at Hqrs, Labs & Training Centres, Regional Centers across India and also to Study centres. All these are connected through wired/wireless network to access various internet/intranet application services. The main Campus at New Delhi has a LAN (wired/wireless) of approximately 3000 network nodes and segmented as Virtual LANs (VLANs) for secure access.  </p>
+<b>e-Procurement( CPP and GeM)</b>
+<p>Computer Division is facilitating and providing technical support to various departments of the University for Purchases though e-Procurment (CPP and GeM).</p>
+<b>Training & Capacity Building</b>
+<p>Computer Division is imparting technical training to the Staff of different cadres on IT Tools, Technologies and Applications. The Division organized a  National workshop on "Technology-centric Framework for Open University System Administration & Management. </p>
+<b>User Support</b>
+<p>The Division provides technical support to all stakeholders of the University at Main Campus, Regional Centres and Learners. The Division is like a technical interface to all Schools, Divisions, Centres and others of the university. The Division has a Helpdesk facility to receive and address technological grievances. </p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="NewInitiatives"  ><p>The Division has taken up the significant new initiatives during last couple of years and implemented the following:<ol type="I">
+<li>Procured Desktop Computers (AIO), Printers and UPSs.</li>
+<li>Established 10 Digital Classrooms and 5 presentation rooms facility</li>
+<li>Established Video conferencing facility at VCO and COE.</li>
+<li>Established Video-Wall at Convention Centre.</li>
+<li>Established CCTV Surveillance System</li>
+<li>Established Campus Networking with WiFi and Wired through Fiber Backbone</li>
+<li>Procured MS-Office 2024 Licenses.</li></ol></p>
+<p><b>Initiative(s) in Progress:</b></br><ol type="I">
+<li>Procurement of Teaching-learning Licenses from Google</li></ol></p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="CyberCrisisManagement"  ><p>Cyber Crisis is a situation, where the IT Systems and Services fail to function for the purpose, due to security breach, vulnerability and even misuse that leads to a Cyber Attack ; as a result the business processes of the Institutions / Organizations are getting affected. </p>
+<p>As Information and Communication Technologies (ICTs) usage for various business processes of the Organizations is increasing in multifold, the Hackers / Attackers are playing a vital role to deface the Websites / Portals, defunct the Systems / Services, steal sensitive Data / Information and many more. </p>
+<p>Cyber Crisis Management plays a vital role on not only to address the Cyber crisis, but also apply various proactive measures to protect the IT Systems / Services and ensure their high availability and accessibility. </p>
+<p>Cyber Crisis Management Plan (CCMP) provides a strategic framework to protect the IT Systems / Services, ensure high availability & accessibility, assess and identify the security breaches and risks, respond to the cyber security incidents, restore with a recovery plan, provide training and awareness and finally to have a continuous cyber security improvement plan. </p>
+<p>Dr A. Murali M Rao, Director Computer Division has been nominated as a Chief Information Security Officer (CISO) of the University. </p>
+<b>Internet Usage Best Practices</b>
+<p>The following are some best practices to be followed</p>
+<ol type="i">
+<li>Set Strong Passwords atleast 8 to 10 characters length (mix of Alphabets (lower-case and upper-case), Numerals and Special Characters (!,@,#,$,%, etc) in all Online Portals/Websites, which are sensitive like Internet Banking, Email and Others such. </li>
+<li>Don’t save such Passwords in any handheld Electronic Devices like Mobile Phones, Desktop Computers, Laptops, Tablet PCs, etc.</li>
+<li>Set all Financial Limits at Minimum, while using Internet Banking. Can change limits on demand, when needed.</li>
+<li>Avoid keeping big Amounts in Savings Bank A/C for a long time, if you are using Internet Banking; instead do Fixed Deposit, even for a shorter period. </li>
+<li>Avoid use of Credit/Debit cards for payment of smaller amounts; instead use Cash </li>
+<li>Avoid use of Public/Free WiFi Networks for Financial or any other Online Transactions, which are Sensitive.</li>
+<li>Avoid Downloading of Mobile Apps from unauthorized Websites and use minimum essential Mobile Apps.</li>
+<li>Don’t open Emails, which are suspicious; instead simply delete. Keep it in mind that nothing is free.</li>
+<li>Avoid sharing of sensitive personal information through insecure Websites (doesn’t have HTTPS Protocol. For Ex  a secure Website address is like : https://website-address).</li>
+<li>Avoid sharing of any Text/Audio/Video clips, which are controversial over Social Media or any other Networks. Identity is well Captured.</li>
+<li>Minimize use of Smart Electronic Devices, else they will take away your Smartness and made more Dependent.</li>
+<li>Report a Cyber Crime Complaint, if any on ‘National Cyber Crime Reporting Portal’ (<a href="#" target="_blank">https://www.cybercrime.gov.in/ </a>), Govt. of India.</li>
+</ol>
+At Last, but not Least <br>
+<b><q>Controlled, Cautious and Conscious Digital Access Leads Life Comfortable</q></b>
+<b>Internet Usage Best Practices</b></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="ActivityAllocation"  ><p><b>Director: Dr A. Murali M Rao, M.Tech. PhD (Computer Science & Engineering) </b><br>
+Contact Nos. 011-29571912/1913<br>
+<table width="100%">
+<tr>
+<th>S.No.</th>
+<th>Activity</th>
+<th>Officials</th>
+<th>Contact Numbers</th>
+</tr>
+<tr>
+<td>1</td>
+<td>
+System & Network Administration
+</td>
+<td>Sh. L.M. Pant, Dy. Director<br>
+Sh. Yashpal Bhasker, Executive(DP)<br>
+Sh. Rajesh Kumar, Executive(DP)<br>
+Sh. Gopal Singh, Executive(DP)<br>
+</td>
+<td>011-29571979 / 1916 /1939</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Website & 57 Regional Centres Websites Operations</td>
+<td>
+Ms. Veena Chauhan, Asst.Director<br>
+</td>
+<td>011-29571919/ 1915</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Campus IT Infrastructure Maintenance & Technical Support</td>
+<td>
+Dr. V V Upadhyay, Dy. Director<br>
+Sh. Ujjal Poddar, Executive(DP)<br>
+Sh. Gopal Singh, Executive(DP)
+</td>
+<td>
+011-29571979/ 1928
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Software Design and Development</td>
+<td>Sh. Vineet Kumar, Asst. Executive(DP)<br>
+Sh. Mohammad Izhar Azad, Asst. Executive(DP)
+</td>
+<td>
+011-29571931
+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>
+SAMARTH PROJECT  (UMS) Technical Support
+</td>
+<td>Sh. Pankaj Kumar,  Dy. Director<br>
+Sh. Sanjay Singh, Executive(DP)<br>
+Sh. Ram Sanjeeva, Asst. Executive(DP)
+</td>
+<td>
+011-29571925
+</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Store  Operations & Maintenance</td>
+<td>Sh. Bhaskar Tripathi, Asst. Director<br>
+Ms. Poonam Loomba, Executive (DP)
+</td>
+<td>
+011-29571917/ 1934
+</td>
+</tr>
+<tr>
+<td>7</td>
+<td>e-Procurement (through CPP & GeM)</td>
+<td>Sh. Pankaj Kumar Dy. Director, Nodal Officer
+</td>
+<td>
+011-29571925/ 1917
+</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Administration</td>
+<td>Mr. Sawan Chahal, Asst. Registrar<br>
+Sh. Vipin Karla, PS to Director<br>
+Sh. Chandra Prakash, Assistant
+</td>
+<td>011-29571945<br>
+011-29571924<br>
+011-29571913<br></td>
+</tr></table></p>
+
+</div>
+                                    </div>
+                                    
+                                    
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                
+                                                <th>Staff Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CD/pp/amurali.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal278">
+                                                        <label class="fw-bold">Dr. A Murali M Rao</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal278" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. A Murali M Rao</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Director</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Computer Science</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Brief Profile:</th>
+                                                                            <td><p style="text-align:center"><b>Dr A. Murali M Rao, <br/>M.Tech., PhD</b><br/>
+(Computer Science & Engineering) </p>
+<p>Dr Rao is currently working as Director of Computer Division, Indira Gandhi National Open University, New Delhi. </p>
+<p>He received Ph.D in Computer Science (System & Network Security) from Central University of Hyderabad, M.Tech(Computer Science) from the Jawaharlal Nehru Technological University, Hyderabad and B.Tech(Computer Science & Engineering) from Nagarjuna University, Andhra Pradesh, India. </p>
+<p>Dr. Rao has over 25 years of professional experience in the field of Information & Communication Technologies. He has Proficiency in Design, Development and Management of Integrated Software Systems in a networked environment. He executed various projects in Commissioning of modern Computing & Network Systems at various Organizations, where worked. </p>
+<p>As an Academician, taught the Students of M.Tech, MCA, MBA and M.Sc Programmes. He guided many student projects, designed various Academic and Training Programmes. </p>
+<p>As a Researcher, Dr Rao, is working in the area of System & Network Security, Cloud Computing & Virtualization, and Emerging Educational Technologies. Many of his Research papers have been published in IEEE Computer Science, ACM, Scientific Journal on Education Technology and others. Sharing National and International Conferences daises as a Session Chair, Keynote Speaker, and also presented several Research papers.</p>
+<p>As a Domain Expert, Dr Rao talks through DD Gyan Darshan Education TV Channel and other Digital Platforms on various themes, in linkage with the current and emerging Information & Communication Technologies (ICTs). Some of the themes presented are on emerging Educational Technologies, Cyber Security, IT Act & punishable offenses, Artificial Intelligence, Learning Analytics, IoT, Industry 4.0, Online Banking, Cyber Attack Landscape, Data Science and many others. </p>
+<p>Dr. Rao is a Senior Member of IEEE and contributing to its Computer Society and Technology & Engineering Management Society Chapters of Delhi Section in various capacities as an Executive Committee Chairperson, Secretary and a Member. He is a Member of E-Learning Sectional Committee (LITD-19) of Bureau of Indian Standards (BIS), the National Standards Body of India. </p>
+<p>Prior to the current position, he worked as a Head, Joint Director of Computer Division at IGNOU and also associated with the Central University of Hyderabad, NSL and others as an IT Professional in various capacities.</p>
+<p style="text-align:right;"><b>Dr. A. Murali M Rao</b></p></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                <a class="btn btn-primary btn-sm" target="_blank" href="https://www.ignou.ac.in/viewFile/CD/profile/DrAMurliMRao-Resume.pdf">
+                                                                                    <i class="fa fa-paperclip text-white" aria-hidden="true"></i> CV
+                                                                                </a>
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Director</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Computer Science</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CD/pp/vvaradhi.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal279">
+                                                        <label class="fw-bold">Dr. Vidya Varadhi Upadhyay</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal279" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Vidya Varadhi Upadhyay</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Director </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Computer Science</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Director </span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Computer Science</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CD/pp/pnakaj.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal280">
+                                                        <label class="fw-bold">Mr. Pankaj Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal280" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Pankaj Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Director</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Computer Science</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Director</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Computer Science</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CD/pp/pant.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal281">
+                                                        <label class="fw-bold">Mr. Lalit Mohan Pant</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal281" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Lalit Mohan Pant</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Deputy Director</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Computer Science</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Deputy Director</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Computer Science</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CD/pp/bhaskar.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal283">
+                                                        <label class="fw-bold">Mr. Bhaskar Tripathi</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal283" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Bhaskar Tripathi</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Director</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Computer Science</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Director</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Computer Science</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CD/pp/sawan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal284">
+                                                        <label class="fw-bold">Mr. Sawan Chahal</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal284" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Sawan Chahal</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td></td>
+                                                                        </tr>
+                                                                        
+                                                                        
+
+                                                                        
+                                                                        
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span></span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/175 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:13:24 GMT -->
+</html>

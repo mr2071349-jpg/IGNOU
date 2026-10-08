@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/47 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:24:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/sotstB.jpg" alt="School of Studies&lt;br/&gt;(School of Translation Studies and Training)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>School of Studies<br/>(School of Translation Studies and Training)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">School of Studies</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="34" aria-selected="true">School of Agriculture</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="32" aria-selected="true">School of Continuing Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="35" aria-selected="true">School of Computer and Information Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="31" aria-selected="true">School of Education</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="36" aria-selected="true">School of Extension and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="33" aria-selected="true">School of Engineering &amp; Technology</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="37" aria-selected="true">School of Foreign Languages</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="38" aria-selected="true">School of Gender and Development Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="28" aria-selected="true">School of Humanities</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="39" aria-selected="true">School of Health Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="40" aria-selected="true">School of Inter-Disciplinary and Trans-Disciplinary Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="41" aria-selected="true">School of Journalism and New Media Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="42" aria-selected="true">School of Law</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="43" aria-selected="true">School of Management Studies</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="44" aria-selected="true">School of Performing and Visual Arts</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="29" aria-selected="true">School of Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="30" aria-selected="true">School of Social Sciences</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="45" aria-selected="true">School of Social Work</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="46" aria-selected="true">School of Tourism and Hospitality Service Management</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="47" aria-selected="true">School of Translation Studies and Training</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="48" aria-selected="true">School of Vocational Education and Training</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="25">School of Studies</a>
+                        </li>
+                        <li>
+                            
+                            <a href="47">School of Translation Studies and Training</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Aboutus" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">About us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Objectives" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Objectives</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="History" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">History</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMembers" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">School Board Members</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="SchoolBoardMinutes" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">School Board Minutes</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    
+                                    
+                                    <li>
+                                        <button class="nav-link position-relative" id="programmes" data-bs-toggle="pill" data-bs-target="#pills-programmes"
+                                                type="button" role="tab" aria-controls="pills-programmes" aria-selected="false">Our Programmes</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Faculty / Staff</button>
+                                        </div>
+                                    
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><p align="text">School of Translation Studies and Training was established in 2007 and become operational in 2009. The priority areas of the School include academic, research and training programmes in the field of translation. Translation is relatively new discipline in India. As a discipline which is both theory and application oriented, the School constantly strives to integrate teaching learning with research and training in the field of translation. The School works closely in the areas of tradition of translation, developing indigenous knowledge, skill upgrading and skill building in translation among Indian languages, developing translation pedagogy to link Translation to communication of Modern knowledge at grass root level and use of Technology (Machine Translation) in the field of translation.</p>
+
+</div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Aboutus"  ><p align=justify><b>Key Features:</b>	
+<ul><li><b>Academic Excellence:</b></li>
+<ul><li>SOTST offers a variety of programs ranging from certificate to doctoral levels, designed to meet the needs of learners, working professionals, and researchers. The courses emphasize both theoretical foundations and practical applications in Translation and Translation Studies.</li></ul>
+<li><b>Refinement of curricula:</b></li>
+<ul><li>Programmes offered by the School are revised from time to time and advancement in the discipline and areas of studies is taken into account to give a new shape of the curricula of the programmes.</li></ul>
+<li><b>Flexible Learning:</b></li>
+<ul><li>True to IGNOU’s Open and Distance Learning (ODL) model, SOTST provides flexible study options, enabling learners to learn at their own pace while balancing personal and professional commitments.</li></ul>
+<li><b>Programmes Offered:</b></li>
+<ul><li>Ph.D. in Translation Studies (PHDTT) - in regular mode.
+</li><li>Master of Arts (Translation Studies) (MATS) in both ODL and Online modes)
+</li><li>Post Graduate Diploma in Translation (PGDT) in ODL mode.
+</li><li>Post Graduate Diploma in Sindhi-Hindi-Sindhi Translation (PGDSHST) in ODL mode.
+</li><li>PG Certificate in Bangla-Hindi Translation (PGCBHT) in ODL mode
+</li><li>PG Certificate in Malayalam-Hindi Translation (PGCMHT) in ODL mode
+</li><li>Anuvad evam Rupantaran mein Snatakottar Pramaan-Patra (PGCAR) in ODL mode</li></ul>
+<li><b>Global Reach:</b></li> 
+<p align="justify">With its learner-centric approach, SOTST attracts learners not only from India but also from abroad, making it a globally recognized center for Translation Studies through its MATS Programme under E-Vidya Bharti project of MoEA, Govt. of India.</p></p>
+
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Objectives"  ><p align="justify"><b>Vision:</b> The School of Translation Studies and Training (SOTST) perceives the idea of exploring the avenues and preservation of knowledge by qualitative endeavors in teaching and research relating to the translation studies and other allied areas. To actualize this idea, the School intends to offer relevant academic programmes and research pursuits to contribute to the area of knowledge and strengthen and broaden the innovative perspectives in the exchange and transmission of the invested and available research and knowledge, besides enriching, enhancing the competence of human resources to perform the various activities relating to translation.</p>
+<p align="justify"><b>Mission:</b> The Mission of the School of Translation Studies and Training is to strengthen the objectives of the University to reaching the unreached and also to contribute to the area of knowledge through teaching, research and extension activities. The committal attitude to this motivates the School to engage itself in the advancement of innovative exercises and research endeavors pertaining to translation studies, inter-disciplinary studies and cultural studies and comparative literature among others. This also involves the School to pay much attention to maintain high quality and standard in the research activities and critical insight to the learners studying various programmes offered by SOTST. In addition to that, the School makes the best efforts for motivation to employability and practical perspectives of studies to the learners to make themselves as good translation practitioners and prove responsible citizens of the nation.</p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="History"  ><p align="justify">Translation has been associated with the existence of human being. However, before the evolution of language and literature, the unwritten literature or oral literature, the human communication was undertaking through the mode of translation. The very idea of conceiving the thought and ideas has been be co-related with the specific form of translation and that may be treated as conception and construct of ideas, views and transmitting them from one person to the other. As the father of Modem Western Philosophy Rene Descartes, propounded the philosophy of rationalism with the statement <i>cogito-ergo-sum</i> which means "I think therefore I am." Translation is also communicated with these perceptions which explore the communication and exchange of ideas and messages from one language to the other, one person to the other. This crosses with all kinds of boundaries relating to nation, identity, sex, caste and creed. Thus, it has become a necessity for the very existence of human being. As there are thousands of languages in the world and cultural and linguistic exchange is mandatory among the people, therefore, as Susan Bassnett said that translation is a fundamental act of human exchange. Translation is not meant to serve the purpose of linguistic exercise, but act as a means of communication among educated and literate one but also acts as a mode of communication among the common masses, even the uneducated ones.</p>
+<p alignm="justify">With the evolution of translation as an act of linguistic exchange and thereafter the mode of transmission of messages and information, translation also evolved as a discipline of studies with occupying a specific space in the areas of studies pertaining to interdisciplinary study, literature and comparative study. This also acted as a means of cultural and political as hegemonies; besides occupying a significant position in the form and construction of power structure.</p>
+<p alignm="justify">Keeping in view, the emergence of translation studies as a discipline and its significant place in the domain of knowledge, cutting across the nations, cultures and other boundaries. Translation Studies has become not only an important affair but also a social and academic obligation of our country especially when the nation is having the nature of multi-lingual and multi-cultural societies.</p>
+<p alignm="justify">In addition to that, the National Knowledge Commission also underlined the necessity of the activities of translation in Indian perspective for exchange and expansion of knowledge among the various languages and societies. This was endorsed by the National Translation Mission that supported the idea of translating and making the knowledge texts available to the various sections of the society.</p>
+<p alignm="justify">The act of translation is associated with the extension and exchange of knowledge, academic enrichment and contribution to the areas of translation by research and other academic pursuits.</p>
+<p alignm="justify">This was the background of the idea of formation of Translation as a Discipline of Studies and creation of School of Studies i.e.; School of Translation Studies and Training (SOTST) in IGNOU. Since then various efforts have been made with research and academic endeavor of translation practice and translation study as a study of literature. The National Education Policy, 2020 intends to focus on the necessity of translation studies in the expansion of knowledge, educational empowerment in the nation building. The policy proposes to establish an Indian Institute of Translation and Interpretation (IITI). The policy has a major focus on education in regional languages and the School also offers programmes relating to translation between Hindi and Regional languages.</p>
+<p alignm="justify">The Mission is to get the best out of students and expose them to gain and bring out their knowledge for contribution towards domain knowledge and research in this discipline for the growth of the nation.</p>
+
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><h5>Director's message</h5>
+<p align="justify">Welcome to the <b>School of Translation Studies and Training (SOTST), IGNOU,</b> a vibrant academic space where languages, cultures, and knowledge converge to create new possibilities.<br>
+<br>
+In an increasingly interconnected world, translation has emerged as a transformative force that transcends linguistic and structural boundaries and fosters dialogue across cultures, disciplines, and communities. It is no longer a mere transfer of words from one language to another; it is a creative and intellectual engagement that enables the circulation of ideas, preserves cultural diversity, and democratizes access to knowledge.<br>
+<br>
+The School of Translation Studies and Training is committed to nurturing competent translators, interpreters, researchers, and language and content professionals equipped to meet the evolving demands of the twenty-first century. Through innovative academic programmes, interdisciplinary research, and skill-oriented training, we strive to create professionals who can contribute meaningfully to education, technology, media, publishing, and the creative industries.<br>
+<br>
+India's extraordinary multilingual heritage offers immense opportunities for translation as a vehicle for national integration and global engagement. In alignment with the vision of the National Education Policy (NEP 2020), our School seeks to strengthen knowledge exchange among Indian languages while promoting dialogue between Indian and international intellectual traditions. We believe that translation is central to preserving cultural memory, promoting inclusivity, and ensuring equitable access to education and information.<br>
+<br>
+At SOTST, we encourage our learners to explore translation not only as a profession but also as a powerful instrument of social transformation and intercultural understanding. Our range of programmes from PG certificate programmes to Ph.D programmes help our learners to understand the very concept and various dynamics of translation and translation studies including applied translation and translation as a field of research and education. Our learner-centric approach, flexible open and distance learning system, digital resources, and research initiatives create an environment where academic excellence and professional competence flourish together.<br>
+<br>
+Our school is committed to the design, development and delivery of student-centric pedagogy. Learners from diverse backgrounds, including those in remote, far-flung and underserved regions, get equal opportunity to study Translation Studies and allied areas. High quality Self Learning Material (SLM) provides theoretical and practical knowledge of Translation and Translation Studies to learners exploring career opportunities as an Academic, Official Language Officer, and Translation Officer, Media personnel and content creator among others. In view of IGNOU’s vision and mission, the School emphasizes access, equity, quality, and flexibility in academic pursuits.<br>
+<br>
+As you become a part of this academic community, I invite you to embrace the opportunities that translation offers in a rapidly changing world shaped by globalization, information and communication technology, artificial intelligence, and digital communication. Together, let us build bridges across languages and cultures, enrich intellectual exchange, and contribute to a more inclusive and knowledge-driven society.<br>
+<br>
+I wish all our learners, faculty members, researchers, and collaborators every success in their academic and professional journey.<br>
+<br>
+<b>With best wishes,<br/>
+Director<br/>
+School of Translation Studies and Training (SOTST)</b></p>
+
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="SchoolBoardMembers"  >
+<title>School Board Members - SOTST</title>
+
+<h5 align="center">School Board Members List of SOTST</h5>
+
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+
+    <tr>
+        <th colspan="3" align="left">
+            <h5>Members from the School</h5>
+        </th>
+    </tr>
+
+    <tr>
+        <th width="8%">S.No.</th>
+        <th width="72%">Name & Designation</th>
+        <th width="20%">Position</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Prof. Jyoti Chawla, SOTST, IGNOU</td>
+        <td>Chairperson</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Prof. Rajendra Prasad Pandey, SOTST, IGNOU</td>
+        <td>Member</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Prof. Harish Kumar Sethi, SOTST, IGNOU</td>
+        <td>Member</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Dr. Chitresh Soni, SOTST, IGNOU</td>
+        <td>Member</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>Dr. Ram Kishor, SOTST, IGNOU</td>
+        <td>Member</td>
+    </tr>
+
+    <tr>
+        <th colspan="3" align="left">
+            <h5>Internal Members</h5>
+        </th>
+    </tr>
+
+    <tr>
+        <th>S.No.</th>
+        <th colspan="2">Name & Designation</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td colspan="2">Prof. Pema Eden Samdup, Professor, SOMS, IGNOU</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td colspan="2">Dr. Amit Kumar, Associate Professor, SOJNMS, IGNOU</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td colspan="2">Dr. Tangjokhombi Akoijam, Associate Professor, SOTHSM, IGNOU</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td colspan="2">Dr. Ashok Kumar, Assistant Professor, SOSS, IGNOU</td>
+    </tr>
+
+    <tr>
+        <th colspan="3" align="left">
+            <h5>External SB Members</h5>
+        </th>
+    </tr>
+
+    <tr>
+        <th>S.No.</th>
+        <th colspan="2">Name & Address</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td colspan="2">
+            <b>Prof. Girish Nath Jha</b><br>
+            (Ex. Chairman, Commission for Scientific and Technical Terminology)<br>
+            School of Sanskrit and Indic Studies,<br>
+            Jawaharlal Nehru University,<br>
+            New Delhi - 110067
+        </td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td colspan="2">
+            <b>Prof. Ravi Prakash Tekchandani</b><br>
+            (Ex. Director, National Council for Promotion of Sindhi Language (NCPSL))<br>
+            Department of Indian Languages & Literary Studies,<br>
+            1st Floor, Tutorial Building, Faculty of Arts,<br>
+            University of Delhi,<br>
+            Delhi - 110007
+        </td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td colspan="2">
+            <b>Prof. Pushpa Rani</b>, Head<br>
+            Department of Hindi,<br>
+            Kurukshetra University,<br>
+            Kurukshetra - 136119 (Haryana)
+        </td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td colspan="2">
+            <b>Prof. Prabhakar Singh</b><br>
+            Department of Hindi,<br>
+            Banaras Hindu University,<br>
+            Varanasi - 221005 (Uttar Pradesh)
+        </td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td colspan="2">
+            <b>Prof. Arul Mozhi</b>, Head<br>
+            Centre for Applied Linguistics and Translation Studies,<br>
+            Central University of Hyderabad,<br>
+            Hyderabad - 500046 (Telangana)
+        </td>
+    </tr>
+
+</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="SchoolBoardMinutes"  ><ul>
+  <li><a href="../viewFile/sotst/school_board_minutes/45th_SBM.pdf" target="_blank">45th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/44th_SBM.pdf" target="_blank">44th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/43rd_SBM.pdf" target="_blank">43rd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/42nd_SBM.pdf" target="_blank">42nd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/41st_SBM.pdf" target="_blank">41st School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/40th_SBM.pdf" target="_blank">40th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/39th_SBM.pdf" target="_blank">39th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/38th_SBM.pdf" target="_blank">38th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/37th_SBM.pdf" target="_blank">37th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/36th_SBM.pdf" target="_blank">36th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/35th_SBM.pdf" target="_blank">35th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/34th_SBM.pdf" target="_blank">34th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/33rd_SBM.pdf" target="_blank">33rd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/32nd_SBM.pdf" target="_blank">32nd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/31st_SBM.pdf" target="_blank">31st School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/30th_SBM.pdf" target="_blank">30th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/29th_SBM.pdf" target="_blank">29th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/28th_SBM.pdf" target="_blank">28th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/27th_SBM.pdf" target="_blank">27th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/26th_SBM.pdf" target="_blank">26th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/25th_SBM.pdf" target="_blank">25th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/24th_SBM.pdf" target="_blank">24th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/23rd_SBM.pdf" target="_blank">23rd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/22nd_SBM.pdf" target="_blank">22nd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/21st_SBM.pdf" target="_blank">21st School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/20th_SBM.pdf" target="_blank">20th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/19th_SBM.pdf" target="_blank">19th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/18th_SBM.pdf" target="_blank">18th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/17th_SBM.pdf" target="_blank">17th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/16th_SBM.pdf" target="_blank">16th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/15th_SBM.pdf" target="_blank">15th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/14th_SBM.pdf" target="_blank">14th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/13th_SBM.pdf" target="_blank">13th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/12th_SBM.pdf" target="_blank">12th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/11th_SBM.pdf" target="_blank">11th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/10th_SBM.pdf" target="_blank">10th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/9th_SBM.pdf" target="_blank">9th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/8th_SBM.pdf" target="_blank">8th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/7th_SBM.pdf" target="_blank">7th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/6th_SBM.pdf" target="_blank">6th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/5th_SBM.pdf" target="_blank">5th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/4th_SBM.pdf" target="_blank">4th School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/3rd_SBM.pdf" target="_blank">3rd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/2nd_SBM.pdf" target="_blank">2nd School Board Meeting</a></li>
+  <li><a href="../viewFile/sotst/school_board_minutes/1st_SBM.pdf" target="_blank">1st School Board Meeting</a></li>
+</ul></div>
+                                    </div>
+                                    
+                                    
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                <th>Faculty / Staff Details</th>
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOTST/pp/JyotiChawla.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal900">
+                                                        <label class="fw-bold">Prof. Jyoti Chawla</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal900" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Jyoti Chawla</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        <tr>
+                                                                            <th>Additional Designation:</th>
+                                                                            <td>Director</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Translation Studies, Gender in Translation, Cultural Translation, Modern Hindi Language and Literature</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>03-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571623</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>jyoti_chl@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span>
+                                                        <strong> Additional Designation:</strong>
+                                                        <label>Director<br/></label>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Translation Studies, Gender in Translation, Cultural Translation, Modern Hindi Language and Literature</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>03-02-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571623</span>, <i class="fas fa-envelope"></i> <span>jyoti_chl@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOTST/pp/Prof.RajendraPrasad.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal901">
+                                                        <label class="fw-bold">Prof. Rajendra Prasad Pandey</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal901" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Rajendra Prasad Pandey</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Translation Studies,Literary Translation, Theories of Translation, Western Literary Criticism, Indian Poetics, Comparative Literature</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>11-02-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571622 </span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>rajedrapandey@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Translation Studies,Literary Translation, Theories of Translation, Western Literary Criticism, Indian Poetics, Comparative Literature</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>11-02-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571622 </span>, <i class="fas fa-envelope"></i> <span>rajedrapandey@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOTST/pp/Prof.HarishKumarSethi.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal902">
+                                                        <label class="fw-bold">Prof. Harish Kumar Sethi </label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal902" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prof. Harish Kumar Sethi </h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Translation Studies, Lexicography, Technical Terminology, Administrative Translation, Medieval Hindi Poetry, Functional Hindi, Distance Education</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>14</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>29-01-2009</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571625</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>hksethi@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Translation Studies, Lexicography, Technical Terminology, Administrative Translation, Medieval Hindi Poetry, Functional Hindi, Distance Education</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>14</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>29-01-2009</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571625</span>, <i class="fas fa-envelope"></i> <span>hksethi@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOTST/pp/Dr.ChitreshSoni.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal903">
+                                                        <label class="fw-bold">Dr. Chitresh Soni</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal903" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Chitresh Soni</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Translation Studies, Machine Translation, Sanskrit Studies, Indian Knowledge Systems, Linguistics, Indian Philosophy, Classical Indian Religion</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>09-08-2021</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571628</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>chitreshsoni@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Translation Studies, Machine Translation, Sanskrit Studies, Indian Knowledge Systems, Linguistics, Indian Philosophy, Classical Indian Religion</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>09-08-2021</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571628</span>, <i class="fas fa-envelope"></i> <span>chitreshsoni@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOTST/pp/Dr.RamKishor.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal904">
+                                                        <label class="fw-bold">Dr. Ram Kishor</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal904" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Dr. Ram Kishor</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Professor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Specialization:</th>
+                                                                            <td>Translation Studies</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Academic Level:</th>
+                                                                            <td>10</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Joining:</th>
+                                                                            <td>27-07-2023</td>
+                                                                            
+
+                                                                            
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571629</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>ramkishor@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Professor</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Specialization: </strong><span>Translation Studies</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Academic Level: </strong> <span>10</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <strong> Joining: </strong><span>27-07-2023</span><br/>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571629</span>, <i class="fas fa-envelope"></i> <span>ramkishor@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/SOTST/pp/manju.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal905">
+                                                        <label class="fw-bold">Mrs. Manju Sharma</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal905" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mrs. Manju Sharma</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Assistant Registrar</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>011-29571627</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>manju@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Assistant Registrar</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>011-29571627</span>, <i class="fas fa-envelope"></i> <span>manju@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-programmes" role="tabpanel" aria-labelledby="programmes">
+                                        <div class='row row-cols-md-4 row-cols-lg-5 row-cols-xl-5 aboutDashboard'>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PHDTT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/phdtt.jpg" alt="480" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Ph.D. in Translation Studies(PHDTT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MATS">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/mats.jpg" alt="478" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts(MATS)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/MATSOL">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/matsol.jpg" alt="479" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Master of Arts(MATSOL)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGDT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdt.jpg" alt="833" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma in Translation(PGDT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGCBHT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcbht.jpg" alt="672" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">PG Certificate in Bangla Hindi Translation Programme(PGCBHT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGCAR">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcar.jpg" alt="558" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">PG Certificate(Anuvaad evam Rupantaran)(PGCAR)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGCMHT">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgcmht.jpg" alt="671" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Certificate in Malayalam-Hindi Translation(PGCMHT)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4 pr-0">
+                                                <div class='abourCard'>
+                                                    <div class="project-left bg-dark"></div>
+                                                    <div class="project-right bg-dark"></div>
+                                                    <a href="../schools/programme/PGDSHST">
+                                                        <article>
+                                                            <div class="post-img">
+                                                                <img src="../images/programmes/pgdshst.jpg" alt="673" class="img-fluid" title="Ignou"/>
+                                                            </div>
+                                                            <div class='col'>
+                                                                <h2 class="title progCard">Post Graduate Diploma(Sindhi-Hindi-Sindhi Translation)(PGDSHST)</h2>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/47 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:24:40 GMT -->
+</html>

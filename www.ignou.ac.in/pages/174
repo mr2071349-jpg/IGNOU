@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.ignou.ac.in/pages/174 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:13:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>IGNOU</title>
+    <meta content="Official University Website" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="../webjars/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.scss" rel="stylesheet" type="text/css">
+    <link href="../webjars/font-awesome/6.5.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../webjars/datatables/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+    <!--    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">-->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js543f?id=G-PJ9SESH8GN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJ9SESH8GN');
+    </script>
+</head>
+<body>
+<div>
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var pageLang = $("html").attr("lang");
+            //console.log(pageLang);
+            if(pageLang=="hi"){
+                $('span:contains("घर")').text("होम");
+            }
+
+            $.getJSON("/api/menu/Top", function (data) {
+                $.each(data, function (key, value) {
+                    if (value[2] == 'Announcements') {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span>' + value[1] + ' ' + value[2] +
+                            '<label class="newLink1 badge badge-pill" style="margin: -14px -11px; position: absolute;">New</label></span></a>' +
+
+                            '</li>');
+                    } else {
+                        $("#topMenu").append('<li class="topMenu" class="nav-item">' + '<a class="nav-link" href="/pages/' + value[0] + '"><span id=' + value[2] + '>' + value[1] + ' ' + value[2] + '</span></a>' +
+                            '</li>');
+                    }
+                    
+
+                    
+                })
+            })
+setTimeout(function() {
+        // Find the specific bad translation
+        $('span:contains("घर")').text("होम");
+    }, 0); // Adjust delay based on load speed
+
+        });
+
+     $(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  var pageLang = $("html").attr("lang");
+            console.log(pageLang);
+});
+         </script>
+         
+     
+    <!-- ======= Header ======= -->
+    <div id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="social-links d-flex">
+                <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="../../www.youtube.com/%40ignou" class="instagram" title="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="weather">
+                <a href="../../aws.imd.gov.in_8091/display/index76bd.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                    <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+            </div> 
+            <div class="d-none d-md-flex ms-auto align-items-end">
+               <a href="#"><i class="fa-solid fa-search object">
+                    <script async src="../../cse.google.com/cse8d2f.js?cx=776461d97c22b497a"></script>
+                        <div id="goggle-search" class="flyout-details">
+                        <gcse:search enableHistory="false"></gcse:search> 
+                        </div>
+     </i></a>
+
+                <a href="#" id="fontMinu">A-</a>
+                <a href="#" id="fontPlus">A+</a>
+                <a href="#">
+                    <div class="lightBtn" onclick="myFunctionL()"></div>
+                    <div class="darkBtn" onclick="myFunctionD()"></div>
+                </a>
+                <!--<a th:href="@{#}">English</a>
+                <a th:href="@{#}">Hindi</a>
+                <a th:href="@{#}">Accessibility</a>-->
+                <div class="gtranslate_wrapper"></div>
+                <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,
+"detect_browser_language":true,"languages":["en","hi"],"wrapper_selector":".gtranslate_wrapper"}
+</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <section class="headerBox">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-auto mt-2">
+                        <img class="ignouLogo" src="../assets/img/ignouLogo.png" alt="IGNOU">
+                    </div>
+                    <div class="col p-2 text-center d-none d-sm-block">
+                        <div class="ignou_logo">
+                            <h2 class="fs-4 text-center">
+                                <span>Indira Gandhi National Open University(IGNOU)</span>
+                                इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इग्नू)
+                            </h2>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="col-auto nirfLogo">
+                        <img src="../assets/img/nirf.png" alt="NIRF" class="nirf">
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse responsive-navbar-nav" id="navbarNav">
+                        <ul class="navbar-nav" id="topMenu"></ul>
+                        <!-- <div class="weather">
+                            <a href="http://aws.imd.gov.in:8091/display/index.php?v=IGNOU" class="instagram" title="IGNOU AWS Display" target="_blank">
+                                <i class="fa-solid fa-cloud-sun"></i> IGNOU's AWS</a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header -->
+</div>
+<div class="container-fluid p-0">
+    <div class="innerBanner">
+        <div class="page-header d-flex align-items-center">
+            <img src="../images/banners/cmdB.jpg" alt="Divisions&lt;br/&gt;(Construction &amp; Maintenance Division)" class="img-fluid bannerImage" title="banner"/>
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Divisions<br/>(Construction & Maintenance Division)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <div class="leftNav">
+                        <div class="Menuhidden"></div>
+                        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                            <div class="menuIcon">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </div>
+                            <div class="spinnerTxt">Sub Menu</div>
+                        </label>
+                        <div class='sidebarToggle' id="sidebar">
+                            <!-- <h3 class="title" th:utext="${pageTitle}"/>-->
+                            <div class="Menuhidden"></div>
+                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" title="Menu"/>
+                            <label for="openSidebarMenu" class="sidebarIconToggle sidebarIconToggle1">
+                                <div class="menuIcon menuIcon1">
+                                    <div class="spinner diagonal part-1 part-1a"></div>
+                                    <div class="spinner horizontal horizontal1"></div>
+                                    <div class="spinner diagonal part-2 part-2a"></div>
+                                </div>
+                            </label>
+                            <h2 class="leftNavHdng">Divisions</h2>
+                            <ul class="mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="172" aria-selected="true">Academic Coordination Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="173" aria-selected="true">Administration Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="175" aria-selected="true">Computer Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="174" aria-selected="true">Construction &amp; Maintenance Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="176" aria-selected="true">Finance &amp; Accounts Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="180" aria-selected="true">International Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="178" aria-selected="true">Library &amp; Documentation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="179" aria-selected="true">Material Production and Distribution Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="177" aria-selected="true">Planning &amp; Development Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="181" aria-selected="true">Regional Services Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="182" aria-selected="true">Student Evaluation Division</a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="183" aria-selected="true">Student Registration Division</a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ol>
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="1">Home</a>
+                        </li>
+                        <li>
+                            
+                            <a href="2">About us</a>
+                        </li>
+                        <li>
+                            
+                            <a href="16">Divisions</a>
+                        </li>
+                        <li>
+                            
+                            <a href="174">Construction &amp; Maintenance Division</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="innerPageCont">
+            <div class="container">
+                <div class='row'>
+                    <div class="col-12">
+                        <div class='innerRightBox'>
+                            <div class="cardTab">
+                                <ul class="nav nav-tabs mb-3 border-bottom border-2" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active position-relative" id="Introduction" data-bs-toggle="pill" data-bs-target="#pills-1"
+                                                type="button" role="tab" aria-controls="pills-1" 
+                                                aria-selected="true">Introduction</button>
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="PhotoGallery" data-bs-toggle="pill" data-bs-target="#pills-4"
+                                                type="button" role="tab" aria-controls="pills-4" aria-selected="false">Photo Gallery</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="Campuses" data-bs-toggle="pill" data-bs-target="#pills-5"
+                                                type="button" role="tab" aria-controls="pills-5" aria-selected="false">Campuses</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="WorksCommittee" data-bs-toggle="pill" data-bs-target="#pills-6"
+                                                type="button" role="tab" aria-controls="pills-6" aria-selected="false">Works Committee</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+
+                                        <button class="nav-link position-relative" id="NewInitiatives" data-bs-toggle="pill" data-bs-target="#pills-7"
+                                                type="button" role="tab" aria-controls="pills-7" aria-selected="false">New Initiatives</button>
+                                    </li>
+                                    <!-- <li  th:if="depCode=='CIQA'" class="nav-item" role="presentation" th:each="t, count: ${leftNavTabs}">
+                                        <i class="nav-link active position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${count.first}" th:aria-controls="'pills-'+${t.id}" 
+                                                aria-selected="true" th:utext="${t.tabTitle}" th:href="@{/ciqa}"/>
+
+                                        <i class="nav-link position-relative" th:id="'pills-'+${t.id}+'-tab'" th:data-bs-target="'#pills-'+${t.id}"
+                                                type="button" role="tab" th:if="${!count.first && t.tabTitle!='Contact Us' && t.tabTitle!=('Director''s Message') }" 
+                                                th:aria-controls="'pills-'+${t.id}" aria-selected="false" th:href="@{/ciqa}" th:utext="${t.tabTitle}"/>
+                                    </li> -->
+                                    <li>
+                                        <button class="nav-link position-relative" id="meeting-minutes" data-bs-toggle="pill" data-bs-target="#pills-minutes"
+                                                type="button" role="tab" aria-controls="pills-minutes" aria-selected="false">Minutes of the Meeting</button>
+                                    </li>
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="Director&#39;sMessage" data-bs-toggle="pill" data-bs-target="#pills-2"
+                                                type="button" role="tab" aria-controls="pills-2" aria-selected="false">Director's Message</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                    <div>
+                                        <button class="nav-link position-relative" id="staff" data-bs-toggle="pill" data-bs-target="#pills-staff"
+                                                type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Staff</button>
+                                    </div>
+                                    
+                                            </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link position-relative" id="ContactUs" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content border border-light-subtle rounded-3 border-primary p-3" id="pills-tabContent">
+                                    <div>
+                                        <div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="Introduction"><html>
+	<body>
+	<p>The Construction and Maintenance Division (CMD) of IGNOU looks after the Construction and Maintenance activities of the University which includes Temporary Campus, Administrative Blocks, Academic Blocks, EMPC Building, CMD building, Residential Complex at MGRC, AGVC.</p>
+	</body>
+
+<!-- Mirrored from www.ignou.ac.in/pages/174 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2026 09:13:26 GMT -->
+</html></div>
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Director&#39;sMessage"  ><b>Message of the Chief Project Officer (CPO)</br>
+Construction and Maintenance Division (CMD)</b>
+</br>
+</br>
+<p>It gives me immense pleasure to present an overview of the activities and achievements of the Construction and Maintenance Division (CMD) at Indira Gandhi National Open University (IGNOU).</br>
+
+The University’s infrastructure is entrusted with the CMD for developing, maintaining, and upgrading the physical assets of IGNOU—both at the Headquarters in Maidan Garhi to AGVC, New Delhi, and at Regional Centres across the country. This division ensures that the academic, administrative, and residential building facilities are not only functional but also sustainable, energy-efficient, and conducive to a vibrant teaching-learning environment.</br>
+
+Over the years, CMD has successfully executed numerous construction projects, including Regional Centre buildings across India, residential complexes, academic blocks, convention centres, and supporting infrastructure. We also provide uninterrupted essential services such as water supply, sewage treatment, electrical sub-stations, and centralized air-conditioning plants, while simultaneously focusing on renewable energy adoption, rainwater harvesting, and eco-friendly initiatives.</br>
+
+In line with the University’s vision, CMD is committed to sustainable growth. With the integration of solar energy systems, LED lighting, water recycling, and green construction practices. Several upcoming projects—including new academic, residential, and student-centric facilities—are designed to further strengthen IGNOU’s infrastructure and enhance the learning experience of our students.</br>
+
+I take this opportunity to appreciate the relentless efforts of my colleagues and staff in CMD, whose dedication ensures the smooth functioning of our campuses nationwide. Together, we reaffirm our commitment to creating a modern, sustainable, and learner-friendly campus that reflects IGNOU’s pioneering spirit in distance education.</br>
+
+</br>
+
+Er. Rattan Singh</br>
+Chief Project Officer (CMD)</br>
+Construction and Maintenance Division</br>
+IGNOU, New Delhi</br></p>
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="ContactUs"  ><h5>Contact Details</h5>
+</br>
+Construction & Maintenance Division</br>
+Near Horticulture Cell</br>
+Indira Gandhi National Open University</br>
+Maidan Garhi</br>
+New Delhi – 110 068</br><br/><b>Email:</b> cmd@ignou.ac.in<br/><b>Phone:</b> 011-29571838</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="PhotoGallery"  ><p class="departmentGallery">
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-01.jpg" alt="1"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-02.jpg" alt="2"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-03.jpg" alt="3"/>
+ 
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-04.jpg" alt="4"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-05.jpg" alt="5"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-06.jpg" alt="6"/>
+
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-07.jpg" alt="7"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-08.jpg" alt="8"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-09.jpg" alt="9"/> 
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-10.jpg" alt="10"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-11.jpg" alt="11"/> 
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-12.jpg" alt="12"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-13.jpg" alt="13"/>
+	   <img class="d-block w-100" src="../images/cmd/gallery/CMD-14.jpg" alt="14"/>
+       <img class="d-block w-100" src="../images/cmd/gallery/CMD-15.jpg" alt="15"/>
+ </p></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="Campuses"  ><center><b><h4>Details of the Campus</h4></b></center>
+
+<p><b>i) Landscape of IGNOU Campus</b></br>
+
+The IGNOU campus at Maidan Garhi, New Delhi, is spread across 150 acres and has been developed as a self-contained institutional township. The campus landscape is designed to maintain an eco-friendly and green environment:</br><ul>
+
+<li>Large open green areas and lawns maintained through treated water from STPs.</li>
+<li>Rainwater harvesting pits located across the campus for groundwater recharge.</li>
+<li>Dedicated horticulture section for plantation and maintenance of gardens.</li>
+<li>Internal road network with avenues of trees for a pollution-free environment.</li>
+<li>Walking tracks and open spaces for students, faculty, and staff.</li></ul></p>
+
+<p><b>ii) Regional Centres Owning Permanent Campuses</b></br>
+
+IGNOU has successfully constructed 21 Regional Centre buildings across India, with built-up areas ranging from 500 sqm to 4900 sqm, while a few more are in process for construction.</br>
+
+Regional Centres with their own campuses (completed):</br><ul>
+
+<li>Aizawl</li>
+<li>Jodhpur</li>
+<li>Rajkot</li>
+<li>Trivandrum</li>
+<li>Ahmedabad</li>
+<li>Bhubaneswar</li>
+<li>Bhopal</li>
+<li>Cochin</li>
+<li>Jaipur</li>
+<li>Karnal</li>
+<li>Lucknow</li>
+<li>Madurai</li>
+<li>Patna</li>
+<li>Raipur</li>
+<li>Shillong</li>
+<li>Agartala</li>
+<li>Bangalore</li>
+<li>Jammu</li>
+<li>Noida</li>
+<li>Pune</li>
+<li>Port Blair</li></ul></p>
+</br>
+
+<b>Regional Centres are in process for construction:</b><ul>
+
+<li>Vijayawada (under construction)</li> 
+<li>Imphal</li>
+<li>Itanagar</li>
+<li>Nagpur</li></ul>
+
+
+<p><b>iii) Technical Infrastructure of the Campus</b></br>
+
+The CMD maintains a robust technical infrastructure to ensure uninterrupted facilities for the university community:</br>
+
+<b>Sewage Treatment Plants (STPs)</b><ul>
+<li>Multiple STPs operational within the campus.</li>
+<li>Capacity to treat over 1,00,000 litres per day.</li>
+<li>Treated water is reused for horticulture and landscaping.</li></ul>
+</br>
+<b>Water Reservoirs & Supply</b></br><ul>
+
+<li>10 Tube Wells connected to dedicated pump houses.</li>
+<li>Supplementary water supply through Delhi Jal Board pipelines.</li>
+<li>Underground water reservoirs for storage and campus-wide distribution.</li></ul>
+</br>
+<b>Solar Power System</b><ul>
+
+<li>500 kWp rooftop solar panels installed on RESCO mode, grid-connected.</li>
+<li>Further expansion planned through SECI empanelled agencies as per MNRE norms.</li>
+<li>Contribution towards green energy and reduced carbon footprint.</li></ul>
+</br>
+
+<b>Electrical Sub-stations</b></br><ul>
+
+<li>Multiple 11 KV substations operational in the campus.</li>
+<li>Recent upgradation of Substation No. 4 & 5 through CPWD.</li>
+<li>Ensures uninterrupted power supply to academic, residential, and service buildings.</li></ul>
+</br>
+
+<b>Air Conditioning Plants (AC Plants)</b></br><ul>
+
+<li>Centralized AC plants are serving the Academic Blocks, Convention Centre, Vice-Chancellor Office, VIP Guest House, and EMPC.</li>
+<li>Replacement of AC plants at Block–15 and Academic Complex, Convention Centre has been completed.</li>
+<li>Regular operation and maintenance is being carried out for A.C Plants through CPWD.</li></ul>
+
+<p><b>iv) Civil & Electrical Maintenance</b></br>
+
+The Construction & Maintenance Division (CMD) ensures the civil and electrical upkeep of all major university facilities, including:</br><ul>
+
+<il>Convention Centre – AC plants, electrical systems, and structural maintenance.</il>
+<il>Staff Quarters at MGRC & AGVC – routine repair, renovation, and utility services.</il>
+<il>Guest Houses – upkeep of civil structures, interiors, electrical systems, and essential services for visiting dignitaries and faculty.</il>
+<il>Vice-Chancellor’s Building – complete maintenance of civil and electrical works including support utilities.</il>
+<il>Temporary and Permanent Campus at Headquarters (Maidan Garhi, New Delhi) – structural and electrical upkeep of academic blocks, office complexes, and residential facilities.</il>
+<il>Regional Centre Buildings across India – routine maintenance of civil structures, substations, water systems, and electrical installations.</il></ul></p>
+ 
+</div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="WorksCommittee"  ><table >
+		<tr>		
+		<td colspan="5" align="center">Name & Address of the Works Committee Members</td>
+		</tr>
+		<tr>
+		<td>S. No.</td>
+		<td colspan="4">Clause (1) - The Vice-Chancellor or a member of the Board of Management present at the meeting - Chairman</td>
+		</tr>
+		
+		<tr>
+		<td>1.</td>
+		<td>Prof. Uma Kanjilal <br>
+			Vice-Chancellor, IGNOU <br>
+			Maidan Garhi, New Delhi – 110 068 <br>
+			Ph. No.: 29532484, 29532707 <br>
+			e-mail :  vc@ignou.ac.in
+		</td>
+		<td colspan="2">Chairman <br> Ex-officio</td>
+		<td><img class="img-thumbnail"  src="../images/vc/umakanjilal.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (2) - Two members of the Board of Management nominated by it.</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>2.</td>
+		<td>Prof. Deeksha Kapur <br>
+			Director, School of Continuing Education (SOCE), <br>
+			IGNOU, Maidan Garhi, New Delhi-110068 <br>
+			Ph. No.: 29572946  <br>
+			E-mail: deekshakapur@ignou.ac.in
+		</td>
+		<td colspan="2" rowspan="2">(Co-terminus with that of the membership of BOM)</td>
+		<td><img class="img-thumbnail"  src="../viewFile/cmd/works_committee/DeekshaKapur.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td>3.</td>
+		<td>Dr. V.P. Rupam <br>
+			Additional Director,  <br>
+			Student Registration Division <br>
+			IGNOU, Maidan Garhi, <br>
+			New Delhi-110068 <br>
+			Ph. No.: 29571115 <br>
+			E-mail : vprupam@ignou.ac.in
+		</td>		
+		<td><img class="img-thumbnail"  src="../viewFile/cmd/works_committee/Rupam.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (3) - Four members, not in the Service of the University, for their expertise in the areas connected with architecture, Engineering, Construction etc., nominated by the Board.</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>4.</td>
+		<td>Er. Vibeka Nand Vibek<br/>
+		ADG Project, PWD, Delhi</td>
+		<td>04-12-2025</td>
+		<td>03-12-2027</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>5.</td>
+		<td>Sh. Ashok Kumar Dhiman<br/>
+                Chief Architect, NDMC</td>
+		<td>04-12-2025</td>
+		<td>03-12-2027</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>6.</td>
+		<td>Er. Manish Sagar<br/>
+                  Chief Engineer, DSIIDC</td>
+		<td>04-12-2025</td>
+		<td>03-12-2027</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>7.</td>
+		<td>Er. B. P. Singh<br/>
+                   CPWD</td>
+		<td>04-12-2025</td>
+		<td>03-12-2027</td>
+		<td></td>
+		</tr>
+		<tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (4) – Registrar (Admn.)</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Member</td>
+		<td>From</td>
+		<td>To</td>
+		<td></td>
+		</tr>
+		<td>8.</td>
+		<td>Prof. Jitendra Kumar Srivastava<br>
+			Registrar,  Administration Division, <br>
+			IGNOU, Maidan Garhi, New Delhi-110 068 <br>
+			Ph. No.: 29532098 <br>
+			E-mail:  registraroffice@ignou.ac.in
+		</td>
+		<td colspan="2">Ex-Officio </td>	
+		<td><img class="img-thumbnail"  src="../viewFile/cmd/works_committee/jitendra.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (5) – Finance Officer</td>
+		</tr>
+		<td>9.</td>
+		<td>Dr. Jitendra Dev Gangwar <br>
+			Finance Officer  <br>
+			IGNOU, Maidan Garhi <br>
+			New Delhi – 110 068 <br>
+			Ph. No. 29571216 <br>
+			E-mail: financeofficer@ignou.ac.in
+		</td>
+		<td colspan="2">Ex-Officio </td>
+		<td><img class="img-thumbnail"  src="../viewFile/cmd/works_committee/JitendraDevGangwar.jpg" style="width: 120px; height: 120px"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td colspan="4">Clause (6) – Chief Project Officer- Secretary</td>
+		</tr>
+		<tr>
+		<td>10.</td>
+		<td>Er. Rattan Singh<br>
+                       Chief Project Officer I/c - Secretary <br>
+			Construction & Maintenance Division <br>
+			IGNOU, Maidan Garhi,  <br>
+			New Delhi – 110 068.
+		</td>
+		<td colspan="2">Ex-Officio </td>
+		<td><img class="img-thumbnail"  src="../viewFile/cmd/works_committee/ChiefProjectOfficer.jpg" style="width: 120px; height: 120px"/></td>		
+		</tr>		
+		</table></div>
+                                    </div>
+                                    <div>
+                                        
+
+                                        <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="NewInitiatives"  ><center><h4><b>Details of the Ongoing Works</b></h4></center>
+</br>
+<b>Ongoing Works</b>
+</br>
+<b>1.  Renovation & Finishing Works</b><ul>
+<li>Academic blocks, IGNOU Campus, Maidan Garhi</li>
+<li>Includes Civil & Electrical works.</li></ul>
+
+<b>2.  Temporary Campus Renovation</b><ul>
+<li>Finishing and renovation works at Maidan Garhi.</li></ul>
+
+<b>3.  PEB Building Civil & Electrical Works</b><ul>
+<li>At IGNOU Campus, Maidan Garhi.</li></ul>
+
+<b>4.  Engagement of Consultancy</b><ul>
+<li>Pre-construction activities, including obtaining requisite statutory approvals and clearances from local bodies and the Forest Department, for the construction of the Administrative Block (G+5) at IGNOU Campus, Maidan Garhi, New Delhi.</li></ul>
+
+<b>5.  Temporary Shelter Construction</b><ul>
+<li>MPDD Store between Warehouse 3 & 4, Maidan Garhi.</li></ul>
+
+<b>6.  Maintenance & Operation of Electrical Utilities</b><ul>
+<li>06 Electric Sub-Stations (ESS-1,2,3,4,5 & 10).</li>
+<li>05 AC Plants at IGNOU Campus, Maidan Garhi.</li></ul>
+
+<b>7.  Replacement of AC Plant</b><ul>
+<li>420 HP VRF/VRB Air-conditioning plant at Block No.15, IGNOU Campus.</li></ul>
+
+<b>8.  Energy-Efficient Lighting Replacement</b><ul>
+<li>Replacement of ballast-based light fixtures with LED-based fittings.</li>
+<li>Includes replacement of poles and LED post dome fittings at IGNOU Campus.</li></ul>
+
+<b>9.  Replacement of Central AC Plants</b><ul>
+<li>Existing 4×300 TR & 2×100 TR AC plants at Academic Blocks & Convention Centre, IGNOU Campus.</li></ul>
+
+<b>10.  Repair & Renovation of Warehouses (2024–25)</b><ul>
+<li>Warehouses 2 to 4 at IGNOU Campus, Maidan Garhi.</li>
+<li>Includes fixing of profile sheet roofing.</li></ul>
+
+<b>11.  Construction of Regional Centre Building</b><ul>
+<li>At Vijayawada.</li></ul>
+</br>
+
+
+<b>Details of Renovations of Flats at AGVC and MGRC</b>
+</br>
+<b>AGVC (Asian Games Village Complex) Works</b></br>
+<b>1. Renovation Work</b><ul>
+<li>Renovation of 5+5 Flat at AGVC</li></ul>
+
+<b>MGRC (Maidan Garhi Residential Complex) Works</b></br>
+<b>2. Renovation Works (Phase II)</b><ul>
+<li>MGRC Type I to Type IV quarters (74 flats), Maidan Garhi, New Delhi.</li></ul>
+
+<b>3. Renovation of Residential Flats (Phase III)</b><ul>
+<li>Type I–IV flats at MGRC (80 flats).</li>
+<li>Includes toilet, bath & kitchen renovation by CPWD.</li></ul>
+</div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="pills-minutes" role="tabpanel" aria-labelledby="minutes">
+                                        <table id="minutes" class="table table-striped" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Type</th>
+                                                <th class="text-center">Meeting No.</th>
+                                                <th class="text-center">Meeting Date/Time</th>
+                                                <th class="text-center">Venue</th>
+                                                <th class="text-center">Minutes</th>
+                                                <th class="text-center">Appendix</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">1</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">74</td>
+                                                <td class="text-center">2020-02-27</td>
+                                                <td class="text-center">Board Room of VC&#39;s Office, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-74.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-74</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">2</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">75</td>
+                                                <td class="text-center">2020-09-21</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-75.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-75</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">3</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">76</td>
+                                                <td class="text-center">2020-12-14</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-76.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-76</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">4</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">77</td>
+                                                <td class="text-center">2021-07-26</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-77.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-77</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">5</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">78</td>
+                                                <td class="text-center">2022-01-10</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-78.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-78</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">6</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">79</td>
+                                                <td class="text-center">2022-08-16</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-79.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-79</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">7</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">80</td>
+                                                <td class="text-center">2023-01-23</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-80.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-80</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">8</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">81</td>
+                                                <td class="text-center">2023-09-19</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-81.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-81</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" style="width: 2px;">9</td>
+                                                <td class="text-center" style="width: 5px;">WCMCMD</td>
+                                                <td class="text-center" style="width: 2px;">82</td>
+                                                <td class="text-center">2024-03-27</td>
+                                                <td class="text-center">Board Room of V.C. Block, IGNOU Campus, Maidan Garhi, New Delhi-110068</td>
+                                                <td class="text-center">
+                                                    <a href="https://www.ignou.ac.in/viewFile/MOM/WCMCMD/WCM-82.pdf" target="_blank">
+                                                        <i class="fas fa-file-download"> WCM-82</i>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="staff">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Photo</th>
+                                                
+                                                <th>Staff Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 5px;">1</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/rattan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal829">
+                                                        <label class="fw-bold">Er. Rattan Singh</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal829" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Er. Rattan Singh</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>Chief Project Officer (CMD)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9540997861</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>cpo-cmd@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>Chief Project Officer (CMD)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9540997861</span>, <i class="fas fa-envelope"></i> <span>cpo-cmd@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">2</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/nurrudin.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal830">
+                                                        <label class="fw-bold">Er. Y. Nurrrudin</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal830" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Er. Y. Nurrrudin</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>AEE (Civil)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9650001551</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>ynooruddin@ignou.ac.in </span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>AEE (Civil)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9650001551</span>, <i class="fas fa-envelope"></i> <span>ynooruddin@ignou.ac.in </span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">3</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/basant.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal831">
+                                                        <label class="fw-bold">Er. Basant Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal831" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Er. Basant Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>AEE (Electric)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9013683464</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>basantkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>AEE (Electric)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9013683464</span>, <i class="fas fa-envelope"></i> <span>basantkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">4</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/rajan.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal832">
+                                                        <label class="fw-bold">Er. Rajan Sharma</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal832" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Er. Rajan Sharma</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>AEE (Electric)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>8800365252</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>rajansharma@ignou.ac.in </span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>AEE (Electric)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>8800365252</span>, <i class="fas fa-envelope"></i> <span>rajansharma@ignou.ac.in </span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">5</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/sukhvir.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal833">
+                                                        <label class="fw-bold">Er. Sukhvinder Singh</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal833" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Er. Sukhvinder Singh</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>AEE (Civil)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9911249357</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>sukhvindersingh@ignou.ac.in </span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>AEE (Civil)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9911249357</span>, <i class="fas fa-envelope"></i> <span>sukhvindersingh@ignou.ac.in </span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">6</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/suresh.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal834">
+                                                        <label class="fw-bold">Er. Suresh Chander</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal834" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Er. Suresh Chander</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>AE(Civil)</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9868825435</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>sureshchander1972@yahoo.co.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>AE(Civil)</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9868825435</span>, <i class="fas fa-envelope"></i> <span>sureshchander1972@yahoo.co.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">7</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/rajiv.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal835">
+                                                        <label class="fw-bold">Mr. Rajiv Kumar Sharma</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal835" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Rajiv Kumar Sharma</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>PS</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9868471104</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>rajiv@ignou.ac.in </span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>PS</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9868471104</span>, <i class="fas fa-envelope"></i> <span>rajiv@ignou.ac.in </span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 5px;">8</td>
+                                                <td class="w-10 text-center">
+                                                    <img width="100%" src="../images/CMD/pp/praveen.jpg">
+                                                </td>
+                                                <td>
+                                                    <a class="link-primary" data-bs-toggle="modal" data-bs-target="#exampleModal836">
+                                                        <label class="fw-bold">Mr. Praveen Kumar</label></a>
+                                                    <br/>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal836" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mr. Praveen Kumar</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <table class="table table-responsive">
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Designation:</th>
+                                                                            <td>SO</td>
+                                                                        </tr>
+                                                                        
+                                                                        
+                                                                        
+
+                                                                        <tr>
+                                                                            <th>Phone No:</th>
+                                                                            <td><i class="fas fa-phone"></i> <span>9013488116</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Email Id:</th>
+                                                                            <td><i class="fas fa-envelope"></i> <span>praveenkumar@ignou.ac.in</span></td>
+                                                                        </tr>
+                                                                        
+                                                                        <tr>
+                                                                            <th>Attachments:</th>
+                                                                            <td>
+                                                                                
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <!--                                                                <div class="modal-footer">-->
+                                                                <!--                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                                                <!--                                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                                <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <span>
+                                                        <strong> Designation: </strong><span>SO</span><br/>
+                                                    </span>
+                                                    
+                                                    
+                                                    
+                                                    <span>
+                                                        <i class="fas fa-phone"></i> <span>9013488116</span>, <i class="fas fa-envelope"></i> <span>praveenkumar@ignou.ac.in</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center mb-3">
+                        <img src="../assets/img/IgnouLogoW.png" alt="">
+                    </a>
+                    <p></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="../../x.com/OfficialIGNOU/index.html" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="../../www.facebook.com/OfficialPageIGNOU/index.html" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="../../www.youtube.com/%40ignou" class="instagram" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Employee Services</h4>
+                    <ul>
+                        <li><a target="_blank"
+                               href="../../accounts.google.com/v3/signin/identifier2749?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARpgrqeY_za4tnxn6K6krEyfxMCuur_2tAby7GrC4xOQP9L4-VEb0mHtlYxvB1URMdQvdkZgKgt_Dg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S992576682%3A1729593341401909&amp;ddm=0">Mail
+                            Service</a></li>
+                        <li><a href="#">Regional Network</a></li>
+                        <li><a href="#">RC Services</a></li>
+                        <li><a href="#">SOUs/Other Institutions</a></li>
+                        <li><a href="#">IGNOU Credit Society</a></li>
+                        <li><a href="205">Empanelled Hospitals</a></li>
+                        <li><a href="219">University House Allotment</a><label class="newLink1 badge badge-pill">New</label></li>
+                        <li><a href="../announcement/Career974d?nav=5">Jobs at IGNOU</a></li>
+                        <li><a href="#">Tenders of IGNOU</a></li>
+                        <li><a target="_blank" href="../viewFile/hq/common/TelDirectory11Nov2025.pdf">Telephone Directory</a></li>
+                        <li><a target="_blank" href="218">Committee Against Sexual Harassment</a></li>
+                        <li><a target="_blank" href="../../shebox.wcd.gov.in/index.html">SHe-BOX</a></li>
+                        <li><a target="_blank" href="../../cuignou.samarth.ac.in/index.php/site/login">IGNOU-SAMARTH Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Student Services</h4>
+                    <ul>
+                        <li><a href="../viewFile/services/Common_Prospectus/common-prospectus-july-2026-V-L-1-1.pdf" target="_blank">Common Prospectus</a></li>
+                        <li><a href="../../freedom2learn.ignouonline.ac.in/pages/index.html" target="_blank">Podcast Link</a></li>
+                        <li><a href="../../sites.google.com/ignou.ac.in/ignouudyami/index.html" target="_blank">IGNOU UDYAMI</a></li>
+                        <li><a href="../../iop.ignouonline.ac.in/index.html" target="_blank">IGNOU Online Programmes</a></li>
+                        <li><a href="../../igram.ignou.ac.in/index.html" target="_blank">Student Grievances</a></li>
+                        <li><a href="65">Study Material Status</a></li>
+                        <li><a href="../viewFile/mpdd/study_material/Price-Catalogue.pdf" target="_blank">Study Material Catalogue</a></li>
+                        <li><a href="#">Placement Assistance</a></li>
+                        <li><a href="../../ignoualumni.samarth.edu.in/index.php/site/login" target="_blank">Alumni</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="../../www.studyinindia.gov.in/admission/registrations" target="_blank">Study in India</a></li>
+                        <li><a href="64">FAQs</a></li>
+                        <li><a href="222">Anti-Ragging</a></li>                        
+                        <li><a href="#">Equal Opportunity Cell(EOC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-12 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="#">Photos of NAAC Peer Team Visit (2021)</a></li>
+                        <li><a href="../../journal.ignouonline.ac.in/index.html" target="_blank">IGNOU Journals</a></li>
+                        <li><a href="#">National Voters Service Portal</a></li>
+                        <li><a href="#">Bharatiya Chhatra Sansad</a></li>
+                        <li><a href="#">Partner Institutions</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Anti Discrimination Officer</a></li>
+                        <li><a href="#">National Youth Parliament</a></li>
+			<li><a href="281">Mental Health</a></li>
+                        <li><a href="#">National Digital Library of India</a></li>
+                        <li><a href="#">Route Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        IGNOU <br>
+                        Maidan Garhi,<br>
+                        New Delhi-110068 <br><br>
+                        <strong>Phone:</strong> 29572513, 29572514<br>
+                        <!--<strong>Email:</strong> info@ignou.com<br>-->
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="copyright">
+                &copy; 2025 <strong><span>Indira Gandhi National Open University.</span></strong> All rights reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../webjars/popper.js/2.11.7/umd/popper.min.js"></script>
+    <script src="../webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.js"></script>
+    <script src="../webjars/datatables/2.1.0/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function ($) {
+            $.fn.fontResize = function (options) {
+                var increaseCount = 0;
+                var self = this;
+
+                var changeFont = function (element, amount) {
+                    var baseFontSize = parseInt(element.css('font-size'), 10);
+                    var baseLineHeight = parseInt(element.css('line-height'), 10);
+                    element.css('font-size', (baseFontSize + amount) + 'px');
+                    element.css('line-height', (baseLineHeight + amount) + 'px');
+                };
+
+                options.increaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    self.each(function (index, element) {
+                        changeFont($(element), 1);
+                    });
+                    increaseCount++;
+                });
+
+                options.decreaseBtn.on('click', function (e) {
+                    e.preventDefault();
+                    if (increaseCount === -1) {
+                        return;
+                    }
+                    self.each(function (index, element) {
+                        changeFont($(element), -2);
+                    });
+                    increaseCount--;
+                });
+            }
+        })(jQuery);
+
+        $(function () {
+            $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+                increaseBtn: $('#fontPlus'),
+                decreaseBtn: $('#fontMinu')
+            });
+        });
+    </script>
+    <script>
+        function myFunctionD() {
+            var element = document.body;
+            element.classList.add("dark-mode");
+            element.classList.remove("light-mode");
+        }
+
+        function myFunctionL() {
+            var element = document.body;
+            element.classList.add("light-mode");
+            element.classList.remove("dark-mode");
+        }
+    </script>
+
+ 
+</div>
+<script>
+    new DataTable('#minutes');
+    //new DataTable('#minutes1');
+    //new DataTable('#minutes2');
+    //new DataTable('#minutes', {
+    //order: [2, 'asc']
+//});
+
+      $(document).ready(function(e) {
+        if(window.location.hash != "undefined"){
+            var hash = window.location.hash;
+            //alert(hash);
+            $(hash).on("click", function(){
+//e.preventDefault();
+            });
+            $(hash).click();
+        }  
+    });
+
+    $(".nav-link").on("click", function(e){
+        window.location.hash = $(this).attr("id");
+        //var hash = window.location.hash;
+        //var hash=window.location.hash;
+       //$('a[href="' + $(this).attr('href') + '"]').tab('show');
+      //hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    //e.preventDefault();
+    });
+
+
+  </script>
+</body>
+
+</html>
